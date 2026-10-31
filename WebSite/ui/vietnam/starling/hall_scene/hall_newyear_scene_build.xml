@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:904b1d940e662e0c475e95b62b839781:1/1$ -->
+<TextureAtlas imagePath="hall_newyear_scene_build.png">
+    <SubTexture name="hall_new_auditorium" x="1018" y="965" width="349" height="297"/>
+    <SubTexture name="hall_new_auditorium_name" x="1802" y="976" width="121" height="32"/>
+    <SubTexture name="hall_new_boat" x="1018" y="879" width="415" height="86"/>
+    <SubTexture name="hall_new_build1" x="0" y="459" width="1125" height="207" frameX="0" frameY="0" frameWidth="1125" frameHeight="211"/>
+    <SubTexture name="hall_new_dungeon" x="1433" y="900" width="369" height="260"/>
+    <SubTexture name="hall_new_dungeon_name" x="1796" y="605" width="149" height="28"/>
+    <SubTexture name="hall_new_fight" x="1367" y="1160" width="345" height="381"/>
+    <SubTexture name="hall_new_fight_name" x="1728" y="873" width="142" height="27"/>
+    <SubTexture name="hall_new_first" x="1870" y="873" width="134" height="103"/>
+    <SubTexture name="hall_new_pool_name" x="1923" y="976" width="113" height="27"/>
+    <SubTexture name="hall_new_rankbg" x="1122" y="740" width="606" height="139"/>
+    <SubTexture name="hall_new_road" x="0" y="666" width="1018" height="315"/>
+    <SubTexture name="hall_new_sea" x="0" y="0" width="2013" height="459"/>
+    <SubTexture name="hall_new_second" x="1018" y="736" width="104" height="81"/>
+    <SubTexture name="hall_new_secret" x="1796" y="633" width="144" height="240"/>
+    <SubTexture name="hall_new_secret_name" x="1945" y="605" width="103" height="28"/>
+    <SubTexture name="hall_new_third" x="1018" y="666" width="107" height="70"/>
+    <SubTexture name="hall_new_tree1" x="1125" y="459" width="859" height="146" frameX="0" frameY="-50" frameWidth="909" frameHeight="202"/>
+    <SubTexture name="hall_new_tree2" x="1125" y="605" width="671" height="135" frameX="0" frameY="-15" frameWidth="697" frameHeight="165"/>
+</TextureAtlas>

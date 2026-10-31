@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FNz/60N8ggW2o6cj2RGvT7CAEzZ2m7GF23Hw27tVPJdK+mA/q5p4pye0P+IaXbXsc88Z/kAK5oqXfojxZyzh3g==",
+  "success": true,
+  "projectFilePath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\SqlDataProvider\\SqlDataProvider.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\protobuf-net\\2.4.0\\protobuf-net.2.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

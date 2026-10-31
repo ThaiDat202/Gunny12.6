@@ -1,0 +1,11 @@
+namespace Game.Server.Packets;
+
+public enum HomeBarPackageType
+{
+	HOMEBAR_INFO = 1,
+	HOMEBAR_DRINK,
+	HOMEBAR_POUR,
+	HOMEBAR_TASTE,
+	HOMEBAR_CLEARCD,
+	HOMEBAR_UPDATE_ENERGYCOUNT
+}

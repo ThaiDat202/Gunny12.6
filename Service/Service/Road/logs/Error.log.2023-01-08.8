@@ -1,0 +1,20 @@
+2023-01-08 19:06:41,901 - [12] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in C:\Gunny 12.5\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 159
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in C:\Gunny 12.5\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in C:\Gunny 12.5\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 397
+2023-01-08 19:06:57,366 - [12] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in C:\Gunny 12.5\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 159
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in C:\Gunny 12.5\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in C:\Gunny 12.5\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 397
+2023-01-08 18:59:19,803 - [62] - ERROR - Game.Server.MemoryGame.MemoryGameLogicProcessor - MemoryGameLogicProcessor PackageType:INFO, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.Managers.ItemBoxMgr.FindItemBoxByRand(Int32 DateId, Int32 countSelect) in C:\Gunny 12.5\Full Source\Bussiness\Bussiness.Managers\ItemBoxMgr.cs:line 758
+   at Game.Server.GameUtils.PlayerActives.CreateMemoryGameData() in C:\Gunny 12.5\Full Source\game.server\Game.Server.GameUtils\PlayerActives.cs:line 3496
+   at Game.Server.MemoryGame.Handle.GameInfo.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny 12.5\Full Source\game.server\Game.Server.MemoryGame.Handle\GameInfo.cs:line 19
+   at Game.Server.MemoryGame.MemoryGameLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny 12.5\Full Source\game.server\Game.Server.MemoryGame\MemoryGameLogicProcessor.cs:line 30
+2023-01-08 18:59:19,810 - [62] - ERROR - Game.Server.MemoryGame.MemoryGameLogicProcessor - IP: 127.0.0.1:53339

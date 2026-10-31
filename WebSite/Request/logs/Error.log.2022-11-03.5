@@ -1,0 +1,13 @@
+2022-11-03 00:02:11,407 - [120] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection)
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters)
+   at Bussiness.ConsortiaBussiness.UpdateConsortiaRankDayAndWeek(DateTime curTime, Boolean updateDay, Boolean updateWeek)
+2022-11-03 00:50:31,446 - [199] - ERROR - Tank.Request.Login - loidz555: aefjfb
+2022-11-03 00:53:23,281 - [203] - ERROR - Tank.Request.Login - loidz555: 65156115-fd1b-4e4c-9930-628d7a927308

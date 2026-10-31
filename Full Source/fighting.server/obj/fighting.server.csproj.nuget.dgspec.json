@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\fighting.server\\fighting.server.csproj": {}
+  },
+  "projects": {
+    "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Bussiness\\bussiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Bussiness\\bussiness.csproj",
+        "projectName": "Bussiness",
+        "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Bussiness\\bussiness.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Bussiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\entitydatabase\\entitydatabase.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\entitydatabase\\entitydatabase.csproj"
+              },
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\game.base\\game.base.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\game.base\\game.base.csproj"
+              },
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\sqldataprovider\\sqldataprovider.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\sqldataprovider\\sqldataprovider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\EntityDatabase\\EntityDatabase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\EntityDatabase\\EntityDatabase.csproj",
+        "projectName": "EntityDatabase",
+        "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\EntityDatabase\\EntityDatabase.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\EntityDatabase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\fighting.server\\fighting.server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\fighting.server\\fighting.server.csproj",
+        "projectName": "Fighting.Server",
+        "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\fighting.server\\fighting.server.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\fighting.server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\bussiness\\bussiness.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\bussiness\\bussiness.csproj"
+              },
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\entitydatabase\\entitydatabase.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\entitydatabase\\entitydatabase.csproj"
+              },
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Game.Logic\\game.logic.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Game.Logic\\game.logic.csproj"
+              },
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\sqldataprovider\\sqldataprovider.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\sqldataprovider\\sqldataprovider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\game.base\\game.base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\game.base\\game.base.csproj",
+        "projectName": "Game.Base",
+        "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\game.base\\game.base.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\game.base\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "zlib.net": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Game.Logic\\game.logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Game.Logic\\game.logic.csproj",
+        "projectName": "Game.Logic",
+        "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Game.Logic\\game.logic.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Game.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\bussiness\\bussiness.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\bussiness\\bussiness.csproj"
+              },
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\entitydatabase\\entitydatabase.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\entitydatabase\\entitydatabase.csproj"
+              },
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\game.base\\game.base.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\game.base\\game.base.csproj"
+              },
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\sqldataprovider\\sqldataprovider.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\sqldataprovider\\sqldataprovider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\SqlDataProvider\\SqlDataProvider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\SqlDataProvider\\SqlDataProvider.csproj",
+        "projectName": "SqlDataProvider",
+        "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\SqlDataProvider\\SqlDataProvider.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\SqlDataProvider\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\entitydatabase\\entitydatabase.csproj": {
+                "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\entitydatabase\\entitydatabase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

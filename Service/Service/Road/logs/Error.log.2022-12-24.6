@@ -1,0 +1,19 @@
+2022-12-24 07:59:09,852 - [54] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.AddUserLabyrinth(UserLabyrinthInfo laby) in C:\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 8937
+2022-12-24 07:59:10,237 - [54] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.LabyrinthHandler  client: 127.0.0.1:52254)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Base.Packets.AbstractPacketLib.SendLabyrinthUpdataInfo(Int32 id, UserLabyrinthInfo laby) in C:\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 5027
+   at Game.Server.Packets.Client.LabyrinthHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\LabyrinthHandler.cs:line 49
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-24 07:59:10,246 - [54] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1C 00 7D 00 83 00 00 00 01 00 00 00 00   q....}..........
+0010: 00 00 00 00 00 00 00 02 00 00 00 00               ............    
+
+2022-12-24 07:59:17,012 - [12] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in C:\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 159
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in C:\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in C:\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 393

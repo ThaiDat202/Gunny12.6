@@ -1,0 +1,9 @@
+namespace Game.Server.Packets.Package;
+
+public enum LoginDevicePackageType
+{
+	LOGINDEVICE_PACKAGETYPE = 11,
+	LOGINDEVICE_UA_CHECK = 1,
+	LOGINDEVICE_GET_DOWNREWARD = 2,
+	LOGINDEVICE_GET_DAILYREWARD = 3
+}

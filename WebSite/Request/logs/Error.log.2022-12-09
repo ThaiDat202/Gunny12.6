@@ -1,0 +1,33 @@
+2022-12-09 01:57:28,164 - [41] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.GetAuctionPage(Int32 page, String name, Int32 type, Int32 pay, Int32& total, Int32 userID, Int32 buyID, Int32 order, Boolean sort, Int32 size, String AuctionIDs)
+2022-12-09 01:57:32,324 - [42] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.GetAuctionPage(Int32 page, String name, Int32 type, Int32 pay, Int32& total, Int32 userID, Int32 buyID, Int32 order, Boolean sort, Int32 size, String AuctionIDs)
+2022-12-09 01:57:36,548 - [22] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.GetAuctionPage(Int32 page, String name, Int32 type, Int32 pay, Int32& total, Int32 userID, Int32 buyID, Int32 order, Boolean sort, Int32 size, String AuctionIDs)
+2022-12-09 01:57:37,529 - [28] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.GetAuctionPage(Int32 page, String name, Int32 type, Int32 pay, Int32& total, Int32 userID, Int32 buyID, Int32 order, Boolean sort, Int32 size, String AuctionIDs)
+2022-12-09 01:57:42,081 - [29] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.GetAuctionPage(Int32 page, String name, Int32 type, Int32 pay, Int32& total, Int32 userID, Int32 buyID, Int32 order, Boolean sort, Int32 size, String AuctionIDs)
+2022-12-09 01:57:42,992 - [22] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.GetAuctionPage(Int32 page, String name, Int32 type, Int32 pay, Int32& total, Int32 userID, Int32 buyID, Int32 order, Boolean sort, Int32 size, String AuctionIDs)
+2022-12-09 01:57:43,482 - [19] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.GetAuctionPage(Int32 page, String name, Int32 type, Int32 pay, Int32& total, Int32 userID, Int32 buyID, Int32 order, Boolean sort, Int32 size, String AuctionIDs)
+2022-12-09 01:57:43,991 - [44] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.GetAuctionPage(Int32 page, String name, Int32 type, Int32 pay, Int32& total, Int32 userID, Int32 buyID, Int32 order, Boolean sort, Int32 size, String AuctionIDs)
+2022-12-09 01:57:46,214 - [41] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.GetAuctionPage(Int32 page, String name, Int32 type, Int32 pay, Int32& total, Int32 userID, Int32 buyID, Int32 order, Boolean sort, Int32 size, String AuctionIDs)
+2022-12-09 01:57:46,671 - [22] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.GetAuctionPage(Int32 page, String name, Int32 type, Int32 pay, Int32& total, Int32 userID, Int32 buyID, Int32 order, Boolean sort, Int32 size, String AuctionIDs)
+2022-12-09 01:57:47,874 - [19] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.GetAuctionPage(Int32 page, String name, Int32 type, Int32 pay, Int32& total, Int32 userID, Int32 buyID, Int32 order, Boolean sort, Int32 size, String AuctionIDs)

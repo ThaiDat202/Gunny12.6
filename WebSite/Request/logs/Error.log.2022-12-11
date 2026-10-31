@@ -1,0 +1,7 @@
+2022-12-11 20:21:19,659 - [9] - ERROR - Bussiness.Managers.ItemMgr - Init
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Bussiness.Managers.ItemMgr.LoadRunes(List`1 items)
+   at Bussiness.Managers.ItemMgr.LoadItem(Dictionary`2 infos, Dictionary`2 userBoxs)
+   at Bussiness.Managers.ItemMgr.Init(Boolean isUpdate)

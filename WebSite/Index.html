@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="renderer"  content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>Gun9x.Com</title>
+		<link rel="shortcut icon" href="static/images/1.ico" />
+		<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900">
+		<link rel="stylesheet" type="text/css" href="static/css/style.css" />
+		<script type="text/javascript" src="static/js/jquery.js"></script>
+		<script type="text/javascript" src="static/js/webtoolkit.md5.js"></script>
+		<script type="text/javascript">
+	$(document).ready(function(){	
+		$("#u").focus();
+        $("#p").keypress(function (e) {
+            if (e.keyCode == 13) {
+                //AjaxGet();
+                //document.frmLogin.submit();
+                //xmlhttpPost("createLogin.ashx");
+				checklogin();
+            }
+		});
+		
+		if($('p.TextWarning').length>0){
+			var color = ['white','black'];
+			var i=0;
+			
+			var change_c = setInterval(function(){
+				if(i==color.length){
+					i=0;	
+				}
+				$('p.TextWarning > a').css('color',color[i])
+				i=i+1;
+				
+			},500);
+		}
+		
+	});
+	function checklogin()
+	 {
+		var err=0;
+		if(document.getElementById("u").value == '')
+		{
+		   $("#titleTag").html('<span style="color:red" id ="error" class="log-in">Nhập Tài Khoản Của bạn!</span>');
+		  err++;
+		}
+		else if(document.getElementById("p").value == '')
+		{
+		  $("#titleTag").html('<span style="color:red" id ="error" class="log-in">Nhập Mật Khẩu Của Bạn!</span>');
+		 err++;
+		}
+
+		if (err == 0)
+				 //document.frmLogin.submit();
+			xmlhttpPost("checkuser.ashx");
+			//return true;
+			return false;
+	 }
+	
+</script>
+<script language="javascript" type="text/javascript">
+     function xmlhttpPost(strURL) {
+         var xmlHttpReq = false;
+         var self = this;
+         $("#titleTag").html('<img alt="" id="loading_img" src="images/loading.gif" />');
+             
+         // Mozilla/Safari
+         if (window.XMLHttpRequest) {
+             self.xmlHttpReq = new XMLHttpRequest();
+         }
+         // IE
+         else if (window.ActiveXObject) {
+             self.xmlHttpReq = new ActiveXObject("Microsoft.XMLHTTP");
+         }
+         self.xmlHttpReq.open('POST', strURL, true);
+         self.xmlHttpReq.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+         self.xmlHttpReq.onreadystatechange = function () {
+             if (self.xmlHttpReq.readyState == 4) {
+                 updatepage(self.xmlHttpReq.responseText);
+             }
+         }
+         self.xmlHttpReq.send(getquerystring());
+     }
+
+     function getquerystring() {
+         var form = document.forms['frmLogin'];
+         var username = form.u.value;
+         //var password = form.p.value;
+         var password = MD5($("#p").val()); 
+         qstr = 'username=' + escape(username) + '&password=' + escape(password);
+         return qstr;
+     }
+
+     function updatepage(str) {
+         if (str == "ok") {
+             location.replace("LoginGame.aspx")
+             //alert(str);
+         }
+         else
+            alert(str);
+     }     
+    </script>
+		
+	</head>
+	<style type="text/css">
+	.dropdown {transition: 0.3s;
+		display: inline-block;
+		float: right;
+
+	}
+	.dropdown-content ::before{
+		width: 10px;
+		height: 10px;
+		background:  #f9f9f9;
+		position: absolute;
+		top :-5px;
+		left: 50%;
+		transform:translate(-50%) rotate(45deg);
+	}
+	.dropdown-content {
+	margin-left: 13px;
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 100px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		border-radius: 10px;
+		text-align: center;
+		
+
+	}
+
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		font-size: 12px;
+		transition: 0.4s;
+		border-radius: 20px;
+	}
+
+	.dropdown-content a:hover {
+		background-color: white;
+		color: green;
+		
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+		
+	}
+
+
+	.dropbtn {
+		display: inline-block;
+		color: black;
+		text-align: center;
+		padding: 24px 15px;
+		text-decoration: none;
+		transition: 0.3s;
+		padding-top: 45px;
+		padding-bottom: 45px;
+		padding-right: 30px;
+		font-size: 23px;
+	}
+	.dropdown:hover{
+		transform: scale(1.0);
+	}
+
+	.dropdown {transition: 0.3s;
+		display: inline-block;
+		float: right;
+
+	}
+	.container{
+				position: absolute;   
+				top: 50%;   
+				left: 50%;   
+			 transform: translate(-50%,-50%);
+			 
+	}
+	.bei{
+			background-image: url(static/images/2.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;		
+		}
+	</style>
+	<body class="bei">
+		<div class="container">
+			<div class="row justify-content-center no-gutters vertical-align">
+				<div class="col-lg-4 col-md-6 login-fancy-bg bg" style="background-image: url(static/images/3.jpg);">   
+					<div class="login-fancy">
+						<h2 class="text-white mb-20"><center><img src="static/images/1.jpg" width="250" height="80" alt=""></center></h2>
+						<center><strong><p class="mb-20 text-white">Gun9x.Com</p></strong></center>
+						<center><p class="mb-20 text-white">Gunny Phiên Bản Thiên Thần Hộ Mệnh!</p></center>
+						<center><p class="mb-20 text-white">Pet Mới Rồng Băng Giá. <br>Và Gì Nữa Ta！<br></p></center>
+						<ul class="list-unstyled  pos-bot pb-30">
+							<a class="text-white" href="http://127.0.0.1/"> Gun9x.Com</a> </li>
+						</ul>
+					</div> 
+			   </div>
+				<div class="col-lg-4 col-md-6 bg-dark">
+					<div class="login-fancy pb-40 clearfix">        
+						<form class="login-form" action="" method="POST" id="frmLogin" name="frmLogin">
+							<h3 id="titleTag" class="mb-30">Đăng Nhập Game!</h3>
+							<div class="section-field mb-20">
+								<label class="mb-10" for="name">Tài Khoản* </label>
+								<input class="web form-control" type="text" placeholder="Tài Khoản" name="u" id="u" class="txt_box">
+							</div>
+							
+							<div class="section-field mb-20">
+								<label class="mb-10" for="Password">Mật Khẩu* </label>
+								<input class="Password form-control" type="password" placeholder="Mật Khẩu" name="p" id="p" class="txt_box">
+							</div>
+							
+							<button name="login" id="buttonlgn" class="button"   onclick="return checklogin();">
+								<span >Đăng Nhập</span>
+								<i class="fa fa-check"></i>
+							</button>
+							
+							<p class="mt-20 mb-0">Nếu Bạn Chưa Có Tài Khoản Nhấn Vào Đây <a title="Tạo Tài Khoản" onclick="" class="DKNhanh" href="register.html">Đăng Ký</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

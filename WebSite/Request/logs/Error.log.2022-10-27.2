@@ -1,0 +1,24 @@
+2022-10-27 13:22:31,202 - [12] - ERROR - Tank.Request.Login - loidz1: e10af864-ef4e-4486-9832-5ff7200c0193
+2022-10-27 13:49:09,942 - [57] - ERROR - Tank.Request.Login - test123: nxrhfb
+2022-10-27 15:01:56,484 - [40] - ERROR - Tank.Request.Login - User Login error
+System.Security.Cryptography.CryptographicException: Bad Data.
+
+   at System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   at System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   at System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   at Road.Flash.CryptoHelper.RsaDecryt2(RSACryptoServiceProvider rsa, String src)
+   at Tank.Request.Login.ProcessRequest(HttpContext context)
+2022-10-27 15:11:38,966 - [217] - ERROR - Tank.Request.CelebByBattleTeamSegmentRank - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Road.Flash.FlashUtils.CreateTeamRankInfo(PlayerInfo createPlayer, Sys_Users_Team team)
+   at Tank.Request.CelebByBattleTeamSegmentRank.Bulid()
+2022-10-27 15:12:01,288 - [216] - ERROR - Tank.Request.Login - loidz1: b01717c6-f1c4-4374-8deb-188798e9c4b7
+2022-10-27 15:22:41,167 - [94] - ERROR - Tank.Request.CelebByBattleTeamSegmentRank - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Road.Flash.FlashUtils.CreateTeamRankInfo(PlayerInfo createPlayer, Sys_Users_Team team)
+   at Tank.Request.CelebByBattleTeamSegmentRank.Bulid()
+2022-10-27 15:23:06,047 - [50] - ERROR - Tank.Request.Login - loidz1: 0f5b75ca-085c-405d-9e86-abbeb03c9468
+2022-10-27 16:01:07,294 - [35] - ERROR - Tank.Request.CelebByBattleTeamSegmentRank - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Road.Flash.FlashUtils.CreateTeamRankInfo(PlayerInfo createPlayer, Sys_Users_Team team)
+   at Tank.Request.CelebByBattleTeamSegmentRank.Bulid()
+2022-10-27 16:07:34,509 - [150] - ERROR - Tank.Request.CelebByBattleTeamSegmentRank - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Road.Flash.FlashUtils.CreateTeamRankInfo(PlayerInfo createPlayer, Sys_Users_Team team)
+   at Tank.Request.CelebByBattleTeamSegmentRank.Bulid()

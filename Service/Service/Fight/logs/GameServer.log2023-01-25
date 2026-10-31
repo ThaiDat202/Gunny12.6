@@ -1,0 +1,123 @@
+2023-01-25 18:51:04,736 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-01-25 18:51:05,136 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
+2023-01-25 18:51:05,151 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+2023-01-25 18:51:05,151 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+2023-01-25 18:51:05,156 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+2023-01-25 18:51:05,156 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+2023-01-25 18:51:11,019 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+2023-01-25 18:51:11,032 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
+2023-01-25 18:51:14,132 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+2023-01-25 18:51:14,137 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+2023-01-25 18:51:14,190 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+2023-01-25 18:51:14,231 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+2023-01-25 18:51:16,901 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+2023-01-25 18:51:16,906 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+2023-01-25 18:51:16,916 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+2023-01-25 18:51:16,923 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
+2023-01-25 18:51:16,954 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+2023-01-25 18:51:16,989 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+2023-01-25 18:51:16,995 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+2023-01-25 18:51:17,003 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
+2023-01-25 18:51:17,015 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+2023-01-25 18:51:17,055 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
+2023-01-25 18:51:17,168 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
+2023-01-25 18:51:17,169 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
+2023-01-25 18:51:17,173 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2023-01-25 18:51:17,176 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+2023-01-25 18:51:17,193 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+2023-01-25 18:51:20,761 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:51964
+2023-01-25 18:51:21,518 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:51966
+2023-01-25 19:01:17,181 - [23] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-25 19:01:17,241 - [23] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-01-25 19:08:36,012 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
+2023-01-25 19:08:36,013 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
+2023-01-25 19:08:51,026 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -14996 ms!
+2023-01-25 19:08:51,030 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -13976 ms!
+2023-01-25 19:08:51,030 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -12956 ms!
+2023-01-25 19:08:51,030 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -11936 ms!
+2023-01-25 19:08:51,030 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -10916 ms!
+2023-01-25 19:08:51,030 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -9896 ms!
+2023-01-25 19:08:51,031 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -8876 ms!
+2023-01-25 19:08:51,031 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -7856 ms!
+2023-01-25 19:08:51,031 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -6836 ms!
+2023-01-25 19:08:51,032 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -5816 ms!
+2023-01-25 19:08:51,032 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -4796 ms!
+2023-01-25 19:08:51,032 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -3776 ms!
+2023-01-25 19:08:51,032 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -2756 ms!
+2023-01-25 19:08:51,035 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -1736 ms!
+2023-01-25 19:09:03,111 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -7042 ms!
+2023-01-25 19:09:03,124 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -6015 ms!
+2023-01-25 19:09:03,125 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -4976 ms!
+2023-01-25 19:09:03,125 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -3936 ms!
+2023-01-25 19:09:03,125 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -2896 ms!
+2023-01-25 19:09:03,125 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -1856 ms!
+2023-01-25 19:11:17,183 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-25 19:11:17,219 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-01-25 19:21:17,186 - [12] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-25 19:21:17,243 - [12] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-01-25 19:31:17,197 - [50] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-25 19:31:17,264 - [50] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-01-25 18:41:17,201 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-25 18:41:17,271 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-01-25 18:51:17,216 - [12] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-25 18:51:17,250 - [12] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-01-25 19:01:17,231 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-25 19:01:17,263 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-01-25 19:11:17,246 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-25 19:11:17,278 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-01-25 19:16:03,018 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
+2023-01-25 19:16:03,018 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
+2023-01-25 19:16:19,044 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -16007 ms!
+2023-01-25 19:16:19,044 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -14987 ms!
+2023-01-25 19:16:19,045 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -13967 ms!
+2023-01-25 19:16:19,045 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -12947 ms!
+2023-01-25 19:16:19,045 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -11927 ms!
+2023-01-25 19:16:19,046 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -10907 ms!
+2023-01-25 19:16:19,046 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -9887 ms!
+2023-01-25 19:16:19,046 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -8867 ms!
+2023-01-25 19:16:19,046 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -7847 ms!
+2023-01-25 19:16:19,047 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -6827 ms!
+2023-01-25 19:16:19,047 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -5807 ms!
+2023-01-25 19:16:19,047 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -4787 ms!
+2023-01-25 19:16:19,047 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -3767 ms!
+2023-01-25 19:16:19,047 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -2747 ms!
+2023-01-25 19:16:19,047 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -1727 ms!
+2023-01-25 19:16:30,755 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -7515 ms!
+2023-01-25 19:16:30,755 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -6475 ms!
+2023-01-25 19:16:30,755 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -5435 ms!
+2023-01-25 19:16:30,756 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -4395 ms!
+2023-01-25 19:16:30,756 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -3355 ms!
+2023-01-25 19:16:30,756 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -2315 ms!
+2023-01-25 19:16:30,756 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -1275 ms!
+2023-01-25 19:18:16,194 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
+2023-01-25 19:18:16,195 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
+2023-01-25 19:18:32,200 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -15987 ms!
+2023-01-25 19:18:32,201 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -14967 ms!
+2023-01-25 19:18:32,201 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -13947 ms!
+2023-01-25 19:18:32,201 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -12927 ms!
+2023-01-25 19:18:32,201 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -11907 ms!
+2023-01-25 19:18:32,202 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -10887 ms!
+2023-01-25 19:18:32,203 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -9867 ms!
+2023-01-25 19:18:32,204 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -8847 ms!
+2023-01-25 19:18:32,204 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -7827 ms!
+2023-01-25 19:18:32,204 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -6807 ms!
+2023-01-25 19:18:32,205 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -5787 ms!
+2023-01-25 19:18:32,205 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -4767 ms!
+2023-01-25 19:18:32,205 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -3747 ms!
+2023-01-25 19:18:32,205 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -2727 ms!
+2023-01-25 19:18:32,206 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -1707 ms!
+2023-01-25 19:18:43,510 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -7404 ms!
+2023-01-25 19:18:43,510 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -6364 ms!
+2023-01-25 19:18:43,510 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -5324 ms!
+2023-01-25 19:18:43,511 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -4284 ms!
+2023-01-25 19:18:43,511 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -3244 ms!
+2023-01-25 19:18:43,511 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -2204 ms!
+2023-01-25 19:18:43,512 - [6] - WARN  - Fighting.Server.Games.GameMgr - Room Mgr is delay -1164 ms!
+2023-01-25 19:21:17,248 - [39] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-25 19:21:17,281 - [39] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-01-25 19:21:58,865 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
+2023-01-25 19:21:58,866 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
+2023-01-25 19:22:14,406 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -15522 ms!
+2023-01-25 19:22:14,407 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -14502 ms!
+2023-01-25 19:22:14,407 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -13482 ms!
+2023-01-25 19:22:14,408 - [5] - WARN  - Fighting.S

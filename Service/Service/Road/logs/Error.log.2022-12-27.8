@@ -1,0 +1,30 @@
+2022-12-27 19:38:51,849 - [22] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.QuestAddHandler  client: 127.0.0.1:64383)
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Server.Quests.QuestInventory.FindQuest(Int32 id) in C:\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 498
+   at Game.Server.Quests.QuestInventory.AddQuest(QuestInfo info, String& msg) in C:\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 186
+   at Game.Server.Packets.Client.QuestAddHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\QuestAddHandler.cs:line 20
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-27 19:38:51,877 - [22] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 0A 0D 00 B0 00 00 00 01 00 00 00 00   q..L............
+0010: 00 00 00 00 00 00 00 0D 00 00 02 B8 00 00 02 C6   ................
+0020: 00 00 02 C7 00 00 02 C8 00 00 02 C9 00 00 02 CC   ................
+0030: 00 00 02 CF 00 00 02 D2 00 00 07 78 00 00 07 79   ...........x...y
+0040: 00 00 07 7A 00 00 07 7B 00 00 07 7C               ...z...{...|    
+
+2022-12-27 19:48:41,945 - [43] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.QuestAddHandler  client: 127.0.0.1:51795)
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Server.Quests.QuestInventory.FindQuest(Int32 id) in C:\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 498
+   at Game.Server.Quests.QuestInventory.AddQuest(QuestInfo info, String& msg) in C:\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 186
+   at Game.Server.Packets.Client.QuestAddHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\QuestAddHandler.cs:line 20
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-27 19:48:41,947 - [43] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 08 76 00 B0 00 00 00 01 00 00 00 00   q..H.v..........
+0010: 00 00 00 00 00 00 00 0C 00 00 0A A0 00 00 0A A1   ................
+0020: 00 00 0A 96 00 00 0A 97 00 00 0A 98 00 00 0A 99   ................
+0030: 00 00 0A 9A 00 00 0A 9B 00 00 0A 9C 00 00 0A 9D   ................
+0040: 00 00 0A 9E 00 00 0A 9F                           ........        
+

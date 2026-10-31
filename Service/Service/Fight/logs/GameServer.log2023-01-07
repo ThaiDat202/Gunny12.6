@@ -1,0 +1,43 @@
+2023-01-07 19:30:26,365 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-01-07 19:30:26,700 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
+2023-01-07 19:30:26,716 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+2023-01-07 19:30:26,716 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+2023-01-07 19:30:26,717 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+2023-01-07 19:30:26,717 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+2023-01-07 19:30:26,873 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+2023-01-07 19:30:26,880 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
+2023-01-07 19:30:29,353 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+2023-01-07 19:30:29,358 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+2023-01-07 19:30:29,417 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+2023-01-07 19:30:29,451 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+2023-01-07 19:30:29,606 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+2023-01-07 19:30:29,612 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+2023-01-07 19:30:29,623 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+2023-01-07 19:30:29,629 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
+2023-01-07 19:30:29,667 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+2023-01-07 19:30:29,695 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+2023-01-07 19:30:29,701 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+2023-01-07 19:30:29,709 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
+2023-01-07 19:30:29,717 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+2023-01-07 19:30:29,735 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
+2023-01-07 19:30:29,775 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
+2023-01-07 19:30:29,776 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
+2023-01-07 19:30:29,780 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2023-01-07 19:30:29,782 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+2023-01-07 19:30:29,809 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+2023-01-07 19:30:38,346 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:51996
+2023-01-07 19:30:38,909 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:51998
+2023-01-07 19:40:29,785 - [22] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-07 19:40:29,833 - [22] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-01-07 19:50:29,792 - [42] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-07 19:50:29,819 - [42] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-01-07 20:00:29,802 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-07 20:00:29,830 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-01-07 20:10:29,827 - [22] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-07 20:10:29,856 - [22] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-01-07 20:20:29,839 - [23] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-07 20:20:29,868 - [23] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-01-07 19:30:29,847 - [40] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-07 19:30:29,882 - [40] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-01-07 19:40:29,863 - [47] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-07 19:40:29,895 - [47

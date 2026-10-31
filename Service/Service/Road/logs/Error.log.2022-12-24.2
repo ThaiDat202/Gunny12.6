@@ -1,0 +1,8 @@
+2022-12-24 07:46:06,225 - [66] - ERROR - Game.Server.CardNewSystem.CardNewSystemLogicProcessor - CardNewSystemLogicProcessor PackageType:CARD_ALLOTPOINT, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Academy.AcademyMgr.SendAwards(GamePlayer player, Int32 fightPower) in C:\Full Source\game.server\Game.Server.Academy\AcademyMgr.cs:line 263
+   at Game.Server.GameObjects.GamePlayer.UpdateFightPower() in C:\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3527
+   at Game.Server.GameUtils.PlayerEquipInventory.UpdatePlayerProperties() in C:\Full Source\game.server\Game.Server.GameUtils\PlayerEquipInventory.cs:line 883
+   at Game.Server.GameObjects.GamePlayer.UpdateCardInfo() in C:\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4759
+   at Game.Server.CardNewSystem.Handle.CardAllotPoint.CommandHandler(GamePlayer Player, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.CardNewSystem.Hand\CardAllotPoint.cs:line 28
+   at Game.Server.CardNewSystem.CardNewSystemLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.CardNewSystem\CardNewSystemLogicProcessor.cs:line 30
+2022-12-24 07:46:06,227 - [66] - ERROR - Game.Server.CardNewSystem.CardNewSystemLogicProcessor - IP: 127.0.0.1:53907

@@ -1,0 +1,506 @@
+2022-10-22 20:11:39,277 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,312 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,323 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,334 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,350 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,367 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,387 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,402 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,415 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,427 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,439 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,453 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,468 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,482 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,496 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,511 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,523 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,536 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,548 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,561 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,581 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,595 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,606 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,621 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,635 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,648 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,660 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,672 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,685 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,697 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,711 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,722 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,735 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,748 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,761 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,773 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,787 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,801 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,815 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,829 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,840 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,851 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,862 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,872 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347
+2022-10-22 20:11:39,883 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetServerConfig
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.GetReader(SqlDataReader& ResultDataReader, String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 316
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 312
+2022-10-22 20:11:39,894 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 47
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters) in C:\11.2 test\Full Source\SqlDataProvider\SqlDataProvider.BaseClass\Sql_DbObject.cs:line 236
+   at Bussiness.ServiceBussiness.UpdateServerPropertyByKey(String key, String value) in C:\11.2 test\Full Source\Bussiness\Bussiness\ServiceBussiness.cs:line 347

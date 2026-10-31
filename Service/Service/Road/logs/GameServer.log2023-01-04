@@ -1,0 +1,130 @@
+2023-01-04 06:27:56,417 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-01-04 06:27:57,003 - [MAIN] - INFO  - Game.Server.GameServer - CleanDB: True
+2023-01-04 06:27:57,006 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+2023-01-04 06:27:57,007 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+2023-01-04 06:27:57,095 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+2023-01-04 06:27:57,096 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+2023-01-04 06:27:57,096 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+2023-01-04 06:27:57,098 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 8527: True
+2023-01-04 06:27:57,231 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+2023-01-04 06:27:57,236 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr.Init: True
+2023-01-04 06:27:57,246 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr.Init: True
+2023-01-04 06:28:02,972 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr.Init: True
+2023-01-04 06:28:05,643 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr.Init: True
+2023-01-04 06:28:09,827 - [MAIN] - INFO  - Game.Server.GameServer - ItemBoxMgr.Init: True
+2023-01-04 06:28:09,832 - [MAIN] - INFO  - Game.Server.GameServer - AccumulActiveLoginMgr.Init: True
+2023-01-04 06:28:11,980 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr.Init: True
+2023-01-04 06:28:11,986 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr.Init: True
+2023-01-04 06:28:11,989 - [MAIN] - INFO  - Game.Server.GameServer - LevelMgr.Init: True
+2023-01-04 06:28:11,993 - [MAIN] - INFO  - Game.Server.GameServer - MaxLevelTemplateMgr.Init: True
+2023-01-04 06:28:11,996 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr.Init: True
+2023-01-04 06:28:12,001 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr.Init: True
+2023-01-04 06:28:12,012 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr.Init: True
+2023-01-04 06:28:12,019 - [MAIN] - INFO  - Game.Server.GameServer - ActivityQuestMgr.Init: True
+2023-01-04 06:28:12,024 - [MAIN] - INFO  - Game.Server.GameServer - ActivityHalloweenItemsMgr.Init: True
+2023-01-04 06:28:12,028 - [MAIN] - INFO  - Game.Server.GameServer - ChargeSpendRewardTemplateMgr.Init: True
+2023-01-04 06:28:12,045 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr.Init: True
+2023-01-04 06:28:12,050 - [MAIN] - INFO  - Game.Server.GameServer - LotteryShowTemplateMgr.Init: True
+2023-01-04 06:28:12,054 - [MAIN] - INFO  - Game.Server.GameServer - TreeTemplateMgr.Init: True
+2023-01-04 06:28:12,059 - [MAIN] - INFO  - Game.Server.GameServer - NewTitleMgr.Init: True
+2023-01-04 06:28:12,085 - [MAIN] - INFO  - Game.Server.GameServer - SoulRing.Init: True
+2023-01-04 06:28:12,089 - [MAIN] - INFO  - Game.Server.GameServer - HomeFishMgr.Init: True
+2023-01-04 06:28:12,093 - [MAIN] - INFO  - Game.Server.GameServer - PetMoePropertyMgr.Init: True
+2023-01-04 06:28:12,098 - [MAIN] - INFO  - Game.Server.GameServer - RankTemplateMgr.Init: True
+2023-01-04 06:28:12,104 - [MAIN] - INFO  - Game.Server.GameServer - DailyLeagueAwardMgr.Init: True
+2023-01-04 06:28:12,110 - [MAIN] - INFO  - Game.Server.GameServer - SearchGoodsMgr.Init: True
+2023-01-04 06:28:12,120 - [MAIN] - INFO  - Game.Server.GameServer - SuitMgr.Init: True
+2023-01-04 06:28:12,124 - [MAIN] - INFO  - Game.Server.GameServer - DiceGameAwardMgr.Init: True
+2023-01-04 06:28:12,137 - [MAIN] - INFO  - Game.Server.GameServer - EveryDayActiveMgr.Init: True
+2023-01-04 06:28:12,142 - [MAIN] - INFO  - Game.Server.GameServer - FightLabDropItemMgr.Init: True
+2023-01-04 06:28:12,147 - [MAIN] - INFO  - Game.Server.GameServer - HelpGameRewardMgr.Init: True
+2023-01-04 06:28:12,153 - [MAIN] - INFO  - Game.Server.GameServer - MagicFusionDataMgr.Init: True
+2023-01-04 06:28:12,162 - [MAIN] - INFO  - Game.Server.GameServer - MagicItemTemplateMgr.Init: True
+2023-01-04 06:28:12,168 - [MAIN] - INFO  - Game.Server.GameServer - AllQuestionsMgr.Init: True
+2023-01-04 06:28:12,171 - [MAIN] - INFO  - Game.Server.GameServer - ChargeActiveTemplateMgr.Init: True
+2023-01-04 06:28:12,186 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr.Init: True
+2023-01-04 06:28:12,193 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr.Init: True
+2023-01-04 06:28:12,196 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyMgr.Init: True
+2023-01-04 06:28:12,208 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr.Init: True
+2023-01-04 06:28:12,213 - [MAIN] - INFO  - Game.Server.GameServer - DropMgr.Init: True
+2023-01-04 06:28:12,225 - [MAIN] - INFO  - Game.Server.GameServer - AvatarColectionMgr.Init: True
+2023-01-04 06:28:12,229 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr.Init: True
+2023-01-04 06:28:12,233 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr.Init: True
+2023-01-04 06:28:12,247 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr.Init: True
+2023-01-04 06:28:12,252 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr.Init: True
+2023-01-04 06:28:12,448 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr.Init: True
+2023-01-04 06:28:12,597 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr.Init: True
+2023-01-04 06:28:12,621 - [MAIN] - INFO  - Game.Server.GameServer - ActiveMgr.Init: True
+2023-01-04 06:28:12,626 - [MAIN] - INFO  - Game.Server.GameServer - GypsyShopMgr.Init: True
+2023-01-04 06:28:12,639 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr.Init: True
+2023-01-04 06:28:12,643 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr.Init: True
+2023-01-04 06:28:12,647 - [MAIN] - INFO  - Game.Server.GameServer - RateMgr.Init: True
+2023-01-04 06:28:12,662 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr.Init: True
+2023-01-04 06:28:12,678 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr.Init: True
+2023-01-04 06:28:12,707 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr.Init: True
+2023-01-04 06:28:12,710 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr.Init: True
+2023-01-04 06:28:12,713 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr.Init: True
+2023-01-04 06:28:12,718 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr.Init: True
+2023-01-04 06:28:12,722 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr.Init: True
+2023-01-04 06:28:12,725 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr.Init: True
+2023-01-04 06:28:12,728 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr.Init: True
+2023-01-04 06:28:12,734 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneMgr.Init: True
+2023-01-04 06:28:12,739 - [MAIN] - INFO  - Game.Server.GameServer - VipStoreMgr.Init: True
+2023-01-04 06:28:12,742 - [MAIN] - INFO  - Game.Server.GameServer - LoveLevelMgr.Init: True
+2023-01-04 06:28:12,746 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr.Init: True
+2023-01-04 06:28:12,751 - [MAIN] - INFO  - Game.Server.GameServer - SetsBuildTempMgr.Init: True
+2023-01-04 06:28:12,755 - [MAIN] - INFO  - Game.Server.GameServer - PetBreakMgr.Init: True
+2023-01-04 06:28:12,756 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr.Init: True
+2023-01-04 06:28:12,913 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr.Init: True
+2023-01-04 06:28:12,924 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr.Init: True
+2023-01-04 06:28:12,927 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr.Init: True
+2023-01-04 06:28:12,931 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr.Init: True
+2023-01-04 06:28:12,934 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr.Init: True
+2023-01-04 06:28:12,942 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr.Init: True
+2023-01-04 06:28:12,946 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelAwardMgr.Init: True
+2023-01-04 06:28:12,953 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr.Init: True
+2023-01-04 06:28:12,960 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystermAwardMgr.Init: True
+2023-01-04 06:28:12,975 - [MAIN] - INFO  - Game.Server.GameServer - MountMgr.Init: True
+2023-01-04 06:28:12,980 - [MAIN] - INFO  - Game.Server.GameServer - GuardCoreMgr.Init: True
+2023-01-04 06:28:12,998 - [MAIN] - INFO  - Game.Server.GameServer - HomeTempPracticeMgr.Init: True
+2023-01-04 06:28:13,002 - [MAIN] - INFO  - Game.Server.GameServer - CloudBuyLotteryMgr.Init: True
+2023-01-04 06:28:13,012 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr.Init(): True
+2023-01-04 06:28:13,017 - [MAIN] - INFO  - Game.Server.GameServer - CardAchievementMgr.Init: True
+2023-01-04 06:28:13,022 - [MAIN] - INFO  - Game.Server.GameServer - RuneAdvanceTemplateMgr.Init: True
+2023-01-04 06:28:13,035 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr.Setup: True
+2023-01-04 06:28:13,045 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr.Init: True
+2023-01-04 06:28:13,047 - [MAIN] - INFO  - Game.Server.GameServer - HotSpringRoomsMgr.Init: True
+2023-01-04 06:28:13,051 - [MAIN] - INFO  - Game.Server.GameServer - BattleBonusMgr.Init: True
+2023-01-04 06:28:13,056 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+2023-01-04 06:28:13,064 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Setup: True
+2023-01-04 06:28:13,080 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 127.0.0.1:7539 loaded...
+2023-01-04 06:28:13,083 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+2023-01-04 06:28:13,083 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr.Setup: True
+2023-01-04 06:28:13,087 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:7539
+2023-01-04 06:28:13,093 - [MAIN] - INFO  - Game.Server.GameServer - RingStationMgr.Init: True
+2023-01-04 06:28:13,096 - [MAIN] - INFO  - Game.Server.GameServer - BombKingMgr.Init: True
+2023-01-04 06:28:13,101 - [MAIN] - INFO  - Game.Server.GameServer - BeautyVoteMgr.Init: True
+2023-01-04 06:28:13,106 - [MAIN] - INFO  - Game.Server.GameServer - SubWeaponEvolutionTemplateMgr.Init: True
+2023-01-04 06:28:13,109 - [MAIN] - INFO  - Game.Server.GameServer - AmuletGradeItemMgr.Init: True
+2023-01-04 06:28:13,113 - [MAIN] - INFO  - Game.Server.GameServer - AmuletItemMgr.Init: True
+2023-01-04 06:28:13,117 - [MAIN] - INFO  - Game.Server.GameServer - AmuletPhaseItemMgr.Init: True
+2023-01-04 06:28:13,118 - [MAIN] - INFO  - Game.Server.GameServer - MountTalismansMgr.Init: True
+2023-01-04 06:28:13,126 - [MAIN] - INFO  - Game.Server.GameServer - QiYuanAwardMgr.Init: True
+2023-01-04 06:28:13,193 - [MAIN] - INFO  - Game.Server.GameServer - BankMgr.Init: True
+2023-01-04 06:28:13,200 - [MAIN] - INFO  - Game.Server.GameServer - SpiritInfoMgr.Init: True
+2023-01-04 06:28:13,234 - [MAIN] - INFO  - Game.Server.GameServer - EngraveMgr.Init: True
+2023-01-04 06:28:13,267 - [MAIN] - INFO  - Game.Server.GameServer - JampsManualMgr.Init: True
+2023-01-04 06:28:13,318 - [MAIN] - INFO  - Game.Server.GameServer - VipIntegrationMgr.Init: True
+2023-01-04 06:28:13,383 - [MAIN] - INFO  - Game.Server.GameServer - CardNewSystemMgr.Init: True
+2023-01-04 06:28:13,498 - [MAIN] - INFO  - Game.Server.GameServer - NecklaceStrengthMgr.Init: True
+2023-01-04 06:28:13,641 - [MAIN] - INFO  - Game.Server.GameServer - EmblemMgr.Init: True
+2023-01-04 06:28:13,713 - [MAIN] - INFO  - Game.Server.GameServer - ElfMgr.Init: True
+2023-01-04 06:28:13,764 - [MAIN] - INFO  - Game.Server.GameServer - ElfEquipMgr.Init: True
+2023-01-04 06:28:13,834 - [MAIN] - INFO  - Game.Server.GameServer - DevilTurnMgr.Init: True
+2023-01-04 06:28:13,890 - [MAIN] - INFO  - Game.Server.GameServer - TeamMgr.Init: True
+2023-01-04 06:28:13,906 - [MAIN] - INFO  - Game.Server.GameServer - PetSpecialSkillMgr.Init: True
+2023-01-04 06:28:13,918 - [MAIN] - INFO  - Game.Server.GameServer - GmActivityMgr.Init: True
+2023-01-04 06:28:13,932 - [MAIN] - INFO  - Game.Server.ConsortiaTask.ConsortiaTaskMgr - Total loaded tasks: 90
+2023-01-04 06:28:13,933 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaTaskMgr.Init: True
+2023-01-04 06:28:13,935 - [MAIN] - INFO  - Game.Server.GameServer - AcademyMgr.Init: True
+2023-01-04 06:28:13,937 - [MAIN] - INFO  - Game.Server.G

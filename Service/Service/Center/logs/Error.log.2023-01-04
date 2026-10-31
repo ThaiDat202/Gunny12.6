@@ -1,0 +1,6 @@
+2023-01-04 06:28:56,514 - [20] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ConsortiaBussiness.ScanConsortia(String& noticeID) in C:\Full Source\bussiness\Bussiness\ConsortiaBussiness.cs:line 1182
+2023-01-04 06:29:56,500 - [28] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ConsortiaBussiness.ScanConsortia(String& noticeID) in C:\Full Source\bussiness\Bussiness\ConsortiaBussiness.cs:line 1182

@@ -1,0 +1,65 @@
+2022-12-28 10:48:56,880 - [21] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.QuestAddHandler  client: 127.0.0.1:58375)
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Server.Quests.QuestInventory.FindQuest(Int32 id) in C:\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 498
+   at Game.Server.Quests.QuestInventory.AddQuest(QuestInfo info, String& msg) in C:\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 186
+   at Game.Server.Packets.Client.QuestAddHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\QuestAddHandler.cs:line 20
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-28 10:48:56,891 - [21] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 0A 0E 00 B0 00 00 00 02 00 00 00 00   q..L............
+0010: 00 00 00 00 00 00 00 0D 00 00 02 B8 00 00 02 C6   ................
+0020: 00 00 02 C7 00 00 02 C8 00 00 02 C9 00 00 02 CC   ................
+0030: 00 00 02 CF 00 00 02 D2 00 00 07 78 00 00 07 79   ...........x...y
+0040: 00 00 07 7A 00 00 07 7B 00 00 07 7C               ...z...{...|    
+
+2022-12-28 10:56:05,361 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:58668)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Server.GameUtils.PlayerProperty.ViewOther(GamePlayer gamePlayer) in C:\Full Source\game.server\Game.Server.GameUtils\PlayerProperty.cs:line 368
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 219
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-28 10:56:05,363 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2022-12-28 10:56:24,377 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:58516)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Server.GameUtils.PlayerProperty.ViewOther(GamePlayer gamePlayer) in C:\Full Source\game.server\Game.Server.GameUtils\PlayerProperty.cs:line 368
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 219
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-28 10:56:24,378 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 02 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 01                        .........       
+
+2022-12-28 11:09:16,175 - [80] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:58516)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Server.GameUtils.PlayerProperty.ViewOther(GamePlayer gamePlayer) in C:\Full Source\game.server\Game.Server.GameUtils\PlayerProperty.cs:line 368
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 219
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-28 11:09:16,177 - [80] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 02 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 01                        .........       
+
+2022-12-28 11:09:40,511 - [79] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SwornHandler  client: 127.0.0.1:58668)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Server.Packets.Client.SwornHandler.SendSwornLeaveScene(GamePlayer player) in C:\Full Source\game.server\Game.Server.Packets.Client\SwornHandler.cs:line 93
+   at Game.Server.Packets.Client.SwornHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\SwornHandler.cs:line 58
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-28 11:09:40,512 - [79] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 15 01 21 02 9D 00 00 00 01 00 00 00 00   q....!..........
+0010: 00 00 00 00 0A                                    .....           
+
+2022-12-28 11:14:25,213 - [30] - ERROR - Game.Server.GameRoom.Handle.GameRoomHandleMgr - LoadCommandHandler code009: 24
+2022-12-28 11:14:28,835 - [28] - ERROR - Game.Server.GameRoom.Handle.GameRoomHandleMgr - LoadCommandHandler code009: 24
+2022-12-28 11:15:45,441 - [13] - ERROR - Game.Logic.PVPGame - Have not DropCondition for RoomType.Freedom
+2022-12-28 11:15:50,051 - [32] - ERROR - Game.Server.GameRoom.Handle.GameRoomHandleMgr - LoadCommandHandler code009: 24
+2022-12-28 11:15:50,131 - [32] - ERROR - Game.Server.GameRoom.Handle.GameRoomHandleMgr - LoadCommandHandler code009: 24
+2022-12-28 11:16:47,444 - [13] - ERROR - Game.Logic.PVPGame - Have not DropCondition for RoomType.Freedom
+2022-12-28 11:16:49,494 - [40] - ERROR - Game.Server.GameRoom.Handle.GameRoomHandleMgr - LoadCommandHandler code009: 24
+2022-12-28 11:16:49,521 - [40] - ERROR - Game.Server.GameRoom.Handle.GameRoomHandleMgr - LoadCommandHandler code009: 24
+2022-12-28 11:19:13,108 - [13] - ERROR - Game.Logic.PVPGame - Have not DropCondition for RoomType.Freedom
+2022-12-28 11:19:18,006 - [56] - ERROR - Game.Server.GameRoom.Handle.GameRoomHandleMgr - LoadCommandHandler code009: 24
+2022-12-28 11:19:18,573 - [56] - ERROR - Game.Server.GameRoom.Handle.GameRoomHandleMgr - LoadCommandHandler code009: 24
+2022-12-28 11:20:11,271 - [13] - ERROR - Game.Logic.PVPGame - Have not DropCondition for RoomType.Freedom
+2022-12-28 11:20:12,789 - [71] - ERROR - Game.Server.GameRoom.Handle.GameRoomHandleMgr - LoadCommandHandler code009: 24
+2022-12-28 11:20:13,324 - [71] - ERROR - Game.Server.GameRoom.Handle.GameRoomHandleMgr - LoadCommandHandler code009: 24

@@ -1,0 +1,31 @@
+2022-12-28 10:23:39,785 - [12] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in C:\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 159
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in C:\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in C:\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 393
+2022-12-28 10:23:56,396 - [12] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in C:\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 159
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in C:\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in C:\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 393
+2022-12-28 10:24:13,722 - [12] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in C:\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 159
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in C:\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in C:\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 393
+2022-12-28 10:28:43,994 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserChangeItemPlaceHandler  client: 127.0.0.1:64654)
+System.NotSupportedException: Did not support this type bag: 53 PlayerID: 1 Nickname: DevGame
+   at Game.Server.GameObjects.GamePlayer.GetInventory(eBageType bageType) in C:\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 1487
+   at Game.Server.Packets.Client.UserChangeItemPlaceHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\UserChangeItemPlaceHandler.cs:line 25
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-28 10:28:43,996 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 23 05 2C 00 31 00 00 00 01 00 00 00 00   q..#.,.1........
+0010: 00 00 00 00 00 00 00 00 51 35 FF FF FF FF 00 00   ........Q5......
+0020: 00 01 00                                          ...             
+

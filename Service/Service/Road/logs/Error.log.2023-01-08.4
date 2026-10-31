@@ -1,0 +1,8 @@
+2023-01-08 19:13:24,840 - [37] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PETS_EQUIP_AWAKEN :127.0.0.1:57630, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillAwaken(Int32 KindID) in C:\Gunny 12.5\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 37
+   at Game.Server.Pet.Handle.PetEquipAwaken.AwakenFirst(GamePlayer player, Int32 bagType1, Int32 place1, Int32 bagType2, Int32 place2) in C:\Gunny 12.5\Full Source\game.server\Game.Server.Pet.Handle\PetEquipAwaken.cs:line 168
+   at Game.Server.Pet.Handle.PetEquipAwaken.CommandHandler(GamePlayer player, GSPacketIn pkg) in C:\Gunny 12.5\Full Source\game.server\Game.Server.Pet.Handle\PetEquipAwaken.cs:line 33
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny 12.5\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35

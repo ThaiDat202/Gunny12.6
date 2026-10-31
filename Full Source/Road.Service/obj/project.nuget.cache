@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "wRA793NJWd+UZOD0+zkF8jF9aYhUv2N2nR4h7RQ49Y8fDiDLjsZPF8jTCzlrjderXvZfvVdlkBwc+7r/uF/QDQ==",
+  "success": true,
+  "projectFilePath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Road.Service\\Road.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\log4net\\2.0.14\\log4net.2.0.14.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.3\\microsoft.aspnet.signalr.client.2.4.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\morelinq\\3.3.2\\morelinq.3.3.2.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\protobuf-net\\2.4.0\\protobuf-net.2.4.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\zlib.net\\1.0.4\\zlib.net.1.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

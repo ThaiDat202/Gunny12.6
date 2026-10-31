@@ -1,0 +1,22 @@
+namespace Game.Server.Packets;
+
+public enum DevilTurnPackageType
+{
+	OPEN = 1,
+	UPDATE_INFO = 20,
+	UPDATE_RANK = 2,
+	UPDATE_JACKPOT = 3,
+	GET_INFO = 10,
+	SACRIFICE = 11,
+	SCORE_CONVERSION = 18,
+	BEAD_CONVERSION = 12,
+	OPEN_BEAD_BOX = 13,
+	DICE = 16,
+	CONTINUE_DICE = 17,
+	UPDATE_BOX_LIST = 24,
+	DICE_BOX = 23,
+	UPDATE_DICE_RANGE = 21,
+	GET_BOX = 19,
+	BOX_EXPIRE = 27,
+	BOX_ABANDON = 28
+}

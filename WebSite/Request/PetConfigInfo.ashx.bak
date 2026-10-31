@@ -1,0 +1,1 @@
+﻿<%@ WebHandler Language="C#" CodeBehind="petconfiginfo.ashx.cs" Class="Tank.Request.petconfiginfo" %>

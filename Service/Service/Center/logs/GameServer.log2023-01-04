@@ -1,0 +1,42 @@
+2023-01-04 06:27:55,743 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-01-04 06:27:56,282 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+2023-01-04 06:27:56,282 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+2023-01-04 06:27:56,282 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+2023-01-04 06:27:56,285 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:1593: True
+2023-01-04 06:27:56,351 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+2023-01-04 06:27:56,351 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+2023-01-04 06:27:56,356 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+2023-01-04 06:27:56,356 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+2023-01-04 06:27:56,366 - [MAIN] - INFO  - Center.Server.CenterServer - Load ServerData: True
+2023-01-04 06:27:56,382 - [MAIN] - INFO  - Center.Server.CenterServer - ConsortiaLevelMgr Init : True
+2023-01-04 06:27:56,383 - [MAIN] - INFO  - Center.Server.CenterServer - MacroDropMgr Init : True
+2023-01-04 06:27:56,392 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+2023-01-04 06:27:56,400 - [MAIN] - INFO  - Center.Server.CenterServer - NewTitleMgr Init: True
+2023-01-04 06:27:56,412 - [MAIN] - INFO  - Center.Server.CenterServer - BombKingMgr Init: True
+2023-01-04 06:27:56,424 - [MAIN] - INFO  - Center.Server.CenterServer - QiYuanAwardMgr Init: True
+2023-01-04 06:27:56,437 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+2023-01-04 06:27:56,448 - [MAIN] - INFO  - Center.Server.SystemNoticeMgr - Total 1 syterm notice loaded.
+2023-01-04 06:27:56,450 - [MAIN] - INFO  - Center.Server.CenterServer - SystemNoticeMgr Init: True
+2023-01-04 06:27:56,489 - [MAIN] - INFO  - Center.Server.CenterServer - WorldMgr Init: True
+2023-01-04 06:27:56,490 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+2023-01-04 06:27:56,493 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+2023-01-04 06:27:56,493 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+2023-01-04 06:27:56,494 - [MAIN] - INFO  - Center.Server.CenterServer - Cleaning Memory
+2023-01-04 06:27:56,503 - [MAIN] - INFO  - Center.Server.CenterServer - Memory Cleaned in 0ms
+2023-01-04 06:27:56,504 - [MAIN] - INFO  - Center.Server.CenterServer - GameServer is now open for connections!
+2023-01-04 06:27:56,504 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+2023-01-04 06:28:13,982 - [8] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:51451
+2023-01-04 06:28:26,426 - [12] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-01-04 06:28:26,427 - [12] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=12
+2023-01-04 06:28:26,431 - [12] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-01-04 06:28:56,433 - [15] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-01-04 06:28:56,433 - [15] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=15
+2023-01-04 06:28:56,436 - [15] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-01-04 06:28:56,494 - [15] - INFO  - Center.Server.CenterServer - CityBattle ...
+2023-01-04 06:28:56,494 - [13] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+2023-01-04 06:28:56,495 - [19] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-01-04 06:28:56,495 - [20] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-01-04 06:28:56,495 - [17] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+2023-01-04 06:28:56,497 - [17] - DEBUG - Center.Server.CenterServer - Scan ThreadId=17
+2023-01-04 06:28:56,496 - [20] - DEBUG - Center.Server.CenterServer - Save ThreadId=20
+2023-01-04 06:28:56,497 - [21] - INFO  - Center.Server.CenterServer - Saving database...

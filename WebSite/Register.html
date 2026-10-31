@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="renderer"  content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>Tạo Tài Khoản, Gun9x.Com</title>
+		<link rel="shortcut icon" href="static/images/1.ico" />
+		<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900">
+		<link rel="stylesheet" type="text/css" href="static/css/style.css" />
+		<style type="text/css">
+			.style1
+			{
+				text-align: center;
+			}
+			.style3
+			{
+				text-align: right;
+				height: 71px;
+				width: 180px;
+			}
+			.style4
+			{
+				text-align: left;
+				height: 71px;
+			}
+			.style5
+			{
+				text-align: center;
+				height: 40px;
+			}
+			.w0
+			{
+				width: 60px;
+			}
+			.user_input
+			{
+				width: 150px;
+			}
+
+			#ReLoad{height:23px;width:25px;background:url(../images/iconRe.jpg) no-repeat;text-indent:-9999px;display:block;overflow:hidden;}
+
+			.style10
+			{
+				width: 85px;
+			}
+
+			.style11
+			{
+				text-align: right;
+				height: 40px;
+				width: 180px;
+			}
+			.style12
+			{
+				text-align: left;
+				height: 40px;
+			}
+			
+		</style>
+		<script src="static/js/jquery.js" type="text/javascript"></script>
+		<script src="static/js/webtoolkit.md5.js" type="text/javascript"></script>
+		<script language="javascript" type="text/javascript">
+			function href() {
+				var randomnum = Math.random();
+				var getimagecode = document.getElementById("ImageCode");
+				getimagecode.src = "ValidateCode.aspx? " + randomnum;
+				$("#code").val("");
+			}
+			
+			function xmlhttpPost() {
+                $.ajax({
+                    type: 'GET',
+                    url: 'checkuser.ashx',
+                    data: getquerydonereg(),
+                    success: function (data_revert) {
+
+                        if (data_revert == "ok") {
+                            location.replace("LoginGame.aspx");
+                        }
+                        else{
+                            alert(data_revert);
+                        }
+
+                    }
+                });
+
+            }
+			
+			function xmlhttpPostReg() {
+				$.ajax({
+					type: 'GET',
+					url: 'register.ashx',
+					data: getregquerystring(),
+					success: function (data_revert) {
+						if (data_revert == "注册成功,正在跳转游戏..") {
+							xmlhttpPost();
+						}
+						if (data_revert == "exit") {
+							alert('哈哈哈你来晚了,这个号被别人注册了!!');
+						}
+						else {                                            
+							alert(data_revert);
+						}
+					}
+				});
+			}
+			
+			function getquerydonereg() {
+				var username = $("#username").val();
+				var password = MD5($("#password").val()); 
+				qstr = 'username=' + escape(username) + '&password=' + escape(password);
+				return qstr;
+			}
+			
+			function getregquerystring() {
+				var username = $("#username").val();
+				var password = $("#password").val();
+				var repassword = $("#rtpassword").val();
+				var email = $("#email").val();
+				var code = $("#code").val();
+				qstr = 'username=' + escape(username)
+				+ '&password=' + escape(password)
+				+ '&repassword=' + escape(repassword)
+				+ '&email=' + escape(email)
+				//+ '&sex=' + escape(sex)
+				+ '&code=' + escape(code);
+				return qstr;
+			}
+			
+			function IsEmail(email) {
+				var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+				if (!regex.test(email)) {
+					return false;
+				} else {
+					return true;
+				}
+			}
+			
+			function checkForm() {
+				var err = 0;
+				if ($("#username").val() == '') {
+					alert('hãy Nhập Tài Khoản!');
+					err++;
+				}
+				else if ($("#password").val() == '') {
+					alert('Hãy Nhập Mật Khẩu!');
+					err++;
+				}
+				else if ($("#rtpassword").val() == '') {
+					alert('Hãy Nhập Lại Mật Khẩu!');
+					err++;
+				}
+				else if ($("#email").val() == '') {
+					alert('Hãy Nhập Gmail!');
+					err++;
+				}
+				else if ($("#password").val() != $("#rtpassword").val()) {
+					alert('Hãy Nhập Mật Khẩu Chính Xác!');
+					err++;
+				}                                
+				else if (!IsEmail($("#email").val())) {
+					alert('Hãy Nhập Định Dạng Gmail Chính Xác!');
+					err++;
+				}
+				if (err == 0) {
+					checkCode()
+				}
+				return false;
+			}
+			
+			function checkCode() {
+				if ($("#code").val() == '') {
+					alert('Hãy Nhập Mã Xác Nhận!');
+					return false;
+				}
+				else{
+					xmlhttpPostReg();
+				}                                
+				return false;
+			}
+		</script>
+	</head>
+	<body>
+		<form name="f1">
+			<div class="wrapper">
+				<section class="height-100vh d-flex align-items-center page-section-ptb login" style="background-image: url(static/images/4.jpg);" >
+					<div class="container">
+						<div class="row justify-content-center no-gutters vertical-align">
+							<div class="col-lg-4 col-md-6 login-fancy-bg bg" style="background-image: url(static/images/3.jpg);">
+								<div class="login-fancy">
+									<h2 class="text-white mb-20"><center><img src="static/images/1.jpg" width="250" height="80" alt=""></center></h2>
+									<center><strong><p class="mb-20 text-white">Gun9x.Com.</p></strong></center>
+									<center><p class="mb-20 text-white">Có GÌ Hót Ta！!</p></center>
+									<ul class="list-unstyled  pos-bot pb-30">
+									</ul>
+								</div> 
+							</div>
+							<div class="col-lg-4 col-md-6 bg-dark">
+								<div class="login-fancy pb-40 clearfix">
+									<p><strong>Tài Khoản</strong></p>
+									<div class="form-group">
+										<input type="text" name="username" id="username" class="form-control" placeholder="Tên Đăng Nhập" >
+									</div>
+									
+									<p><strong>Mật Khẩu</strong></p>						
+									<div class="form-group">
+										<input type="password" name="password" id="password" class="form-control" placeholder="Mật Khẩu Game" >
+									</div>
+									
+									<p><strong>Xác Nhận Mật Khẩu</strong></p>
+									<div class="form-group">
+										<input type="password" name="repassword" id="rtpassword" class="form-control" placeholder="Xác Nhận Mật Khẩu Game" >
+									</div>
+									
+									<p><strong>Địa Chỉ Gmail(Ví Dụ ：123@Gmail.com)</p>
+									<div class="form-group">
+										<input type="text" name="email" id="email" class="form-control" placeholder="Địa Chỉ Gmail Của Bạn" >
+									</div>
+									
+									<div class="form-group">
+										<strong>Mã Xác Thực:</strong>
+										<img id="ImageCode" src="ValidateCode.aspx" height="24px" alt="" class="style10" onClick="javascript:href()" title="Thay Đổi Mã Xác Thực"/>
+									</div>
+									
+									<div class="form-group">
+										<input type="text" name="code" id="code" class="form-control" placeholder="Nhập Mã Xác Thực" >
+									</div>
+
+									<button type="submit" name="register" class="btn btn-block bg-purple waves-effect" onclick="return checkForm();">Đăng Ký</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</form>
+	</body>
+</html>

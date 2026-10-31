@@ -1,0 +1,13 @@
+namespace Bussiness.Managers;
+
+public enum eQiYuanAwardType
+{
+	BELIEF_AWARD = 1,
+	AREA_RANK_AWARD,
+	ALL_AREA_RANK_AWARD,
+	JOIN_REWARD,
+	JOIN_PROBABILITY_REWARD,
+	REWARD_BOX,
+	TREASURE_BOX,
+	TOWER_TASK
+}

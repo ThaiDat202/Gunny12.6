@@ -1,0 +1,24 @@
+using Game.Base.Packets;
+using Game.Server.GameObjects;
+
+namespace Game.Server.HotSpringRooms;
+
+public class HotSpringRoomsProcessor
+{
+	private static object _syncStop = new object();
+
+	private IHotSpringRoomsProcessor _processor;
+
+	public HotSpringRoomsProcessor(IHotSpringRoomsProcessor processor)
+	{
+		_processor = processor;
+	}
+
+	public void ProcessData(GamePlayer player, GSPacketIn data)
+	{
+		lock (_syncStop)
+		{
+			_processor.OnGameData(player, data);
+		}
+	}
+}

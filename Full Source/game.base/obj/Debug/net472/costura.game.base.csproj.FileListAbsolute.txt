@@ -1,0 +1,12 @@
+C:\Users\zhongli\Desktop\téttt\game.base\bin\Debug\net472\Game.Base.dll
+C:\Users\zhongli\Desktop\téttt\game.base\bin\Debug\net472\Game.Base.pdb
+C:\Users\zhongli\Desktop\téttt\game.base\bin\Debug\net472\log4net.dll
+C:\Users\zhongli\Desktop\téttt\game.base\bin\Debug\net472\protobuf-net.dll
+C:\Users\zhongli\Desktop\téttt\game.base\bin\Debug\net472\zlib.net.dll
+C:\Users\zhongli\Desktop\téttt\game.base\bin\Debug\net472\protobuf-net.xml
+C:\Users\zhongli\Desktop\téttt\game.base\obj\Debug\net472\costura.game.base.csproj.AssemblyReference.cache
+C:\Users\zhongli\Desktop\téttt\game.base\obj\Debug\net472\costura.game.base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zhongli\Desktop\téttt\game.base\obj\Debug\net472\costura.game.base.csproj.CoreCompileInputs.cache
+C:\Users\zhongli\Desktop\téttt\game.base\obj\Debug\net472\costura.game.base.csproj.CopyComplete
+C:\Users\zhongli\Desktop\téttt\game.base\obj\Debug\net472\Game.Base.dll
+C:\Users\zhongli\Desktop\téttt\game.base\obj\Debug\net472\Game.Base.pdb

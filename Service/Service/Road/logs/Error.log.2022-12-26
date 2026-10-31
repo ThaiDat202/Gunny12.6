@@ -1,0 +1,7 @@
+2022-12-26 21:23:28,283 - [102] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Bad Data.
+
+   at System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   at System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   at System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\UserLoginHandler.cs:line 36

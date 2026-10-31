@@ -1,0 +1,66 @@
+C:\Users\zhongli\Desktop\téttt\center.server\obj\Debug\net472\center.server.csproj.AssemblyReference.cache
+C:\Users\zhongli\Desktop\téttt\center.server\obj\Debug\net472\center.server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zhongli\Desktop\téttt\center.server\obj\Debug\net472\center.server.csproj.CoreCompileInputs.cache
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\Center.Server.dll
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\Center.Server.pdb
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\EntityFramework.dll
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\log4net.dll
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\protobuf-net.dll
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\zlib.net.dll
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\Bussiness.dll
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\EntityDatabase.dll
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\Game.Base.dll
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\SqlDataProvider.dll
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\Bussiness.pdb
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\Game.Base.pdb
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\SqlDataProvider.pdb
+C:\Users\zhongli\Desktop\téttt\center.server\bin\Debug\net472\EntityDatabase.pdb
+C:\Users\zhongli\Desktop\téttt\center.server\obj\Debug\net472\center.server.csproj.CopyComplete
+C:\Users\zhongli\Desktop\téttt\center.server\obj\Debug\net472\Center.Server.dll
+C:\Users\zhongli\Desktop\téttt\center.server\obj\Debug\net472\Center.Server.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\Center.Server.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\Center.Server.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\EntityFramework.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\log4net.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\protobuf-net.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\zlib.net.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\Bussiness.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\EntityDatabase.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\Game.Base.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\SqlDataProvider.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\Bussiness.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\Game.Base.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\SqlDataProvider.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\bin\Debug\net472\EntityDatabase.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\obj\Debug\net472\center.server.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\obj\Debug\net472\center.server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\obj\Debug\net472\center.server.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\obj\Debug\net472\center.server.csproj.CopyComplete
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\obj\Debug\net472\Center.Server.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\center.server\obj\Debug\net472\Center.Server.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\Center.Server.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\Center.Server.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\EntityFramework.SqlServer.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\EntityFramework.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\log4net.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\Newtonsoft.Json.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\protobuf-net.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\zlib.net.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\Bussiness.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\EntityDatabase.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\Game.Base.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\SqlDataProvider.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\Bussiness.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\Game.Base.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\SqlDataProvider.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\bin\Debug\net472\EntityDatabase.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\obj\Debug\net472\center.server.csproj.AssemblyReference.cache
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\obj\Debug\net472\center.server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\obj\Debug\net472\center.server.csproj.CoreCompileInputs.cache
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\obj\Debug\net472\center.server.csproj.CopyComplete
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\obj\Debug\net472\Center.Server.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\obj\Debug\net472\Center.Server.pdb

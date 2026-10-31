@@ -1,0 +1,63 @@
+using System.Collections.Generic;
+using Game.Logic.GuardCoreEffect.ContinuosEffect;
+using Game.Logic.GuardCoreEffects;
+using Game.Logic.Phy.Object;
+using SqlDataProvider.Data;
+
+namespace Game.Logic.GuardCoreEffect.EquipEffect;
+
+public class ResistanceSoulEffect : BaseGuardCoreEffect
+{
+	private int m_probability = 10000;
+
+	private int m_currentId;
+
+	public ResistanceSoulEffect(GuardCoreTemplateInfo info)
+		: base(eGuardCoreEffectType.ResistanceSoulEquip, info)
+	{
+		m_currentId = info.ID;
+	}
+
+	public override bool Start(Living living)
+	{
+		if (living.GuardCoreEffectList.GetOfType(eGuardCoreEffectType.ResistanceSoulEquip) is ResistanceSoulEffect resistanceSoulEffect)
+		{
+			resistanceSoulEffect.m_probability = ((m_probability > resistanceSoulEffect.m_probability) ? m_probability : resistanceSoulEffect.m_probability);
+			return true;
+		}
+		return base.Start(living);
+	}
+
+	protected override void OnAttachedToPlayer(Player player)
+	{
+		player.BeginNextTurn += Player_BeginNextTurn;
+		if (IsTrigger)
+		{
+			return;
+		}
+		List<Player> allTeamPlayers = player.Game.GetAllTeamPlayers(player);
+		foreach (Player item in allTeamPlayers)
+		{
+			ContinuosResistanceSoul continuosResistanceSoul = item.GuardCoreEffectList.GetOfType(eGuardCoreEffectType.RestorationSoulContinuos) as ContinuosResistanceSoul;
+			if (continuosResistanceSoul != null && continuosResistanceSoul.Info.ID < m_currentId)
+			{
+				continuosResistanceSoul.Stop();
+				item.AddGuardCoreEffect(new ContinuosResistanceSoul(base.Info), 0);
+			}
+			if (continuosResistanceSoul == null)
+			{
+				item.AddGuardCoreEffect(new ContinuosResistanceSoul(base.Info), 0);
+			}
+		}
+		IsTrigger = true;
+	}
+
+	private void Player_BeginNextTurn(Living living)
+	{
+	}
+
+	protected override void OnRemovedFromPlayer(Player player)
+	{
+		player.BeginNextTurn -= Player_BeginNextTurn;
+	}
+}

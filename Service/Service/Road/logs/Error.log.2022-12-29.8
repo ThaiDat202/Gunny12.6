@@ -1,0 +1,16 @@
+2022-12-29 11:10:27,332 - [14] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.AddUserLabyrinth(UserLabyrinthInfo laby) in C:\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 8937
+2022-12-29 11:10:27,621 - [14] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.LabyrinthHandler  client: 127.0.0.1:63590)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Base.Packets.AbstractPacketLib.SendLabyrinthUpdataInfo(Int32 id, UserLabyrinthInfo laby) in C:\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 5027
+   at Game.Server.Packets.Client.LabyrinthHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\LabyrinthHandler.cs:line 49
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-29 11:10:27,624 - [14] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1C 00 7E 00 83 00 00 00 02 00 00 00 00   q....~..........
+0010: 00 00 00 00 00 00 00 02 00 00 00 00               ............    
+
+2022-12-29 11:10:30,788 - [13] - ERROR - Game.Logic.PVEGame - Can't create game mission ai :Game.Server.GameServerScript.AI.Messions.Labyrinth40001
+2022-12-29 11:11:10,138 - [13] - ERROR - Game.Logic.Phy.Object.SimpleNpc - Can't create abrain :GameServerScript.AI.NPC.SeventhSimpleCageNpc
+2022-12-29 11:11:14,152 - [13] - ERROR - Game.Logic.Phy.Object.SimpleBoss - Can't create abrain :GameServerScript.AI.NPC.SeventhSimpleSecondBoss
+2022-12-29 11:13:42,431 - [13] - ERROR - Game.Logic.Phy.Object.SimpleBoss - Can't create abrain :GameServerScript.AI.NPC.NightmareQueenAntAi

@@ -1,0 +1,49 @@
+2022-12-29 11:20:51,854 - [22] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.QuestAddHandler  client: 127.0.0.1:62568)
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Server.Quests.QuestInventory.FindQuest(Int32 id) in C:\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 498
+   at Game.Server.Quests.QuestInventory.AddQuest(QuestInfo info, String& msg) in C:\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 186
+   at Game.Server.Packets.Client.QuestAddHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\QuestAddHandler.cs:line 20
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-29 11:20:51,868 - [22] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 50 0A 41 00 B0 00 00 00 02 00 00 00 00   q..P.A..........
+0010: 00 00 00 00 00 00 00 0E 00 00 07 78 00 00 02 C6   ...........x....
+0020: 00 00 02 C7 00 00 02 C8 00 00 02 C9 00 00 02 CC   ................
+0030: 00 00 02 CF 00 00 02 B0 00 00 02 D2 00 00 02 B8   ................
+0040: 00 00 07 79 00 00 07 7A 00 00 07 7B 00 00 07 7C   ...y...z...{...|
+
+2022-12-29 11:21:24,264 - [12] - ERROR - Game.Logic.PVEGame - Can't create game ai :Game.Server.GameServerScript.AI.Game.G01, PveId 2, Pve Name ????
+2022-12-29 11:21:24,267 - [12] - ERROR - Game.Logic.PVEGame - Prepare GetAllPlayers().Length == 0
+2022-12-29 11:21:36,481 - [12] - ERROR - Game.Logic.PVEGame - Can't create game ai :Game.Server.GameServerScript.AI.Game.G02, PveId 7, Pve Name ????
+2022-12-29 11:21:36,481 - [12] - ERROR - Game.Logic.PVEGame - Prepare GetAllPlayers().Length == 0
+2022-12-29 11:21:52,433 - [12] - ERROR - Game.Logic.PVEGame - Can't create game ai :Game.Server.GameServerScript.AI.Game.G03, PveId 1, Pve Name ????
+2022-12-29 11:21:52,433 - [12] - ERROR - Game.Logic.PVEGame - Prepare GetAllPlayers().Length == 0
+2022-12-29 11:22:22,665 - [31] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.AddUserLabyrinth(UserLabyrinthInfo laby) in C:\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 8937
+2022-12-29 11:22:23,103 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.LabyrinthHandler  client: 127.0.0.1:62568)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Base.Packets.AbstractPacketLib.SendLabyrinthUpdataInfo(Int32 id, UserLabyrinthInfo laby) in C:\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 5027
+   at Game.Server.Packets.Client.LabyrinthHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\LabyrinthHandler.cs:line 49
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-29 11:22:23,105 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1C 00 7E 00 83 00 00 00 02 00 00 00 00   q....~..........
+0010: 00 00 00 00 00 00 00 02 00 00 00 00               ............    
+
+2022-12-29 11:25:57,767 - [12] - ERROR - Game.Logic.PVEGame - Can't create game ai :Game.Server.GameServerScript.AI.Game.G08, PveId 12, Pve Name ???? 
+2022-12-29 11:25:57,767 - [12] - ERROR - Game.Logic.PVEGame - Prepare GetAllPlayers().Length == 0
+2022-12-29 11:26:09,778 - [44] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.LabyrinthHandler  client: 127.0.0.1:62568)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Base.Packets.AbstractPacketLib.SendLabyrinthUpdataInfo(Int32 id, UserLabyrinthInfo laby) in C:\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 5027
+   at Game.Server.Packets.Client.LabyrinthHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\LabyrinthHandler.cs:line 49
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-29 11:26:09,779 - [44] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1C 00 7E 00 83 00 00 00 02 00 00 00 00   q....~..........
+0010: 00 00 00 00 00 00 00 02 00 00 00 00               ............    
+
+2022-12-29 11:26:13,457 - [13] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVEGame.PrepareNewSession() in C:\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 822
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in C:\Full Source\Game.Logic\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 34
+   at Game.Logic.BaseGame.Update(Int64 tick) in C:\Full Source\Game.Logic\Game.Logic\BaseGame.cs:line 1395

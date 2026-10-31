@@ -1,0 +1,7 @@
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\bin\Debug\net40\FileDialogsThreadAppartmentSafe.dll
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\bin\Debug\net40\FileDialogsThreadAppartmentSafe.pdb
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\obj\Debug\net40\filedialogsthreadappar.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\obj\Debug\net40\filedialogsthreadappar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\obj\Debug\net40\filedialogsthreadappar.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\obj\Debug\net40\FileDialogsThreadAppartmentSafe.dll
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\obj\Debug\net40\FileDialogsThreadAppartmentSafe.pdb

@@ -1,0 +1,24 @@
+2023-01-13 02:54:03,871 - [45] - ERROR - Game.Server.MagicHouse.Handle.MagicHouseHandleMgr - LoadCommandHandler code019: 8
+2023-01-13 02:54:25,782 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserChangeItemPlaceHandler  client: 127.0.0.1:50610)
+System.NotSupportedException: Did not support this type bag: 60 PlayerID: 1 Nickname: DevGame
+   at Game.Server.GameObjects.GamePlayer.GetInventory(eBageType bageType) in C:\gunny 12.6\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 1490
+   at Game.Server.Packets.Client.UserChangeItemPlaceHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Server.Packets.Client\UserChangeItemPlaceHandler.cs:line 25
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-01-13 02:54:25,790 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 23 05 01 00 31 00 00 00 01 00 00 00 00   q..#...1........
+0010: 00 00 00 00 00 00 00 00 1F 3C FF FF FF FF 00 00   .........<......
+0020: 00 01 00                                          ...             
+
+2023-01-13 02:54:30,366 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserChangeItemPlaceHandler  client: 127.0.0.1:50610)
+System.NotSupportedException: Did not support this type bag: 60 PlayerID: 1 Nickname: DevGame
+   at Game.Server.GameObjects.GamePlayer.GetInventory(eBageType bageType) in C:\gunny 12.6\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 1490
+   at Game.Server.Packets.Client.UserChangeItemPlaceHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Server.Packets.Client\UserChangeItemPlaceHandler.cs:line 25
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-01-13 02:54:30,369 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 23 01 05 00 31 00 00 00 01 00 00 00 00   q..#...1........
+0010: 00 00 00 00 00 00 00 00 1F 3C 00 00 00 00 00 00   .........<......
+0020: 00 01 00                                          ...             
+
+2023-01-13 03:17:05,013 - [86] - ERROR - Game.Server.Farm.FarmLogicProcessor - IP:127.0.0.1:50610, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Farm.Handle.FeedFarmPoultry.CommandHandler(GamePlayer Player, GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Server.Farm.Handle\FeedFarmPoultry.cs:line 28
+   at Game.Server.Farm.FarmLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Server.Farm\FarmLogicProcessor.cs:line 31

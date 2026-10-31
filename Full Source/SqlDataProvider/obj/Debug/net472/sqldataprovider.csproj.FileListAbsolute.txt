@@ -1,0 +1,56 @@
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\bin\Debug\net472\SqlDataProvider.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\bin\Debug\net472\SqlDataProvider.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\bin\Debug\net472\EntityFramework.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\bin\Debug\net472\protobuf-net.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\bin\Debug\net472\EntityDatabase.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\bin\Debug\net472\EntityDatabase.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\obj\Debug\net472\sqldataprovider.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\obj\Debug\net472\sqldataprovider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\obj\Debug\net472\sqldataprovider.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\obj\Debug\net472\sqldataprovider.csproj.CopyComplete
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\obj\Debug\net472\SqlDataProvider.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\sqldataprovider\obj\Debug\net472\SqlDataProvider.pdb
+C:\Users\Administrator\Downloads\files\SqlDataProvider\bin\Debug\net472\SqlDataProvider.dll
+C:\Users\Administrator\Downloads\files\SqlDataProvider\bin\Debug\net472\SqlDataProvider.pdb
+C:\Users\Administrator\Downloads\files\SqlDataProvider\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\files\SqlDataProvider\bin\Debug\net472\EntityFramework.dll
+C:\Users\Administrator\Downloads\files\SqlDataProvider\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\files\SqlDataProvider\bin\Debug\net472\protobuf-net.dll
+C:\Users\Administrator\Downloads\files\SqlDataProvider\bin\Debug\net472\EntityDatabase.dll
+C:\Users\Administrator\Downloads\files\SqlDataProvider\bin\Debug\net472\EntityDatabase.pdb
+C:\Users\Administrator\Downloads\files\SqlDataProvider\obj\Debug\net472\SqlDataProvider.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\files\SqlDataProvider\obj\Debug\net472\SqlDataProvider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\files\SqlDataProvider\obj\Debug\net472\SqlDataProvider.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\files\SqlDataProvider\obj\Debug\net472\SqlDataProvider.csproj.CopyComplete
+C:\Users\Administrator\Downloads\files\SqlDataProvider\obj\Debug\net472\SqlDataProvider.dll
+C:\Users\Administrator\Downloads\files\SqlDataProvider\obj\Debug\net472\SqlDataProvider.pdb
+C:\11.2 test\Full Source\SqlDataProvider\bin\Debug\net472\SqlDataProvider.dll
+C:\11.2 test\Full Source\SqlDataProvider\bin\Debug\net472\SqlDataProvider.pdb
+C:\11.2 test\Full Source\SqlDataProvider\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\11.2 test\Full Source\SqlDataProvider\bin\Debug\net472\EntityFramework.dll
+C:\11.2 test\Full Source\SqlDataProvider\bin\Debug\net472\Newtonsoft.Json.dll
+C:\11.2 test\Full Source\SqlDataProvider\bin\Debug\net472\protobuf-net.dll
+C:\11.2 test\Full Source\SqlDataProvider\bin\Debug\net472\EntityDatabase.dll
+C:\11.2 test\Full Source\SqlDataProvider\bin\Debug\net472\EntityDatabase.pdb
+C:\11.2 test\Full Source\SqlDataProvider\obj\Debug\net472\SqlDataProvider.csproj.AssemblyReference.cache
+C:\11.2 test\Full Source\SqlDataProvider\obj\Debug\net472\SqlDataProvider.GeneratedMSBuildEditorConfig.editorconfig
+C:\11.2 test\Full Source\SqlDataProvider\obj\Debug\net472\SqlDataProvider.csproj.CoreCompileInputs.cache
+C:\11.2 test\Full Source\SqlDataProvider\obj\Debug\net472\SqlDataProvider.csproj.CopyComplete
+C:\11.2 test\Full Source\SqlDataProvider\obj\Debug\net472\SqlDataProvider.dll
+C:\11.2 test\Full Source\SqlDataProvider\obj\Debug\net472\SqlDataProvider.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\bin\Debug\net472\SqlDataProvider.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\bin\Debug\net472\SqlDataProvider.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\bin\Debug\net472\EntityFramework.SqlServer.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\bin\Debug\net472\EntityFramework.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\bin\Debug\net472\Newtonsoft.Json.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\bin\Debug\net472\protobuf-net.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\bin\Debug\net472\EntityDatabase.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\bin\Debug\net472\EntityDatabase.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\obj\Debug\net472\sqldataprovider.csproj.AssemblyReference.cache
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\obj\Debug\net472\sqldataprovider.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\obj\Debug\net472\sqldataprovider.csproj.CoreCompileInputs.cache
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\obj\Debug\net472\sqldataprovider.csproj.CopyComplete
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\obj\Debug\net472\SqlDataProvider.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\obj\Debug\net472\SqlDataProvider.pdb

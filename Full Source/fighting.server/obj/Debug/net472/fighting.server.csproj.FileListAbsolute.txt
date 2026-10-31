@@ -1,0 +1,72 @@
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\obj\Debug\net472\fighting.server.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\obj\Debug\net472\fighting.server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\obj\Debug\net472\fighting.server.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\Fighting.Server.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\Fighting.Server.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\EntityFramework.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\Bussiness.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\EntityDatabase.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\game.base.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\game.logic.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\log4net.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\SqlDataProvider.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\Bussiness.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\EntityDatabase.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\obj\Debug\net472\fighting.server.csproj.CopyComplete
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\obj\Debug\net472\Fighting.Server.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\obj\Debug\net472\Fighting.Server.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\protobuf-net.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\zlib.net.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\Game.Logic.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\Game.Base.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\fighting.server\bin\Debug\net472\SqlDataProvider.pdb
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\Fighting.Server.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\Fighting.Server.pdb
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\EntityFramework.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\log4net.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\protobuf-net.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\zlib.net.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\Bussiness.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\EntityDatabase.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\Game.Base.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\Game.Logic.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\SqlDataProvider.dll
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\Bussiness.pdb
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\EntityDatabase.pdb
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\Game.Logic.pdb
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\SqlDataProvider.pdb
+C:\11.2 test\Full Source\fighting.server\bin\Debug\net472\Game.Base.pdb
+C:\11.2 test\Full Source\fighting.server\obj\Debug\net472\fighting.server.csproj.AssemblyReference.cache
+C:\11.2 test\Full Source\fighting.server\obj\Debug\net472\fighting.server.GeneratedMSBuildEditorConfig.editorconfig
+C:\11.2 test\Full Source\fighting.server\obj\Debug\net472\fighting.server.csproj.CoreCompileInputs.cache
+C:\11.2 test\Full Source\fighting.server\obj\Debug\net472\fighting.server.csproj.CopyComplete
+C:\11.2 test\Full Source\fighting.server\obj\Debug\net472\Fighting.Server.dll
+C:\11.2 test\Full Source\fighting.server\obj\Debug\net472\Fighting.Server.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\Fighting.Server.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\Fighting.Server.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\EntityFramework.SqlServer.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\EntityFramework.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\log4net.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\Newtonsoft.Json.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\protobuf-net.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\zlib.net.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\Bussiness.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\EntityDatabase.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\Game.Base.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\Game.Logic.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\SqlDataProvider.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\Bussiness.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\EntityDatabase.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\Game.Logic.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\SqlDataProvider.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\bin\Debug\net472\Game.Base.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\obj\Debug\net472\fighting.server.csproj.AssemblyReference.cache
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\obj\Debug\net472\fighting.server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\obj\Debug\net472\fighting.server.csproj.CoreCompileInputs.cache
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\obj\Debug\net472\fighting.server.csproj.CopyComplete
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\obj\Debug\net472\Fighting.Server.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\obj\Debug\net472\Fighting.Server.pdb

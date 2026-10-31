@@ -1,0 +1,10 @@
+2023-01-13 18:44:37,183 - [94] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.EquipGhostHandler  client: 127.0.0.1:52935)
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Game.Server.Packets.Client.EquipGhostHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Server.Packets.Client\EquipGhostHandler.cs:line 54
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-01-13 18:44:37,290 - [94] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 14 01 00 01 87 00 00 00 01 00 00 00 00   q...............
+0010: 00 00 00 00                                       ....            
+

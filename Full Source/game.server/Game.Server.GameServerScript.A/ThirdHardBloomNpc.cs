@@ -1,0 +1,41 @@
+using Game.Logic.AI;
+using Game.Logic.Phy.Object;
+
+namespace Game.Server.GameServerScript.AI.NPC;
+
+public class ThirdHardBloomNpc : ABrain
+{
+	private Player m_target = null;
+
+	public override void OnBeginSelfTurn()
+	{
+		base.OnBeginSelfTurn();
+	}
+
+	public override void OnBeginNewTurn()
+	{
+		base.OnBeginNewTurn();
+		base.Body.CurrentDamagePlus = 1f;
+		base.Body.CurrentShootMinus = 1f;
+	}
+
+	public override void OnCreated()
+	{
+		base.OnCreated();
+	}
+
+	public override void OnStartAttacking()
+	{
+		base.OnStartAttacking();
+		if (base.Body.Blood >= base.Body.MaxBlood)
+		{
+			base.Body.PlayMovie("grow", 100, 0);
+			base.Body.Die(1000);
+		}
+	}
+
+	public override void OnStopAttacking()
+	{
+		base.OnStopAttacking();
+	}
+}

@@ -1,0 +1,47 @@
+2023-01-07 19:48:33,931 - [51] - ERROR - Bussiness.LanguageMgr - Parameters number error, ID: WonderfulActivity.GetReward.Success (Arg count=0)
+System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Bussiness.LanguageMgr.GetTranslation(String translateId, Object[] args) in C:\Gunny 12.5\Full Source\Bussiness\Bussiness\LanguageMgr.cs:line 77
+2023-01-07 20:15:08,308 - [12] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in C:\Gunny 12.5\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 159
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in C:\Gunny 12.5\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in C:\Gunny 12.5\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 397
+2023-01-07 20:15:21,915 - [12] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in C:\Gunny 12.5\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 159
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in C:\Gunny 12.5\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in C:\Gunny 12.5\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 397
+2023-01-07 20:16:45,325 - [12] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in C:\Gunny 12.5\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 159
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in C:\Gunny 12.5\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in C:\Gunny 12.5\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 397
+2023-01-07 19:47:21,886 - [25] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.EquipGhostHandler  client: 127.0.0.1:54741)
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Game.Server.Packets.Client.EquipGhostHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny 12.5\Full Source\game.server\Game.Server.Packets.Client\EquipGhostHandler.cs:line 54
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny 12.5\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-01-07 19:47:21,889 - [25] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 14 01 00 01 87 00 00 00 01 00 00 00 00   q...............
+0010: 00 00 00 00                                       ....            
+
+2023-01-07 19:47:23,251 - [25] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.EquipGhostHandler  client: 127.0.0.1:54741)
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Game.Server.Packets.Client.EquipGhostHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny 12.5\Full Source\game.server\Game.Server.Packets.Client\EquipGhostHandler.cs:line 54
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny 12.5\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-01-07 19:47:23,253 - [25] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 14 01 00 01 87 00 00 00 01 00 00 00 00   q...............
+0010: 00 00 00 00                                       ....            
+

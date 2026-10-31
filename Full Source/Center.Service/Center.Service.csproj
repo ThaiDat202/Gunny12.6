@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Center.Service</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.bussiness.dll.compressed" />
+    <None Remove="costura.bussiness.pdb.compressed" />
+    <None Remove="costura.center.server.dll.compressed" />
+    <None Remove="costura.center.server.pdb.compressed" />
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.game.base.dll.compressed" />
+    <None Remove="costura.game.base.pdb.compressed" />
+    <None Remove="costura.log4net.dll.compressed" />
+    <None Remove="costura.sqldataprovider.dll.compressed" />
+    <None Remove="costura.sqldataprovider.pdb.compressed" />
+    <None Remove="costura.entitydatabase.dll.compressed" />
+    <None Remove="costura.entitydatabase.pdb.compressed" />
+    <None Remove="costura.newtonsoft.json.dll.compressed" />
+    <None Remove="costura.entityframework.dll.compressed" />
+    <None Remove="costura.zlib.net.dll.compressed" />
+    <None Remove="costura.protobuf-net.dll.compressed" />
+    <EmbeddedResource Include="costura.bussiness.dll.compressed" />
+    <EmbeddedResource Include="costura.bussiness.pdb.compressed" />
+    <EmbeddedResource Include="costura.center.server.dll.compressed" />
+    <EmbeddedResource Include="costura.center.server.pdb.compressed" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.game.base.dll.compressed" />
+    <EmbeddedResource Include="costura.game.base.pdb.compressed" />
+    <EmbeddedResource Include="costura.log4net.dll.compressed" />
+    <EmbeddedResource Include="costura.sqldataprovider.dll.compressed" />
+    <EmbeddedResource Include="costura.sqldataprovider.pdb.compressed" />
+    <EmbeddedResource Include="costura.entitydatabase.dll.compressed" />
+    <EmbeddedResource Include="costura.entitydatabase.pdb.compressed" />
+    <EmbeddedResource Include="costura.newtonsoft.json.dll.compressed" />
+    <EmbeddedResource Include="costura.entityframework.dll.compressed" />
+    <EmbeddedResource Include="costura.zlib.net.dll.compressed" />
+    <EmbeddedResource Include="costura.protobuf-net.dll.compressed" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.14" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\center.server\center.server.csproj" />
+    <ProjectReference Include="..\game.base\game.base.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+</Project>

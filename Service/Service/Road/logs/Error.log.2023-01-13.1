@@ -1,0 +1,17 @@
+2023-01-13 18:39:30,300 - [106] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MailGetAttachHandler  client: 127.0.0.1:53075)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.MailGetAttachHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Server.Packets.Client\MailGetAttachHandler.cs:line 111
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-01-13 18:39:30,307 - [106] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 35 05 6B 00 71 00 00 00 01 00 00 00 00   q..5.k.q........
+0010: 00 00 00 00 00 00 00 00 07 00 00 00 DE 00 00 00   ................
+0020: AB 00 00 00 DD 00 00 00 DC 00 00 00 A5 00 00 00   ................
+0030: A8 00 00 00 6C                                    ....l           
+
+2023-01-13 19:23:49,296 - [12] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in C:\gunny 12.6\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 159
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in C:\gunny 12.6\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in C:\gunny 12.6\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 397

@@ -1,0 +1,11 @@
+namespace Game.Server.Packets;
+
+public enum HorseAmuletPackageType
+{
+	HORSE_AMULET_ACTIVATE = 1,
+	HORSE_AMULET_SMASH = 2,
+	HORSE_AMULET_MOVE = 3,
+	HORSE_AMULET_LOCK = 4,
+	HORSE_AMULET_UPDATE = 5,
+	HORSE_AMULET_REPLACE = 7
+}

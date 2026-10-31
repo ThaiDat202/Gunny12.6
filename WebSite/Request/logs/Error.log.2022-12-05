@@ -1,0 +1,8 @@
+2022-12-05 02:31:08,166 - [9] - ERROR - Tank.Request.Login - loidz1: ejvfyb
+2022-12-05 02:32:42,006 - [22] - ERROR - Bussiness.Managers.ItemMgr - Init
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Bussiness.Managers.ItemMgr.LoadRunes(List`1 items)
+   at Bussiness.Managers.ItemMgr.LoadItem(Dictionary`2 infos, Dictionary`2 userBoxs)
+   at Bussiness.Managers.ItemMgr.Init(Boolean isUpdate)

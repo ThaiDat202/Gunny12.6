@@ -1,0 +1,14 @@
+namespace Bussiness.Protocol;
+
+public enum CityBattleType
+{
+	CITYBATTLE_OPEN,
+	CITYBATTLEINFO,
+	JOINBATTLE,
+	CONTENTIONRANK,
+	EXCHANGEINFO,
+	MYSCORE,
+	EXCHANGE,
+	INSPIRE,
+	SCORE_RANK
+}

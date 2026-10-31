@@ -1,0 +1,21 @@
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\bin\Debug\net472\FileDialogsThreadAppartmentSafe.dll
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\bin\Debug\net472\FileDialogsThreadAppartmentSafe.pdb
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\obj\Debug\net472\FileDialogsThreadAppartmentSafe.dll
+C:\Users\Administrator\Downloads\files\filedialogsthreadappar\obj\Debug\net472\FileDialogsThreadAppartmentSafe.pdb
+C:\11.2 test\Full Source\filedialogsthreadappar\bin\Debug\net472\FileDialogsThreadAppartmentSafe.dll
+C:\11.2 test\Full Source\filedialogsthreadappar\bin\Debug\net472\FileDialogsThreadAppartmentSafe.pdb
+C:\11.2 test\Full Source\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.csproj.AssemblyReference.cache
+C:\11.2 test\Full Source\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.GeneratedMSBuildEditorConfig.editorconfig
+C:\11.2 test\Full Source\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.csproj.CoreCompileInputs.cache
+C:\11.2 test\Full Source\filedialogsthreadappar\obj\Debug\net472\FileDialogsThreadAppartmentSafe.dll
+C:\11.2 test\Full Source\filedialogsthreadappar\obj\Debug\net472\FileDialogsThreadAppartmentSafe.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\filedialogsthreadappar\bin\Debug\net472\FileDialogsThreadAppartmentSafe.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\filedialogsthreadappar\bin\Debug\net472\FileDialogsThreadAppartmentSafe.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.csproj.AssemblyReference.cache
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.csproj.CoreCompileInputs.cache
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\filedialogsthreadappar\obj\Debug\net472\FileDialogsThreadAppartmentSafe.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\filedialogsthreadappar\obj\Debug\net472\FileDialogsThreadAppartmentSafe.pdb

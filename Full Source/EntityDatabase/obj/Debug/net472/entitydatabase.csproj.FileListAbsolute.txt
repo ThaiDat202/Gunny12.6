@@ -1,0 +1,40 @@
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\entitydatabase\bin\Debug\net472\EntityDatabase.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\entitydatabase\bin\Debug\net472\EntityDatabase.pdb
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\entitydatabase\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\entitydatabase\bin\Debug\net472\EntityFramework.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\entitydatabase\obj\Debug\net472\entitydatabase.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\entitydatabase\obj\Debug\net472\entitydatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\entitydatabase\obj\Debug\net472\entitydatabase.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\entitydatabase\obj\Debug\net472\entitydatabase.csproj.CopyComplete
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\entitydatabase\obj\Debug\net472\EntityDatabase.dll
+C:\Users\Administrator\Downloads\testtttttttttttttt\files\entitydatabase\obj\Debug\net472\EntityDatabase.pdb
+C:\Users\Administrator\Downloads\files\EntityDatabase\bin\Debug\net472\EntityDatabase.dll
+C:\Users\Administrator\Downloads\files\EntityDatabase\bin\Debug\net472\EntityDatabase.pdb
+C:\Users\Administrator\Downloads\files\EntityDatabase\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\files\EntityDatabase\bin\Debug\net472\EntityFramework.dll
+C:\Users\Administrator\Downloads\files\EntityDatabase\obj\Debug\net472\EntityDatabase.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\files\EntityDatabase\obj\Debug\net472\EntityDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\files\EntityDatabase\obj\Debug\net472\EntityDatabase.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\files\EntityDatabase\obj\Debug\net472\EntityDatabase.csproj.CopyComplete
+C:\Users\Administrator\Downloads\files\EntityDatabase\obj\Debug\net472\EntityDatabase.dll
+C:\Users\Administrator\Downloads\files\EntityDatabase\obj\Debug\net472\EntityDatabase.pdb
+C:\11.2 test\Full Source\EntityDatabase\bin\Debug\net472\EntityDatabase.dll
+C:\11.2 test\Full Source\EntityDatabase\bin\Debug\net472\EntityDatabase.pdb
+C:\11.2 test\Full Source\EntityDatabase\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\11.2 test\Full Source\EntityDatabase\bin\Debug\net472\EntityFramework.dll
+C:\11.2 test\Full Source\EntityDatabase\obj\Debug\net472\EntityDatabase.csproj.AssemblyReference.cache
+C:\11.2 test\Full Source\EntityDatabase\obj\Debug\net472\EntityDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\11.2 test\Full Source\EntityDatabase\obj\Debug\net472\EntityDatabase.csproj.CoreCompileInputs.cache
+C:\11.2 test\Full Source\EntityDatabase\obj\Debug\net472\EntityDatabase.csproj.CopyComplete
+C:\11.2 test\Full Source\EntityDatabase\obj\Debug\net472\EntityDatabase.dll
+C:\11.2 test\Full Source\EntityDatabase\obj\Debug\net472\EntityDatabase.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\bin\Debug\net472\EntityDatabase.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\bin\Debug\net472\EntityDatabase.pdb
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\bin\Debug\net472\EntityFramework.SqlServer.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\bin\Debug\net472\EntityFramework.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\obj\Debug\net472\entitydatabase.csproj.AssemblyReference.cache
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\obj\Debug\net472\entitydatabase.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\obj\Debug\net472\entitydatabase.csproj.CoreCompileInputs.cache
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\obj\Debug\net472\entitydatabase.csproj.CopyComplete
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\obj\Debug\net472\EntityDatabase.dll
+D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\obj\Debug\net472\EntityDatabase.pdb

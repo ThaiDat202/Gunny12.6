@@ -1,0 +1,32 @@
+2023-01-05 01:36:19,892 - [27] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.OpenUpArkHandler  client: 127.0.0.1:54236)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillAwaken(Int32 KindID) in C:\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 37
+   at Game.Server.Packets.Client.OpenUpArkHandler.GetPetEquipSKill(GamePlayer player, Int32 TemplateId, Dictionary`2 itemInfos) in C:\Full Source\game.server\Game.Server.Packets.Client\OpenUpArkHandler.cs:line 301
+   at Game.Server.Packets.Client.OpenUpArkHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\OpenUpArkHandler.cs:line 131
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-01-05 01:36:19,921 - [27] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1E 00 58 00 3F 00 00 00 01 00 00 00 00   q....X.?........
+0010: 00 00 00 00 00 25 52 C6 B0 C6 A1 6E 67 20         .....%R....ng   
+
+2023-01-05 01:38:03,327 - [30] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PETS_EQUIP_AWAKEN :127.0.0.1:54236, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Pet.Handle.PetEquipAwaken.AwakenFirst(GamePlayer player, Int32 bagType1, Int32 place1, Int32 bagType2, Int32 place2) in C:\Full Source\game.server\Game.Server.Pet.Handle\PetEquipAwaken.cs:line 55
+   at Game.Server.Pet.Handle.PetEquipAwaken.CommandHandler(GamePlayer player, GSPacketIn pkg) in C:\Full Source\game.server\Game.Server.Pet.Handle\PetEquipAwaken.cs:line 33
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-01-05 01:38:05,573 - [30] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PETS_EQUIP_AWAKEN :127.0.0.1:54236, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Pet.Handle.PetEquipAwaken.AwakenFirst(GamePlayer player, Int32 bagType1, Int32 place1, Int32 bagType2, Int32 place2) in C:\Full Source\game.server\Game.Server.Pet.Handle\PetEquipAwaken.cs:line 55
+   at Game.Server.Pet.Handle.PetEquipAwaken.CommandHandler(GamePlayer player, GSPacketIn pkg) in C:\Full Source\game.server\Game.Server.Pet.Handle\PetEquipAwaken.cs:line 33
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-01-05 01:38:10,285 - [30] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PETS_EQUIP_AWAKEN :127.0.0.1:54236, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Pet.Handle.PetEquipAwaken.AwakenFirst(GamePlayer player, Int32 bagType1, Int32 place1, Int32 bagType2, Int32 place2) in C:\Full Source\game.server\Game.Server.Pet.Handle\PetEquipAwaken.cs:line 55
+   at Game.Server.Pet.Handle.PetEquipAwaken.CommandHandler(GamePlayer player, GSPacketIn pkg) in C:\Full Source\game.server\Game.Server.Pet.Handle\PetEquipAwaken.cs:line 33
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-01-05 01:38:13,841 - [30] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PETS_EQUIP_AWAKEN :127.0.0.1:54236, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Pet.Handle.PetEquipAwaken.AwakenFirst(GamePlayer player, Int32 bagType1, Int32 place1, Int32 bagType2, Int32 place2) in C:\Full Source\game.server\Game.Server.Pet.Handle\PetEquipAwaken.cs:line 55
+   at Game.Server.Pet.Handle.PetEquipAwaken.CommandHandler(GamePlayer player, GSPacketIn pkg) in C:\Full Source\game.server\Game.Server.Pet.Handle\PetEquipAwaken.cs:line 33
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-01-05 01:25:40,155 - [73] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType ADD_PET_EQUIP :127.0.0.1:49330, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Pet.Handle.AddPetEquip.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Pet.Handle\AddPetEquip.cs:line 40
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35

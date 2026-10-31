@@ -1,0 +1,16 @@
+2023-01-13 18:43:13,467 - [24] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.QuestAddHandler  client: 127.0.0.1:50754)
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Server.Quests.QuestInventory.FindQuest(Int32 id) in C:\gunny 12.6\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 498
+   at Game.Server.Quests.QuestInventory.AddQuest(QuestInfo info, String& msg) in C:\gunny 12.6\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 186
+   at Game.Server.Packets.Client.QuestAddHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Server.Packets.Client\QuestAddHandler.cs:line 20
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-01-13 18:43:13,484 - [24] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 58 0C 58 00 B0 00 00 00 01 00 00 00 00   q..X.X..........
+0010: 00 00 00 00 00 00 00 10 00 00 02 C0 00 00 02 C1   ................
+0020: 00 00 02 C2 00 00 02 C5 00 00 02 C7 00 00 02 C8   ................
+0030: 00 00 02 C9 00 00 02 CC 00 00 02 CF 00 00 02 D2   ................
+0040: 00 00 07 78 00 00 02 B8 00 00 07 79 00 00 07 7A   ...x.......y...z
+0050: 00 00 07 7B 00 00 07 7C                           ...{...|        
+

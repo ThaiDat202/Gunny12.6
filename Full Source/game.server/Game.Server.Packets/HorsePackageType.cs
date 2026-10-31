@@ -1,0 +1,16 @@
+namespace Game.Server.Packets;
+
+public enum HorsePackageType
+{
+	GET_ALL_DATA = 1,
+	CHANGE_HORSE = 2,
+	UP_HORSE = 3,
+	GET_SKILL = 4,
+	UP_SKILL = 5,
+	TAKE_UP_DOWN_SKILL = 6,
+	ACTIVE_HORSEPICCHERISH = 7,
+	HORSE_PICCHERISH_INFO = 8,
+	BATTLE_HORSE_SKILL = 9,
+	BATTLE_HORSE_UP_DOWN_SKILL = 10,
+	SUBLIMAR = 32
+}

@@ -1,0 +1,19 @@
+2022-12-29 11:20:36,398 - [13] - ERROR - Game.Logic.Phy.Object.SimpleBoss - Can't create abrain :Game.Server.GameServerScript.AI.NPC.ThirdTerrorKingFour
+2022-12-29 11:24:30,008 - [13] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameServerScript.AI.Messions.RRCNM7404.CreateBossEffect() in C:\Full Source\game.server\Game.Server.GameServerScript.A\RRCNM7404.cs:line 77
+   at Game.Logic.Actions.LivingCallFunctionAction.ExecuteImp(BaseGame game, Int64 tick) in C:\Full Source\Game.Logic\Game.Logic.Actions\LivingCallFunctionAction.cs:line 22
+   at Game.Logic.Actions.BaseAction.Execute(BaseGame game, Int64 tick) in C:\Full Source\Game.Logic\Game.Logic.Actions\BaseAction.cs:line 27
+   at Game.Logic.BaseGame.Update(Int64 tick) in C:\Full Source\Game.Logic\Game.Logic\BaseGame.cs:line 1395
+2022-12-29 11:25:41,774 - [13] - ERROR - Game.Logic.DropInventory - Drop Error:Copy dropId 202351
+2022-12-29 11:25:42,477 - [13] - ERROR - Game.Logic.DropInventory - Drop Error:Copy dropId 202351
+2022-12-29 11:25:44,300 - [13] - ERROR - Game.Logic.DropInventory - Drop Error:Copy dropId 202351
+2022-12-29 11:29:11,671 - [13] - ERROR - Game.Logic.BaseGame - Map update error:
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Logic.BaseGame.RemoveLiving(Int32 id) in C:\Full Source\Game.Logic\Game.Logic\BaseGame.cs:line 395
+   at Game.Server.GameServerScript.AI.Messions.WAT13302.RemoveLeftNpc() in C:\Full Source\game.server\Game.Server.GameServerScript.A\WAT13302.cs:line 151
+   at Game.Logic.Actions.LivingCallFunctionAction.ExecuteImp(BaseGame game, Int64 tick) in C:\Full Source\Game.Logic\Game.Logic.Actions\LivingCallFunctionAction.cs:line 22
+   at Game.Logic.Actions.BaseAction.Execute(BaseGame game, Int64 tick) in C:\Full Source\Game.Logic\Game.Logic.Actions\BaseAction.cs:line 27
+   at Game.Logic.BaseGame.Update(Int64 tick) in C:\Full Source\Game.Logic\Game.Logic\BaseGame.cs:line 1395

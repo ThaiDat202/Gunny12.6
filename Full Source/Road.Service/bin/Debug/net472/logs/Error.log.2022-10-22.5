@@ -1,0 +1,12 @@
+2022-10-22 21:00:50,694 - [34] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.AddUserLabyrinth(UserLabyrinthInfo laby) in C:\11.2 test\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 8934
+2022-10-22 21:00:50,721 - [29] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.LabyrinthHandler  client: 127.0.0.1:57329)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Base.Packets.AbstractPacketLib.SendLabyrinthUpdataInfo(Int32 id, UserLabyrinthInfo laby) in C:\11.2 test\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 4966
+   at Game.Server.Packets.Client.LabyrinthHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\11.2 test\Full Source\game.server\Game.Server.Packets.Client\LabyrinthHandler.cs:line 49
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\11.2 test\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-10-22 21:00:50,725 - [29] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1C 00 7D 00 83 00 00 00 01 00 00 00 00   q....}..........
+0010: 00 00 00 00 00 00 00 02 00 00 00 00               ............    
+

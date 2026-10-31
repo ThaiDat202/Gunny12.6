@@ -1,0 +1,16 @@
+2022-07-23 11:16:26,332 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1459 is not exist!
+2022-07-23 11:16:29,367 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\119034.bomb
+2022-07-23 11:20:34,697 - [31] - ERROR - Game.Server.DDTQiYuan.QiYuanLogicProcessor - QiYuanLogicProcessor PackageType:PACK_TYPE_OFFER, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.DDTQiYuan.Handle.OffterTimes.CommandHandler(GamePlayer player, GSPacketIn packet) in E:\Source\Service\Game.Server\DDTQiYuan\Handle\OffterTimes.cs:line 61
+   at Game.Server.DDTQiYuan.QiYuanLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in E:\Source\Service\Game.Server\DDTQiYuan\QiYuanLogicProcessor.cs:line 30
+2022-07-23 11:20:34,701 - [31] - ERROR - Game.Server.DDTQiYuan.QiYuanLogicProcessor - IP: 127.0.0.1:58552
+2022-07-23 11:21:04,331 - [34] - ERROR - Game.Server.DDTQiYuan.QiYuanLogicProcessor - QiYuanLogicProcessor PackageType:PACK_TYPE_OFFER, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.DDTQiYuan.Handle.OffterTimes.CommandHandler(GamePlayer player, GSPacketIn packet) in E:\Source\Service\Game.Server\DDTQiYuan\Handle\OffterTimes.cs:line 61
+   at Game.Server.DDTQiYuan.QiYuanLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in E:\Source\Service\Game.Server\DDTQiYuan\QiYuanLogicProcessor.cs:line 30
+2022-07-23 11:21:04,332 - [34] - ERROR - Game.Server.DDTQiYuan.QiYuanLogicProcessor - IP: 127.0.0.1:58552
+2022-07-23 11:21:38,666 - [37] - ERROR - Game.Server.MemoryGame.MemoryGameLogicProcessor - MemoryGameLogicProcessor PackageType:INFO, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.Managers.ItemBoxMgr.FindItemBoxByRand(Int32 DateId, Int32 countSelect) in E:\Source\Service\Bussiness\Managers\ItemBoxMgr.cs:line 882
+   at Game.Server.GameUtils.PlayerActives.CreateMemoryGameData() in E:\Source\Service\Game.Server\GameUtils\PlayerActives.cs:line 3526
+   at Game.Server.MemoryGame.Handle.GameInfo.CommandHandler(GamePlayer player, GSPacketIn packet) in E:\Source\Service\Game.Server\MemoryGame\Handle\GameInfo.cs:line 20
+   at Game.Server.MemoryGame.MemoryGameLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in E:\Source\Service\Game.Server\MemoryGame\MemoryGameLogicProcessor.cs:line 29
+2022-07-23 11:21:38,667 - [37] - ERROR - Game.Server.MemoryGame.MemoryGameLogicProcessor - IP: 127.0.0.1:58552

@@ -1,0 +1,15 @@
+2022-12-28 10:41:13,993 - [21] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.QuestAddHandler  client: 127.0.0.1:54602)
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Server.Quests.QuestInventory.FindQuest(Int32 id) in C:\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 498
+   at Game.Server.Quests.QuestInventory.AddQuest(QuestInfo info, String& msg) in C:\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 186
+   at Game.Server.Packets.Client.QuestAddHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Full Source\game.server\Game.Server.Packets.Client\QuestAddHandler.cs:line 20
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2022-12-28 10:41:14,014 - [21] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 50 0A 41 00 B0 00 00 00 02 00 00 00 00   q..P.A..........
+0010: 00 00 00 00 00 00 00 0E 00 00 07 78 00 00 02 C6   ...........x....
+0020: 00 00 02 C7 00 00 02 C8 00 00 02 C9 00 00 02 CC   ................
+0030: 00 00 02 CF 00 00 02 B0 00 00 02 D2 00 00 02 B8   ................
+0040: 00 00 07 79 00 00 07 7A 00 00 07 7B 00 00 07 7C   ...y...z...{...|
+

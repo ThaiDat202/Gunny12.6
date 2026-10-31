@@ -1,0 +1,17 @@
+2023-01-16 09:41:14,958 - [13] - ERROR - Game.Logic.Phy.Object.SimpleNpc - Can't create abrain :GameServerScript.AI.NPC.SeventhSimpleCageNpc
+2023-01-16 09:41:18,993 - [13] - ERROR - Game.Logic.Phy.Object.SimpleBoss - Can't create abrain :GameServerScript.AI.NPC.SeventhSimpleSecondBoss
+2023-01-16 09:42:27,695 - [13] - ERROR - Game.Logic.Phy.Object.SimpleNpc - Can't create abrain :GameServerScript.AI.NPC.NullAi
+2023-01-16 09:42:31,261 - [13] - ERROR - Game.Logic.Phy.Object.SimpleBoss - Can't create abrain :GameServerScript.AI.NPC.TwelveTerrorFlyFristBoss
+2023-01-16 09:42:41,446 - [78] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.AddUserLabyrinth(UserLabyrinthInfo laby) in C:\gunny 12.6\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 8937
+2023-01-16 09:42:41,795 - [78] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.LabyrinthHandler  client: 127.0.0.1:50616)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Base.Packets.AbstractPacketLib.SendLabyrinthUpdataInfo(Int32 id, UserLabyrinthInfo laby) in C:\gunny 12.6\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 5049
+   at Game.Server.Packets.Client.LabyrinthHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Server.Packets.Client\LabyrinthHandler.cs:line 49
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\gunny 12.6\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-01-16 09:42:41,804 - [78] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1C 00 7D 00 83 00 00 00 01 00 00 00 00   q....}..........
+0010: 00 00 00 00 00 00 00 02 00 00 00 00               ............    
+
+2023-01-16 09:42:54,526 - [13] - ERROR - Game.Logic.PVEGame - Can't create game mission ai :Game.Server.GameServerScript.AI.Messions.Labyrinth40001

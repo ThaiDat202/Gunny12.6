@@ -1,0 +1,43 @@
+2023-01-14 16:03:07,653 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-01-14 16:03:08,083 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
+2023-01-14 16:03:08,099 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+2023-01-14 16:03:08,100 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+2023-01-14 16:03:08,100 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+2023-01-14 16:03:08,101 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+2023-01-14 16:03:13,032 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+2023-01-14 16:03:13,040 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
+2023-01-14 16:03:15,504 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+2023-01-14 16:03:15,508 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+2023-01-14 16:03:15,556 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+2023-01-14 16:03:15,584 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+2023-01-14 16:03:17,509 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+2023-01-14 16:03:17,514 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+2023-01-14 16:03:17,522 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+2023-01-14 16:03:17,528 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
+2023-01-14 16:03:17,556 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+2023-01-14 16:03:17,593 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+2023-01-14 16:03:17,599 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+2023-01-14 16:03:17,606 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
+2023-01-14 16:03:17,623 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+2023-01-14 16:03:17,640 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
+2023-01-14 16:03:17,746 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
+2023-01-14 16:03:17,746 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
+2023-01-14 16:03:17,751 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2023-01-14 16:03:17,755 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+2023-01-14 16:03:17,787 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+2023-01-14 16:03:20,409 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:61122
+2023-01-14 16:03:21,060 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:61124
+2023-01-14 16:13:17,762 - [22] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-14 16:13:17,816 - [22] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-01-14 16:23:17,768 - [41] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-14 16:23:17,794 - [41] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-01-14 16:23:49,002 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
+2023-01-14 16:23:49,002 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
+2023-01-14 16:33:17,778 - [18] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-14 16:33:17,806 - [18] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-01-14 15:43:17,786 - [29] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-14 15:43:17,819 - [29] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-01-14 15:53:17,791 - [49] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-14 15:53:17,821 - [49] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 15ms
+2023-01-14 16:03:17,803 - [18] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-01-14 16:03:17,832 - [18] - INFO  -

@@ -1,0 +1,32 @@
+namespace Game.Logic.Phy.Object;
+
+public enum BombType
+{
+	Normal = 0,
+	FORZEN = 1,
+	FLY = 2,
+	CURE = 3,
+	LIGHT = 4,
+	DAMAGE = 5,
+	GUARD = 6,
+	BLOOD = 7,
+	ADDBLOOD = 8,
+	NODAMAGE = 9,
+	FLYBOMB = 10,
+	PASSBALL = 15,
+	PURE = 16,
+	PHANTOM = 17,
+	FENSHEN = 18,
+	GLASSBALL = 19,
+	THROUGHWALLS = 20,
+	BATTLESKILL = 21,
+	VERTICALBALL = 22,
+	WALKBALL = 23,
+	TOWBALL = 24,
+	SPIDERBALL1 = 26,
+	SPIDERBALL2 = 27,
+	BURROWBALL = 28,
+	TOTEMBALL = 29,
+	WORLDCUP = 30,
+	CATCHINSECT = 31
+}

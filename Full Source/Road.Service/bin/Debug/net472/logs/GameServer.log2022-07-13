@@ -1,0 +1,902 @@
+2022-07-13 21:29:36,994 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2022-07-13 21:29:37,576 - [MAIN] - INFO  - Game.Server.GameServer - CleanDB: True
+2022-07-13 21:29:37,579 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+2022-07-13 21:29:37,579 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+2022-07-13 21:29:37,644 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+2022-07-13 21:29:37,644 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+2022-07-13 21:29:37,645 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+2022-07-13 21:29:37,646 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 8527: True
+2022-07-13 21:29:37,790 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+2022-07-13 21:29:37,795 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr.Init: True
+2022-07-13 21:29:37,803 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr.Init: True
+2022-07-13 21:29:37,889 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1459 is not exist!
+2022-07-13 21:29:38,157 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr.Init: True
+2022-07-13 21:29:40,837 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr.Init: True
+2022-07-13 21:29:41,020 - [MAIN] - INFO  - Game.Server.GameServer - ItemBoxMgr.Init: True
+2022-07-13 21:29:41,024 - [MAIN] - INFO  - Game.Server.GameServer - AccumulActiveLoginMgr.Init: True
+2022-07-13 21:29:41,507 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\119034.bomb
+2022-07-13 21:29:41,534 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr.Init: True
+2022-07-13 21:29:41,540 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr.Init: True
+2022-07-13 21:29:41,543 - [MAIN] - INFO  - Game.Server.GameServer - LevelMgr.Init: True
+2022-07-13 21:29:41,546 - [MAIN] - INFO  - Game.Server.GameServer - MaxLevelTemplateMgr.Init: True
+2022-07-13 21:29:41,549 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr.Init: True
+2022-07-13 21:29:41,555 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr.Init: True
+2022-07-13 21:29:41,565 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr.Init: True
+2022-07-13 21:29:41,573 - [MAIN] - INFO  - Game.Server.GameServer - ActivityQuestMgr.Init: True
+2022-07-13 21:29:41,579 - [MAIN] - INFO  - Game.Server.GameServer - ActivityHalloweenItemsMgr.Init: True
+2022-07-13 21:29:41,583 - [MAIN] - INFO  - Game.Server.GameServer - ChargeSpendRewardTemplateMgr.Init: True
+2022-07-13 21:29:41,605 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr.Init: True
+2022-07-13 21:29:41,608 - [MAIN] - INFO  - Game.Server.GameServer - LotteryShowTemplateMgr.Init: True
+2022-07-13 21:29:41,612 - [MAIN] - INFO  - Game.Server.GameServer - TreeTemplateMgr.Init: True
+2022-07-13 21:29:41,616 - [MAIN] - INFO  - Game.Server.GameServer - NewTitleMgr.Init: True
+2022-07-13 21:29:41,623 - [MAIN] - INFO  - Game.Server.GameServer - HomeFishMgr.Init: True
+2022-07-13 21:29:41,628 - [MAIN] - INFO  - Game.Server.GameServer - PetMoePropertyMgr.Init: True
+2022-07-13 21:29:41,632 - [MAIN] - INFO  - Game.Server.GameServer - RankTemplateMgr.Init: True
+2022-07-13 21:29:41,637 - [MAIN] - INFO  - Game.Server.GameServer - DailyLeagueAwardMgr.Init: True
+2022-07-13 21:29:41,644 - [MAIN] - INFO  - Game.Server.GameServer - SearchGoodsMgr.Init: True
+2022-07-13 21:29:41,652 - [MAIN] - INFO  - Game.Server.GameServer - SuitMgr.Init: True
+2022-07-13 21:29:41,657 - [MAIN] - INFO  - Game.Server.GameServer - DiceGameAwardMgr.Init: True
+2022-07-13 21:29:41,665 - [MAIN] - INFO  - Game.Server.GameServer - EveryDayActiveMgr.Init: True
+2022-07-13 21:29:41,668 - [MAIN] - INFO  - Game.Server.GameServer - FightLabDropItemMgr.Init: True
+2022-07-13 21:29:41,672 - [MAIN] - INFO  - Game.Server.GameServer - HelpGameRewardMgr.Init: True
+2022-07-13 21:29:41,677 - [MAIN] - INFO  - Game.Server.GameServer - MagicFusionDataMgr.Init: True
+2022-07-13 21:29:41,682 - [MAIN] - INFO  - Game.Server.GameServer - MagicItemTemplateMgr.Init: True
+2022-07-13 21:29:41,685 - [MAIN] - INFO  - Game.Server.GameServer - AllQuestionsMgr.Init: True
+2022-07-13 21:29:41,690 - [MAIN] - INFO  - Game.Server.GameServer - ChargeActiveTemplateMgr.Init: True
+2022-07-13 21:29:41,707 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr.Init: True
+2022-07-13 21:29:41,714 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr.Init: True
+2022-07-13 21:29:41,718 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyMgr.Init: True
+2022-07-13 21:29:41,729 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr.Init: True
+2022-07-13 21:29:41,737 - [MAIN] - INFO  - Game.Server.GameServer - DropMgr.Init: True
+2022-07-13 21:29:41,747 - [MAIN] - INFO  - Game.Server.GameServer - AvatarColectionMgr.Init: True
+2022-07-13 21:29:41,757 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr.Init: True
+2022-07-13 21:29:41,764 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr.Init: True
+2022-07-13 21:29:41,817 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr.Init: True
+2022-07-13 21:29:44,305 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr.Init: True
+2022-07-13 21:29:46,645 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr.Init: True
+2022-07-13 21:29:46,770 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr.Init: True
+2022-07-13 21:29:46,793 - [MAIN] - INFO  - Game.Server.GameServer - ActiveMgr.Init: True
+2022-07-13 21:29:46,800 - [MAIN] - INFO  - Game.Server.GameServer - GypsyShopMgr.Init: True
+2022-07-13 21:29:46,845 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr.Init: True
+2022-07-13 21:29:46,855 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr.Init: True
+2022-07-13 21:29:46,860 - [MAIN] - INFO  - Game.Server.GameServer - RateMgr.Init: True
+2022-07-13 21:29:46,875 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr.Init: True
+2022-07-13 21:29:46,896 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr.Init: True
+2022-07-13 21:29:46,942 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr.Init: True
+2022-07-13 21:29:46,948 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr.Init: True
+2022-07-13 21:29:46,955 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr.Init: True
+2022-07-13 21:29:46,962 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr.Init: True
+2022-07-13 21:29:46,965 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr.Init: True
+2022-07-13 21:29:46,969 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr.Init: True
+2022-07-13 21:29:46,974 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr.Init: True
+2022-07-13 21:29:46,980 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneMgr.Init: True
+2022-07-13 21:29:46,987 - [MAIN] - INFO  - Game.Server.GameServer - VipStoreMgr.Init: True
+2022-07-13 21:29:46,992 - [MAIN] - INFO  - Game.Server.GameServer - LoveLevelMgr.Init: True
+2022-07-13 21:29:46,996 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr.Init: True
+2022-07-13 21:29:47,001 - [MAIN] - INFO  - Game.Server.GameServer - SetsBuildTempMgr.Init: True
+2022-07-13 21:29:47,005 - [MAIN] - INFO  - Game.Server.GameServer - PetBreakMgr.Init: True
+2022-07-13 21:29:47,006 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr.Init: True
+2022-07-13 21:29:47,191 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr.Init: True
+2022-07-13 21:29:47,206 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr.Init: True
+2022-07-13 21:29:47,209 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr.Init: True
+2022-07-13 21:29:47,214 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr.Init: True
+2022-07-13 21:29:47,221 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr.Init: True
+2022-07-13 21:29:47,229 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr.Init: True
+2022-07-13 21:29:47,234 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelAwardMgr.Init: True
+2022-07-13 21:29:47,241 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr.Init: True
+2022-07-13 21:29:47,251 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystermAwardMgr.Init: True
+2022-07-13 21:29:47,274 - [MAIN] - INFO  - Game.Server.GameServer - MountMgr.Init: True
+2022-07-13 21:29:47,281 - [MAIN] - INFO  - Game.Server.GameServer - GuardCoreMgr.Init: True
+2022-07-13 21:29:47,300 - [MAIN] - INFO  - Game.Server.GameServer - HomeTempPracticeMgr.Init: True
+2022-07-13 21:29:47,305 - [MAIN] - INFO  - Game.Server.GameServer - CloudBuyLotteryMgr.Init: True
+2022-07-13 21:29:47,315 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr.Init(): True
+2022-07-13 21:29:47,322 - [MAIN] - INFO  - Game.Server.GameServer - CardAchievementMgr.Init: True
+2022-07-13 21:29:47,326 - [MAIN] - INFO  - Game.Server.GameServer - RuneAdvanceTemplateMgr.Init: True
+2022-07-13 21:29:47,331 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr.Setup: True
+2022-07-13 21:29:47,341 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr.Init: True
+2022-07-13 21:29:47,342 - [MAIN] - INFO  - Game.Server.GameServer - HotSpringRoomsMgr.Init: True
+2022-07-13 21:29:47,347 - [MAIN] - INFO  - Game.Server.GameServer - BattleBonusMgr.Init: True
+2022-07-13 21:29:47,352 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+2022-07-13 21:29:47,364 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Setup: True
+2022-07-13 21:29:47,366 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 127.0.0.1:7539 loaded...
+2022-07-13 21:29:47,367 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+2022-07-13 21:29:47,367 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr.Setup: True
+2022-07-13 21:29:47,371 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:7539
+2022-07-13 21:29:47,376 - [MAIN] - INFO  - Game.Server.GameServer - RingStationMgr.Init: True
+2022-07-13 21:29:47,382 - [MAIN] - INFO  - Game.Server.GameServer - BombKingMgr.Init: True
+2022-07-13 21:29:47,398 - [MAIN] - INFO  - Game.Server.GameServer - BeautyVoteMgr.Init: True
+2022-07-13 21:29:47,401 - [MAIN] - INFO  - Game.Server.GameServer - SubWeaponEvolutionTemplateMgr.Init: True
+2022-07-13 21:29:47,405 - [MAIN] - INFO  - Game.Server.GameServer - AmuletGradeItemMgr.Init: True
+2022-07-13 21:29:47,409 - [MAIN] - INFO  - Game.Server.GameServer - AmuletItemMgr.Init: True
+2022-07-13 21:29:47,413 - [MAIN] - INFO  - Game.Server.GameServer - AmuletPhaseItemMgr.Init: True
+2022-07-13 21:29:47,415 - [MAIN] - INFO  - Game.Server.GameServer - MountTalismansMgr.Init: True
+2022-07-13 21:29:47,425 - [MAIN] - INFO  - Game.Server.GameServer - QiYuanAwardMgr.Init: True
+2022-07-13 21:29:47,449 - [MAIN] - INFO  - Game.Server.GameServer - BankMgr.Init: True
+2022-07-13 21:29:47,452 - [MAIN] - INFO  - Game.Server.GameServer - SpiritInfoMgr.Init: True
+2022-07-13 21:29:47,468 - [MAIN] - INFO  - Game.Server.GameServer - EngraveMgr.Init: True
+2022-07-13 21:29:47,492 - [MAIN] - INFO  - Game.Server.GameServer - JampsManualMgr.Init: True
+2022-07-13 21:29:47,596 - [MAIN] - INFO  - Game.Server.GameServer - VipIntegrationMgr.Init: True
+2022-07-13 21:29:47,656 - [MAIN] - INFO  - Game.Server.GameServer - CardNewSystemMgr.Init: True
+2022-07-13 21:29:47,683 - [MAIN] - INFO  - Game.Server.GameServer - NecklaceStrengthMgr.Init: True
+2022-07-13 21:29:47,726 - [MAIN] - INFO  - Game.Server.GameServer - EmblemMgr.Init: True
+2022-07-13 21:29:47,768 - [MAIN] - INFO  - Game.Server.GameServer - ElfMgr.Init: True
+2022-07-13 21:29:47,816 - [MAIN] - INFO  - Game.Server.GameServer - DevilTurnMgr.Init: True
+2022-07-13 21:29:47,864 - [MAIN] - INFO  - Game.Server.GameServer - TeamMgr.Init: True
+2022-07-13 21:29:47,881 - [MAIN] - INFO  - Game.Server.GameServer - PetSpecialSkillMgr.Init: True
+2022-07-13 21:29:47,894 - [MAIN] - INFO  - Game.Server.GameServer - GmActivityMgr.Init: True
+2022-07-13 21:29:47,908 - [MAIN] - INFO  - Game.Server.ConsortiaTask.ConsortiaTaskMgr - Total loaded tasks: 90
+2022-07-13 21:29:47,909 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaTaskMgr.Init: True
+2022-07-13 21:29:47,910 - [MAIN] - INFO  - Game.Server.GameServer - AcademyMgr.Init: True
+2022-07-13 21:29:47,912 - [MAIN] - INFO  - Game.Server.GameServer - HomeTempleMgr.Init: True
+2022-07-13 21:29:47,913 - [MAIN] - INFO  - Game.Server.GameServer - InitGlobalTimer: True
+2022-07-13 21:29:47,916 - [MAIN] - INFO  - Game.Server.GameServer - ComandosMgr.Init: True
+2022-07-13 21:29:47,916 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr.Setup: True
+2022-07-13 21:29:47,931 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 253 handlers from GameServer Assembly!
+2022-07-13 21:29:47,940 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2022-07-13 21:29:47,942 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:1593
+2022-07-13 21:29:47,942 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+2022-07-13 21:29:47,944 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:7539
+2022-07-13 21:29:47,952 - [MAIN] - ERROR - Game.Server.GlobalConstants - Load active
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Game.Server.GlobalConstants.MemoryGameTime() in E:\Source\Service\Game.Server\GlobalConstants.cs:line 84
+   at Game.Server.GlobalConstants.LoadActice() in E:\Source\Service\Game.Server\GlobalConstants.cs:line 121
+2022-07-13 21:29:47,988 - [MAIN] - INFO  - Game.Server.GameServer - base.Start(): True
+2022-07-13 21:29:48,178 - [MAIN] - INFO  - Game.Server.GameServer - GameServer is now open for connections!
+2022-07-13 21:30:47,311 - [19] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 21:30:47,312 - [19] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 21:30:47,919 - [17] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 21:30:47,919 - [19] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 21:30:47,920 - [17] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 21:30:47,920 - [19] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 21:30:47,920 - [19] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+2022-07-13 21:30:47,920 - [19] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 21:30:47,921 - [19] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 21:30:47,921 - [19] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 21:30:47,998 - [17] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 21:30:48,001 - [17] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 21:31:47,311 - [19] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 21:31:47,311 - [19] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 21:31:47,919 - [19] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 21:31:47,919 - [19] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 21:31:47,919 - [15] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 21:31:47,920 - [15] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 21:31:47,921 - [15] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+2022-07-13 21:31:47,921 - [15] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 21:31:47,921 - [15] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 21:31:47,921 - [15] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 21:31:47,998 - [19] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 21:31:47,998 - [19] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 21:32:47,312 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 21:32:47,312 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....2022-07-13 22:10:31,691 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2022-07-13 22:10:32,294 - [MAIN] - INFO  - Game.Server.GameServer - CleanDB: True
+2022-07-13 22:10:32,297 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+2022-07-13 22:10:32,298 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+2022-07-13 22:10:32,368 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+2022-07-13 22:10:32,368 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+2022-07-13 22:10:32,368 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+2022-07-13 22:10:32,370 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 8527: True
+2022-07-13 22:10:32,496 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+2022-07-13 22:10:32,499 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr.Init: True
+2022-07-13 22:10:32,507 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr.Init: True
+2022-07-13 22:10:32,598 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1459 is not exist!
+2022-07-13 22:10:32,658 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr.Init: True
+2022-07-13 22:10:35,131 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr.Init: True
+2022-07-13 22:10:35,307 - [MAIN] - INFO  - Game.Server.GameServer - ItemBoxMgr.Init: True
+2022-07-13 22:10:35,312 - [MAIN] - INFO  - Game.Server.GameServer - AccumulActiveLoginMgr.Init: True
+2022-07-13 22:10:35,425 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\119034.bomb
+2022-07-13 22:10:35,434 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr.Init: True
+2022-07-13 22:10:35,440 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr.Init: True
+2022-07-13 22:10:35,443 - [MAIN] - INFO  - Game.Server.GameServer - LevelMgr.Init: True
+2022-07-13 22:10:35,446 - [MAIN] - INFO  - Game.Server.GameServer - MaxLevelTemplateMgr.Init: True
+2022-07-13 22:10:35,449 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr.Init: True
+2022-07-13 22:10:35,454 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr.Init: True
+2022-07-13 22:10:35,463 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr.Init: True
+2022-07-13 22:10:35,469 - [MAIN] - INFO  - Game.Server.GameServer - ActivityQuestMgr.Init: True
+2022-07-13 22:10:35,474 - [MAIN] - INFO  - Game.Server.GameServer - ActivityHalloweenItemsMgr.Init: True
+2022-07-13 22:10:35,477 - [MAIN] - INFO  - Game.Server.GameServer - ChargeSpendRewardTemplateMgr.Init: True
+2022-07-13 22:10:35,495 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr.Init: True
+2022-07-13 22:10:35,497 - [MAIN] - INFO  - Game.Server.GameServer - LotteryShowTemplateMgr.Init: True
+2022-07-13 22:10:35,501 - [MAIN] - INFO  - Game.Server.GameServer - TreeTemplateMgr.Init: True
+2022-07-13 22:10:35,505 - [MAIN] - INFO  - Game.Server.GameServer - NewTitleMgr.Init: True
+2022-07-13 22:10:35,508 - [MAIN] - INFO  - Game.Server.GameServer - HomeFishMgr.Init: True
+2022-07-13 22:10:35,512 - [MAIN] - INFO  - Game.Server.GameServer - PetMoePropertyMgr.Init: True
+2022-07-13 22:10:35,516 - [MAIN] - INFO  - Game.Server.GameServer - RankTemplateMgr.Init: True
+2022-07-13 22:10:35,519 - [MAIN] - INFO  - Game.Server.GameServer - DailyLeagueAwardMgr.Init: True
+2022-07-13 22:10:35,525 - [MAIN] - INFO  - Game.Server.GameServer - SearchGoodsMgr.Init: True
+2022-07-13 22:10:35,532 - [MAIN] - INFO  - Game.Server.GameServer - SuitMgr.Init: True
+2022-07-13 22:10:35,535 - [MAIN] - INFO  - Game.Server.GameServer - DiceGameAwardMgr.Init: True
+2022-07-13 22:10:35,543 - [MAIN] - INFO  - Game.Server.GameServer - EveryDayActiveMgr.Init: True
+2022-07-13 22:10:35,546 - [MAIN] - INFO  - Game.Server.GameServer - FightLabDropItemMgr.Init: True
+2022-07-13 22:10:35,548 - [MAIN] - INFO  - Game.Server.GameServer - HelpGameRewardMgr.Init: True
+2022-07-13 22:10:35,554 - [MAIN] - INFO  - Game.Server.GameServer - MagicFusionDataMgr.Init: True
+2022-07-13 22:10:35,558 - [MAIN] - INFO  - Game.Server.GameServer - MagicItemTemplateMgr.Init: True
+2022-07-13 22:10:35,561 - [MAIN] - INFO  - Game.Server.GameServer - AllQuestionsMgr.Init: True
+2022-07-13 22:10:35,563 - [MAIN] - INFO  - Game.Server.GameServer - ChargeActiveTemplateMgr.Init: True
+2022-07-13 22:10:35,577 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr.Init: True
+2022-07-13 22:10:35,582 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr.Init: True
+2022-07-13 22:10:35,585 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyMgr.Init: True
+2022-07-13 22:10:35,594 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr.Init: True
+2022-07-13 22:10:35,599 - [MAIN] - INFO  - Game.Server.GameServer - DropMgr.Init: True
+2022-07-13 22:10:35,607 - [MAIN] - INFO  - Game.Server.GameServer - AvatarColectionMgr.Init: True
+2022-07-13 22:10:35,611 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr.Init: True
+2022-07-13 22:10:35,614 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr.Init: True
+2022-07-13 22:10:35,627 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr.Init: True
+2022-07-13 22:10:35,632 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr.Init: True
+2022-07-13 22:10:35,868 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr.Init: True
+2022-07-13 22:10:35,981 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr.Init: True
+2022-07-13 22:10:35,998 - [MAIN] - INFO  - Game.Server.GameServer - ActiveMgr.Init: True
+2022-07-13 22:10:36,003 - [MAIN] - INFO  - Game.Server.GameServer - GypsyShopMgr.Init: True
+2022-07-13 22:10:36,016 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr.Init: True
+2022-07-13 22:10:36,021 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr.Init: True
+2022-07-13 22:10:36,024 - [MAIN] - INFO  - Game.Server.GameServer - RateMgr.Init: True
+2022-07-13 22:10:36,039 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr.Init: True
+2022-07-13 22:10:36,056 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr.Init: True
+2022-07-13 22:10:36,082 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr.Init: True
+2022-07-13 22:10:36,086 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr.Init: True
+2022-07-13 22:10:36,090 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr.Init: True
+2022-07-13 22:10:36,096 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr.Init: True
+2022-07-13 22:10:36,098 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr.Init: True
+2022-07-13 22:10:36,102 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr.Init: True
+2022-07-13 22:10:36,105 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr.Init: True
+2022-07-13 22:10:36,111 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneMgr.Init: True
+2022-07-13 22:10:36,115 - [MAIN] - INFO  - Game.Server.GameServer - VipStoreMgr.Init: True
+2022-07-13 22:10:36,119 - [MAIN] - INFO  - Game.Server.GameServer - LoveLevelMgr.Init: True
+2022-07-13 22:10:36,123 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr.Init: True
+2022-07-13 22:10:36,127 - [MAIN] - INFO  - Game.Server.GameServer - SetsBuildTempMgr.Init: True
+2022-07-13 22:10:36,131 - [MAIN] - INFO  - Game.Server.GameServer - PetBreakMgr.Init: True
+2022-07-13 22:10:36,132 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr.Init: True
+2022-07-13 22:10:36,267 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr.Init: True
+2022-07-13 22:10:36,279 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr.Init: True
+2022-07-13 22:10:36,282 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr.Init: True
+2022-07-13 22:10:36,286 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr.Init: True
+2022-07-13 22:10:36,289 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr.Init: True
+2022-07-13 22:10:36,297 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr.Init: True
+2022-07-13 22:10:36,301 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelAwardMgr.Init: True
+2022-07-13 22:10:36,308 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr.Init: True
+2022-07-13 22:10:36,315 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystermAwardMgr.Init: True
+2022-07-13 22:10:36,328 - [MAIN] - INFO  - Game.Server.GameServer - MountMgr.Init: True
+2022-07-13 22:10:36,332 - [MAIN] - INFO  - Game.Server.GameServer - GuardCoreMgr.Init: True
+2022-07-13 22:10:36,349 - [MAIN] - INFO  - Game.Server.GameServer - HomeTempPracticeMgr.Init: True
+2022-07-13 22:10:36,353 - [MAIN] - INFO  - Game.Server.GameServer - CloudBuyLotteryMgr.Init: True
+2022-07-13 22:10:36,361 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr.Init(): True
+2022-07-13 22:10:36,367 - [MAIN] - INFO  - Game.Server.GameServer - CardAchievementMgr.Init: True
+2022-07-13 22:10:36,370 - [MAIN] - INFO  - Game.Server.GameServer - RuneAdvanceTemplateMgr.Init: True
+2022-07-13 22:10:36,375 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr.Setup: True
+2022-07-13 22:10:36,383 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr.Init: True
+2022-07-13 22:10:36,384 - [MAIN] - INFO  - Game.Server.GameServer - HotSpringRoomsMgr.Init: True
+2022-07-13 22:10:36,388 - [MAIN] - INFO  - Game.Server.GameServer - BattleBonusMgr.Init: True
+2022-07-13 22:10:36,393 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+2022-07-13 22:10:36,402 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Setup: True
+2022-07-13 22:10:36,406 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 127.0.0.1:7539 loaded...
+2022-07-13 22:10:36,407 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+2022-07-13 22:10:36,407 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr.Setup: True
+2022-07-13 22:10:36,411 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:7539
+2022-07-13 22:10:36,416 - [MAIN] - INFO  - Game.Server.GameServer - RingStationMgr.Init: True
+2022-07-13 22:10:36,419 - [MAIN] - INFO  - Game.Server.GameServer - BombKingMgr.Init: True
+2022-07-13 22:10:36,425 - [MAIN] - INFO  - Game.Server.GameServer - BeautyVoteMgr.Init: True
+2022-07-13 22:10:36,428 - [MAIN] - INFO  - Game.Server.GameServer - SubWeaponEvolutionTemplateMgr.Init: True
+2022-07-13 22:10:36,432 - [MAIN] - INFO  - Game.Server.GameServer - AmuletGradeItemMgr.Init: True
+2022-07-13 22:10:36,435 - [MAIN] - INFO  - Game.Server.GameServer - AmuletItemMgr.Init: True
+2022-07-13 22:10:36,439 - [MAIN] - INFO  - Game.Server.GameServer - AmuletPhaseItemMgr.Init: True
+2022-07-13 22:10:36,440 - [MAIN] - INFO  - Game.Server.GameServer - MountTalismansMgr.Init: True
+2022-07-13 22:10:36,448 - [MAIN] - INFO  - Game.Server.GameServer - QiYuanAwardMgr.Init: True
+2022-07-13 22:10:36,473 - [MAIN] - INFO  - Game.Server.GameServer - BankMgr.Init: True
+2022-07-13 22:10:36,476 - [MAIN] - INFO  - Game.Server.GameServer - SpiritInfoMgr.Init: True
+2022-07-13 22:10:36,489 - [MAIN] - INFO  - Game.Server.GameServer - EngraveMgr.Init: True
+2022-07-13 22:10:36,509 - [MAIN] - INFO  - Game.Server.GameServer - JampsManualMgr.Init: True
+2022-07-13 22:10:36,553 - [MAIN] - INFO  - Game.Server.GameServer - VipIntegrationMgr.Init: True
+2022-07-13 22:10:36,608 - [MAIN] - INFO  - Game.Server.GameServer - CardNewSystemMgr.Init: True
+2022-07-13 22:10:36,632 - [MAIN] - INFO  - Game.Server.GameServer - NecklaceStrengthMgr.Init: True
+2022-07-13 22:10:36,675 - [MAIN] - INFO  - Game.Server.GameServer - EmblemMgr.Init: True
+2022-07-13 22:10:36,714 - [MAIN] - INFO  - Game.Server.GameServer - ElfMgr.Init: True
+2022-07-13 22:10:36,759 - [MAIN] - INFO  - Game.Server.GameServer - DevilTurnMgr.Init: True
+2022-07-13 22:10:36,804 - [MAIN] - INFO  - Game.Server.GameServer - TeamMgr.Init: True
+2022-07-13 22:10:36,819 - [MAIN] - INFO  - Game.Server.GameServer - PetSpecialSkillMgr.Init: True
+2022-07-13 22:10:36,829 - [MAIN] - INFO  - Game.Server.GameServer - GmActivityMgr.Init: True
+2022-07-13 22:10:36,843 - [MAIN] - INFO  - Game.Server.ConsortiaTask.ConsortiaTaskMgr - Total loaded tasks: 90
+2022-07-13 22:10:36,845 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaTaskMgr.Init: True
+2022-07-13 22:10:36,845 - [MAIN] - INFO  - Game.Server.GameServer - AcademyMgr.Init: True
+2022-07-13 22:10:36,847 - [MAIN] - INFO  - Game.Server.GameServer - HomeTempleMgr.Init: True
+2022-07-13 22:10:36,848 - [MAIN] - INFO  - Game.Server.GameServer - InitGlobalTimer: True
+2022-07-13 22:10:36,850 - [MAIN] - INFO  - Game.Server.GameServer - ComandosMgr.Init: True
+2022-07-13 22:10:36,850 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr.Setup: True
+2022-07-13 22:10:36,866 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 253 handlers from GameServer Assembly!
+2022-07-13 22:10:36,875 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2022-07-13 22:10:36,876 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:1593
+2022-07-13 22:10:36,877 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+2022-07-13 22:10:36,878 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:7539
+2022-07-13 22:10:36,899 - [MAIN] - INFO  - Game.Server.GameServer - base.Start(): True
+2022-07-13 22:10:37,074 - [MAIN] - INFO  - Game.Server.GameServer - GameServer is now open for connections!
+2022-07-13 22:11:07,994 - [10] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:55676
+2022-07-13 22:11:08,012 - [14] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:55676), received bytes=0
+2022-07-13 22:11:08,053 - [10] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:55677
+2022-07-13 22:11:36,359 - [19] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:11:36,360 - [19] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:11:36,859 - [17] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:11:36,859 - [22] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:11:36,860 - [17] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:11:36,861 - [22] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:11:36,862 - [22] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:11:36,862 - [22] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:11:36,863 - [22] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:11:36,863 - [22] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:11:36,905 - [19] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:11:36,908 - [19] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:12:36,371 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:12:36,371 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:12:36,860 - [18] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:12:36,860 - [18] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:12:36,860 - [22] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:12:36,861 - [22] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:12:36,862 - [22] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:12:36,862 - [22] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:12:36,862 - [22] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:12:36,863 - [22] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:12:36,905 - [17] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:12:36,905 - [17] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:13:36,374 - [19] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:13:36,377 - [19] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:13:36,861 - [19] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:13:36,861 - [18] - INFO  - Game.Server.GameServer - Begin ping check....
+2022-07-13 22:13:36,861 - [19] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:13:36,862 - [18] - INFO  - Game.Server.GameServer - End ping check....
+2022-07-13 22:13:36,861 - [22] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:13:36,863 - [22] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:13:36,862 - [19] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:13:36,865 - [19] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:13:36,866 - [19] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:13:36,867 - [19] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:13:36,862 - [18] - INFO  - Game.Server.GameServer - Begin ping center check....
+2022-07-13 22:13:36,868 - [18] - INFO  - Game.Server.GameServer - End ping center check....
+2022-07-13 22:13:36,905 - [32] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:13:36,905 - [32] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:14:36,388 - [18] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:14:36,388 - [18] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:14:36,874 - [18] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:14:36,874 - [22] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:14:36,875 - [22] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:14:36,875 - [18] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:14:36,876 - [18] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:14:36,876 - [18] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:14:36,877 - [18] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:14:36,877 - [18] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:14:36,918 - [32] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:14:36,918 - [32] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:15:00,553 - [12] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.CreateCatchBeastAction,105ms!
+2022-07-13 22:15:00,554 - [12] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 105 ms,count:1
+2022-07-13 22:15:36,365 - [17] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+2022-07-13 22:15:36,373 - [17] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+2022-07-13 22:15:36,388 - [18] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:15:36,388 - [18] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:15:36,856 - [17] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+2022-07-13 22:15:36,856 - [22] - INFO  - Game.Server.GameServer - Saving Record...
+2022-07-13 22:15:36,857 - [17] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+2022-07-13 22:15:36,858 - [22] - INFO  - Game.Server.GameServer - Saving Record complete!
+2022-07-13 22:15:36,889 - [32] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:15:36,889 - [32] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:15:36,889 - [18] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:15:36,891 - [18] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:15:36,891 - [18] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:15:36,891 - [18] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:15:36,891 - [18] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:15:36,892 - [18] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:15:36,919 - [22] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:15:36,919 - [22] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:16:36,389 - [32] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:16:36,389 - [32] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:16:36,872 - [22] - INFO  - Game.Server.GameServer - Begin ping check....
+2022-07-13 22:16:36,872 - [22] - INFO  - Game.Server.GameServer - End ping check....
+2022-07-13 22:16:36,873 - [22] - INFO  - Game.Server.GameServer - Begin ping center check....
+2022-07-13 22:16:36,873 - [22] - INFO  - Game.Server.GameServer - End ping center check....
+2022-07-13 22:16:36,903 - [17] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:16:36,903 - [17] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:16:36,903 - [32] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:16:36,905 - [32] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:16:36,905 - [32] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:16:36,906 - [32] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:16:36,906 - [32] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:16:36,906 - [32] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:16:36,920 - [22] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:16:36,920 - [22] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:17:36,390 - [18] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:17:36,390 - [18] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:17:36,903 - [17] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:17:36,903 - [17] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:17:36,903 - [32] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:17:36,905 - [32] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:17:36,905 - [32] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:17:36,905 - [32] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:17:36,906 - [32] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:17:36,906 - [32] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:17:36,935 - [22] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:17:36,935 - [22] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:18:36,407 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:18:36,407 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:18:36,904 - [22] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:18:36,904 - [22] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:18:36,905 - [22] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:18:36,905 - [22] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:18:36,905 - [22] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:18:36,906 - [22] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:18:36,904 - [18] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:18:36,907 - [18] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:18:36,937 - [17] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:18:36,937 - [17] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:19:36,420 - [17] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:19:36,420 - [17] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:19:36,872 - [32] - INFO  - Game.Server.GameServer - Begin ping check....
+2022-07-13 22:19:36,872 - [32] - INFO  - Game.Server.GameServer - End ping check....
+2022-07-13 22:19:36,873 - [32] - INFO  - Game.Server.GameServer - Begin ping center check....
+2022-07-13 22:19:36,873 - [32] - INFO  - Game.Server.GameServer - End ping center check....
+2022-07-13 22:19:36,904 - [22] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:19:36,904 - [22] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:19:36,904 - [18] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:19:36,906 - [18] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:19:36,906 - [18] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:19:36,906 - [18] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:19:36,906 - [18] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:19:36,907 - [18] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:19:36,937 - [32] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:19:36,937 - [32] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:20:36,367 - [17] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+2022-07-13 22:20:36,375 - [17] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+2022-07-13 22:20:36,421 - [18] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:20:36,421 - [18] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:20:36,857 - [18] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+2022-07-13 22:20:36,857 - [32] - INFO  - Game.Server.GameServer - Cleaning Memory
+2022-07-13 22:20:36,857 - [17] - INFO  - Game.Server.GameServer - Saving database...
+2022-07-13 22:20:37,101 - [52] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:20:37,100 - [51] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:20:37,111 - [18] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+2022-07-13 22:20:36,857 - [22] - INFO  - Game.Server.GameServer - Saving Record...
+2022-07-13 22:20:37,118 - [22] - INFO  - Game.Server.GameServer - Saving Record complete!
+2022-07-13 22:20:37,114 - [56] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:20:37,120 - [51] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:20:37,120 - [52] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:20:37,121 - [56] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:20:37,122 - [56] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:20:37,123 - [56] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:20:37,125 - [56] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:20:37,126 - [56] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:20:37,241 - [32] - INFO  - Game.Server.GameServer - Memory Cleaned in 375ms
+2022-07-13 22:20:37,600 - [17] - INFO  - Game.Server.GameServer - Saving database complete!
+2022-07-13 22:20:37,600 - [17] - INFO  - Game.Server.GameServer - Saved all databases and 1 players in 735ms
+2022-07-13 22:20:55,634 - [49] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:55677), received bytes=0
+2022-07-13 22:21:36,422 - [52] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:21:36,422 - [52] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:21:37,111 - [46] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:21:37,111 - [46] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:21:37,111 - [52] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:21:37,112 - [52] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:21:37,111 - [32] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:21:37,113 - [32] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:21:37,113 - [32] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+2022-07-13 22:21:37,113 - [32] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:21:37,114 - [32] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:21:37,114 - [32] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:22:36,434 - [46] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:22:36,434 - [46] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:22:36,873 - [52] - INFO  - Game.Server.GameServer - Begin ping check....
+2022-07-13 22:22:36,873 - [52] - INFO  - Game.Server.GameServer - End ping check....
+2022-07-13 22:22:36,873 - [52] - INFO  - Game.Server.GameServer - Begin ping center check....
+2022-07-13 22:22:36,874 - [52] - INFO  - Game.Server.GameServer - End ping center check....
+2022-07-13 22:22:37,123 - [46] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:22:37,123 - [46] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:22:37,123 - [45] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:22:37,124 - [45] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:22:37,123 - [32] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:22:37,127 - [32] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:22:37,127 - [32] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+2022-07-13 22:22:37,127 - [32] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:22:37,129 - [32] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:22:37,130 - [32] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:23:36,434 - [42] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:23:36,434 - [42] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:23:37,123 - [52] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:23:37,123 - [52] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:23:37,123 - [45] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:23:37,124 - [45] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:23:37,125 - [45] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+2022-07-13 22:23:37,125 - [45] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:23:37,125 - [45] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:23:37,125 - [45] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:23:37,123 - [55] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:23:37,126 - [55] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:24:34,943 - [40] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:56935
+2022-07-13 22:24:34,948 - [40] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:56935), received bytes=0
+2022-07-13 22:24:34,964 - [40] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:56936
+2022-07-13 22:24:36,434 - [45] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:24:36,434 - [45] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:24:37,137 - [46] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:24:37,137 - [39] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:24:37,137 - [38] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:24:37,140 - [38] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:24:37,138 - [46] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:24:37,140 - [39] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:24:37,143 - [39] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:24:37,143 - [39] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:24:37,144 - [39] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:24:37,144 - [39] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:25:36,378 - [52] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+2022-07-13 22:25:36,384 - [52] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+2022-07-13 22:25:36,436 - [46] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:25:36,436 - [46] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:25:36,857 - [52] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+2022-07-13 22:25:36,857 - [52] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+2022-07-13 22:25:36,857 - [39] - INFO  - Game.Server.GameServer - BagMail Scaning ...
+2022-07-13 22:25:36,858 - [39] - INFO  - Game.Server.GameServer - BagMail Scan complete!
+2022-07-13 22:25:36,857 - [46] - INFO  - Game.Server.GameServer - Saving Record...
+2022-07-13 22:25:36,859 - [46] - INFO  - Game.Server.GameServer - Saving Record complete!
+2022-07-13 22:25:36,874 - [45] - INFO  - Game.Server.GameServer - Begin ping check....
+2022-07-13 22:25:36,874 - [45] - INFO  - Game.Server.GameServer - End ping check....
+2022-07-13 22:25:36,875 - [45] - INFO  - Game.Server.GameServer - Begin ping center check....
+2022-07-13 22:25:36,876 - [45] - INFO  - Game.Server.GameServer - End ping center check....
+2022-07-13 22:25:37,150 - [38] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:25:37,150 - [38] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:25:37,150 - [36] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:25:37,151 - [36] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:25:37,150 - [45] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:25:37,151 - [45] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:25:37,151 - [45] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:25:37,151 - [45] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:25:37,151 - [45] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:25:37,152 - [45] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:26:36,436 - [52] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:26:36,436 - [52] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:26:37,163 - [39] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:26:37,163 - [39] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:26:37,163 - [28] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:26:37,163 - [52] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:26:37,164 - [28] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:26:37,165 - [28] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:26:37,165 - [28] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:26:37,165 - [28] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:26:37,166 - [28] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:26:37,164 - [52] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:27:36,437 - [28] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:27:36,437 - [28] - INFO 2022-07-13 22:30:51,978 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2022-07-13 22:30:52,814 - [MAIN] - INFO  - Game.Server.GameServer - CleanDB: True
+2022-07-13 22:30:52,816 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+2022-07-13 22:30:52,817 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+2022-07-13 22:30:52,895 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+2022-07-13 22:30:52,895 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+2022-07-13 22:30:52,895 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+2022-07-13 22:30:52,897 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 8527: True
+2022-07-13 22:30:53,045 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+2022-07-13 22:30:53,049 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr.Init: True
+2022-07-13 22:30:53,057 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr.Init: True
+2022-07-13 22:30:53,157 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1459 is not exist!
+2022-07-13 22:30:53,237 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr.Init: True
+2022-07-13 22:30:56,265 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr.Init: True
+2022-07-13 22:30:56,462 - [MAIN] - INFO  - Game.Server.GameServer - ItemBoxMgr.Init: True
+2022-07-13 22:30:56,467 - [MAIN] - INFO  - Game.Server.GameServer - AccumulActiveLoginMgr.Init: True
+2022-07-13 22:30:56,578 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\119034.bomb
+2022-07-13 22:30:56,586 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr.Init: True
+2022-07-13 22:30:56,593 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr.Init: True
+2022-07-13 22:30:56,596 - [MAIN] - INFO  - Game.Server.GameServer - LevelMgr.Init: True
+2022-07-13 22:30:56,599 - [MAIN] - INFO  - Game.Server.GameServer - MaxLevelTemplateMgr.Init: True
+2022-07-13 22:30:56,602 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr.Init: True
+2022-07-13 22:30:56,608 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr.Init: True
+2022-07-13 22:30:56,617 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr.Init: True
+2022-07-13 22:30:56,623 - [MAIN] - INFO  - Game.Server.GameServer - ActivityQuestMgr.Init: True
+2022-07-13 22:30:56,629 - [MAIN] - INFO  - Game.Server.GameServer - ActivityHalloweenItemsMgr.Init: True
+2022-07-13 22:30:56,632 - [MAIN] - INFO  - Game.Server.GameServer - ChargeSpendRewardTemplateMgr.Init: True
+2022-07-13 22:30:56,650 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr.Init: True
+2022-07-13 22:30:56,652 - [MAIN] - INFO  - Game.Server.GameServer - LotteryShowTemplateMgr.Init: True
+2022-07-13 22:30:56,658 - [MAIN] - INFO  - Game.Server.GameServer - TreeTemplateMgr.Init: True
+2022-07-13 22:30:56,662 - [MAIN] - INFO  - Game.Server.GameServer - NewTitleMgr.Init: True
+2022-07-13 22:30:56,665 - [MAIN] - INFO  - Game.Server.GameServer - HomeFishMgr.Init: True
+2022-07-13 22:30:56,669 - [MAIN] - INFO  - Game.Server.GameServer - PetMoePropertyMgr.Init: True
+2022-07-13 22:30:56,673 - [MAIN] - INFO  - Game.Server.GameServer - RankTemplateMgr.Init: True
+2022-07-13 22:30:56,677 - [MAIN] - INFO  - Game.Server.GameServer - DailyLeagueAwardMgr.Init: True
+2022-07-13 22:30:56,683 - [MAIN] - INFO  - Game.Server.GameServer - SearchGoodsMgr.Init: True
+2022-07-13 22:30:56,691 - [MAIN] - INFO  - Game.Server.GameServer - SuitMgr.Init: True
+2022-07-13 22:30:56,696 - [MAIN] - INFO  - Game.Server.GameServer - DiceGameAwardMgr.Init: True
+2022-07-13 22:30:56,703 - [MAIN] - INFO  - Game.Server.GameServer - EveryDayActiveMgr.Init: True
+2022-07-13 22:30:56,707 - [MAIN] - INFO  - Game.Server.GameServer - FightLabDropItemMgr.Init: True
+2022-07-13 22:30:56,710 - [MAIN] - INFO  - Game.Server.GameServer - HelpGameRewardMgr.Init: True
+2022-07-13 22:30:56,715 - [MAIN] - INFO  - Game.Server.GameServer - MagicFusionDataMgr.Init: True
+2022-07-13 22:30:56,719 - [MAIN] - INFO  - Game.Server.GameServer - MagicItemTemplateMgr.Init: True
+2022-07-13 22:30:56,722 - [MAIN] - INFO  - Game.Server.GameServer - AllQuestionsMgr.Init: True
+2022-07-13 22:30:56,726 - [MAIN] - INFO  - Game.Server.GameServer - ChargeActiveTemplateMgr.Init: True
+2022-07-13 22:30:56,741 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr.Init: True
+2022-07-13 22:30:56,747 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr.Init: True
+2022-07-13 22:30:56,750 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyMgr.Init: True
+2022-07-13 22:30:56,758 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr.Init: True
+2022-07-13 22:30:56,763 - [MAIN] - INFO  - Game.Server.GameServer - DropMgr.Init: True
+2022-07-13 22:30:56,771 - [MAIN] - INFO  - Game.Server.GameServer - AvatarColectionMgr.Init: True
+2022-07-13 22:30:56,775 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr.Init: True
+2022-07-13 22:30:56,779 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr.Init: True
+2022-07-13 22:30:56,794 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr.Init: True
+2022-07-13 22:30:56,798 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr.Init: True
+2022-07-13 22:30:57,060 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr.Init: True
+2022-07-13 22:30:57,227 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr.Init: True
+2022-07-13 22:30:57,248 - [MAIN] - INFO  - Game.Server.GameServer - ActiveMgr.Init: True
+2022-07-13 22:30:57,252 - [MAIN] - INFO  - Game.Server.GameServer - GypsyShopMgr.Init: True
+2022-07-13 22:30:57,267 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr.Init: True
+2022-07-13 22:30:57,274 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr.Init: True
+2022-07-13 22:30:57,278 - [MAIN] - INFO  - Game.Server.GameServer - RateMgr.Init: True
+2022-07-13 22:30:57,299 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr.Init: True
+2022-07-13 22:30:57,318 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr.Init: True
+2022-07-13 22:30:57,349 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr.Init: True
+2022-07-13 22:30:57,352 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr.Init: True
+2022-07-13 22:30:57,360 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr.Init: True
+2022-07-13 22:30:57,365 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr.Init: True
+2022-07-13 22:30:57,368 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr.Init: True
+2022-07-13 22:30:57,373 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr.Init: True
+2022-07-13 22:30:57,377 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr.Init: True
+2022-07-13 22:30:57,383 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneMgr.Init: True
+2022-07-13 22:30:57,387 - [MAIN] - INFO  - Game.Server.GameServer - VipStoreMgr.Init: True
+2022-07-13 22:30:57,394 - [MAIN] - INFO  - Game.Server.GameServer - LoveLevelMgr.Init: True
+2022-07-13 22:30:57,398 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr.Init: True
+2022-07-13 22:30:57,401 - [MAIN] - INFO  - Game.Server.GameServer - SetsBuildTempMgr.Init: True
+2022-07-13 22:30:57,407 - [MAIN] - INFO  - Game.Server.GameServer - PetBreakMgr.Init: True
+2022-07-13 22:30:57,408 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr.Init: True
+2022-07-13 22:30:57,589 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr.Init: True
+2022-07-13 22:30:57,604 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr.Init: True
+2022-07-13 22:30:57,609 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr.Init: True
+2022-07-13 22:30:57,612 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr.Init: True
+2022-07-13 22:30:57,615 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr.Init: True
+2022-07-13 22:30:57,625 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr.Init: True
+2022-07-13 22:30:57,630 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelAwardMgr.Init: True
+2022-07-13 22:30:57,637 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr.Init: True
+2022-07-13 22:30:57,647 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystermAwardMgr.Init: True
+2022-07-13 22:30:57,662 - [MAIN] - INFO  - Game.Server.GameServer - MountMgr.Init: True
+2022-07-13 22:30:57,668 - [MAIN] - INFO  - Game.Server.GameServer - GuardCoreMgr.Init: True
+2022-07-13 22:30:57,686 - [MAIN] - INFO  - Game.Server.GameServer - HomeTempPracticeMgr.Init: True
+2022-07-13 22:30:57,691 - [MAIN] - INFO  - Game.Server.GameServer - CloudBuyLotteryMgr.Init: True
+2022-07-13 22:30:57,701 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr.Init(): True
+2022-07-13 22:30:57,709 - [MAIN] - INFO  - Game.Server.GameServer - CardAchievementMgr.Init: True
+2022-07-13 22:30:57,712 - [MAIN] - INFO  - Game.Server.GameServer - RuneAdvanceTemplateMgr.Init: True
+2022-07-13 22:30:57,716 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr.Setup: True
+2022-07-13 22:30:57,726 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr.Init: True
+2022-07-13 22:30:57,728 - [MAIN] - INFO  - Game.Server.GameServer - HotSpringRoomsMgr.Init: True
+2022-07-13 22:30:57,731 - [MAIN] - INFO  - Game.Server.GameServer - BattleBonusMgr.Init: True
+2022-07-13 22:30:57,735 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+2022-07-13 22:30:57,746 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Setup: True
+2022-07-13 22:30:57,750 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 127.0.0.1:7539 loaded...
+2022-07-13 22:30:57,750 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+2022-07-13 22:30:57,750 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr.Setup: True
+2022-07-13 22:30:57,753 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:7539
+2022-07-13 22:30:57,764 - [MAIN] - INFO  - Game.Server.GameServer - RingStationMgr.Init: True
+2022-07-13 22:30:57,768 - [MAIN] - INFO  - Game.Server.GameServer - BombKingMgr.Init: True
+2022-07-13 22:30:57,774 - [MAIN] - INFO  - Game.Server.GameServer - BeautyVoteMgr.Init: True
+2022-07-13 22:30:57,778 - [MAIN] - INFO  - Game.Server.GameServer - SubWeaponEvolutionTemplateMgr.Init: True
+2022-07-13 22:30:57,782 - [MAIN] - INFO  - Game.Server.GameServer - AmuletGradeItemMgr.Init: True
+2022-07-13 22:30:57,785 - [MAIN] - INFO  - Game.Server.GameServer - AmuletItemMgr.Init: True
+2022-07-13 22:30:57,791 - [MAIN] - INFO  - Game.Server.GameServer - AmuletPhaseItemMgr.Init: True
+2022-07-13 22:30:57,793 - [MAIN] - INFO  - Game.Server.GameServer - MountTalismansMgr.Init: True
+2022-07-13 22:30:57,801 - [MAIN] - INFO  - Game.Server.GameServer - QiYuanAwardMgr.Init: True
+2022-07-13 22:30:57,827 - [MAIN] - INFO  - Game.Server.GameServer - BankMgr.Init: True
+2022-07-13 22:30:57,829 - [MAIN] - INFO  - Game.Server.GameServer - SpiritInfoMgr.Init: True
+2022-07-13 22:30:57,843 - [MAIN] - INFO  - Game.Server.GameServer - EngraveMgr.Init: True
+2022-07-13 22:30:57,863 - [MAIN] - INFO  - Game.Server.GameServer - JampsManualMgr.Init: True
+2022-07-13 22:30:57,908 - [MAIN] - INFO  - Game.Server.GameServer - VipIntegrationMgr.Init: True
+2022-07-13 22:30:57,970 - [MAIN] - INFO  - Game.Server.GameServer - CardNewSystemMgr.Init: True
+2022-07-13 22:30:57,998 - [MAIN] - INFO  - Game.Server.GameServer - NecklaceStrengthMgr.Init: True
+2022-07-13 22:30:58,044 - [MAIN] - INFO  - Game.Server.GameServer - EmblemMgr.Init: True
+2022-07-13 22:30:58,090 - [MAIN] - INFO  - Game.Server.GameServer - ElfMgr.Init: True
+2022-07-13 22:30:58,142 - [MAIN] - INFO  - Game.Server.GameServer - DevilTurnMgr.Init: True
+2022-07-13 22:30:58,194 - [MAIN] - INFO  - Game.Server.GameServer - TeamMgr.Init: True
+2022-07-13 22:30:58,209 - [MAIN] - INFO  - Game.Server.GameServer - PetSpecialSkillMgr.Init: True
+2022-07-13 22:30:58,220 - [MAIN] - INFO  - Game.Server.GameServer - GmActivityMgr.Init: True
+2022-07-13 22:30:58,237 - [MAIN] - INFO  - Game.Server.ConsortiaTask.ConsortiaTaskMgr - Total loaded tasks: 90
+2022-07-13 22:30:58,239 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaTaskMgr.Init: True
+2022-07-13 22:30:58,240 - [MAIN] - INFO  - Game.Server.GameServer - AcademyMgr.Init: True
+2022-07-13 22:30:58,242 - [MAIN] - INFO  2022-07-13 22:36:35,903 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2022-07-13 22:36:36,226 - [MAIN] - INFO  - Game.Server.GameServer - CleanDB: True
+2022-07-13 22:36:36,229 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+2022-07-13 22:36:36,230 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+2022-07-13 22:36:36,306 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+2022-07-13 22:36:36,306 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+2022-07-13 22:36:36,306 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+2022-07-13 22:36:36,308 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 8527: True
+2022-07-13 22:36:36,439 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+2022-07-13 22:36:36,443 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr.Init: True
+2022-07-13 22:36:36,448 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr.Init: True
+2022-07-13 22:36:36,528 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1459 is not exist!
+2022-07-13 22:36:36,600 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr.Init: True
+2022-07-13 22:36:39,665 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr.Init: True
+2022-07-13 22:36:39,887 - [MAIN] - INFO  - Game.Server.GameServer - ItemBoxMgr.Init: True
+2022-07-13 22:36:39,890 - [MAIN] - INFO  - Game.Server.GameServer - AccumulActiveLoginMgr.Init: True
+2022-07-13 22:36:39,999 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\119034.bomb
+2022-07-13 22:36:40,008 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr.Init: True
+2022-07-13 22:36:40,011 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr.Init: True
+2022-07-13 22:36:40,012 - [MAIN] - INFO  - Game.Server.GameServer - LevelMgr.Init: True
+2022-07-13 22:36:40,015 - [MAIN] - INFO  - Game.Server.GameServer - MaxLevelTemplateMgr.Init: True
+2022-07-13 22:36:40,018 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr.Init: True
+2022-07-13 22:36:40,021 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr.Init: True
+2022-07-13 22:36:40,026 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr.Init: True
+2022-07-13 22:36:40,028 - [MAIN] - INFO  - Game.Server.GameServer - ActivityQuestMgr.Init: True
+2022-07-13 22:36:40,033 - [MAIN] - INFO  - Game.Server.GameServer - ActivityHalloweenItemsMgr.Init: True
+2022-07-13 22:36:40,035 - [MAIN] - INFO  - Game.Server.GameServer - ChargeSpendRewardTemplateMgr.Init: True
+2022-07-13 22:36:40,049 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr.Init: True
+2022-07-13 22:36:40,051 - [MAIN] - INFO  - Game.Server.GameServer - LotteryShowTemplateMgr.Init: True
+2022-07-13 22:36:40,054 - [MAIN] - INFO  - Game.Server.GameServer - TreeTemplateMgr.Init: True
+2022-07-13 22:36:40,057 - [MAIN] - INFO  - Game.Server.GameServer - NewTitleMgr.Init: True
+2022-07-13 22:36:40,060 - [MAIN] - INFO  - Game.Server.GameServer - HomeFishMgr.Init: True
+2022-07-13 22:36:40,063 - [MAIN] - INFO  - Game.Server.GameServer - PetMoePropertyMgr.Init: True
+2022-07-13 22:36:40,065 - [MAIN] - INFO  - Game.Server.GameServer - RankTemplateMgr.Init: True
+2022-07-13 22:36:40,068 - [MAIN] - INFO  - Game.Server.GameServer - DailyLeagueAwardMgr.Init: True
+2022-07-13 22:36:40,072 - [MAIN] - INFO  - Game.Server.GameServer - SearchGoodsMgr.Init: True
+2022-07-13 22:36:40,077 - [MAIN] - INFO  - Game.Server.GameServer - SuitMgr.Init: True
+2022-07-13 22:36:40,080 - [MAIN] - INFO  - Game.Server.GameServer - DiceGameAwardMgr.Init: True
+2022-07-13 22:36:40,088 - [MAIN] - INFO  - Game.Server.GameServer - EveryDayActiveMgr.Init: True
+2022-07-13 22:36:40,090 - [MAIN] - INFO  - Game.Server.GameServer - FightLabDropItemMgr.Init: True
+2022-07-13 22:36:40,093 - [MAIN] - INFO  - Game.Server.GameServer - HelpGameRewardMgr.Init: True
+2022-07-13 22:36:40,096 - [MAIN] - INFO  - Game.Server.GameServer - MagicFusionDataMgr.Init: True
+2022-07-13 22:36:40,100 - [MAIN] - INFO  - Game.Server.GameServer - MagicItemTemplateMgr.Init: True
+2022-07-13 22:36:40,103 - [MAIN] - INFO  - Game.Server.GameServer - AllQuestionsMgr.Init: True
+2022-07-13 22:36:40,106 - [MAIN] - INFO  - Game.Server.GameServer - ChargeActiveTemplateMgr.Init: True
+2022-07-13 22:36:40,120 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr.Init: True
+2022-07-13 22:36:40,125 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr.Init: True
+2022-07-13 22:36:40,128 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyMgr.Init: True
+2022-07-13 22:36:40,134 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr.Init: True
+2022-07-13 22:36:40,140 - [MAIN] - INFO  - Game.Server.GameServer - DropMgr.Init: True
+2022-07-13 22:36:40,148 - [MAIN] - INFO  - Game.Server.GameServer - AvatarColectionMgr.Init: True
+2022-07-13 22:36:40,151 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr.Init: True
+2022-07-13 22:36:40,154 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr.Init: True
+2022-07-13 22:36:40,162 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr.Init: True
+2022-07-13 22:36:40,167 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr.Init: True
+2022-07-13 22:36:40,365 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr.Init: True
+2022-07-13 22:36:40,479 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr.Init: True
+2022-07-13 22:36:40,491 - [MAIN] - INFO  - Game.Server.GameServer - ActiveMgr.Init: True
+2022-07-13 22:36:40,498 - [MAIN] - INFO  - Game.Server.GameServer - GypsyShopMgr.Init: True
+2022-07-13 22:36:40,505 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr.Init: True
+2022-07-13 22:36:40,511 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr.Init: True
+2022-07-13 22:36:40,512 - [MAIN] - INFO  - Game.Server.GameServer - RateMgr.Init: True
+2022-07-13 22:36:40,526 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr.Init: True
+2022-07-13 22:36:40,538 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr.Init: True
+2022-07-13 22:36:40,567 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr.Init: True
+2022-07-13 22:36:40,573 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr.Init: True
+2022-07-13 22:36:40,577 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr.Init: True
+2022-07-13 22:36:40,581 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr.Init: True
+2022-07-13 22:36:40,585 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr.Init: True
+2022-07-13 22:36:40,587 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr.Init: True
+2022-07-13 22:36:40,589 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr.Init: True
+2022-07-13 22:36:40,593 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneMgr.Init: True
+2022-07-13 22:36:40,596 - [MAIN] - INFO  - Game.Server.GameServer - VipStoreMgr.Init: True
+2022-07-13 22:36:40,599 - [MAIN] - INFO  - Game.Server.GameServer - LoveLevelMgr.Init: True
+2022-07-13 22:36:40,602 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr.Init: True
+2022-07-13 22:36:40,605 - [MAIN] - INFO  - Game.Server.GameServer - SetsBuildTempMgr.Init: True
+2022-07-13 22:36:40,608 - [MAIN] - INFO  - Game.Server.GameServer - PetBreakMgr.Init: True
+2022-07-13 22:36:40,609 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr.Init: True
+2022-07-13 22:36:40,638 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr.Init: True
+2022-07-13 22:36:40,645 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr.Init: True
+2022-07-13 22:36:40,647 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr.Init: True
+2022-07-13 22:36:40,649 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr.Init: True
+2022-07-13 22:36:40,652 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr.Init: True
+2022-07-13 22:36:40,657 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr.Init: True
+2022-07-13 22:36:40,660 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelAwardMgr.Init: True
+2022-07-13 22:36:40,666 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr.Init: True
+2022-07-13 22:36:40,674 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystermAwardMgr.Init: True
+2022-07-13 22:36:40,690 - [MAIN] - INFO  - Game.Server.GameServer - MountMgr.Init: True
+2022-07-13 22:36:40,694 - [MAIN] - INFO  - Game.Server.GameServer - GuardCoreMgr.Init: True
+2022-07-13 22:36:40,712 - [MAIN] - INFO  - Game.Server.GameServer - HomeTempPracticeMgr.Init: True
+2022-07-13 22:36:40,715 - [MAIN] - INFO  - Game.Server.GameServer - CloudBuyLotteryMgr.Init: True
+2022-07-13 22:36:40,720 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr.Init(): True
+2022-07-13 22:36:40,723 - [MAIN] - INFO  - Game.Server.GameServer - CardAchievementMgr.Init: True
+2022-07-13 22:36:40,726 - [MAIN] - INFO  - Game.Server.GameServer - RuneAdvanceTemplateMgr.Init: True
+2022-07-13 22:36:40,730 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr.Setup: True
+2022-07-13 22:36:40,738 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr.Init: True
+2022-07-13 22:36:40,739 - [MAIN] - INFO  - Game.Server.GameServer - HotSpringRoomsMgr.Init: True
+2022-07-13 22:36:40,743 - [MAIN] - INFO  - Game.Server.GameServer - BattleBonusMgr.Init: True
+2022-07-13 22:36:40,748 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+2022-07-13 22:36:40,757 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Setup: True
+2022-07-13 22:36:40,761 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 127.0.0.1:7539 loaded...
+2022-07-13 22:36:40,761 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+2022-07-13 22:36:40,761 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr.Setup: True
+2022-07-13 22:36:40,765 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:7539
+2022-07-13 22:36:40,770 - [MAIN] - INFO  - Game.Server.GameServer - RingStationMgr.Init: True
+2022-07-13 22:36:40,775 - [MAIN] - INFO  - Game.Server.GameServer - BombKingMgr.Init: True
+2022-07-13 22:36:40,777 - [MAIN] - INFO  - Game.Server.GameServer - BeautyVoteMgr.Init: True
+2022-07-13 22:36:40,781 - [MAIN] - INFO  - Game.Server.GameServer - SubWeaponEvolutionTemplateMgr.Init: True
+2022-07-13 22:36:40,784 - [MAIN] - INFO  - Game.Server.GameServer - AmuletGradeItemMgr.Init: True
+2022-07-13 22:36:40,787 - [MAIN] - INFO  - Game.Server.GameServer - AmuletItemMgr.Init: True
+2022-07-13 22:36:40,790 - [MAIN] - INFO  - Game.Server.GameServer - AmuletPhaseItemMgr.Init: True
+2022-07-13 22:36:40,791 - [MAIN] - INFO  - Game.Server.GameServer - MountTalismansMgr.Init: True
+2022-07-13 22:36:40,801 - [MAIN] - INFO  - Game.Server.GameServer - QiYuanAwardMgr.Init: True
+2022-07-13 22:36:40,829 - [MAIN] - INFO  - Game.Server.GameServer - BankMgr.Init: True
+2022-07-13 22:36:40,831 - [MAIN] - INFO  - Game.Server.GameServer - SpiritInfoMgr.Init: True
+2022-07-13 22:36:40,848 - [MAIN] - INFO  - Game.Server.GameServer - EngraveMgr.Init: True
+2022-07-13 22:36:40,862 - [MAIN] - INFO  - Game.Server.GameServer - JampsManualMgr.Init: True
+2022-07-13 22:36:40,911 - [MAIN] - INFO  - Game.Server.GameServer - VipIntegrationMgr.Init: True
+2022-07-13 22:36:40,972 - [MAIN] - INFO  - Game.Server.GameServer - CardNewSystemMgr.Init: True
+2022-07-13 22:36:41,000 - [MAIN] - INFO  - Game.Server.GameServer - NecklaceStrengthMgr.Init: True
+2022-07-13 22:36:41,044 - [MAIN] - INFO  - Game.Server.GameServer - EmblemMgr.Init: True
+2022-07-13 22:36:41,087 - [MAIN] - INFO  - Game.Server.GameServer - ElfMgr.Init: True
+2022-07-13 22:36:41,135 - [MAIN] - INFO  - Game.Server.GameServer - DevilTurnMgr.Init: True
+2022-07-13 22:36:41,178 - [MAIN] - INFO  - Game.Server.GameServer - TeamMgr.Init: True
+2022-07-13 22:36:41,193 - [MAIN] - INFO  - Game.Server.GameServer - PetSpecialSkillMgr.Init: True
+2022-07-13 22:36:41,199 - [MAIN] - INFO  - Game.Server.GameServer - GmActivityMgr.Init: True
+2022-07-13 22:36:41,212 - [MAIN] - INFO  - Game.Server.ConsortiaTask.ConsortiaTaskMgr - Total loaded tasks: 90
+2022-07-13 22:36:41,213 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaTaskMgr.Init: True
+2022-07-13 22:36:41,213 - [MAIN] - INFO  - Game.Server.GameServer - AcademyMgr.Init: True
+2022-07-13 22:36:41,214 - [MAIN] - INFO  - Game.Server.GameServer - HomeTempleMgr.Init: True
+2022-07-13 22:36:41,215 - [MAIN] - INFO  - Game.Server.GameServer - InitGlobalTimer: True
+2022-07-13 22:36:41,216 - [MAIN] - INFO  - Game.Server.GameServer - ComandosMgr.Init: True
+2022-07-13 22:36:41,217 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr.Setup: True
+2022-07-13 22:36:41,233 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 253 handlers from GameServer Assembly!
+2022-07-13 22:36:41,242 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2022-07-13 22:36:41,243 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:1593
+2022-07-13 22:36:41,244 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+2022-07-13 22:36:41,245 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:7539
+2022-07-13 22:36:41,263 - [MAIN] - INFO  - Game.Server.GameServer - base.Start(): True
+2022-07-13 22:36:41,513 - [MAIN] - INFO  - Game.Server.GameServer - GameServer is now open for connections!
+2022-07-13 22:37:17,515 - [14] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:58036
+2022-07-13 22:37:17,527 - [14] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:58036), received bytes=0
+2022-07-13 22:37:17,528 - [21] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:58037
+2022-07-13 22:37:40,732 - [19] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:37:40,733 - [19] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:37:41,215 - [17] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:37:41,216 - [24] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:37:41,216 - [17] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:37:41,216 - [24] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:37:41,217 - [24] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:37:41,217 - [24] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:37:41,218 - [24] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:37:41,218 - [24] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:37:41,264 - [19] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:37:41,269 - [19] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:38:40,749 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:38:40,749 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:38:41,217 - [25] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:38:41,217 - [25] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:38:41,217 - [24] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:38:41,218 - [24] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:38:41,219 - [24] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:38:41,219 - [24] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:38:41,219 - [24] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:38:41,219 - [24] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:38:41,262 - [18] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:38:41,262 - [18] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:39:40,764 - [25] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:39:40,764 - [25] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:39:41,216 - [17] - INFO  - Game.Server.GameServer - Begin ping check....
+2022-07-13 22:39:41,217 - [17] - INFO  - Game.Server.GameServer - End ping check....
+2022-07-13 22:39:41,217 - [17] - INFO  - Game.Server.GameServer - Begin ping center check....
+2022-07-13 22:39:41,218 - [17] - INFO  - Game.Server.GameServer - End ping center check....
+2022-07-13 22:39:41,232 - [25] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:39:41,232 - [17] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:39:41,232 - [25] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:39:41,233 - [17] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:39:41,233 - [17] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:39:41,234 - [17] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:39:41,235 - [17] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:39:41,235 - [17] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:39:41,264 - [24] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:39:41,265 - [24] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:40:40,779 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:40:40,779 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:40:41,232 - [18] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:40:41,232 - [18] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:40:41,232 - [25] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:40:41,233 - [25] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:40:41,233 - [25] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:40:41,234 - [25] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:40:41,235 - [25] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:40:41,235 - [25] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:40:41,264 - [17] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:40:41,264 - [17] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:41:40,716 - [24] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+2022-07-13 22:41:40,724 - [24] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+2022-07-13 22:41:40,779 - [17] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:41:40,779 - [17] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+2022-07-13 22:41:41,215 - [24] - INFO  - Game.Server.GameServer - Saving Record...
+2022-07-13 22:41:41,215 - [25] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+2022-07-13 22:41:41,215 - [24] - INFO  - Game.Server.GameServer - Saving Record complete!
+2022-07-13 22:41:41,217 - [25] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+2022-07-13 22:41:41,249 - [18] - INFO  - Game.Server.GameServer - TrailElite Scaning ...
+2022-07-13 22:41:41,249 - [18] - INFO  - Game.Server.GameServer - TrailElite Scan complete!
+2022-07-13 22:41:41,249 - [17] - INFO  - Game.Server.GameServer - Buff Scaning ...
+2022-07-13 22:41:41,250 - [17] - INFO  - Game.Server.GameServer - Buff Scan complete!
+2022-07-13 22:41:41,250 - [17] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+2022-07-13 22:41:41,251 - [17] - INFO  - Game.Server.GameServer - GameMgr Scaning ...
+2022-07-13 22:41:41,252 - [17] - INFO  - Game.Server.GameServer - GameMgr.SynDate: 1
+2022-07-13 22:41:41,252 - [17] - INFO  - Game.Server.GameServer - GameMgr Scan complete!
+2022-07-13 22:41:41,266 - [25] - INFO  - Game.Server.GlobalConstants - Global Proccess...
+2022-07-13 22:41:41,266 - [25] - INFO  - Game.Server.GlobalConstants - Global scan complete!
+2022-07-13 22:42:40,779 - [25] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+2022-07-13 22:42:40,779 - [25] - INFO  - Game.Server.Manager

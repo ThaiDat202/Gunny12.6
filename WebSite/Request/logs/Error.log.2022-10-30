@@ -1,0 +1,6 @@
+2022-10-30 22:36:33,253 - [9] - ERROR - Tank.Request.Login - loidz1: pwonpp
+2022-10-30 22:37:45,684 - [20] - ERROR - Tank.Request.Login - loidz1: d2e47103-d9e4-45ed-b825-ab5aa7d58993
+2022-10-30 22:37:54,179 - [20] - ERROR - Tank.Request.CelebByBattleTeamSegmentRank - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Road.Flash.FlashUtils.CreateTeamRankInfo(PlayerInfo createPlayer, Sys_Users_Team team)
+   at Tank.Request.CelebByBattleTeamSegmentRank.Bulid()
+2022-10-30 22:41:43,822 - [22] - ERROR - Tank.Request.Login - loidz1: 46ecd3fa-65aa-4c6a-8b17-3faba7c9864d

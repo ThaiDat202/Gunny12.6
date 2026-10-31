@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <config>
+    <FLASHSITE value="http://10.10.4.148:828/flash/" />
+    <SITE value="http://10.10.4.148:828/" />
+    <FIRSTPAGE value="http://10.10.4.148:9001" />
+    <REGISTER value="http://10.10.4.148:9001/reg.aspx" />
+    <REQUEST_PATH value="http://10.10.4.148:728/" />
+    <LOGIN_PATH value="http://10.10.4.148:9898/Default.aspx" siteName="Gunny Online" />
+    <FILL_PATH value="http://10.10.4.148:840/ddtLogin/Charge.aspx" />
+    <POLICY_FILES>
+      <file value="http://stest.ddt.kaixin001.com.cn/test/crossdomain.xml" />
+      <file value="http://stest.ddt.kaixin001.com.cn/test/crossdomain.xml" />
+    </POLICY_FILES>
+    <FIGHTLIB value="true" />
+    <ALLOW_MULTI value="true" />
+    <TRAINER_PATH value="tutorial.swf" />
+    <MUSIC_LIST value="1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,1034,1035,1036,1037,1038,1039,1040,1059,1060,1061,1062,1063,1065,1067,1068,1069,1077" />
+    <LANGUAGE value="vietnam" />
+    <PARTER_ID value="1" />
+    <STATISTIC value="true" />
+    <SUCIDE_TIME value="120" />
+    <GAME_BOXPIC value="1" />
+    <ISTOPDERIICT value="true" />
+    <COUNT_PATH value="http://assayerhandler.7road.com/" />
+    <PHP isShow="false" link="false" site="http://baidu.com/" infoPath="http://stest.ddt.kaixin001.com.cn/test/SnsServer/GetSnsUserPortrait?uid={uid}" />
+    <OFFICIAL_SITE value="http://www.7road.com" />
+    <GAME_FORUM value="http://hi.baidu.com" />
+    <COMMUNITY_FRIEND_PATH isUser="false" value="http://d9.the9.com/webgame/ddt/addfriend.php" />
+    <COMMUNITY_INVITE_PATH value="http://d9.the9.com/webgame/ddt/invite.php" />
+    <COMMUNITY_FRIEND_LIST_PATH value="http://10.10.4.148:728/IMFriendsBbs.ashx" snsPath="http://stest.ddt.kaixin001.com.cn/test/SnsServer/NotifySnsUserUpgrade" isexist="true" isexistBtnVisble="false" />
+    <COMMUNITY_FRIEND_INVITED_SWITCH value="true" invitedOnline="true" />
+    <COMMUNITY_MICROBLOG value="false" />
+    <ALLOW_POPUP_FAVORITE value="true" />
+    <FILL_JS_COMMAND value="sandaFillHandler" enable="false" />
+    <SHIELD_NOTICE value="false" />
+    <FEEDBACK enable="false" />
+    <USER_GUILD_ENABLE value="true" />
+    <MINLEVELDUPLICATE value="8" />
+    <TEACHER_PUPIL_FB enable="true" />
+    <GUILD_SKILL enable="true" />
+    <LEAGUE enable="true" />
+    <CLIENT_DOWNLOAD value="" />
+    <MODULE>
+      <CIVIL enable="true" />
+      <CHURCH enable="true" />
+    </MODULE>
+    <CHAT_FACE>
+      <DISABLED_LIST list="38" />
+    </CHAT_FACE>
+    <GAME_FRAME_CONFIG>
+      <!-- 每帧执行的毫秒数,正常值应为40毫秒,并允许在35至45毫秒之间波动  (游戏内正常帧速为 25帧/秒)-->
+      <FRAME_TIME_OVER_TAG value="67" />
+      <!-- 连续低于上述毫秒的帧数 (游戏内正常帧速为 25帧/秒) -->
+      <FRAME_OVER_COUNT_TAG value="25" />
+    </GAME_FRAME_CONFIG>
+  </config>
+  <update>
+    <version from="1" to="2">
+      <file value="*" />
+    </version>
+  </update>
+</root>

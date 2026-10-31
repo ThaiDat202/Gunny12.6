@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "UiJIQuvXTiTTuXdBG1YfJcyYXgCKrXeTMB4mHyyOsGtT6QL2ESJm462N9+gGIDoIm+KjsretWq7yGJQOrmqDrQ==",
+  "success": true,
+  "projectFilePath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\center.server\\center.server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\log4net\\2.0.14\\log4net.2.0.14.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\protobuf-net\\2.4.0\\protobuf-net.2.4.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\zlib.net\\1.0.4\\zlib.net.1.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
