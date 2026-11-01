@@ -50,8 +50,8 @@ internal class BuyVipIntegrationHandler : IPacketHandler
 				itemInfo.IsBinds = true;
 				itemInfo.ValidDate = vipStoreList.ValidDate;
 				itemInfo.Count = num4;
-				client.Player.SendItemToMail(itemInfo, itemInfo.Template.Name + "x" + num4, "Vip积分商城兑换奖励", eMailType.BuyItem);
-				client.Player.SendMessage(LanguageMgr.GetTranslation("购买成功"));
+				client.Player.SendItemToMail(itemInfo, itemInfo.Template.Name + "x" + num4, "Phần thưởng đổi quà tại đổi điểm VIP.", eMailType.BuyItem);
+				client.Player.SendMessage(LanguageMgr.GetTranslation("Mua thành công."));
 				client.Player.PlayerCharacter.SaveVipShop(vipStoreList.GoodsID, num4);
 			}
 		}

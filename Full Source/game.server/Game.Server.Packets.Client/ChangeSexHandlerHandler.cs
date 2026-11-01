@@ -62,6 +62,7 @@ public class ChangeSexHandlerHandler : IPacketHandler
 			{
 				texp.magicTexpCount = 0;
 				texp.SecondTexpCount = 0;
+				texp.ThirdTexpCount = 0;
 				texp.texpCount = 0;
 				texp.resetCount++;
 				texp.lastReset = DateTime.Now.Date;
@@ -71,11 +72,11 @@ public class ChangeSexHandlerHandler : IPacketHandler
 				}
 				inventory.RemoveCountFromStack(itemAt, 1);
 				client.Player.EquipBag.UpdatePlayerProperties();
-				client.Player.SendMessage("Suas práticas foram resetadas");
+				client.Player.SendMessage("Tái lập thành công");
 			}
 			else
 			{
-				client.Player.SendMessage("Você não pode resetar as práticas novamente hoje");
+				client.Player.SendMessage("Hết số lần tái lập tu luyện hôm nay");
 			}
 		}
 		return 0;

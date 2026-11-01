@@ -1,4 +1,4 @@
-<style name="welfareCenter" version="1.0.1" source="ui/cn_trad/swf/welfareCenter.swf">
+<style name="welfareCenter" version="1.0.1" source="ui/vietnam/swf/welfareCenter.swf">
 	<sets>
 		<set stylename="callbacklotterydraw.nextCDTimeTf.format" args="Arial,12,0xfcef85" type="flash.text.TextFormat" leading="5" letterSpacing="0" />
 		<set stylename="callbacklotterydraw.goodNameTf.format" args="Arial,14,0x0,true,,,,,center" type="flash.text.TextFormat" leading="5" letterSpacing="0" />
@@ -197,7 +197,7 @@
 		
 		<component classname="welfareCenter.view.WelfareCenterFrame" stylename="welfareCenter.frame" parentStyle="BaseFrame" 
 			backStyle="SimpleFrameBackgound" escEnable="true" width="805" height="413" />
-		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"stylename="welfareCenter.frameBg" parentStyle="core.bg6920" scaleGridString="5,10,80,20"
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="welfareCenter.frameBg" parentStyle="core.bg6920" scaleGridString="5,10,80,20"
 		 	width="758" height="344" x="22" y="46" />
 		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="welfareCenter.frame.vBox" spacing="5" x="31" y="56" />
 		

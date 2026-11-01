@@ -112,3 +112,42 @@ D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Road.Service\obj\Debug\net4
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Road.Service\obj\Debug\net472\Road.Service.csproj.CopyComplete
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Road.Service\obj\Debug\net472\Road.Service.exe
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Road.Service\obj\Debug\net472\Road.Service.pdb
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Road.Service.exe.config
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Road.Service.exe
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Road.Service.pdb
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\EntityFramework.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\log4net.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Microsoft.AspNet.SignalR.Client.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\MoreLinq.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\protobuf-net.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\System.ValueTuple.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\zlib.net.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Bussiness.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\DDtankHelp.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\EntityDatabase.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\FileDialogsThreadAppartmentSafe.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Game.Base.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Game.Logic.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Game.Server.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\SqlDataProvider.dll
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\FileDialogsThreadAppartmentSafe.pdb
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Game.Server.pdb
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Bussiness.pdb
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\DDtankHelp.pdb
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\EntityDatabase.pdb
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Game.Base.pdb
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\Game.Logic.pdb
+C:\Gunny\Full Source\Road.Service\bin\Debug\net472\SqlDataProvider.pdb
+C:\Gunny\Full Source\Road.Service\obj\Debug\net472\Road.Service.csproj.AssemblyReference.cache
+C:\Gunny\Full Source\Road.Service\obj\Debug\net472\Road.Service.csproj.SuggestedBindingRedirects.cache
+C:\Gunny\Full Source\Road.Service\obj\Debug\net472\Road.Service.exe.config
+C:\Gunny\Full Source\Road.Service\obj\Debug\net472\Road.Service.Helper.Forms.Form1.resources
+C:\Gunny\Full Source\Road.Service\obj\Debug\net472\Road.Service.Properties.Resources.resources
+C:\Gunny\Full Source\Road.Service\obj\Debug\net472\Road.Service.csproj.GenerateResource.cache
+C:\Gunny\Full Source\Road.Service\obj\Debug\net472\Road.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gunny\Full Source\Road.Service\obj\Debug\net472\Road.Service.csproj.CoreCompileInputs.cache
+C:\Gunny\Full Source\Road.Service\obj\Debug\net472\Road.Service.csproj.CopyComplete
+C:\Gunny\Full Source\Road.Service\obj\Debug\net472\Road.Service.exe
+C:\Gunny\Full Source\Road.Service\obj\Debug\net472\Road.Service.pdb

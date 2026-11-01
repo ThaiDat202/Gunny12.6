@@ -1,0 +1,195 @@
+2023-08-28 00:00:56,826 - [51] - ERROR - Game.Server.Elf.ElfLogicProcessor - ElfLogicProcessor PackageType:ELF_EQUIP_OPERATE, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.Elf.Handle.ElfHandleMgr.LoadCommandHandler(Int32 code) in C:\Gunny\Full Source\game.server\Game.Server.Elf.Handle\ElfHandleMgr.cs:line 13
+   at Game.Server.Elf.ElfLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Elf\ElfLogicProcessor.cs:line 27
+2023-08-28 00:00:56,832 - [51] - ERROR - Game.Server.Elf.ElfLogicProcessor - IP: 127.0.0.1:56345
+2023-08-28 00:01:46,478 - [104] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:56345)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-28 00:01:46,482 - [104] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-28 14:05:05,415 - [98] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:05:05,417 - [98] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:05:05,544 - [98] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:05:05,560 - [98] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:05:05,560 - [98] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:05:05,562 - [98] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:05:48,365 - [85] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:05:48,366 - [85] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:05:48,367 - [85] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:05:54,003 - [75] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:05:54,004 - [75] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:05:54,005 - [75] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:06:00,218 - [54] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:06:00,218 - [54] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:06:00,219 - [54] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:06:12,682 - [85] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:06:12,683 - [85] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:06:12,684 - [85] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:06:15,683 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:06:15,686 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:06:15,687 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:09:44,979 - [99] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:57304)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-28 14:09:44,981 - [99] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-28 14:45:28,703 - [59] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-28 14:45:28,851 - [59] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-28 14:47:46,476 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:47:46,488 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:47:46,833 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:47:46,896 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:47:46,898 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 14:47:46,899 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:36:27,154 - [17] - ERROR - Game.Server.GameObjects.GamePlayer - Error saving all datas of playerID: 1 , Ð?t!
+System.Data.Entity.Core.EntityException: An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy. ---> System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.Entity.Core.EntityException: An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy. ---> System.Data.SqlClient.SqlException: A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - No process is on the other end of the pipe.) ---> System.ComponentModel.Win32Exception: No process is on the other end of the pipe
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at Game.Server.GameObjects.GamePlayer.SavePlayerInfoToDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4611
+   at Game.Server.GameObjects.GamePlayer.SaveIntoDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 5380
+2023-08-28 16:36:28,058 - [17] - WARN  - Game.Server.GameServer - Saved all databases and 1 players in 5938719 ms
+2023-08-28 16:44:44,890 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:44:44,891 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:44:44,942 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:44:44,957 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:44:44,958 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:44:44,959 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:51:15,743 - [16] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-28 16:51:15,857 - [16] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-28 16:52:07,003 - [21] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:52:07,015 - [21] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:52:07,235 - [21] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:52:07,287 - [21] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:52:07,289 - [21] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:52:07,290 - [21] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 16:54:56,182 - [31] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-28 16:54:56,270 - [31] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-28 17:00:00,303 - [15] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.InitConsortiaUserInfo(SqlDataReader dr) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 2606
+   at Bussiness.PlayerBussiness.GetAllMemberByConsortia(Int32 ConsortiaID) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 2552
+2023-08-28 17:26:49,914 - [61] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-28 17:26:49,990 - [61] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-28 17:28:36,327 - [4] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-28 17:44:59,449 - [4] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-28 17:44:59,509 - [17] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-28 18:13:20,178 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:13:20,190 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:13:22,721 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:13:22,789 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:13:22,791 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:13:22,792 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:16:17,481 - [31] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 3268
+2023-08-28 18:22:01,571 - [43] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-28 18:22:01,655 - [43] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-28 18:24:28,636 - [21] - ERROR - Bussiness.BaseBussiness - Init
+System.IndexOutOfRangeException: SlotPet
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at Bussiness.PlayerBussiness.InitPlayerInfo(SqlDataReader reader) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 3511
+   at Bussiness.PlayerBussiness.GetUserSingleByUserID(Int32 UserID) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 3701
+2023-08-28 18:24:28,689 - [21] - ERROR - Bussiness.BaseBussiness - updateExplorerManualInfo
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.updateExplorerManualInfo(PlayerInfo m_character) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 11750
+2023-08-28 18:24:28,692 - [21] - ERROR - Bussiness.BaseBussiness - updateExplorerManualPages
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.updateExplorerManualInfoPages(PlayerInfo m_character) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 11779
+2023-08-28 18:24:28,694 - [21] - ERROR - Bussiness.BaseBussiness - updateExplorerManualPages
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.updateExplorerManualInfoDebris(PlayerInfo m_character) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 11813
+2023-08-28 18:24:28,696 - [21] - ERROR - Bussiness.BaseBussiness - SP_Insert_Update_HappyRechargeData
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.UpdateHappyRechargeData(HappyRechargeInfo hristos) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 12152
+2023-08-28 18:24:28,726 - [21] - ERROR - Game.Server.GameObjects.GamePlayer - Error saving all datas of playerID: 1 , !
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.SavePlayerInfoToDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4512
+   at Game.Server.GameObjects.GamePlayer.SaveIntoDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 5380
+2023-08-28 18:47:24,958 - [30] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-28 18:47:25,096 - [30] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-28 18:48:18,317 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:48:18,327 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:48:18,479 - [18] - ERROR - Bussiness.BaseBussiness - Init
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 3267
+2023-08-28 18:48:18,533 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:48:18,583 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:48:18,585 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:48:18,586 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:48:37,984 - [16] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-28 18:49:36,586 - [31] - ERROR - Bussiness.BaseBussiness - Init
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 3267
+2023-08-28 18:49:51,658 - [34] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-28 18:49:52,021 - [34] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-28 18:52:39,691 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:52:39,702 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:52:39,986 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:52:40,049 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:52:40,050 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:52:40,052 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 18:53:00,685 - [26] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-28 19:55:19,056 - [30] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-28 19:56:19,582 - [37] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-28 19:58:16,123 - [46] - ERROR - Game.Server.Elf.ElfLogicProcessor - ElfLogicProcessor PackageType:ELF_EQUIP_OPERATE, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.Elf.Handle.ElfHandleMgr.LoadCommandHandler(Int32 code) in C:\Gunny\Full Source\game.server\Game.Server.Elf.Handle\ElfHandleMgr.cs:line 13
+   at Game.Server.Elf.ElfLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Elf\ElfLogicProcessor.cs:line 27
+2023-08-28 19:58:16,124 - [46] - ERROR - Game.Server.Elf.ElfLogicProcessor - IP: 127.0.0.1:57311
+2023-08-28 22:20:37,266 - [38] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-28 22:20:37,377 - [38] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-28 22:49:22,283 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:49:22,301 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:49:22,629 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:49:22,695 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:49:22,697 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:49:22,697 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:59:03,549 - [20] - ERROR - Game.Server.GameObjects.GamePlayer - Error saving all datas of playerID: 1 , Ð?t!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.SavePlayerInfoToDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4556
+   at Game.Server.GameObjects.GamePlayer.SaveIntoDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 5392
+2023-08-28 23:04:45,074 - [16] - ERROR - Game.Server.GameObjects.GamePlayer - Error saving all datas of playerID: 1 , Ð?t!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.SavePlayerInfoToDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4556
+   at Game.Server.GameObjects.GamePlayer.SaveIntoDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 5392

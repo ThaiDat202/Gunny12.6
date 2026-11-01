@@ -1,0 +1,13 @@
+2023-07-27 01:16:27,071 - [24] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.AddUserLabyrinth(UserLabyrinthInfo laby) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 8934
+2023-07-27 01:16:27,390 - [24] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.LabyrinthHandler  client: 127.0.0.1:62111)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Base.Packets.AbstractPacketLib.SendLabyrinthUpdataInfo(Int32 id, UserLabyrinthInfo laby) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 4981
+   at Game.Server.Packets.Client.LabyrinthHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\LabyrinthHandler.cs:line 49
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-07-27 01:16:27,405 - [24] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1C 00 7E 00 83 00 00 00 02 00 00 00 00   q....~..........
+0010: 00 00 00 00 00 00 00 02 00 00 00 00               ............    
+
+2023-07-27 03:30:26,085 - [24] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler

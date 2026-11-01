@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<style name="adventure" version="1.0.1" source="ui/cn_trad/swf/adventure.swf">
+<style name="adventure" version="1.0.1" source="ui/vietnam/swf/adventure.swf">
 <components>
 
     <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.adventure.switchBtn" 

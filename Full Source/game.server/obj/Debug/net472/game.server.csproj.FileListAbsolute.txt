@@ -85,3 +85,32 @@ D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\game.server\obj\Debug\net47
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\game.server\obj\Debug\net472\game.server.csproj.CopyComplete
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\game.server\obj\Debug\net472\Game.Server.dll
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\game.server\obj\Debug\net472\Game.Server.pdb
+C:\Gunny\Full Source\game.server\bin\Debug\net472\Game.Server.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\Game.Server.pdb
+C:\Gunny\Full Source\game.server\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\EntityFramework.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\log4net.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\Microsoft.AspNet.SignalR.Client.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\MoreLinq.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\protobuf-net.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\System.ValueTuple.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\zlib.net.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\Bussiness.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\DDtankHelp.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\EntityDatabase.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\Game.Base.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\Game.Logic.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\SqlDataProvider.dll
+C:\Gunny\Full Source\game.server\bin\Debug\net472\Bussiness.pdb
+C:\Gunny\Full Source\game.server\bin\Debug\net472\DDtankHelp.pdb
+C:\Gunny\Full Source\game.server\bin\Debug\net472\Game.Logic.pdb
+C:\Gunny\Full Source\game.server\bin\Debug\net472\SqlDataProvider.pdb
+C:\Gunny\Full Source\game.server\bin\Debug\net472\EntityDatabase.pdb
+C:\Gunny\Full Source\game.server\bin\Debug\net472\Game.Base.pdb
+C:\Gunny\Full Source\game.server\obj\Debug\net472\game.server.csproj.AssemblyReference.cache
+C:\Gunny\Full Source\game.server\obj\Debug\net472\game.server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gunny\Full Source\game.server\obj\Debug\net472\game.server.csproj.CoreCompileInputs.cache
+C:\Gunny\Full Source\game.server\obj\Debug\net472\game.server.csproj.CopyComplete
+C:\Gunny\Full Source\game.server\obj\Debug\net472\Game.Server.dll
+C:\Gunny\Full Source\game.server\obj\Debug\net472\Game.Server.pdb

@@ -1,0 +1,24 @@
+2023-08-28 18:24:28,636 - [21] - ERROR - Bussiness.BaseBussiness - Init
+System.IndexOutOfRangeException: SlotPet
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at Bussiness.PlayerBussiness.InitPlayerInfo(SqlDataReader reader) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 3511
+   at Bussiness.PlayerBussiness.GetUserSingleByUserID(Int32 UserID) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 3701
+2023-08-28 18:24:28,689 - [21] - ERROR - Bussiness.BaseBussiness - updateExplorerManualInfo
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.updateExplorerManualInfo(PlayerInfo m_character) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 11750
+2023-08-28 18:24:28,692 - [21] - ERROR - Bussiness.BaseBussiness - updateExplorerManualPages
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.updateExplorerManualInfoPages(PlayerInfo m_character) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 11779
+2023-08-28 18:24:28,694 - [21] - ERROR - Bussiness.BaseBussiness - updateExplorerManualPages
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.updateExplorerManualInfoDebris(PlayerInfo m_character) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 11813
+2023-08-28 18:24:28,696 - [21] - ERROR - Bussiness.BaseBussiness - SP_Insert_Update_HappyRechargeData
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.UpdateHappyRechargeData(HappyRechargeInfo hristos) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 12152
+2023-08-28 18:24:28,726 - [21] - ERROR - Game.Server.GameObjects.GamePlayer - Error saving all datas of playerID: 1 , !
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.SavePlayerInfoToDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4512
+   at Game.Server.GameObjects.GamePlayer.SaveIntoDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 5380
+2023-08-28 18:47:24,958 - [30] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler

@@ -31,7 +31,11 @@ public class Sys_Users_Elf
 
 	public int FengBase { get; set; }
 
-	public int HpValue { get; set; }
+    public int GuangBase { get; set; }
+
+    public int AnBase { get; set; }
+
+    public int HpValue { get; set; }
 
 	public int AttackValue { get; set; }
 
@@ -43,7 +47,11 @@ public class Sys_Users_Elf
 
 	public int FengValue { get; set; }
 
-	public int HpGrowth { get; set; }
+    public int GuangValue { get; set; }
+
+    public int AnValue { get; set; }
+
+    public int HpGrowth { get; set; }
 
 	public int AttackGrowth { get; set; }
 
@@ -55,7 +63,11 @@ public class Sys_Users_Elf
 
 	public int FengGrowth { get; set; }
 
-	public int GoodFeling { get; set; }
+    public int GuangGrowth { get; set; }
+
+    public int AnGrowth { get; set; }
+
+    public int GoodFeling { get; set; }
 
 	public bool IsFight { get; set; }
 

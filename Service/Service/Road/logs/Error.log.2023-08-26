@@ -1,0 +1,35 @@
+2023-08-26 23:37:11,173 - [34] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserChangeItemPlaceHandler  client: 127.0.0.1:62340)
+System.NotSupportedException: Did not support this type bag: 53 PlayerID: 4 Nickname: Test2
+   at Game.Server.GameObjects.GamePlayer.GetInventory(eBageType bageType) in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 1477
+   at Game.Server.Packets.Client.UserChangeItemPlaceHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserChangeItemPlaceHandler.cs:line 25
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-26 23:37:11,217 - [34] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 23 04 7D 00 31 00 00 00 04 00 00 00 00   q..#.}.1........
+0010: 00 00 00 00 00 00 00 00 1F 35 FF FF FF FF 00 00   .........5......
+0020: 00 01 00                                          ...             
+
+2023-08-26 23:38:14,736 - [40] - ERROR - Game.Server.Farm.FarmLogicProcessor - IP:127.0.0.1:62340, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Farm.Handle.FeedFarmPoultry.CommandHandler(GamePlayer Player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Farm.Handle\FeedFarmPoultry.cs:line 28
+   at Game.Server.Farm.FarmLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Farm\FarmLogicProcessor.cs:line 31
+2023-08-26 23:41:09,099 - [38] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MinesHandler  client: 127.0.0.1:62340)
+System.ArgumentNullException: Value cannot be null.
+   at System.Threading.Monitor.Enter(Object obj)
+   at Game.Server.Managers.MinesMgr.GetListDrop() in C:\Gunny\Full Source\game.server\Game.Server.Managers\MinesMgr.cs:line 395
+   at Game.Base.Packets.AbstractPacketLib.SendMinesShopInfo() in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 420
+   at Game.Server.Packets.Client.MinesHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\MinesHandler.cs:line 220
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-26 23:41:09,115 - [38] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 15 01 22 01 9E 00 00 00 04 00 00 00 00   q...."..........
+0010: 00 00 00 00 08                                    .....           
+
+2023-08-26 23:41:12,123 - [38] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MinesHandler  client: 127.0.0.1:62340)
+System.ArgumentNullException: Value cannot be null.
+   at System.Threading.Monitor.Enter(Object obj)
+   at Game.Server.Managers.MinesMgr.GetListDrop() in C:\Gunny\Full Source\game.server\Game.Server.Managers\MinesMgr.cs:line 395
+   at Game.Base.Packets.AbstractPacketLib.SendMinesShopInfo() in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 420
+   at Game.Server.Packets.Client.MinesHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\MinesHandler.cs:line 220
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-26 23:41:12,132 - [38] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 15 01 22 01 9E 00 00 00 04 00 00 00 00   q...."..........
+0010: 00 00 00 00 08                                    .....           
+

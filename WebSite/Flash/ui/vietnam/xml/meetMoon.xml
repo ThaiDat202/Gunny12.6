@@ -1,4 +1,4 @@
-﻿<style name="meetMoon" version="1.0.1" source="ui/cn_trad/swf/meetMoon.swf">
+﻿<style name="meetMoon" version="1.0.1" source="ui/vietnam/swf/meetMoon.swf">
 	<sets>
 		<set stylename="meet.moon.timeTxtTF" args="宋体,20,0xffffff,true" letterSpacing="0" type="flash.text.TextFormat"/>
 		<set stylename="meet.moon.timeTxtGF" args="0x8400ff,1,4,4,30" type="flash.filters.GlowFilter"/> 
@@ -22,7 +22,7 @@
 </components>
 <bitmaps>
 <!--房间内工具菜单-->
-	<bitmapData resourceLink="asset.meet.moon.photographAsset" x="4" y="6" />
+	<bitmapData resourceLink="asset.meet.moon.photographAsset" x="4" y="15" />
 </bitmaps>	
 
 <customDisplay>

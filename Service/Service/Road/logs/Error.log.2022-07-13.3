@@ -1,0 +1,22 @@
+2022-07-13 21:29:37,889 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1459 is not exist!
+2022-07-13 21:29:41,507 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\119034.bomb
+2022-07-13 21:29:47,952 - [MAIN] - ERROR - Game.Server.GlobalConstants - Load active
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Game.Server.GlobalConstants.MemoryGameTime() in E:\Source\Service\Game.Server\GlobalConstants.cs:line 84
+   at Game.Server.GlobalConstants.LoadActice() in E:\Source\Service\Game.Server\GlobalConstants.cs:line 121
+2022-07-13 21:33:35,482 - [17] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Game.Server.GameUtils.PlayerActives.SendMemoryGameOpenClose() in E:\Source\Service\Game.Server\GameUtils\PlayerActives.cs:line 1479
+   at Game.Server.GameUtils.PlayerActives.SendEvent() in E:\Source\Service\Game.Server\GameUtils\PlayerActives.cs:line 1432
+   at Game.Server.GameObjects.GamePlayer.Login() in E:\Source\Service\Game.Server\GameObjects\GamePlayer.cs:line 3464
+2022-07-13 21:34:03,582 - [28] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Game.Server.GameUtils.PlayerActives.SendMemoryGameOpenClose() in E:\Source\Service\Game.Server\GameUtils\PlayerActives.cs:line 1479
+   at Game.Server.GameUtils.PlayerActives.SendEvent() in E:\Source\Service\Game.Server\GameUtils\PlayerActives.cs:line 1432
+   at Game.Server.GameObjects.GamePlayer.Login() in E:\Source\Service\Game.Server\GameObjects\GamePlayer.cs:line 3464

@@ -1,0 +1,4 @@
+2023-07-15 17:48:59,731 - [27] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-07-15 17:49:03,058 - [27] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-07-15 17:49:06,651 - [27] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-07-15 17:54:20,998 - [40] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler

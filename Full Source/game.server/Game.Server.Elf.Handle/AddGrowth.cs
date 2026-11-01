@@ -17,11 +17,11 @@ public class AddGrowth : IElfCommandHandler
 	{
 		int elfId = packet.ReadInt();
 		int num = packet.ReadInt();
-		if (num != 6)
-		{
-			player.SendMessage(eMessageType.ERROR, LanguageMgr.GetTranslation("Elf.AddGrowth.SomethingGoneWrong"));
-			return 0;
-		}
+		//if (num != 6)
+		//{
+		//	player.SendMessage(eMessageType.ERROR, LanguageMgr.GetTranslation("Elf.AddGrowth.SomethingGoneWrong"));
+		//	return 0;
+		//}
 		List<int> list = new List<int>();
 		for (int i = 0; i < num; i++)
 		{

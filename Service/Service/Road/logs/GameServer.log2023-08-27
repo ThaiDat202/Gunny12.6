@@ -1,0 +1,109 @@
+2023-08-27 00:40:30,768 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:40:30,797 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:40:30,967 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:40:31,096 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:40:31,106 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:40:31,142 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:41:49,660 - [28] - ERROR - Game.Server.Farm.FarmLogicProcessor - IP:127.0.0.1:49882, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Farm.Handle.FeedFarmPoultry.CommandHandler(GamePlayer Player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Farm.Handle\FeedFarmPoultry.cs:line 28
+   at Game.Server.Farm.FarmLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Farm\FarmLogicProcessor.cs:line 31
+2023-08-27 00:43:04,150 - [32] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-27 00:43:04,241 - [32] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-27 23:30:34,102 - [65] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:30:34,118 - [65] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:30:34,340 - [65] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:30:34,369 - [65] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:30:34,371 - [65] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:30:34,372 - [65] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:31:58,238 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:31:58,240 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:31:58,241 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:11,496 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:11,497 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:11,498 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:15,839 - [49] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:15,840 - [49] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:15,841 - [49] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:19,366 - [49] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:19,368 - [49] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:19,369 - [49] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:23,845 - [49] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:23,845 - [49] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:23,847 - [49] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:32,717 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:32,718 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:32:32,719 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:42:33,918 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:42:33,919 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:42:34,029 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:42:34,044 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:42:34,046 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:42:34,046 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:44:45,727 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:44:45,728 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:44:45,813 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:44:45,822 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:44:45,823 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:44:45,823 - [108] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:45:34,327 - [67] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:45:34,329 - [67] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:45:34,425 - [67] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:45:34,437 - [67] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:45:34,438 - [67] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:45:34,439 - [67] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:48:56,158 - [89] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:48:56,160 - [89] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:48:56,273 - [89] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:48:56,288 - [89] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:48:56,289 - [89] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:48:56,289 - [89] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:50:46,791 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:50:46,793 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:50:46,847 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:50:46,858 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:50:46,859 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:50:46,860 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:53:32,406 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:53:32,407 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:53:32,492 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:53:32,503 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:53:32,503 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:53:32,504 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:57:26,855 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:57:26,856 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:57:26,993 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:57:27,009 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:57:27,010 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:57:27,011 - [78] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-27 23:58:50,698 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,43ms!
+2023-08-27 23:58:50,702 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 47 ms,count:1

@@ -1,4 +1,4 @@
-<style name="pvePowerbuff" version="1.0.1" source="ui/cn_trad/swf/pvePowerBuff.swf">
+<style name="pvePowerbuff" version="1.0.1" source="ui/vietnam/swf/pvePowerBuff.swf">
 <sets>
 	<set stylename="pvePowerBuff.mainView.otherForeTxtTF" args="Arial,12,0xbab2e0,true" type="flash.text.TextFormat" />
 	<set stylename="pvePowerBuff.mainView.otherForeTxtGF" args="0x170265,2,2,2,30"  type="flash.filters.GlowFilter" />

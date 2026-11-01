@@ -1,35 +1,35 @@
-<style name="indiana" version="1.0.1" source="ui/cn_trad/swf/indiana.swf">
+<style name="indiana" version="1.0.1" source="ui/vietnam/swf/indiana.swf">
 <sets>
-	<set stylename="indiana.progress.TxtTF" args="宋体,12,0xffb2ee" type="flash.text.TextFormat" />
+	<set stylename="indiana.progress.TxtTF" args="Arial,12,0xffb2ee" type="flash.text.TextFormat" />
 	<set stylename="indiana.progress.TxtGF" args="0x8b3e90,2,4,4,30" type="flash.filters.GlowFilter" />
-	<set stylename="indiana.progress.valueTF" args="宋体,12,0xffffff,true" type="flash.text.TextFormat" />
+	<set stylename="indiana.progress.valueTF" args="Arial,12,0xffffff,true" type="flash.text.TextFormat" />
 	<set stylename="indiana.progress.valueGF" args="0x8b3e90,2,4,4,30" type="flash.filters.GlowFilter" />
-	<set stylename="indiana.icon.nameTF" args="宋体,18,0x000000,true" type="flash.text.TextFormat" />
+	<set stylename="indiana.icon.nameTF" args="Arial,18,0x000000,true" type="flash.text.TextFormat" />
 	
-	<set stylename="indiana.icon.nameTF2" args="宋体,16,0x000000,true" type="flash.text.TextFormat" />
+	<set stylename="indiana.icon.nameTF2" args="Arial,16,0x000000,true" type="flash.text.TextFormat" />
 	
-	<set stylename="indiana.itemDis.TxtTF" args="宋体,12,0xffb2ee" type="flash.text.TextFormat" />
+	<set stylename="indiana.itemDis.TxtTF" args="Arial,12,0xffb2ee" type="flash.text.TextFormat" />
 	<set stylename="indiana.itemDis.TxtGF" args="0x8b3e90,2,4,4,30" type="flash.filters.GlowFilter" />
 	
-	<set stylename="indiana.itemValueTF" args="宋体,16,0xffe043,true" type="flash.text.TextFormat" />
+	<set stylename="indiana.itemValueTF" args="Arial,16,0xffe043,true" type="flash.text.TextFormat" />
 	<set stylename="indiana.itemValueGF" args="0x7d2683,2,4,4,30" type="flash.filters.GlowFilter" />
-	<set stylename="indiana.timesDis.TxtTF" args="宋体,14,0xff99ff,true" type="flash.text.TextFormat" />
-	<set stylename="indiana.timesDisI.Txt2TF" args="宋体,14,0xff99ff,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="indiana.timesDis.TxtTF" args="Arial,12,0xff99ff,true" type="flash.text.TextFormat" />
+	<set stylename="indiana.timesDisI.Txt2TF" args="Arial,14,0xff99ff,true,,,,,center" type="flash.text.TextFormat" />
 	<set stylename="indiana.timesDis.TxtGF" args="0xcf21fa,2,4,4,30" type="flash.filters.GlowFilter" />
-	<set stylename="indiana.timesDisII.TxtTF" args="宋体,12,0xffffff" type="flash.text.TextFormat" />
+	<set stylename="indiana.timesDisII.TxtTF" args="Arial,12,0xffffff" type="flash.text.TextFormat" />
 	<set stylename="indiana.timesDisII.TxtGF" args="0xda0000,2,4,4,30" type="flash.filters.GlowFilter" />
-	<set stylename="indiana.attribute.TxtTF" args="宋体,12,0xfff8d6,,,,,,left" type="flash.text.TextFormat" />
+	<set stylename="indiana.attribute.TxtTF" args="Arial,12,0xfff8d6,,,,,,left" type="flash.text.TextFormat" />
 	<set stylename="indiana.attribute.TxtGF" args="0x4d270d,2,4,4,30" type="flash.filters.GlowFilter" /> 
-	<set stylename="indiana.name.TxtTF" args="宋体,12,0xfff8d6,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="indiana.name.TxtTF" args="Arial,12,0xfff8d6,,,,,,center" type="flash.text.TextFormat" />
 	<set stylename="indiana.name.TxtGF" args="0x4d270d,2,4,4,30" type="flash.filters.GlowFilter" /> 
 	
-	<set stylename="indiana.detailtitle.TxtTF" args="宋体,12,0xfff8d6,,,,,,right" type="flash.text.TextFormat" />
+	<set stylename="indiana.detailtitle.TxtTF" args="Arial,12,0xfff8d6,,,,,,right" type="flash.text.TextFormat" />
 	<set stylename="indiana.detailtitle.TxtGF" args="0x4d270d,2,4,4,30" type="flash.filters.GlowFilter" /> 
 	
-	<set stylename="indiana.buycontent.TxtTF" args="宋体,16,0xfff8d6,,,,,,center" leading='5' type="flash.text.TextFormat" />
+	<set stylename="indiana.buycontent.TxtTF" args="Arial,16,0xfff8d6,,,,,,center" leading='5' type="flash.text.TextFormat" />
 	<set stylename="indiana.buycontent.TxtGF" args="0x4d270d,2,4,4,30" type="flash.filters.GlowFilter"  /> 
 	
-	<set stylename="indiana.buytitleNum.TxtTF" args="宋体,12,0xffffff,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="indiana.buytitleNum.TxtTF" args="Arial,12,0xffffff,,,,,,left" type="flash.text.TextFormat" />
 	<set stylename="indiana.buytitleNum.TxtGF" args="0xda0000,2,4,4,30" type="flash.filters.GlowFilter" />
 
 </sets>
@@ -44,7 +44,7 @@
 	<custom classname="flash.geom.Point" stylename="indiana.timesTxt.pos" x="312" y="256"/>
 	<custom classname="flash.geom.Point" stylename="indiana.Dis.pos" x="290" y="279"/>
 	<custom classname="flash.geom.Point" stylename="indiana.DisII.pos" x="107" y="320"/>
-	<custom classname="flash.geom.Point" stylename="indiana.countDown.pos" x="298" y="121"/>
+	<custom classname="flash.geom.Point" stylename="indiana.countDown.pos" x="276" y="121"/>
 	<custom classname="flash.geom.Point" stylename="indiana.countDown.second01pos" x="553" y="135"/>
 	<custom classname="flash.geom.Point" stylename="indiana.countDown.second02pos" x="527" y="135"/>
 	<custom classname="flash.geom.Point" stylename="indiana.countDown.minute01pos" x="497" y="135"/>
@@ -61,23 +61,23 @@
 	<custom classname="flash.geom.Point" stylename="indiana.countDown.hour02pos_1" x="307" y="176"/>
 	
 	
-	<custom classname="flash.geom.Point" stylename="itemName.pos" x="105" y="15"/>
+	<custom classname="flash.geom.Point" stylename="itemName.pos" x="15" y="15"/>
 	<custom classname="flash.geom.Point" stylename="itemNameValue.pos" x="165" y="15"/>
-	<custom classname="flash.geom.Point" stylename="itemDis.pos" x="129" y="37"/>
-	<custom classname="flash.geom.Point" stylename="itemDisII.pos" x="188" y="225"/>
+	<custom classname="flash.geom.Point" stylename="itemDis.pos" x="15" y="37"/>
+	<custom classname="flash.geom.Point" stylename="itemDisII.pos" x="200" y="225"/>
 	<custom classname="flash.geom.Point" stylename="itemDisValue.pos" x="165" y="37"/>
 	
-	<custom classname="flash.geom.Point" stylename="validitytitle.pos" x="118" y="59"/>
+	<custom classname="flash.geom.Point" stylename="validitytitle.pos" x="15" y="59"/>
 	<custom classname="flash.geom.Point" stylename="validityvalue.pos" x="165" y="60"/>
-	<custom classname="flash.geom.Point" stylename="bandtile.pos" x="106" y="82"/>
+	<custom classname="flash.geom.Point" stylename="bandtile.pos" x="15" y="82"/>
 	<custom classname="flash.geom.Point" stylename="bandvalue.pos" x="165" y="82"/>
 		
-	<custom classname="flash.geom.Point" stylename="itemattribute.pos" x="129" y="103"/>
-	<custom classname="flash.geom.Point" stylename="itemTitleView.pos" x="100" y="20"/>
+	<custom classname="flash.geom.Point" stylename="itemattribute.pos" x="15" y="103"/>
+	<custom classname="flash.geom.Point" stylename="itemTitleView.pos" x="100" y="28"/>
 	<custom classname="flash.geom.Point" stylename="infologic.pos" x="200" y="20"/>
-	<custom classname="flash.geom.Point" stylename="indiana.progressbar.pos" x="112" y="164"/>
-	<custom classname="flash.geom.Point" stylename="indiana.itemNameDis.pos" x="332" y="115"/>
-	<custom classname="flash.geom.Point" stylename="indiana.itemNameDisII.pos" x="164" y="316"/>
+	<custom classname="flash.geom.Point" stylename="indiana.progressbar.pos" x="105" y="164"/>
+	<custom classname="flash.geom.Point" stylename="indiana.itemNameDis.pos" x="317" y="126"/>
+	<custom classname="flash.geom.Point" stylename="indiana.itemNameDisII.pos" x="146" y="328"/>
 	<custom classname="flash.geom.Point" stylename="indiana.timesDisI.Txt.pos" x="277" y="225"/>
 	<custom classname="flash.geom.Point" stylename="indiana.hasNum.pos" x="108" y="314"/>
 	<custom classname="flash.geom.Point" stylename="indiana.hasNumII.pos" x="240" y="314"/>
@@ -101,13 +101,13 @@
 	<custom classname="flash.geom.Point" stylename="indiana.resoultloseDis.pos" x="168" y="264"/>
 	<custom classname="flash.geom.Point" stylename="indiana.historyitem.goodName.pos" x="127" y="14"/>
 	<custom classname="flash.geom.Point" stylename="indiana.historyitem.playerName.pos" x="127" y="46"/>
-	<custom classname="flash.geom.Point" stylename="indiana.historyitem.luckNum.pos" x="418" y="27"/>
+	<custom classname="flash.geom.Point" stylename="indiana.historyitem.luckNum.pos" x="440" y="27"/>
 	<custom classname="flash.geom.Point" stylename="indiana.historyitem.hasTimes.pos" x="515" y="14"/>
-	<custom classname="flash.geom.Point" stylename="indiana.historyitem.Times.pos" x="573" y="14"/>
+	<custom classname="flash.geom.Point" stylename="indiana.historyitem.Times.pos" x="594" y="14"/>
 	<custom classname="flash.geom.Point" stylename="indiana.historyitem.getGoodTime.pos" x="515" y="46"/>
 	
 	<custom classname="flash.geom.Point" stylename="indiana.petMv.pos" x="29" y="62"/>
-	<custom classname="flash.geom.Point" stylename="indiana.buy.title.times.pos" x="62" y="10"/>
+	<custom classname="flash.geom.Point" stylename="indiana.buy.title.times.pos" x="118" y="11"/>
 	
 	<custom classname="flash.geom.Point" stylename="indiana.buy.view.pos" x="317" y="267"/>
 	<custom classname="flash.geom.Point" stylename="indiana.detail.skill.pos" x="168" y="128"/>
@@ -119,16 +119,16 @@
 <components>
 	<component classname="Indiana.IndianaMainView" stylename="indianaMainView.Frame" parentStyle="BaseFrame" 
 		backStyle="asset.indiana.main.bg" escEnable="true"   titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="10"
-			 containerY="14" closestyle="indiana.Closebtn" width="887" height="589" closeInnerRectString="749,30,100,30,13"/>
+			 containerY="14" closestyle="indiana.Closebtn" width="887" height="600" closeInnerRectString="749,30,100,30,13"/>
 
 	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="indiana.scroll.detailpanel"  parentStyle="core.ScrollPanel"
-		viewportInnerRectString="6,22,-2,8,0" width="640" height="150" vUnitIncrement="10" vScrollProxy="1" x="129" y="411"/>
+		viewportInnerRectString="6,22,-2,8,0" width="640" height="150" vUnitIncrement="10" vScrollProxy="1" x="129" y="423"/>
 
 	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="indiana.scroll.recodepanel"  parentStyle="core.ScrollPanel"
-		viewportInnerRectString="0,27,0,0,0" width="680" height="120" vUnitIncrement="10" vScrollProxy="1" x="93" y="435"/>
+		viewportInnerRectString="0,27,0,0,0" width="680" height="120" vUnitIncrement="10" vScrollProxy="1" x="93" y="449"/>
 		
 	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="indiana.scroll.historypanel"  parentStyle="core.ScrollPanel"
-		viewportInnerRectString="0,27,0,0,0" width="680" height="150" vUnitIncrement="10" vScrollProxy="1" x="93" y="406"/>
+		viewportInnerRectString="0,27,0,0,0" width="680" height="120" vUnitIncrement="10" vScrollProxy="1" x="93" y="449"/>
 	
 	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="indiana.scroll.buycodepanel"  parentStyle="core.ScrollPanel"
 		viewportInnerRectString="6,6,2,2,0" width="400" height="70" vUnitIncrement="10" vScrollProxy="1" x="19" y="35"/>
@@ -137,10 +137,10 @@
 			resourceLink="asset.indiana.titlecell.bg" scaleGridString="10,10,18,18" width="46" height="46" x="0" y="0" />	
 
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="indiana.progress.Txt" 
-		textFormatStyle="indiana.progress.TxtTF" filterString="indiana.progress.TxtGF" width="60" height="25" autoSize="left" x="365" y="0"/>	
+		textFormatStyle="indiana.progress.TxtTF" filterString="indiana.progress.TxtGF" width="60" height="25" autoSize="left" x="361" y="-5"/>	
 	
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="indiana.progress.value.Txt" 
-		textFormatStyle="indiana.progress.valueTF" filterString="indiana.progress.valueGF" width="60" height="25" autoSize="left" x="410" y="0"/>
+		textFormatStyle="indiana.progress.valueTF" filterString="indiana.progress.valueGF" width="60" height="25" autoSize="left" x="431" y="-5"/>
 	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="indiana.helpbtn"
 		 backStyle="asset.indiana.help" filterString="null,lightFilter,null,grayFilter" x="718" y="64" autoFrame="false"/>
 	
@@ -162,22 +162,22 @@
 		textFormatStyle="indiana.icon.nameTF2" autoSize="none" width="150" height="30" x="385" y="4"/>	
 	
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="indiana.itemDis.Txt"
-		 textFormatStyle="indiana.itemDis.TxtTF" filterString="indiana.itemDis.TxtGF" width="60" height="25" autoSize="left" x="527" y="120"/>	
+		 textFormatStyle="indiana.itemDis.TxtTF" filterString="indiana.itemDis.TxtGF" width="60" height="25" autoSize="left" x="527" y="130"/>	
 		
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="indiana.itemValue.Txt" 
-		textFormatStyle="indiana.itemValueTF" filterString="indiana.itemValueGF" width="150" height="25" autoSize="left" x="319" y="144"/>	
+		textFormatStyle="indiana.itemValueTF" filterString="indiana.itemValueGF" width="150" height="25" autoSize="left" x="319" y="152"/>	
 	
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="indiana.hasJoin.Txt" 
 		textFormatStyle="indiana.progress.TxtTF" filterString="indiana.progress.TxtGF" width="150" height="25" autoSize="left" x="104" y="185"/>	
 	
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="indiana.timesDisI.Txt" 
-		textFormatStyle="indiana.timesDis.TxtTF" filterString="indiana.timesDis.TxtGF" width="150" height="25" autoSize="left" x="111" y="225"/>	
+		textFormatStyle="indiana.timesDis.TxtTF" filterString="indiana.timesDis.TxtGF" width="150" height="25" autoSize="left" x="97" y="225"/>	
 	
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="indiana.timesDisI.Txt2" restrict="0-9"
 		textFormatStyle="indiana.timesDisI.Txt2TF" filterString="indiana.timesDis.TxtGF" autoSize="none" width="50" height="20" />	
 	
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="indiana.timesDisII.Txt" 
-		textFormatStyle="indiana.timesDisII.TxtTF" filterString="indiana.timesDisII.TxtGF" width="150" height="25" autoSize="left" x="324" y="227"/>
+		textFormatStyle="indiana.timesDisII.TxtTF" filterString="indiana.timesDisII.TxtGF" width="150" height="25" autoSize="left" x="278" y="261"/>
 		
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="indiana.buytitleNum.Txt" 
 		textFormatStyle="indiana.buytitleNum.TxtTF" filterString="indiana.buytitleNum.TxtGF" autoSize="none" width="40" height="25" x="324" y="225"/>
@@ -189,20 +189,20 @@
 		textFormatStyle="indiana.name.TxtTF" filterString="indiana.name.TxtGF" autoSize="none" width="180" height="17" />
 	
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="indiana.detailtitle.Txt" 
-		textFormatStyle="indiana.detailtitle.TxtTF" filterString="indiana.detailtitle.TxtGF" width="150" height="25" autoSize="left" x="4" y="1"/>
+		textFormatStyle="indiana.detailtitle.TxtTF" filterString="indiana.detailtitle.TxtGF" autoSize="none" width="150" height="25"  x="4" y="1"/>
 		
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="indiana.buycontent.Txt" 
 		textFormatStyle="indiana.buycontent.TxtTF" filterString="indiana.buycontent.TxtGF" autoSize="left" width="150" height="25"  x="4" y="1"/>
 	
 	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="indiana.details.selectBtn" 
 			selectedStyle="asset.indiana.details.select" unSelectedStyle="asset.indiana.details.unselect" 
-			x="96" y="375" displacement="false" />	
+			x="96" y="388" displacement="false" />	
 	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="indiana.recode.selectBtn" 
 			selectedStyle="asset.recode.select" unSelectedStyle="asset.recode.unselect" 
-			x="190" y="375" displacement="false" />	
+			x="190" y="388" displacement="false" />	
 	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="indiana.history.selectBtn" 
 			selectedStyle="asset.indiana.history.select" unSelectedStyle="asset.indiana.history.unselect" 
-			x="284" y="375" displacement="false" />				
+			x="284" y="388" displacement="false" />				
 	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="indiana.leftpagebtn"
 		 backStyle="asset.indiana.leftpage" filterString="null,lightFilter,null,grayFilter" x="35" y="297" autoFrame="false"/>
 	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="indiana.rigthpagebtn"
@@ -212,9 +212,9 @@
 		 backStyle="asset.indiana.closeBtn" filterString="null,lightFilter,null,grayFilter" x="35" y="390" autoFrame="false"/>
 	
 	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="indiana.addTimebtn"
-		 backStyle="asset.indiana.addBtn" filterString="null,lightFilter,null,grayFilter" x="239" y="222" autoFrame="false"/>
+		 backStyle="asset.indiana.addBtn" filterString="null,lightFilter,null,grayFilter" x="251" y="222" autoFrame="false"/>
 	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="indiana.subtractTimebtn"
-		 backStyle="asset.indiana.subrBtn" filterString="null,lightFilter,null,grayFilter" x="163" y="222" autoFrame="false"/>
+		 backStyle="asset.indiana.subrBtn" filterString="null,lightFilter,null,grayFilter" x="175" y="222" autoFrame="false"/>
 	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="indiana.timehelpbtn"
 		 backStyle="asset.indiana.time.help" filterString="null,lightFilter,null,grayFilter" x="287" y="222" autoFrame="false"/>	
 		 
@@ -271,7 +271,7 @@
 	
 	
 	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="indiana.timesTxt.bg" 
-			resourceLink="asset.indiana.titlecell.bg" scaleGridString="10,10,18,18" width="50" height="24" x="188" y="223" />
+			resourceLink="asset.indiana.titlecell.bg" scaleGridString="10,10,18,18" width="50" height="24" x="200" y="223" />
 			
 	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="indiana.attribute.bg" 
 			resourceLink="asset.indiana.titlecell.bg" scaleGridString="10,10,18,18" width="70" height="20" x="0" y="0" />			 
@@ -295,7 +295,7 @@
 	<bitmapData resourceLink="asset.scrolltxt.bg" x="0" y="0" />
 	<bitmapData resourceLink="asset.indiana.progress.light" x="0" y="-5" />
 	<bitmapData resourceLink="asset.indiana.isMe" x="98" y="243" />
-	<bitmapData resourceLink="asset.indiana.recode.bg" x="87" y="407" />
+	<bitmapData resourceLink="asset.indiana.recode.bg" x="87" y="420" />
 	<bitmapData resourceLink="asset.LuckNum.bg" x="75" y="158" />
 	<bitmapData resourceLink="asset.indiana.promp.lose" x="104" y="158" />
 </bitmaps>

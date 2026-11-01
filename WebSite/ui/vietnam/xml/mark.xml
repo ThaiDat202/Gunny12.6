@@ -1,4 +1,4 @@
-<style name="mark" version="1.0.1" source="ui/cn_trad/swf/mark.swf">
+<style name="mark" version="1.0.1" source="ui/vietnam/swf/mark.swf">
 	<sets>
 		<set stylename="fashion.rankView.rankTxtTF" args="Arial,14,0xffffff,true,,,,,center" type="flash.text.TextFormat" />
 		<!-- <set stylename="fashion.rankView.inputTxtGF" args="0x654512,1,4,4,30" type="flash.filters.GlowFilter" /> -->
@@ -53,7 +53,7 @@
 			selctedPropName="text"  buttonStyle="mark.comboxButton"   snapItemHeight="true" 
 			listPanelStyle="core.ComboxListpanel1"  listInnerRectString="4,27,20,18,18" 
 			textStyle="core.comboxListCellTxt3_small"  textInnerRectString="-7,4,5,0,0"
-			x="116" y="10" width="104" height="25" />
+			x="113" y="10" width="115" height="25" />
 		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="mark.comboxButton"
 			backStyle="mark.comboxButtonAsset" height="32" width="200" displacement="false"/>
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="mark.comboxButtonAsset"
@@ -61,12 +61,13 @@
 			
 		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="mark.helpBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG"  width="380" height="375" x="12" y="38"/>
 		
-		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="mark.suitWay.selectCombo" selctedPropName="text" parentStyle="core.Combox2" snapItemHeight="true" x="5" y="4" width="90" listInnerRectString="5,28,10,50,18"/>
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="mark.suitWay.selectCombo"
+			selctedPropName="text"  parentStyle="core.Combox2" snapItemHeight="true"  x="5"  y="4" width="90" listInnerRectString="5,28,10,50,18" />
 	</components>
 	<bitmaps>
 		<bitmapData resourceLink="asset.mark.hammerUnselected" x="0" y="14" />
-		<bitmapData resourceLink="asset.mark.hammerSelected" x="-8" y="14" />
-		<bitmapData resourceLink="asset.mark.forceSelected" x="-8" y="14" />
+		<bitmapData resourceLink="asset.mark.hammerSelected" x="-10" y="14" />
+		<bitmapData resourceLink="asset.mark.forceSelected" x="-10" y="14" />
 		<bitmapData resourceLink="asset.mark.forceUnselected" x="0" y="14" />
 		<bitmapData resourceLink="asset.mark.transferSelected" x="-10" y="14" />
 		<bitmapData resourceLink="asset.mark.transferUnselected" x="0" y="14" />

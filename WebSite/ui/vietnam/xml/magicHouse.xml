@@ -100,9 +100,14 @@
 		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="magicHouse.mainViewFrame.collectionBtn" 
 			unSelectedStyle="magichouse.magiccollectionbtn.unselected" selectedStyle="magichouse.magiccollectionbtn.selected" x="33" y="11"/>
 		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="magicHouse.mainViewFrame.treasureBtn" 
-			unSelectedStyle="magichouse.treasureroombtn.unselected" selectedStyle="magichouse.treasureroombtn.selected" x="291" y="11"/>	
+			unSelectedStyle="magichouse.treasureroombtn.unselected" selectedStyle="magichouse.treasureroombtn.selected" x="291" y="11"/>
+			<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="magicHouse.mainViewFrame.treasureBtn2" 
+			unSelectedStyle="magichouse.treasureroombtn2.unselected" selectedStyle="magichouse.treasureroombtn2.selected" x="561" y="7"/>	
 		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="magicHouse.mainViewFrame.boxBtn" 
 			unSelectedStyle="magichouse.magicboxbtn.unselected" selectedStyle="magichouse.magicboxbtn.selected" x="161" y="11"/>	
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="magicHouse.mainViewFrame.vipBtn" 
+			unSelectedStyle="magichouse.vipbtn.unselected" selectedStyle="magichouse.vipbtn.selected" x="412" y="7"/>	
+			
 			
 		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="magicHouse.collectionMainView.typeWeaponBtn" 
 			backStyle="magichouse.collection.weaponbtn" x="18" y="-37"/>
@@ -197,7 +202,7 @@
 			
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.tipFrame.tipText" 
 			textFormatStyle="magichouse.collectionItem.chargeBoxNeedMoneyTF" filterString="magichouse.collectionItem.chargeBoxNeedMoneyGF" 
-			autoSize="none" wordWrap="true" x="31" y="77" width="350" height="50"/>
+			autoSize="none" wordWrap="true" x="31" y="53" width="350" height="50"/>
 			
 		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="magicHouse.treasureView.stateChangeBtn" 
 			backStyle="magichouse.treasure.stateChangeBtn" x="0" y="-3" />
@@ -388,6 +393,7 @@
 		
 		<custom classname="magicHouse.magicCollection.MagicHouseCollectionMainView" stylename="magicHouse.magicHouseCollectionMainView" x="21" y="91" />
 		<custom classname="magicHouse.treasureHouse.MagicHouseTreasureHouseView" stylename="magicHouse.magicHouseTreasureHouseView" x="503" y="66" />
+		<custom classname="magicHouse.treasureHouse.MagicHouseTreasureHouseView2" stylename="magicHouse.magicHouseTreasureHouseView2" x="503" y="66" />
 		<custom classname="magicHouse.magicBox.MagicHouseBoxView" stylename="magicHouse.magicBoxMainView" x="16" y="53" />
 		<custom classname="magicHouse.magicBox.MagicHouseExtraction" stylename="magicHouse.magicBoxMainView.extractionview" x="0" y="0" />
 		<custom classname="magicHouse.magicBox.MagicHouseFusionView" stylename="magicHouse.magicBoxMainView.fusionview" x="0" y="0" />
@@ -484,6 +490,7 @@
         <custom classname="flash.geom.Point" stylename="magicbox.fusionview.materialcell2Pos" x="556" y="230"/>
         <custom classname="flash.geom.Point" stylename="magicbox.fusionview.materialcell3Pos" x="650" y="230"/>
         <custom classname="flash.geom.Point" stylename="magicbox.fusionview.materialcell4Pos" x="744" y="230"/>
+         <custom classname="flash.geom.Point" stylename="magichouse.vipBankMainView.pos" x="505" y="67"/>
         
         <customDisplay>
     		<custom classname="magichouse.magicboxview.fusionComplete" stylename="magicbox.fusionComplete.mc" x="636" y="124" />    
@@ -494,7 +501,7 @@
         <custom classname="flash.geom.Point" stylename="magicbox.mashAreaPos" x="63" y="10"/>
         
         <custom classname="magichouse.magicbox.helpContent" stylename="magichouse.magicbox.help.content" x="34" y="75"/>
-        
+        <custom classname="flash.geom.Point" stylename="magichouse.vip.bank.Pos" x="-480" y="-1"/>
         <custom classname="flash.geom.Point" stylename="magichouse.collectionview.potioncell.pos" x="689" y="382"/>
 	</customDisplay>
 <!-- ============================================== -->	
@@ -518,11 +525,15 @@
 		<bitmapData resourceLink="magichouse.magicbox.getelitebg" x="143" y="304" />
 		<bitmapData resourceLink="magichouse.magicbox.getelitetxt" x="174" y="311" />
 		
+		<bitmapData resourceLink="magichouse.vipbtn.selected" x="5" y="-5"/>
+		
 		<bitmapData resourceLink="magichouse.magicbox.itemcontent.bg" x="21" y="50" />
 		<bitmapData resourceLink="magichouse.magicbox.fusioncellcontent.bg" x="576" y="64" />
 		<bitmapData resourceLink="magichouse.magicbox.materialcontent.bg" x="431" y="212" />
 		
 		<bitmapData resourceLink="magichouse.magicbox.itemselected.shine" x="-4" y="-3" />
+		
+		<bitmapData resourceLink="magichouse.treasureroombtn2.selected" x="0" y="-4" />
 		
 		<bitmapData resourceLink="magichouse.magicboxview.fusionitem.inputBg" x="607" y="182" />
 		

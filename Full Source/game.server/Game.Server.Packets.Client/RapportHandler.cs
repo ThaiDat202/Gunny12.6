@@ -8,7 +8,7 @@ public class RapportHandler : IPacketHandler
 	public int HandlePacket(GameClient client, GSPacketIn packet)
 	{
 		byte b = packet.ReadByte();
-		client.Player.SendMessage("该功能正在开发中...敬请期待...");
+		client.Player.SendMessage("Chức năng này đang được phát triển...");
 		return 1;
 	}
 }

@@ -22,24 +22,24 @@ public class PetAwaken : IPetCommandHadler
 		ItemInfo itemAt2 = player.StoreBag.GetItemAt(1);
 		if (itemAt.Count <= 0)
 		{
-			player.SendMessage("觉醒石数量不足.");
+			player.SendMessage("Số lượng đá thức tỉnh không đủ.");
 			return false;
 		}
 		if (itemAt2 == null)
 		{
-			player.SendMessage("请使用宠物装备");
+			player.SendMessage("Vui lòng sử dụng đá thức tỉnh.");
 			return false;
 		}
 		if (itemAt2.Template.CategoryID < 50 || itemAt2.Template.CategoryID > 52 || !itemAt2.IsValidItem())
 		{
-			player.SendMessage("使用的宠物装备不正确,或已过期.");
+			player.SendMessage("Vật phẩm được sử dụng không đúng.");
 			return false;
 		}
 		int[][] array = new int[3][]
 		{
-			new int[9] { 30101, 30102, 30103, 30104, 30105, 30106, 30107, 30108, 30109 },
-			new int[9] { 31101, 31102, 31103, 31104, 31105, 31106, 31107, 31108, 31109 },
-			new int[9] { 32101, 32102, 32103, 32104, 32105, 32106, 32107, 32108, 32109 }
+			new int[30] { 30101, 30102, 30103, 30104, 30105, 30106, 30107, 30108, 30109, 30110, 30111, 30112, 30113, 30114, 30115, 30116, 30117, 30118, 30119, 30120, 30121, 30122, 30123, 30124, 30125, 30126, 30127, 30128, 30129, 30130 },
+			new int[30] { 31101, 31102, 31103, 31104, 31105, 31106, 31107, 31108, 31109, 31110, 31111, 31112, 31113, 31114, 31115, 31116, 31117, 31118, 31119, 31120, 31121, 31122, 31123, 31124, 31125, 31126, 31127, 31128, 31129, 31130 },
+			new int[30] { 32101, 32102, 32103, 32104, 32105, 32106, 32107, 32108, 32109, 32110, 32111, 32112, 32113, 32114, 32115, 32116, 32117, 32118, 32119, 32120, 32121, 32122, 32123, 32124, 32125, 32126, 32127, 32128, 32129, 32130 }
 		};
 		Random random = new Random();
 		player.StoreBag.BeginChanges();
@@ -126,13 +126,13 @@ public class PetAwaken : IPetCommandHadler
 			gSPacketIn.WriteInt(itemAwakenPet.skillId1);
 			gSPacketIn.WriteInt(itemAwakenPet.skillId2);
 			gSPacketIn.WriteInt(itemAwakenPet.petId);
-			player.SendMessage("觉醒成功.");
+			player.SendMessage("Thức tỉnh thành công.");
 			string translation = LanguageMgr.GetTranslation("PetAwaken.Notice", player.PlayerCharacter.NickName, itemInfo.TemplateID);
 			WorldMgr.SendSysNotice(eMessageType.ChatNormal, translation, itemInfo.ItemID, itemInfo.TemplateID, player.ZoneId, null);
 		}
 		else
 		{
-			player.SendMessage("觉醒失败.");
+			player.SendMessage("Thức tỉnh thất bại.");
 			gSPacketIn.WriteBoolean(val: false);
 		}
 		player.SendTCP(gSPacketIn);

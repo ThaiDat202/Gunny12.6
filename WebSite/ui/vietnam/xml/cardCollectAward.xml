@@ -1,4 +1,4 @@
-<style name="cardCollectAward" version="1.0.1" source="ui/cn_trad/swf/cardCollectAward.swf">
+<style name="cardCollectAward" version="1.0.1" source="ui/vietnam/swf/cardCollectAward.swf">
 <sets>
 		<set stylename="cardCollectAward.awardTextTF" args="微软雅黑,20,0xb12a14,true" type="flash.text.TextFormat" />
 		<set stylename="cardCollectAward.awardItem.text.tf" args="微软雅黑,14,0x522300,true" type="flash.text.TextFormat" />

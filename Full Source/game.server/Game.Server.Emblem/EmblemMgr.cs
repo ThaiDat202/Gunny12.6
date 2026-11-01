@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -45,7 +45,7 @@ public class EmblemMgr
 
 	public static int AddItem(GamePlayer player, int templateId)
 	{
-		Random random = new Random();
+        Random random = new Random();
 		TS_Emblem tS_Emblem = Emblems.FirstOrDefault((TS_Emblem p) => p.TemplateID == templateId);
 		if (tS_Emblem == null)
 		{
@@ -64,7 +64,7 @@ public class EmblemMgr
 		};
 		List<string> list = new List<string>();
 		List<int> list2 = new List<int>();
-		list2 = ((tS_Emblem.MainType > 4 || 1 == 0) ? new List<int> { 5, 6, 7, 8 } : new List<int> { 1, 2, 3, 4 });
+		list2 = ((tS_Emblem.MainType > 4 || 1 == 0) ? new List<int> { 5, 6, 7, 8, 30, 31 } : new List<int> { 1, 2, 3, 4, 20, 21 });
 		for (int i = 0; i < tS_Emblem.SubCount; i++)
 		{
 			string[] array2 = tS_Emblem.SubValue.Split('-');
@@ -119,12 +119,17 @@ public class EmblemMgr
 		int waterDef = 0;
 		int windDef = 0;
 		int landDef = 0;
-		List<Sys_Users_Emblem> emblems = player.EmblemInfos.Where((Sys_Users_Emblem p) => p.isExist && p.equipPos != 0).ToList();
+        //sáng tối
+        int lighAtt = 0;
+        int drakAtt = 0;
+        int lighDef = 0;
+        int drakDef = 0;
+        List<Sys_Users_Emblem> emblems = player.EmblemInfos.Where((Sys_Users_Emblem p) => p.isExist && p.equipPos != 0).ToList();
 		player.PlayerCharacter.EmblemInfoAttackSKill = 0;
 		player.PlayerCharacter.EmblemInfoDefendSKill = 0;
-		CalculateProps(emblems, ref fireAtt, ref waterAtt, ref windAtt, ref landAtt, ref fireDef, ref waterDef, ref windDef, ref landDef);
-		List<int> list = new List<int> { fireAtt, waterAtt, windAtt, landAtt };
-		List<int> list2 = new List<int> { fireDef, waterDef, windDef, landDef };
+		CalculateProps(emblems, ref fireAtt, ref waterAtt, ref windAtt, ref landAtt, ref fireDef, ref waterDef, ref windDef, ref landDef, ref lighAtt, ref lighDef, ref drakAtt, ref drakDef);
+		List<int> list = new List<int> { fireAtt, waterAtt, windAtt, landAtt, lighAtt, drakAtt };
+		List<int> list2 = new List<int> { fireDef, waterDef, windDef, landDef, lighDef, drakDef };
 		int num = list.Max();
 		player.PlayerCharacter.EmblemInfoAttackMax = num;
 		if (num != 0)
@@ -200,6 +205,11 @@ public class EmblemMgr
 		gSPacketIn.WriteInt(windDef);
 		gSPacketIn.WriteInt(landDef);
 		gSPacketIn.WriteInt(waterDef);
+		//sáng tối
+		gSPacketIn.WriteInt(lighAtt);
+        gSPacketIn.WriteInt(drakAtt);
+        gSPacketIn.WriteInt(lighDef);
+		gSPacketIn.WriteInt(drakDef);
 		for (int k = 0; k < 2; k++)
 		{
 			if (k == 0)
@@ -224,11 +234,11 @@ public class EmblemMgr
 		player.SendTCP(gSPacketIn);
 	}
 
-	public static void CalculateProps(List<Sys_Users_Emblem> emblems, ref int fireAtt, ref int waterAtt, ref int windAtt, ref int landAtt, ref int fireDef, ref int waterDef, ref int windDef, ref int landDef)
+	public static void CalculateProps(List<Sys_Users_Emblem> emblems, ref int fireAtt, ref int waterAtt, ref int windAtt, ref int landAtt, ref int fireDef, ref int waterDef, ref int windDef, ref int landDef, ref int lighAtt, ref int lighDef, ref int drakAtt, ref int drakDef)
 	{
 		foreach (Sys_Users_Emblem emblem in emblems)
 		{
-			AddTypeValue(emblem.equipPos, emblem.mainType, emblem.mainValue, ref fireAtt, ref waterAtt, ref windAtt, ref landAtt, ref fireDef, ref waterDef, ref windDef, ref landDef);
+			AddTypeValue(emblem.equipPos, emblem.mainType, emblem.mainValue, ref fireAtt, ref waterAtt, ref windAtt, ref landAtt, ref fireDef, ref waterDef, ref windDef, ref landDef, ref lighAtt, ref lighDef, ref drakAtt, ref drakDef);
 			if (string.IsNullOrEmpty(emblem.strvalue))
 			{
 				continue;
@@ -237,12 +247,12 @@ public class EmblemMgr
 			foreach (string item in list)
 			{
 				string[] array = item.Split(',');
-				AddTypeValue(emblem.equipPos, int.Parse(array[0]), int.Parse(array[1]), ref fireAtt, ref waterAtt, ref windAtt, ref landAtt, ref fireDef, ref waterDef, ref windDef, ref landDef);
+				AddTypeValue(emblem.equipPos, int.Parse(array[0]), int.Parse(array[1]), ref fireAtt, ref waterAtt, ref windAtt, ref landAtt, ref fireDef, ref waterDef, ref windDef, ref landDef, ref lighAtt, ref lighDef, ref drakAtt, ref drakDef);
 			}
 		}
 	}
 
-	public static void AddTypeValue(int place, int maintype, int value, ref int fireAtt, ref int waterAtt, ref int windAtt, ref int landAtt, ref int fireDef, ref int waterDef, ref int windDef, ref int landDef)
+	public static void AddTypeValue(int place, int maintype, int value, ref int fireAtt, ref int waterAtt, ref int windAtt, ref int landAtt, ref int fireDef, ref int waterDef, ref int windDef, ref int landDef, ref int lighAtt, ref int lighDef, ref int drakAtt, ref int drakDef)
 	{
 		switch (place)
 		{
@@ -262,6 +272,12 @@ public class EmblemMgr
 			case 3:
 				landAtt += value;
 				break;
+			case 20:
+				lighAtt += value;
+				break;
+			case 21:
+				drakAtt += value;
+				break;
 			}
 			break;
 		case 3:
@@ -279,6 +295,12 @@ public class EmblemMgr
 				break;
 			case 7:
 				landDef += value;
+				break;
+			case 30:
+				lighDef += value;
+				break;
+			case 31:
+				drakDef += value;
 				break;
 			}
 			break;

@@ -1,0 +1,7 @@
+2023-09-08 13:24:39,074 - [7] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)::
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.GameObjects.ProxyPlayerInfo.GetItemTemplateInfo() in C:\Gunny\Full Source\fighting.server\Fighting.Server.GameObjects\ProxyPlayerInfo.cs:line 83
+   at Fighting.Server.GameObjects.ProxyPlayer..ctor(ServerClient client, PlayerInfo character, UserMatchInfo matchInfo, ProxyPlayerInfo proxyPlayer, UsersPetInfo pet, List`1 infos, List`1 euipEffects, List`1 horseAmuletEffects, List`1 fightBuffs, List`1 horseSkill, BatleConfigInfo batleConfig, List`1 petSealSkillEquip) in C:\Gunny\Full Source\fighting.server\Fighting.Server.GameObjects\ProxyPlayer.cs:line 201
+   at Fighting.Server.ServerClient.HandleGameRoomCreate(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 458
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 54
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes) in C:\Gunny\Full Source\game.base\Game.Base.Packets\StreamProcessor.cs:line 245

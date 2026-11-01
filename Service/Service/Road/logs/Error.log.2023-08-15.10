@@ -1,0 +1,4 @@
+2023-08-15 09:37:01,040 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-15 09:37:01,051 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-15 09:37:01,259 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-15 09:37:37,144 - [15] - ERROR - Game.Logic.Phy.Object.SimpleBoss - Can't create abrain :GameServerScript.AI.NPC.SimpleQueenAntAi

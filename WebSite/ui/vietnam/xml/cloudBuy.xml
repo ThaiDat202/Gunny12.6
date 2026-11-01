@@ -173,6 +173,6 @@
    <bitmapData resourceLink="asset.IndividualLottery.cellBg" x="-3" y="0"/>
    <bitmapData resourceLink="asset.cloudbuy.numberK" x="403" y="15"/>
    <bitmapData resourceLink="asset.IndividualLottery.dituBG" width="214" height="462" x="-3" y="-3"/>
-   <bitmapData resourceLink="asset.IndividualLottery.lookFont" x="20" y="30" width="247.25" height="23"/>
+   <bitmapData resourceLink="asset.IndividualLottery.lookFont" x="14" y="30"/>
 </bitmaps>
 </style>

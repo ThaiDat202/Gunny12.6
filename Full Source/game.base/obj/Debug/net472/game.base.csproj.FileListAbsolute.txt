@@ -53,3 +53,14 @@ D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\game.base\obj\Debug\net472\
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\game.base\obj\Debug\net472\game.base.csproj.CopyComplete
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\game.base\obj\Debug\net472\Game.Base.dll
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\game.base\obj\Debug\net472\Game.Base.pdb
+C:\Gunny\Full Source\game.base\bin\Debug\net472\Game.Base.dll
+C:\Gunny\Full Source\game.base\bin\Debug\net472\Game.Base.pdb
+C:\Gunny\Full Source\game.base\bin\Debug\net472\log4net.dll
+C:\Gunny\Full Source\game.base\bin\Debug\net472\protobuf-net.dll
+C:\Gunny\Full Source\game.base\bin\Debug\net472\zlib.net.dll
+C:\Gunny\Full Source\game.base\obj\Debug\net472\game.base.csproj.AssemblyReference.cache
+C:\Gunny\Full Source\game.base\obj\Debug\net472\game.base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gunny\Full Source\game.base\obj\Debug\net472\game.base.csproj.CoreCompileInputs.cache
+C:\Gunny\Full Source\game.base\obj\Debug\net472\game.base.csproj.CopyComplete
+C:\Gunny\Full Source\game.base\obj\Debug\net472\Game.Base.dll
+C:\Gunny\Full Source\game.base\obj\Debug\net472\Game.Base.pdb

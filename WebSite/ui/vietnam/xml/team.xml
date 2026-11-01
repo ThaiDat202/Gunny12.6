@@ -1,4 +1,4 @@
-<style name="team" version="1.0.1" source="ui/cn_trad/swf/team.swf">
+<style name="team" version="1.0.1" source="ui/vietnam/swf/team.swf">
 	<components>
 		<!-- 战队创建主页面 -->
 		<component classname="team.view.create.TeamCreateFrame" parentStyle="bigBaseFrame" escEnable="true"

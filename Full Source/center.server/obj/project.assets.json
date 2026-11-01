@@ -300,22 +300,25 @@
   },
   "packageFolders": {
     "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\center.server\\center.server.csproj",
+      "projectUniqueName": "C:\\Gunny\\Full Source\\center.server\\center.server.csproj",
       "projectName": "Center.Server",
-      "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\center.server\\center.server.csproj",
+      "projectPath": "C:\\Gunny\\Full Source\\center.server\\center.server.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\center.server\\obj\\",
+      "outputPath": "C:\\Gunny\\Full Source\\center.server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -324,20 +327,22 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
           "projectReferences": {
-            "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\bussiness\\bussiness.csproj": {
-              "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\bussiness\\bussiness.csproj"
+            "C:\\Gunny\\Full Source\\bussiness\\bussiness.csproj": {
+              "projectPath": "C:\\Gunny\\Full Source\\bussiness\\bussiness.csproj"
             },
-            "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\game.base\\game.base.csproj": {
-              "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\game.base\\game.base.csproj"
+            "C:\\Gunny\\Full Source\\game.base\\game.base.csproj": {
+              "projectPath": "C:\\Gunny\\Full Source\\game.base\\game.base.csproj"
             },
-            "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\sqldataprovider\\sqldataprovider.csproj": {
-              "projectPath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\sqldataprovider\\sqldataprovider.csproj"
+            "C:\\Gunny\\Full Source\\sqldataprovider\\sqldataprovider.csproj": {
+              "projectPath": "C:\\Gunny\\Full Source\\sqldataprovider\\sqldataprovider.csproj"
             }
           }
         }
@@ -357,7 +362,7 @@
             "version": "[13.0.1, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

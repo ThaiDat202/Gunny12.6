@@ -480,4 +480,37 @@
   <item PetTemplateID="-1" KindID="33" GetType="1" SkillID="2351" SkillBookID="-1" MinLevel="42" DeleteSkillIDs="" />
   <item PetTemplateID="-1" KindID="33" GetType="1" SkillID="2352" SkillBookID="-1" MinLevel="50" DeleteSkillIDs="" />
   <item PetTemplateID="-1" KindID="33" GetType="1" SkillID="2353" SkillBookID="-1" MinLevel="50" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1569" SkillBookID="-1" MinLevel="1" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1570" SkillBookID="-1" MinLevel="5" DeleteSkillIDs="1569," />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1571" SkillBookID="-1" MinLevel="15" DeleteSkillIDs="1569,1570," />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1572" SkillBookID="-1" MinLevel="8" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1573" SkillBookID="-1" MinLevel="17" DeleteSkillIDs="1572," />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1574" SkillBookID="-1" MinLevel="25" DeleteSkillIDs="1572,1573," />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1577" SkillBookID="-1" MinLevel="28" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1578" SkillBookID="-1" MinLevel="32" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1579" SkillBookID="-1" MinLevel="35" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1580" SkillBookID="-1" MinLevel="37" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1581" SkillBookID="-1" MinLevel="18" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="28" GetType="0" SkillID="1582" SkillBookID="-1" MinLevel="50" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1583" SkillBookID="-1" MinLevel="1" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1584" SkillBookID="-1" MinLevel="5" DeleteSkillIDs="1583," />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1585" SkillBookID="-1" MinLevel="15" DeleteSkillIDs="1583,1584," />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1586" SkillBookID="-1" MinLevel="8" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1587" SkillBookID="-1" MinLevel="17" DeleteSkillIDs="1586," />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1588" SkillBookID="-1" MinLevel="25" DeleteSkillIDs="1586,1587," />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1591" SkillBookID="-1" MinLevel="28" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1592" SkillBookID="-1" MinLevel="32" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1593" SkillBookID="-1" MinLevel="35" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1594" SkillBookID="-1" MinLevel="37" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1595" SkillBookID="-1" MinLevel="18" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="29" GetType="0" SkillID="1596" SkillBookID="-1" MinLevel="50" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="34" GetType="0" SkillID="2624" SkillBookID="-1" MinLevel="1" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="34" GetType="0" SkillID="2625" SkillBookID="-1" MinLevel="15" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="34" GetType="0" SkillID="2626" SkillBookID="-1" MinLevel="8" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="34" GetType="0" SkillID="2627" SkillBookID="-1" MinLevel="17" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="34" GetType="0" SkillID="2629" SkillBookID="-1" MinLevel="25" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="34" GetType="0" SkillID="2630" SkillBookID="-1" MinLevel="28" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="34" GetType="0" SkillID="2632" SkillBookID="-1" MinLevel="32" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="34" GetType="0" SkillID="2634" SkillBookID="-1" MinLevel="35" DeleteSkillIDs="" />
+  <item PetTemplateID="-1" KindID="34" GetType="0" SkillID="2635" SkillBookID="-1" MinLevel="45" DeleteSkillIDs="" />
 </Result>

@@ -1,4 +1,4 @@
-<style name="mines" version="1.0.1" source="ui/cn_trad/swf/mines.swf">
+<style name="mines" version="1.0.1" source="ui/vietnam/swf/mines.swf">
 	<sets>
 		<set stylename="mines.equipmentTip.nameText.tf" args="Arial,15,0x28f129,true" type="flash.text.TextFormat" />
 		<set stylename="mines.equipmentTip.nameText.gf" args="0x000000,1,2,2,15" type="flash.filters.GlowFilter" />

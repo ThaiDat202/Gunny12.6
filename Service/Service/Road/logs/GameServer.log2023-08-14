@@ -1,0 +1,75 @@
+2023-08-14 09:00:46,907 - [52] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17931 | offset: 17931
+2023-08-14 09:07:39,831 - [55] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17931 | offset: 17931
+2023-08-14 09:20:11,485 - [16] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Bad Data.
+
+   at System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   at System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   at System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserLoginHandler.cs:line 36
+2023-08-14 09:20:49,521 - [39] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17931 | offset: 17931
+2023-08-14 09:24:20,511 - [39] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17931 | offset: 17931
+2023-08-14 09:28:30,563 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17931 | offset: 17931
+2023-08-14 09:30:27,113 - [54] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17931 | offset: 17931
+2023-08-14 10:02:15,993 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 50 ms,count:0
+2023-08-14 10:02:18,996 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 53 ms,count:0
+2023-08-14 10:11:20,252 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 50 ms,count:0
+2023-08-14 10:12:45,903 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 72 ms,count:0
+2023-08-14 10:12:46,321 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 68 ms,count:0
+2023-08-14 10:15:17,394 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 49 ms,count:0
+2023-08-14 17:10:01,285 - [71] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:10:01,287 - [71] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:10:01,429 - [71] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:24:41,334 - [26] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:24:41,336 - [26] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:24:41,431 - [26] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:28:19,989 - [26] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:28:19,989 - [26] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:28:20,077 - [26] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:35:36,745 - [53] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:35:36,749 - [53] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:35:36,851 - [53] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:41:29,513 - [38] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-14 17:41:29,712 - [38] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-14 17:42:13,842 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13401.bomb
+2023-08-14 17:42:13,853 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13402.bomb
+2023-08-14 17:42:13,854 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13403.bomb
+2023-08-14 17:42:13,855 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13404.bomb
+2023-08-14 17:42:14,104 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134011.bomb
+2023-08-14 17:42:14,105 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134012.bomb
+2023-08-14 17:42:14,105 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134013.bomb
+2023-08-14 17:42:14,105 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134021.bomb
+2023-08-14 17:42:14,105 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134022.bomb
+2023-08-14 17:42:14,105 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134023.bomb
+2023-08-14 17:42:14,106 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134031.bomb
+2023-08-14 17:42:14,106 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134032.bomb
+2023-08-14 17:42:14,106 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134033.bomb
+2023-08-14 17:42:14,106 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134041.bomb
+2023-08-14 17:42:14,107 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134042.bomb
+2023-08-14 17:42:14,107 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134043.bomb
+2023-08-14 17:48:44,758 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:48:44,759 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 17:48:44,970 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 18:24:10,367 - [42] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-14 18:24:10,477 - [42] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-14 18:24:24,171 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13401.bomb
+2023-08-14 18:24:24,181 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13402.bomb
+2023-08-14 18:24:24,181 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13403.bomb
+2023-08-14 18:24:24,181 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13404.bomb
+2023-08-14 18:24:24,205 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134011.bomb
+2023-08-14 18:24:24,205 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134012.bomb
+2023-08-14 18:24:24,205 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134013.bomb
+2023-08-14 18:24:24,206 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134021.bomb
+2023-08-14 18:24:24,206 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134022.bomb
+2023-08-14 18:24:24,206 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134023.bomb
+2023-08-14 18:24:24,207 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134031.bomb
+2023-08-14 18:24:24,207 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134032.bomb
+2023-08-14 18:24:24,207 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134033.bomb
+2023-08-14 18:24:24,207 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134041.bomb
+2023-08-14 18:24:24,207 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134042.bomb
+2023-08-14 18:24:24,208 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134043.bomb
+2023-08-14 19:45:09,978 - [40] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 19:45:09,980 - [40] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 19:45:10,196 - [40] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-14 19:45:32,641 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,44ms!
+2023-08-14 19:45:32,642 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 45 ms,count:1

@@ -1,0 +1,492 @@
+2023-08-16 09:00:09,047 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file50001 is not exist!
+2023-08-16 09:00:09,059 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file40044 is not exist!
+2023-08-16 09:00:09,059 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file40043 is not exist!
+2023-08-16 09:00:09,059 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file40042 is not exist!
+2023-08-16 09:00:09,060 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file40041 is not exist!
+2023-08-16 09:17:16,260 - [31] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 09:17:16,449 - [31] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-16 09:18:23,722 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:18:23,732 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:18:23,933 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:23:46,691 - [46] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 09:23:46,788 - [46] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-16 09:32:04,321 - [45] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:32:04,332 - [45] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:32:04,544 - [45] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:35:39,569 - [59] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 09:35:46,838 - [64] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 09:36:50,765 - [48] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 09:37:46,685 - [49] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 09:38:23,662 - [49] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 09:41:49,120 - [36] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 09:43:49,436 - [34] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:43:49,437 - [34] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:43:49,527 - [34] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:45:33,186 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:45:33,187 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:45:33,270 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:48:39,964 - [43] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:48:39,965 - [43] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:48:40,055 - [43] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:50:21,666 - [42] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:50:21,667 - [42] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:50:21,720 - [42] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:51:38,962 - [69] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:51:38,964 - [69] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:51:39,139 - [69] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 09:58:45,878 - [58] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:00:45,077 - [44] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:03:20,550 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:03:20,552 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:03:20,611 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:03:42,902 - [61] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:08:38,184 - [44] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:08:38,185 - [44] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:08:38,277 - [44] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:09:26,454 - [43] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:24:55,321 - [16] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:24:55,322 - [16] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:24:55,413 - [16] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:25:17,558 - [17] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:25:20,508 - [17] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType FEED_PET :127.0.0.1:57699, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PetMgr.GetGP(Int32 level, Int32 playerLevel) in C:\Gunny\Full Source\Game.Logic\Game.Logic\PetMgr.cs:line 721
+   at Game.Server.Pet.Handle.FeedPet.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\FeedPet.cs:line 68
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 10:25:22,113 - [17] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType FEED_PET :127.0.0.1:57699, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PetMgr.GetGP(Int32 level, Int32 playerLevel) in C:\Gunny\Full Source\Game.Logic\Game.Logic\PetMgr.cs:line 721
+   at Game.Server.Pet.Handle.FeedPet.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\FeedPet.cs:line 68
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 10:25:22,631 - [17] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType FEED_PET :127.0.0.1:57699, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PetMgr.GetGP(Int32 level, Int32 playerLevel) in C:\Gunny\Full Source\Game.Logic\Game.Logic\PetMgr.cs:line 721
+   at Game.Server.Pet.Handle.FeedPet.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\FeedPet.cs:line 68
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 10:25:22,826 - [17] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType FEED_PET :127.0.0.1:57699, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PetMgr.GetGP(Int32 level, Int32 playerLevel) in C:\Gunny\Full Source\Game.Logic\Game.Logic\PetMgr.cs:line 721
+   at Game.Server.Pet.Handle.FeedPet.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\FeedPet.cs:line 68
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 10:25:23,248 - [17] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType FEED_PET :127.0.0.1:57699, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PetMgr.GetGP(Int32 level, Int32 playerLevel) in C:\Gunny\Full Source\Game.Logic\Game.Logic\PetMgr.cs:line 721
+   at Game.Server.Pet.Handle.FeedPet.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\FeedPet.cs:line 68
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 10:28:41,120 - [89] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:28:41,121 - [89] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:28:41,214 - [89] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:29:07,415 - [94] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:29:17,839 - [101] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:29:24,724 - [103] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:29:29,133 - [102] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:29:33,392 - [102] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:29:38,205 - [102] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:29:43,500 - [104] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:29:45,668 - [104] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType FEED_PET :127.0.0.1:57865, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PetMgr.GetGP(Int32 level, Int32 playerLevel) in C:\Gunny\Full Source\Game.Logic\Game.Logic\PetMgr.cs:line 721
+   at Game.Server.Pet.Handle.FeedPet.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\FeedPet.cs:line 68
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 10:35:40,548 - [111] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 10:35:40,631 - [111] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-16 10:37:31,543 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:37:31,553 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:37:31,784 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:37:54,248 - [16] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:38:00,460 - [27] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:38:05,419 - [16] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:38:10,382 - [16] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:38:15,165 - [16] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:40:29,820 - [33] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:40:41,173 - [33] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:40:49,709 - [39] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:41:00,381 - [33] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:48:59,215 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:48:59,217 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:48:59,368 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:52:14,653 - [32] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:54:35,990 - [43] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:54:35,990 - [43] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:54:36,095 - [43] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:55:06,408 - [66] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:56:21,671 - [43] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:56:21,673 - [43] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:56:21,824 - [43] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:56:38,036 - [71] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:57:46,697 - [36] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:57:46,698 - [36] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:57:46,806 - [36] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 10:58:08,696 - [70] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 10:58:55,301 - [71] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 11:00:29,982 - [24] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:59207, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 11:00:31,646 - [24] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:59207, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 11:00:46,570 - [24] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:59207, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 11:00:59,390 - [24] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:59207) Handle packet Thread 24 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 11:26:51,565 - [97] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 11:26:51,566 - [97] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 11:26:51,666 - [97] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 11:27:10,853 - [100] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 11:28:32,693 - [92] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 11:29:25,100 - [85] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 64
+2023-08-16 11:29:40,022 - [85] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 64
+2023-08-16 11:36:05,748 - [16] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 64
+2023-08-16 12:05:41,387 - [62] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 12:05:41,501 - [62] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-16 12:06:40,780 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 12:06:40,790 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 12:06:41,013 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 12:07:21,101 - [28] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 64
+2023-08-16 12:08:23,349 - [26] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 64
+2023-08-16 12:08:25,494 - [26] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 64
+2023-08-16 12:52:42,788 - [45] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 64
+2023-08-16 14:22:01,319 - [80] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:22:01,320 - [80] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:22:01,422 - [80] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:22:22,982 - [73] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 14:22:30,035 - [66] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 14:22:43,771 - [71] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 14:22:45,484 - [71] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 14:22:48,899 - [71] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 14:23:42,927 - [28] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:23:42,928 - [28] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:23:42,979 - [28] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:27:43,940 - [106] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:27:43,941 - [106] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:27:44,038 - [106] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:31:26,408 - [79] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 79 Game.Server.Packets.Client.PetHandler took 2062ms!
+2023-08-16 14:31:28,807 - [86] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 86 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:31:31,933 - [93] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 93 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:31:39,147 - [93] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 93 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:31:41,996 - [98] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 98 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:31:44,934 - [79] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 79 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:31:47,623 - [98] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 98 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:31:51,624 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:31:53,646 - [99] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 99 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:31:56,412 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:31:59,504 - [99] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 99 Game.Server.Packets.Client.PetHandler took 2047ms!
+2023-08-16 14:32:02,581 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:32:05,212 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:32:07,985 - [99] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 99 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:32:11,333 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:32:14,274 - [31] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 31 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:32:16,300 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:32:18,322 - [31] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 31 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:32:20,345 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:32:22,374 - [31] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 31 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:32:24,392 - [98] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 98 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:32:26,426 - [98] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 98 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:32:28,445 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:32:30,468 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:32:32,489 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:32:37,015 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:32:39,352 - [58] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 58 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:32:41,545 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:32:43,721 - [98] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 98 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:32:45,771 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:32:47,793 - [95] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 95 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:32:49,819 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:32:51,841 - [105] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 105 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:32:53,876 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:32:55,894 - [104] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 104 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:32:57,913 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:32:59,929 - [105] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 105 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:33:01,950 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:33:03,970 - [105] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 105 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:33:05,993 - [104] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 104 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:33:08,023 - [105] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 105 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:33:10,043 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:33:12,065 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:14,090 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:33:16,112 - [89] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 89 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:18,131 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:33:20,148 - [89] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 89 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:33:22,181 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:24,206 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:26,239 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:28,259 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:33:30,291 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:32,318 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:34,339 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:33:36,372 - [89] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 89 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:38,407 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:33:40,713 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:33:42,798 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:44,830 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:46,864 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:48,878 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:33:50,911 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:52,945 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:57,363 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:33:59,560 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:34:01,582 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:34:03,603 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:34:05,627 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:34:07,658 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:34:09,681 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:34:11,704 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:34:13,736 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:34:15,773 - [45] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 45 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:34:17,793 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:34:19,816 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:34:21,835 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:34:23,860 - [45] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 45 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:34:25,881 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:34:27,903 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:34:29,923 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:34:31,943 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:34:33,964 - [45] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 45 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:34:35,984 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:34:38,006 - [45] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 45 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:34:40,030 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:34:42,059 - [38] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 38 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:34:44,079 - [60] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 60 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:34:46,101 - [38] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 38 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:34:48,118 - [60] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 60 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:34:50,142 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:34:52,163 - [38] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 38 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:34:54,187 - [103] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 103 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:34:56,208 - [38] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 38 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:34:58,233 - [60] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 60 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:35:00,243 - [38] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 38 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:35:02,270 - [60] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 60 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:35:04,298 - [38] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 38 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:35:06,321 - [60] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 60 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:35:08,339 - [55] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 55 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:35:10,361 - [60] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 60 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:35:13,792 - [55] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 55 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:35:15,825 - [27] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 27 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:35:17,861 - [55] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 55 Game.Server.Packets.Client.PetHandler took 2047ms!
+2023-08-16 14:35:19,886 - [27] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 27 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:35:21,919 - [60] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 60 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:35:23,940 - [55] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 55 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:35:25,962 - [27] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 27 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:35:28,215 - [68] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 68 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:35:30,237 - [48] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 48 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:35:32,271 - [68] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 68 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:35:34,297 - [27] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 27 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:35:36,319 - [68] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 68 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:35:38,343 - [27] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 27 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:35:40,365 - [68] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 68 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:35:58,401 - [68] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 68 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:36:01,689 - [74] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 74 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:36:04,757 - [111] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 111 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:36:09,375 - [68] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 68 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:36:11,449 - [111] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 111 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:36:13,471 - [74] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 74 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:36:15,492 - [68] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 68 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:36:17,519 - [54] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 54 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:36:19,539 - [68] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 68 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:39:07,465 - [95] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 95 Game.Server.Packets.Client.PetHandler took 2047ms!
+2023-08-16 14:39:09,490 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:39:13,733 - [95] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 95 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:39:18,640 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:39:20,662 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:39:22,697 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:39:24,724 - [95] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 95 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:39:26,758 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:39:28,776 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:39:30,795 - [95] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 95 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:39:32,817 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:39:34,844 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:39:36,855 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2000ms!
+2023-08-16 14:39:38,885 - [58] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 58 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:39:40,907 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:39:42,941 - [58] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 58 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:39:44,977 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:39:48,901 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:39:50,919 - [58] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 58 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:39:52,942 - [87] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 87 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:39:54,965 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:39:56,996 - [58] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 58 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:39:59,026 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:40:01,052 - [31] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 31 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:40:03,741 - [26] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 26 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:40:21,076 - [31] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 31 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:40:23,096 - [98] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 98 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:41:05,111 - [93] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 93 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:41:07,144 - [99] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 99 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:41:09,166 - [93] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 93 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:41:11,189 - [99] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 99 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:41:14,219 - [86] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 86 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:41:16,395 - [79] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 79 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:41:18,741 - [99] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 99 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:41:20,761 - [86] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 86 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:41:22,783 - [99] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 99 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:41:24,812 - [86] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 86 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:41:27,390 - [79] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 79 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:41:29,478 - [99] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 99 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:42:06,653 - [86] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 14:42:24,934 - [66] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 66 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:42:33,431 - [76] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 76 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:42:37,050 - [70] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 70 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:42:39,204 - [66] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 66 Game.Server.Packets.Client.PetHandler took 2000ms!
+2023-08-16 14:42:42,185 - [71] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 71 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:42:44,203 - [70] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 70 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:42:46,763 - [66] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 66 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:42:50,020 - [70] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 70 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:42:53,029 - [66] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 66 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:42:55,486 - [70] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 70 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:42:58,315 - [17] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 17 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:43:00,678 - [70] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 70 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:43:03,026 - [71] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 71 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:43:05,387 - [17] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 17 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:43:07,408 - [70] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 70 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:43:09,428 - [17] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 17 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:43:11,459 - [71] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 71 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:43:34,194 - [70] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 70 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:43:36,224 - [24] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 24 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:43:38,261 - [61] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 61 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:43:46,308 - [24] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:54112, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 14:44:04,055 - [84] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:54112, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 14:44:17,887 - [84] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 84 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:44:22,784 - [49] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 49 Game.Server.Packets.Client.PetHandler took 2047ms!
+2023-08-16 14:44:25,258 - [24] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 24 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:44:51,296 - [49] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 49 Game.Server.Packets.Client.PetHandler took 2015ms!
+2023-08-16 14:44:53,319 - [22] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 22 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:44:56,013 - [36] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 36 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:44:58,040 - [22] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 22 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:45:00,063 - [36] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 36 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 14:45:02,520 - [49] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 49 Game.Server.Packets.Client.PetHandler took 2032ms!
+2023-08-16 14:45:04,553 - [36] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:54112) Handle packet Thread 36 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 14:46:06,004 - [73] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:46:06,007 - [73] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:46:06,064 - [73] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:51:35,379 - [48] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:51:35,380 - [48] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:51:35,429 - [48] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:54:43,979 - [73] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:54:43,980 - [73] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:54:44,038 - [73] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 14:55:23,090 - [96] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 14:55:33,232 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,44ms!
+2023-08-16 14:55:33,236 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 47 ms,count:1
+2023-08-16 15:34:56,827 - [94] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 15:34:56,932 - [94] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-16 15:38:18,153 - [27] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 15:38:18,163 - [27] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 15:38:18,371 - [27] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 15:41:07,593 - [42] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 15:41:07,698 - [42] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-16 15:56:48,615 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 15:56:48,624 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 15:56:48,861 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:03:32,937 - [50] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 16:03:33,007 - [50] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-16 16:05:52,964 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:05:52,975 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:05:53,175 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:06:36,735 - [29] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:59543)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-16 16:06:36,755 - [29] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-16 16:14:03,265 - [63] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 16:14:03,356 - [63] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-16 16:14:44,304 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:14:44,318 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:14:44,549 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:17:43,113 - [32] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 16:17:43,222 - [32] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-16 16:18:15,878 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:18:15,891 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:18:16,100 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:19:24,425 - [31] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 16:19:24,545 - [31] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-16 16:20:05,687 - [24] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:20:05,697 - [24] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:20:05,916 - [24] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:20:48,346 - [28] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 16:20:48,447 - [28] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-16 16:21:25,667 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:21:25,677 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:21:25,874 - [23] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 16:45:12,995 - [35] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:60500) Handle packet Thread 35 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 16:46:37,867 - [47] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:60500) Handle packet Thread 47 Game.Server.Packets.Client.PetHandler took 2031ms!
+2023-08-16 16:46:49,769 - [53] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:60500) Handle packet Thread 53 Game.Server.Packets.Client.PetHandler took 2016ms!
+2023-08-16 16:46:53,709 - [45] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:60500, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 16:59:38,021 - [112] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:60500, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 16:59:42,107 - [112] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:60500, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 17:00:13,750 - [123] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:60500, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 17:00:14,786 - [123] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:60500, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 17:00:16,628 - [123] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:60500, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 17:01:45,071 - [52] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 17:02:16,251 - [56] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-16 17:02:53,664 - [56] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 64
+2023-08-16 17:06:54,530 - [39] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 64
+2023-08-16 17:07:16,229 - [36] - ERROR - Game.Server.Pet.PetLogicProcessor - PetLogicProcessor PackageType PET_SELAR :127.0.0.1:60500, OnGameData is Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Bussiness.Managers.PetSpecialSkillMgr.GetSkillLacrar(Int32 KindID) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\PetSpecialSkillMgr.cs:line 30
+   at Game.Server.Pet.Handle.PetSeal.CommandHandler(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet.Handle\PetSeal.cs:line 79
+   at Game.Server.Pet.PetLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Pet\PetLogicProcessor.cs:line 35
+2023-08-16 17:16:56,042 - [97] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 17:16:56,043 - [97] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 17:16:56,139 - [97] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 17:25:07,915 - [104] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-16 17:25:08,029 - [104] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539

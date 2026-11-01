@@ -67,7 +67,7 @@ public class ItemEnchantHandlerHandler : IPacketHandler
 			}
 			else
 			{
-				client.Player.SendMessage(eMessageType.Normal, "该物品暂时无法附魔.");
+				client.Player.SendMessage(eMessageType.Normal, "Vật phẩm này không thể sử dụng vào lúc này.");
 			}
 		}
 		else

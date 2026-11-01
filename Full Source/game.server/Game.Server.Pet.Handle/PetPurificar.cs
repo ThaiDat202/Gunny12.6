@@ -30,7 +30,7 @@ public class PetPurificar : IPetCommandHadler
 		UsersPetInfo petAt = player.PetBag.GetPetAt(slot);
 		if (petAt == null)
 		{
-			player.SendMessage("背包中找到宠物");
+			player.SendMessage("Pet được tìm thấy trong túi.");
 			return false;
 		}
 		int num = 40;
@@ -56,12 +56,12 @@ public class PetPurificar : IPetCommandHadler
 		}
 		if (flag2 && flag3 && flag4 && flag5 && flag)
 		{
-			player.SendMessage("最多只允许锁定四条属性!");
+			player.SendMessage("Tối đa chỉ được phép khóa bốn thuộc tính!");
 			return false;
 		}
 		if (player.PropBag.GetItemCount(12656) < num)
 		{
-			player.SendMessage(ItemMgr.FindItemTemplate(12656).Name + "数量不足,洗髓失败!");
+			player.SendMessage(ItemMgr.FindItemTemplate(12656).Name + "Không đủ số lượng, trùng sinh không thành công!");
 			return false;
 		}
 		PetMgr.purificar(petAt, flag, flag2, flag3, flag4, flag5);

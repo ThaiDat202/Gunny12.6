@@ -54,3 +54,17 @@ D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\obj\Debug\n
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\obj\Debug\net472\sqldataprovider.csproj.CopyComplete
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\obj\Debug\net472\SqlDataProvider.dll
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\sqldataprovider\obj\Debug\net472\SqlDataProvider.pdb
+C:\Gunny\Full Source\sqldataprovider\obj\Debug\net472\SqlDataProvider.dll
+C:\Gunny\Full Source\sqldataprovider\obj\Debug\net472\SqlDataProvider.pdb
+C:\Gunny\Full Source\sqldataprovider\bin\Debug\net472\SqlDataProvider.dll
+C:\Gunny\Full Source\sqldataprovider\bin\Debug\net472\SqlDataProvider.pdb
+C:\Gunny\Full Source\sqldataprovider\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Gunny\Full Source\sqldataprovider\bin\Debug\net472\EntityFramework.dll
+C:\Gunny\Full Source\sqldataprovider\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Gunny\Full Source\sqldataprovider\bin\Debug\net472\protobuf-net.dll
+C:\Gunny\Full Source\sqldataprovider\bin\Debug\net472\EntityDatabase.dll
+C:\Gunny\Full Source\sqldataprovider\bin\Debug\net472\EntityDatabase.pdb
+C:\Gunny\Full Source\sqldataprovider\obj\Debug\net472\sqldataprovider.csproj.AssemblyReference.cache
+C:\Gunny\Full Source\sqldataprovider\obj\Debug\net472\sqldataprovider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gunny\Full Source\sqldataprovider\obj\Debug\net472\sqldataprovider.csproj.CoreCompileInputs.cache
+C:\Gunny\Full Source\sqldataprovider\obj\Debug\net472\sqldataprovider.csproj.CopyComplete

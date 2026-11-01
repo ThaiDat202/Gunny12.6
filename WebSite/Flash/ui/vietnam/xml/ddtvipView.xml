@@ -12,7 +12,8 @@
 		<set stylename="openSelf.nameTF" args="Arial,13,0x4b2810,true" type="flash.text.TextFormat" />
 		<set stylename="GiveYourselfOpenView.selectTxt" args="Arial,14,0x301a07,true" type="flash.text.TextFormat" />
 		<set stylename="GiveYourselfOpenView.yearDiscountTF" args="Arial,12,0xff1f1f,bold" type="flash.text.TextFormat" />
-		
+		<set stylename="vip.VipGrowUpFrame.openVipTipTF" args="Arial,12,0xFEFE49" type="flash.text.TextFormat"/>
+<set stylename="vip.VipGrowUpFrame.openVipTipGF" args="0x392716,1,4,4,20" type="flash.filters.GlowFilter"/>
 		<set stylename="VipStatusView.word" args="Arial,14,0x4b2810,true" type="flash.text.TextFormat" />
 		<set stylename="VipStatusView.word2" args="Arial,16,0xc22424" type="flash.text.TextFormat" />
 		<set stylename="VipStatusView.word3" args="Arial,16,0xc22424,true" type="flash.text.TextFormat" />
@@ -102,23 +103,33 @@
 		<bitmapData resourceLink="asset.LargeVipIcon9" x="-5" y="-10" />
 		<bitmapData resourceLink="asset.LargeVipIcon10" x="-5" y="-10" />
 		<bitmapData resourceLink="asset.LargeVipIcon11" x="-5" y="-10" />
-		<bitmapData resourceLink="asset.LargeVipIcon12" x="12" y="-10" />
+		<bitmapData resourceLink="asset.LargeVipIcon12" x="-5" y="-10" />
+		<bitmapData resourceLink="asset.LargeVipIcon13" x="-5" y="-10" />
+		<bitmapData resourceLink="asset.LargeVipIcon14" x="-5" y="-10" />
+		<bitmapData resourceLink="asset.LargeVipIcon15" x="12" y="-10" />
 		<bitmapData resourceLink="asset.vip.tick" x="-6" />
 		<bitmapData resourceLink="asset.vip.cross" x="-6" />
-<!-- 		<bitmapData resourceLink="asset.vip.currentVip" x="19" y="109"/> -->
-<!-- 		<bitmapData resourceLink="asset.vip.nextVip" x="370" y="109"/> -->
-<!-- 		<bitmapData resourceLink="asset.vip.PrivilegeTxtBg" width="302" height="195" x="18" y="148"/> -->
-		
+		<bitmapData resourceLink="asset.vipGrowUpFrame.bg" x="3" y="4"/>
+<bitmapData resourceLink="asset.vipGrowUpFrame.title" x="-12" y="-30"/>
 	</bitmaps>
 	<components>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="vip.VipGrowUpFrame.OpenVipBtn" backStyle="vip.VIPPrivilegeFrame.OpenVipBtnImage" filterString="null,lightFilter,null,grayFilter" x="170" y="407"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="vip.VipGrowUpFrame.halfYearBtn" parentStyle="ddtvip.halfYearBtn" x="15" y="267"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="vip.VipGrowUpFrame.threeMonthBtn" parentStyle="ddtvip.threeMonthBtn" x="200" y="267"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="vip.VipGrowUpFrame.oneMonthBtn" parentStyle="ddtvip.oneMonthBtn" x="360" y="267"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="vip.VipGrowUpFrame.discountIcon" resourceLink="asset.vip.DiscountIcon" x="125" y="258"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.VipGrowUpFrame.openVipTip1" textFormatStyle="vip.VipGrowUpFrame.openVipTipTF" filterString="vip.VipGrowUpFrame.openVipTipGF" multiline="false" wordWrap="false" height="22" x="43" y="361"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.VipGrowUpFrame.openVipTip2" parentStyle="vip.VipGrowUpFrame.openVipTip1" x="215" y="361"/>
+<component classname="vip.view.VipGrowUpFrame" stylename="vip.VipGrowUpFrame" backStyle="vip.SimpleFrameBackgound" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,10,6,30,14" containerX="15" containerY="38" titleOuterRectPosString="12,12,5" moveInnerRectString="0,30,0,30,1" width="527" height="516" moveEnable="false" escEnable="true"/>
+	
 		<!-- VIP专享特权窗口 -->
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.VipPrivilegeFrame.FrameBg" parentStyle="SimpleFrameBackgoundOneIII" imageRectString=",17|17|58|17|4"  />
 		<component classname="vip.view.VIPPrivilegeFrame" stylename="vip.VipPrivilegeFrame" parentStyle="BaseFrame"
-			backStyle="vip.VipPrivilegeFrame.FrameBg" containerX="18" containerY="49" escEnable="true" width="746" height="506" />
+			backStyle="vip.VipPrivilegeFrame.FrameBg" containerX="18" containerY="49" escEnable="true" width="881" height="506" />
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.VIPPrivilegeFrame.OpenVipBtnImage" resourceLink="core.bg6899,asset.vip.OpenVipNowBtn" imageRectString="0|160|0|50|13,37|87|7|32|13"/>
 		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="vip.VIPPrivilegeFrame.OpenVipBtn" backStyle="vip.VIPPrivilegeFrame.OpenVipBtnImage" filterString="null,lightFilter,null,grayFilter" x="273" y="387" />
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.VIPPrivilegeFrame.RenewalVipBtnImage" resourceLink="core.bg6899,asset.vip.RenewalsBtn" imageRectString="0|160|0|50|13,24|118|7|34|13"/>
-		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="vip.VIPPrivilegeFrame.RenewalVipBtn" backStyle="vip.VIPPrivilegeFrame.RenewalVipBtnImage" filterString="null,lightFilter,null,grayFilter" x="273" y="387" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="vip.VIPPrivilegeFrame.RenewalVipBtn" backStyle="vip.VIPPrivilegeFrame.RenewalVipBtnImage" filterString="null,lightFilter,null,grayFilter" x="343" y="387" />
 			<!-- 成长规则按钮 -->
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.VipPrivilegeFrame.UnSelectedGrowthRulesImage"
 			resourceLink="core.bg6900,asset.vip.unSelectedGrowthRuleImage" imageRectString="0|134|0|38|13,9|113|8|22|13" x="12" y="4" />
@@ -134,27 +145,27 @@
 		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="vip.vipPrivilegeFrame.LevelPrivilegeBtn" x="160" y="-8"
 			selectedStyle="vip.VipPrivilegeFrame.SelectedLevelPrivilegeImage" unSelectedStyle="vip.VipPrivilegeFrame.UnSelectedLevelPrivilegeImage" filterString="null,lightFilter,null,grayFilter" />
 		
-		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="vip.VipPrivilegeFrameBg" parentStyle="core.bg6920" x="0" y="37" width="710" height="338" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="vip.VipPrivilegeFrameBg" parentStyle="core.bg6920" x="0" y="37" width="845" height="338" />
 		
 		<!-- LevelPrivilegeView -->
 		<component classname="com.pickgliss.ui.image.Image" stylename="vip.LevelPrivilegeView.currentVip" resourceLink="asset.vip.current" x="114" y="32" />
-		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="vip.LevelPrivilegeTitleBg" resourceLink="asset.vip.LevelPrivilegeTitleBg" x="11" y="51" width="688" />
-		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="vip.LevelPrivilegeViewBg" parentStyle="core.bg6920" width="698" height="322" x="6" y="46" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="vip.LevelPrivilegeTitleBg" resourceLink="asset.vip.LevelPrivilegeTitleBg" x="11" y="51" width="823" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="vip.LevelPrivilegeViewBg" parentStyle="core.bg6920" width="833" height="322" x="6" y="46" />
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.LevelPrivilegeView.TitleTxt" x="30" y="60" textFormatStyle="levelPrivilegeView.TitleTxtTF" filterString="levelPrivilegeView.TitleTxtGF" />
 		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="vip.LevelPrivilegeView.ItemScrollPanel" parentStyle="core.ScrollPanel"
-			width="690" height="263" x="10" y="95" vScrollProxy="0" />
+			width="825" height="263" x="10" y="95" vScrollProxy="0" />
 		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="vip.PrivilegeViewItemContainer" spacing="2" />
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.PrivilegeViewTitleItemSeperators" x="-4" y="52"
-		resourceLink="asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig"
-		imageRectString="125|2|0|33|13,170|2|0|33|13,215|2|0|33|13,260|2|0|33|13,305|2|0|33|13,350|2|0|33|13,395|2|0|33|13,440|2|0|33|13,485|2|0|33|13,530|2|0|33|13,575|2|0|33|13,620|2|0|33|13"/>
-		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="vip.LevelPrivilegeSeperator" resourceLink="asset.ddtcore.TwotableLine" width="688" x="11" y="86" />
+		resourceLink="asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig,asset.corel.formLineBig"
+		imageRectString="125|2|0|33|13,170|2|0|33|13,215|2|0|33|13,260|2|0|33|13,305|2|0|33|13,350|2|0|33|13,395|2|0|33|13,440|2|0|33|13,485|2|0|33|13,530|2|0|33|13,575|2|0|33|13,620|2|0|33|13,665|2|0|33|13,710|2|0|33|13,755|2|0|33|13"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="vip.LevelPrivilegeSeperator" resourceLink="asset.ddtcore.TwotableLine" width="823" x="11" y="86" />
 		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="vip.LevelPrivilegeView.selectedBtnImage" parentStyle="core.Scale9CornerImage.scale9CornerImage16" />
 			<!-- LevelPrivilegeItem -->
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.PrivilegeViewItemSeperators" x="-13" y="4"
-		resourceLink="asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine"
-		imageRectString="125|2|0|23|13,170|2|0|23|13,215|2|0|23|13,260|2|0|23|13,305|2|0|23|13,350|2|0|23|13,395|2|0|23|13,440|2|0|23|13,485|2|0|23|13,530|2|0|23|13,575|2|0|23|13,620|2|0|23|13"/>
-		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="vip.PrivilegeViewItemBg" parentStyle="core.ScaleleftrightImage.lineBg3" width="666" />
-		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.PrivilegeViewItemTitleTxt" textFormatStyle="levelPrivilegeItemTitleTxtTF" filterString="levelPrivilegeItemTitleTxtGF" x="0" y="7"  autoSize="none" wordWrap="true" width="108" height="28"/>
+		resourceLink="asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine,asset.corel.formLine"
+		imageRectString="125|2|0|23|13,170|2|0|23|13,215|2|0|23|13,260|2|0|23|13,305|2|0|23|13,350|2|0|23|13,395|2|0|23|13,440|2|0|23|13,485|2|0|23|13,530|2|0|23|13,575|2|0|23|13,620|2|0|23|13,665|2|0|23|13,710|2|0|23|13,755|2|0|23|13"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="vip.PrivilegeViewItemBg" parentStyle="core.ScaleleftrightImage.lineBg3" width="801" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.PrivilegeViewItemTitleTxt" textFormatStyle="levelPrivilegeItemTitleTxtTF" filterString="levelPrivilegeItemTitleTxtGF" x="0" y="7"  autoSize="none" wordWrap="true" width="113" height="28"/>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.PrivilegeViewItemTxt" autoSize="none" wordWrap="true" multiline="true" width="40" height="23" textFormatStyle="levelPrivilegeItemTxtTF" filterString="levelPrivilegeItemTxtGF" />
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.PrivilegeViewBenedctionItemTxt" autoSize="none" wordWrap="true" multiline="true" width="30" height="30" textFormatStyle="levelPrivilegeItemTxtTF" filterString="levelPrivilegeItemTxtGF" />
 		<component classname="com.pickgliss.ui.image.Image" stylename="vip.PrivilegeViewItem.Tick" resourceLink="asset.vip.tick" />
@@ -171,24 +182,27 @@
 		<component classname="com.pickgliss.ui.image.Image" stylename="vip.LevelPrivilegeView.VipIcon9" resourceLink="asset.SmallVipIcon9" />
 		<component classname="com.pickgliss.ui.image.Image" stylename="vip.LevelPrivilegeView.VipIcon10" resourceLink="asset.SmallVipIcon10" />
 		<component classname="com.pickgliss.ui.image.Image" stylename="vip.LevelPrivilegeView.VipIcon11" resourceLink="asset.SmallVipIcon11" />
-		<component classname="com.pickgliss.ui.image.Image" stylename="vip.LevelPrivilegeView.VipIcon12" resourceLink="asset.LargeVipIcon12" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="vip.LevelPrivilegeView.VipIcon12" resourceLink="asset.SmallVipIcon12" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="vip.LevelPrivilegeView.VipIcon13" resourceLink="asset.SmallVipIcon13" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="vip.LevelPrivilegeView.VipIcon14" resourceLink="asset.SmallVipIcon14" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="vip.LevelPrivilegeView.VipIcon15" resourceLink="asset.LargeVipIcon15" />
 		
 		<!-- GrowthRuleView -->
-		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="vip.GrowthRuleViewBg" resourceLink="asset.ddtcore.frameBg" scaleGridString="10,10,167,185" x="12" y="50" width="692" height="134" />
-		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.GrowthRuleViewBg2" parentStyle="core.Scale9CornerImage.littleFur" x="10" y="193" width="692" height="174" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="vip.GrowthRuleViewBg" resourceLink="asset.ddtcore.frameBg" scaleGridString="10,10,167,185" x="12" y="50" width="823" height="134" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.GrowthRuleViewBg2" parentStyle="core.Scale9CornerImage.littleFur" x="10" y="193" width="823" height="174" />
 		
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.GrowthRuleView.DescItem1" resourceLink="core.Scale9CornerImage.deepFur,asset.vip.DescItem1"
-			imageRectString="0|212|0|108|13,10|191|13|81|13" x="25" y="64" />
+			imageRectString="0|252|0|108|13,10|191|13|81|13" x="25" y="64" />
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.GrowthRuleView.DescItem2" resourceLink="core.Scale9CornerImage.deepFur,asset.vip.DescItem2"
-			imageRectString="0|212|0|108|13,10|177|13|86|13" x="251" y="64" />
+			imageRectString="0|252|0|108|13,10|177|13|86|13" x="297" y="64" />
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.GrowthRuleView.DescItem3" resourceLink="core.Scale9CornerImage.deepFur,asset.vip.DescItem3"
-			imageRectString="0|212|0|108|13,10|187|13|81|13" x="476" y="64" />
+			imageRectString="0|252|0|108|13,10|187|13|81|13" x="570" y="64" />
 			
-		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.GrowthRuleView.DescTxt1" x="126" y="106" width="100" multiline="true" wordWrap="true" textFormatStyle="vipDescTxtTF" filterString="glowgilter_vip_03" />
-		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.GrowthRuleView.DescTxt2" x="340" y="106" width="115" multiline="true" wordWrap="true" textFormatStyle="vipDescTxtTF" filterString="glowgilter_vip_03" />
-		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.GrowthRuleView.DescTxt3" x="578" y="106" width="100" multiline="true" wordWrap="true" textFormatStyle="vipDescTxtTF" filterString="glowgilter_vip_03" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.GrowthRuleView.DescTxt1" x="126" y="102" width="135" multiline="true" wordWrap="true" textFormatStyle="vipDescTxtTF" filterString="glowgilter_vip_03" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.GrowthRuleView.DescTxt2" x="397" y="102" width="135" multiline="true" wordWrap="true" textFormatStyle="vipDescTxtTF" filterString="glowgilter_vip_03" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.GrowthRuleView.DescTxt3" x="672" y="102" width="135" multiline="true" wordWrap="true" textFormatStyle="vipDescTxtTF" filterString="glowgilter_vip_03" />
 		
-		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="vip.GrowthRuleView.RuleTxtBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="25" y="210" width="660" height="138"  />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="vip.GrowthRuleView.RuleTxtBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="25" y="210" width="791" height="138"  />
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.GrowthRuleView.RuleTxtTitle" textFormatStyle="vipRuleTitleTF" filterString="vipRuleTitleGF" x="41" y="213" />
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.GrowthRuleView.RuleTxt" textFormatStyle="vipRuleTxtTF" filterString="vipRuleTxtGF" x="42" y="238" />
 
@@ -260,7 +274,7 @@
 	
 		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="ddtvip.btnHbox" spacing="9" x="23" y="119"/>
 	    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtvip.selectText" textFormatStyle="format_vip_01" filterString="glowgilter_vip_01"/>	
-	    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtvip.UnselectText" textFormatStyle="format_vip_02" filterString="glowgilter_vip_02"/>	
+	    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtvip.UnselectText" textFormatStyle="format_vip_02" filterString="glowgilter_vip_02" x="216" y="90"/>	
 		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="vip.giveYourselfOpenBtn" textStyle="ddtvip.selectText,ddtvip.UnselectText" unSelectedStyle="asset.vip.tableUnSelectBG" selectedStyle="asset.vip.tableSelectBG" displacement='false' backgoundInnerRectString="16|150|17|54|13,18|150|9|32|13" autoSizeAble="true"/>
 		
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="GiveYourselfOpenView.BGI" resourceLink="vip.BG01,vip.BG02" y="-5"/>
@@ -442,7 +456,7 @@
 	
 	
 	<component classname="com.pickgliss.ui.image.Image" stylename="vip.discountIcon" resourceLink="asset.vip.DiscountIcon" x="125" y="169"/>
-<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtvip.NoticeVip12LoginCheckBtn" parentStyle="core.simpleSelectBtn" x="253" y="92"/>
+<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtvip.NoticeVip12LoginCheckBtn" parentStyle="core.simpleSelectBtn" x="198" y="92"/>
 	
 	</components>
 	<customs>

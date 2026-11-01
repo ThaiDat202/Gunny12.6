@@ -21,7 +21,7 @@ public class ConsortiaBussiness : BaseBussiness
 
 	public ConsortiaBussiness(AreaConfigInfo config)
 	{
-		string text = "Data Source=.\\DDT;Initial Catalog=Db_Tank_All;Persist Security Info=True;User ID=sa;Password=123456;";
+		string text = "Data Source=DESKTOP-SKTCRVL;Initial Catalog=Db_Tank_All;Persist Security Info=True;User ID=sa;Password=123456;";
 		AreaName = config.AreaName;
 		ZoneID = config.AreaID;
 		StringBuilder stringBuilder = new StringBuilder();
@@ -336,7 +336,7 @@ public class ConsortiaBussiness : BaseBussiness
 		consortiaInfo.Placard = dr["Placard"].ToString();
 		consortiaInfo.IP = dr["IP"].ToString();
 		consortiaInfo.Port = (int)dr["Port"];
-		consortiaInfo.FightPower = (long)dr["FightPower"];
+		consortiaInfo.FightPower = (int)dr["FightPower"];
 		consortiaInfo.Repute = (int)dr["Repute"];
 		consortiaInfo.Count = (int)dr["Count"];
 		consortiaInfo.Riches = (int)dr["Riches"];

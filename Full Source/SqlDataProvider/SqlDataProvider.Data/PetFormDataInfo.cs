@@ -13,4 +13,8 @@ public class PetFormDataInfo
 	public string Resource { get; set; }
 
 	public int TemplateID { get; set; }
+
+    public int NoBombReduceDamage { get; set; }
+
+    public int BurningResistance { get; set; }
 }

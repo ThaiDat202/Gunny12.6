@@ -48,4 +48,12 @@ public class Elf_Template_Info
 	public int Recycle { get; set; }
 
 	public string Description { get; set; }
+
+    public string LighRandoms { get; set; }
+
+    public string DrakRandoms { get; set; }
+
+    public string LighGrowths { get; set; }
+
+    public string DrakGrowths { get; set; }
 }

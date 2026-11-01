@@ -1,0 +1,245 @@
+2023-08-12 03:33:08,051 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-08-12 03:33:08,671 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
+2023-08-12 03:33:08,685 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+2023-08-12 03:33:08,686 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+2023-08-12 03:33:08,687 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+2023-08-12 03:33:08,688 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+2023-08-12 03:33:08,855 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+2023-08-12 03:33:08,869 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
+2023-08-12 03:33:10,826 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+2023-08-12 03:33:10,835 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+2023-08-12 03:33:10,914 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+2023-08-12 03:33:10,951 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+2023-08-12 03:33:11,058 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+2023-08-12 03:33:11,073 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+2023-08-12 03:33:11,083 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+2023-08-12 03:33:11,088 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
+2023-08-12 03:33:11,126 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+2023-08-12 03:33:11,143 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+2023-08-12 03:33:11,150 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+2023-08-12 03:33:11,159 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
+2023-08-12 03:33:11,162 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+2023-08-12 03:33:11,177 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
+2023-08-12 03:33:11,209 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
+2023-08-12 03:33:11,210 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
+2023-08-12 03:33:11,213 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2023-08-12 03:33:11,216 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+2023-08-12 03:33:11,232 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+2023-08-12 03:33:32,634 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:56811
+2023-08-12 03:33:33,248 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:56820
+2023-08-12 03:43:11,216 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 03:43:11,273 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 46ms
+2023-08-12 03:53:11,231 - [41] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 03:53:11,329 - [41] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 109ms
+2023-08-12 04:03:11,242 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 04:03:11,338 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 94ms
+2023-08-12 04:13:11,257 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 04:13:11,341 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-12 04:14:23,526 - [9] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:56820), received bytes=0
+2023-08-12 04:14:23,527 - [45] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:56811), received bytes=0
+2023-08-12 04:14:34,931 - [45] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:59369
+2023-08-12 04:14:35,402 - [45] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:59371
+2023-08-12 04:23:11,274 - [2023-08-12 05:30:35,148 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-08-12 05:30:35,763 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
+2023-08-12 05:30:35,778 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+2023-08-12 05:30:35,778 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+2023-08-12 05:30:35,779 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+2023-08-12 05:30:35,780 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+2023-08-12 05:30:35,953 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+2023-08-12 05:30:35,963 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
+2023-08-12 05:30:37,951 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+2023-08-12 05:30:37,966 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+2023-08-12 05:30:38,036 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+2023-08-12 05:30:38,068 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+2023-08-12 05:30:38,190 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+2023-08-12 05:30:38,205 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+2023-08-12 05:30:38,213 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+2023-08-12 05:30:38,218 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
+2023-08-12 05:30:38,257 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+2023-08-12 05:30:38,271 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+2023-08-12 05:30:38,277 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+2023-08-12 05:30:38,285 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
+2023-08-12 05:30:38,288 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+2023-08-12 05:30:38,304 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
+2023-08-12 05:30:38,342 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
+2023-08-12 05:30:38,342 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
+2023-08-12 05:30:38,344 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2023-08-12 05:30:38,347 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+2023-08-12 05:30:38,363 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+2023-08-12 05:30:51,744 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:60758
+2023-08-12 05:30:52,202 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:60760
+2023-08-12 05:40:38,346 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 05:40:38,411 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-08-12 05:50:27,194 - [41] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+2023-08-12 05:50:27,195 - [3] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+2023-08-12 05:50:38,356 - [43] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 05:50:38,447 - [43] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 93ms
+2023-08-12 05:50:47,554 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:61434
+2023-08-12 05:50:48,095 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:61436
+2023-08-12 05:58:46,791 - [19] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+2023-08-12 05:58:46,794 - [48] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+2023-08-12 05:59:21,103 - [49] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:61842
+2023-08-12 05:59:21,564 - [49] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:61844
+2023-08-12 06:00:38,359 - [55] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 06:00:38,454 - [55] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 94ms
+2023-08-12 06:10:38,369 - [13] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 06:10:38,539 - [13] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 156ms
+2023-08-12 06:20:38,377 - [31] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 06:20:38,441 - [31] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-08-12 06:30:41,282 - [22] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 06:30:41,355 - [22] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-08-12 06:40:41,294 - [13] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 06:40:41,356 - [13] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-08-12 06:50:41,302 - [31] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 06:50:41,351 - [31] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-12 07:00:41,306 - [22] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 07:00:41,345 - [22] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-12 07:10:41,312 - [13] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 07:10:41,351 - [13] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-12 07:20:41,326 - [31] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 07:20:41,364 - [31] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-12 07:30:41,330 - [22] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 07:30:41,369 - [22] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-12 07:40:41,339 - [13] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 07:40:41,379 - [13] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-12 07:50:41,353 - [31] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 07:50:41,394 - [31] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 46ms
+2023-08-12 08:00:41,356 - [22] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 08:00:41,395 - [22] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 46ms
+2023-08-12 08:10:41,371 - [13] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 08:10:41,407 - [13] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-12 08:20:41,388 - [31] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 08:20:41,428 - [31] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-12 08:30:41,409 - [22] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 08:30:41,445 - [22] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-12 08:40:41,407 - [13] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 08:40:41,442 - [13] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-12 08:50:41,410 - [31] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 08:50:41,451 - [31] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-12 09:00:41,424 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 09:00:41,483 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-12 09:10:41,437 - [13] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 09:10:41,556 - [13] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 110ms
+2023-08-12 09:20:41,449 - [31] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 09:20:41,591 - [31] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 141ms
+2023-08-12 09:30:41,464 - [44] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 09:30:41,584 - [44] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 109ms
+2023-08-12 09:2023-08-12 12:11:48,868 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-08-12 12:11:49,501 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
+2023-08-12 12:11:49,514 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+2023-08-12 12:11:49,515 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+2023-08-12 12:11:49,516 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+2023-08-12 12:11:49,517 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+2023-08-12 12:11:49,682 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+2023-08-12 12:11:49,692 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
+2023-08-12 12:11:51,693 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+2023-08-12 12:11:51,701 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+2023-08-12 12:11:51,763 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+2023-08-12 12:11:51,790 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+2023-08-12 12:11:51,892 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+2023-08-12 12:11:51,907 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+2023-08-12 12:11:51,915 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+2023-08-12 12:11:51,918 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
+2023-08-12 12:11:51,956 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+2023-08-12 12:11:51,972 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+2023-08-12 12:11:51,977 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+2023-08-12 12:11:51,983 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
+2023-08-12 12:11:51,986 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+2023-08-12 12:11:52,002 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
+2023-08-12 12:11:52,035 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
+2023-08-12 12:11:52,036 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
+2023-08-12 12:11:52,040 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2023-08-12 12:11:52,043 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+2023-08-12 12:11:52,057 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+2023-08-12 12:12:04,110 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:54514
+2023-08-12 12:12:04,647 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:54517
+2023-08-12 12:21:52,042 - [29] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 12:21:52,110 - [29] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-08-12 12:31:52,045 - [33] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 12:31:52,089 - [33] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-12 12:32:40,974 - [21] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:54517), received bytes=0
+2023-08-12 12:32:40,976 - [12] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:54514), received bytes=0
+2023-08-12 12:33:00,228 - [11] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:55084
+2023-08-12 12:33:00,697 - [11] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:55086
+2023-08-12 12:41:52,053 - [52] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 12:41:52,146 - [52] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 93ms
+2023-08-12 12:51:52,072 - [23] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 12:51:52,100 - [23] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-12 13:01:52,072 - [25] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 13:01:52,099 - [25] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-12 13:11:52,080 - [43] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 13:11:52,128 - [43] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-12 13:21:52,088 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 13:21:52,175 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 94ms
+2023-08-12 13:31:52,101 - [13] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 13:31:52,148 - [13] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 46ms
+2023-08-12 13:41:52,121 - [27] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 13:41:52,158 - [27] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-12 13:51:52,125 - [26] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 13:51:52,275 - [26] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 140ms
+2023-08-12 14:01:52,139 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 14:01:52,221 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 79ms
+2023-08-12 14:11:52,157 - [27] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 14:11:52,237 - [27] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-12 14:21:52,164 - [26] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 14:21:52,215 - [26] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-12 14:31:52,176 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 14:31:52,261 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-12 14:41:52,177 - [27] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 14:41:52,250 - [27] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-08-12 14:51:52,192 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 14:51:52,228 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-12 15:01:52,217 - [45] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 15:01:52,287 - [45] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-12 15:11:52,229 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 15:11:52,271 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 46ms
+2023-08-12 15:21:52,243 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 15:21:52,283 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-12 15:31:52,250 - [45] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 15:31:52,289 - [45] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-12 15:41:52,264 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 15:41:52,312 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-12 15:51:52,265 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 15:51:52,307 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-12 16:01:52,281 - [45] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 16:01:52,322 - [45] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-12 16:11:52,282 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 16:11:52,362 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-12 19:19:16,923 - [37] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 19:19:16,948 - [37] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 15ms
+2023-08-12 19:29:16,937 - [14] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 19:29:17,036 - [14] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 109ms
+2023-08-12 19:39:16,952 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-082023-08-12 23:33:37,496 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-08-12 23:33:38,174 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
+2023-08-12 23:33:38,189 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+2023-08-12 23:33:38,190 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+2023-08-12 23:33:38,191 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+2023-08-12 23:33:38,192 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+2023-08-12 23:33:46,363 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+2023-08-12 23:33:46,372 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
+2023-08-12 23:33:48,847 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+2023-08-12 23:33:48,988 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+2023-08-12 23:33:49,068 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+2023-08-12 23:33:49,105 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+2023-08-12 23:33:51,826 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+2023-08-12 23:33:51,833 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+2023-08-12 23:33:51,846 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+2023-08-12 23:33:51,857 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
+2023-08-12 23:33:51,907 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+2023-08-12 23:33:51,926 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+2023-08-12 23:33:51,936 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+2023-08-12 23:33:51,946 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
+2023-08-12 23:33:51,960 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+2023-08-12 23:33:51,976 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
+2023-08-12 23:33:52,078 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
+2023-08-12 23:33:52,079 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
+2023-08-12 23:33:52,082 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2023-08-12 23:33:52,086 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+2023-08-12 23:33:52,103 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+2023-08-12 23:34:03,539 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:55408
+2023-08-12 23:34:04,198 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:55410
+2023-08-12 23:43:52,087 - [18] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 23:43:52,161 - [18] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 79ms
+2023-08-12 23:53:52,104 - [9] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-12 23:53:52,175 - [9] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms

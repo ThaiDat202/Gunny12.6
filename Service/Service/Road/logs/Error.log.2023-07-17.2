@@ -1,0 +1,47 @@
+2023-07-17 04:27:07,620 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80005 is not exist!
+2023-07-17 04:27:07,633 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80004 is not exist!
+2023-07-17 04:27:07,633 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80003 is not exist!
+2023-07-17 04:27:07,633 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80002 is not exist!
+2023-07-17 04:27:07,634 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80001 is not exist!
+2023-07-17 04:27:07,699 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file20004 is not exist!
+2023-07-17 04:27:07,708 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+2023-07-17 04:27:07,709 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+2023-07-17 04:27:40,724 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.QuestAddHandler  client: 127.0.0.1:64511)
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Server.Quests.QuestInventory.FindQuest(Int32 id) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 498
+   at Game.Server.Quests.QuestInventory.AddQuest(QuestInfo info, String& msg) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 186
+   at Game.Server.Packets.Client.QuestAddHandler.HandlePacket(GameClient client, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Packets.Client\QuestAddHandler.cs:line 20
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-07-17 04:27:40,736 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 68 0F 11 00 B0 00 00 00 07 00 00 00 00   q..h............
+0010: 00 00 00 00 00 00 00 14 00 00 02 C0 00 00 02 C1   ................
+0020: 00 00 02 C2 00 00 02 C4 00 00 02 C5 00 00 02 C7   ................
+0030: 00 00 02 C8 00 00 02 C9 00 00 02 CC 00 00 07 7C   ...............|
+0040: 00 00 02 CF 00 00 02 D2 00 00 02 D3 00 00 02 D4   ................
+0050: 00 00 02 B8 00 00 07 79 00 00 07 7A 00 00 07 7B   .......y...z...{
+0060: 00 00 02 BC 00 00 07 78                           .......x        
+
+2023-07-17 04:30:04,259 - [14] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 162
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 393
+2023-07-17 04:31:16,945 - [14] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 162
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 393
+2023-07-17 04:31:26,350 - [14] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 162
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 393
+2023-07-17 04:34:12,125 - [54] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler

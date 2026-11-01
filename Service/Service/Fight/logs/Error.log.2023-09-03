@@ -1,0 +1,15 @@
+2023-09-03 13:21:52,064 - [11] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)::
+System.ArgumentOutOfRangeException: Year, Month, and Day parameters describe an un-representable DateTime.
+   at System.DateTime.DateToTicks(Int32 year, Int32 month, Int32 day)
+   at System.DateTime..ctor(Int32 year, Int32 month, Int32 day, Int32 hour, Int32 minute, Int32 second)
+   at Game.Base.PacketIn.ReadDateTime() in C:\Gunny\Full Source\game.base\Game.Base\PacketIn.cs:line 152
+   at Fighting.Server.ServerClient.HandleGameRoomCreate(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 339
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 54
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes) in C:\Gunny\Full Source\game.base\Game.Base.Packets\StreamProcessor.cs:line 245
+2023-09-03 13:28:02,559 - [19] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)::
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.GameObjects.ProxyPlayerInfo.GetItemTemplateInfo() in C:\Gunny\Full Source\fighting.server\Fighting.Server.GameObjects\ProxyPlayerInfo.cs:line 83
+   at Fighting.Server.GameObjects.ProxyPlayer..ctor(ServerClient client, PlayerInfo character, UserMatchInfo matchInfo, ProxyPlayerInfo proxyPlayer, UsersPetInfo pet, List`1 infos, List`1 euipEffects, List`1 horseAmuletEffects, List`1 fightBuffs, List`1 horseSkill, BatleConfigInfo batleConfig, List`1 petSealSkillEquip) in C:\Gunny\Full Source\fighting.server\Fighting.Server.GameObjects\ProxyPlayer.cs:line 201
+   at Fighting.Server.ServerClient.HandleGameRoomCreate(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 458
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 54
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes) in C:\Gunny\Full Source\game.base\Game.Base.Packets\StreamProcessor.cs:line 245

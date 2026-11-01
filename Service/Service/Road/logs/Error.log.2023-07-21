@@ -1,0 +1,72 @@
+2023-07-21 01:03:13,030 - [55] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Base.Packets.AbstractPacketLib.SendPlayerDrill(Int32 ID, Dictionary`2 drills) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 4080
+   at Game.Server.GameUtils.PlayerBeadInventory.SendPlayerDrill() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerBeadInventory.cs:line 274
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3736
+2023-07-21 01:04:00,159 - [23] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Base.Packets.AbstractPacketLib.SendPlayerDrill(Int32 ID, Dictionary`2 drills) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 4080
+   at Game.Server.GameUtils.PlayerBeadInventory.SendPlayerDrill() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerBeadInventory.cs:line 274
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3736
+2023-07-21 01:56:59,277 - [41] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Base.Packets.AbstractPacketLib.SendPlayerDrill(Int32 ID, Dictionary`2 drills) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 4080
+   at Game.Server.GameUtils.PlayerBeadInventory.SendPlayerDrill() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerBeadInventory.cs:line 274
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3736
+2023-07-21 15:35:32,817 - [32] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Game.Server.GameUtils.PlayerAvataInventory.LoadFromDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerAvataInventory.cs:line 101
+   at Game.Server.GameObjects.GamePlayer.UpdateItemForUser(Object state) in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4254
+   at Game.Server.GameObjects.GamePlayer.LoadFromDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3969
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3686
+2023-07-21 15:40:50,887 - [64] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Game.Server.GameUtils.PlayerAvataInventory.LoadFromDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerAvataInventory.cs:line 101
+   at Game.Server.GameObjects.GamePlayer.UpdateItemForUser(Object state) in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4254
+   at Game.Server.GameObjects.GamePlayer.LoadFromDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3969
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3686
+2023-07-21 15:44:59,181 - [18] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Game.Server.GameUtils.PlayerAvataInventory.LoadFromDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerAvataInventory.cs:line 101
+   at Game.Server.GameObjects.GamePlayer.UpdateItemForUser(Object state) in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4254
+   at Game.Server.GameObjects.GamePlayer.LoadFromDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3969
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3686
+2023-07-21 16:20:21,503 - [35] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Game.Server.GameUtils.PlayerAvataInventory.LoadFromDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerAvataInventory.cs:line 101
+   at Game.Server.GameObjects.GamePlayer.UpdateItemForUser(Object state) in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4254
+   at Game.Server.GameObjects.GamePlayer.LoadFromDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3969
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3686
+2023-07-21 16:42:08,326 - [4] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Game.Server.GameUtils.PlayerAvataInventory.LoadFromDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerAvataInventory.cs:line 101
+   at Game.Server.GameObjects.GamePlayer.UpdateItemForUser(Object state) in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4254
+   at Game.Server.GameObjects.GamePlayer.LoadFromDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3969
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3686
+2023-07-21 21:16:21,336 - [42] - ERROR - Bussiness.LanguageMgr - Parameters number error, ID: WonderFulActivity.Mail.Content (Arg count=0)
+System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Bussiness.LanguageMgr.GetTranslation(String translateId, Object[] args) in C:\Gunny\Full Source\Bussiness\Bussiness\LanguageMgr.cs:line 77

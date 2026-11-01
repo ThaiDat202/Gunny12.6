@@ -1,0 +1,139 @@
+2023-07-17 01:11:31,206 - [29] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.AddUserLabyrinth(UserLabyrinthInfo laby) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 8934
+2023-07-17 01:11:31,605 - [29] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.LabyrinthHandler  client: 127.0.0.1:57622)
+System.NotImplementedException: The method or operation is not implemented.
+   at Game.Base.Packets.AbstractPacketLib.SendLabyrinthUpdataInfo(Int32 id, UserLabyrinthInfo laby) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 4981
+   at Game.Server.Packets.Client.LabyrinthHandler.HandlePacket(GameClient client, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Packets.Client\LabyrinthHandler.cs:line 49
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-07-17 01:11:31,625 - [29] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1C 00 7D 00 83 00 00 00 01 00 00 00 00   q....}..........
+0010: 00 00 00 00 00 00 00 02 00 00 00 00               ............    
+
+2023-07-17 01:13:50,700 - [33] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 01:13:50,875 - [33] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 01:22:44,229 - [48] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 01:22:44,323 - [48] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 01:24:42,105 - [28] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 01:24:42,214 - [28] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 01:27:22,229 - [29] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 01:27:22,346 - [29] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 01:37:09,089 - [30] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 01:37:09,189 - [30] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 01:41:23,924 - [28] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 01:41:24,033 - [28] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 01:53:37,023 - [34] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 01:53:37,124 - [34] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 01:56:46,168 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,106ms!
+2023-07-17 01:56:46,179 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 118 ms,count:1
+2023-07-17 01:56:53,544 - [15] - ERROR - Game.Logic.Phy.Object.SimpleBoss - Can't create abrain :GameServerScript.AI.NPC.WorldCupBossFor14202
+2023-07-17 01:56:53,549 - [15] - ERROR - Game.Logic.Phy.Object.SimpleNpc - Can't create abrain :GameServerScript.AI.NPC.NullAi
+2023-07-17 01:58:33,125 - [27] - ERROR - Game.Server.Farm.FarmLogicProcessor - IP:127.0.0.1:59386, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Farm.Handle.FeedFarmPoultry.CommandHandler(GamePlayer Player, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Farm.Handle\FeedFarmPoultry.cs:line 28
+   at Game.Server.Farm.FarmLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Farm\FarmLogicProcessor.cs:line 31
+2023-07-17 01:59:42,061 - [32] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 01:59:42,104 - [32] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 02:01:41,174 - [26] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 02:01:41,285 - [26] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 02:29:21,967 - [75] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 02:29:22,065 - [75] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 02:40:59,134 - [60] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 02:40:59,247 - [60] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 02:54:39,193 - [18] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 3267
+2023-07-17 03:01:18,478 - [52] - ERROR - Game.Server.Farm.FarmLogicProcessor - IP:127.0.0.1:62328, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Farm.Handle.FeedFarmPoultry.CommandHandler(GamePlayer Player, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Farm.Handle\FeedFarmPoultry.cs:line 28
+   at Game.Server.Farm.FarmLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Farm\FarmLogicProcessor.cs:line 31
+2023-07-17 03:01:58,911 - [53] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 3267
+2023-07-17 03:02:16,242 - [29] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 3267
+2023-07-17 03:02:39,893 - [57] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 03:02:39,966 - [57] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 03:02:39,987 - [57] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 3267
+2023-07-17 04:27:07,620 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80005 is not exist!
+2023-07-17 04:27:07,633 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80004 is not exist!
+2023-07-17 04:27:07,633 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80003 is not exist!
+2023-07-17 04:27:07,633 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80002 is not exist!
+2023-07-17 04:27:07,634 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80001 is not exist!
+2023-07-17 04:27:07,699 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file20004 is not exist!
+2023-07-17 04:27:07,708 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+2023-07-17 04:27:07,709 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+2023-07-17 04:27:40,724 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.QuestAddHandler  client: 127.0.0.1:64511)
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Server.Quests.QuestInventory.FindQuest(Int32 id) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 498
+   at Game.Server.Quests.QuestInventory.AddQuest(QuestInfo info, String& msg) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 186
+   at Game.Server.Packets.Client.QuestAddHandler.HandlePacket(GameClient client, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Packets.Client\QuestAddHandler.cs:line 20
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-07-17 04:27:40,736 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 68 0F 11 00 B0 00 00 00 07 00 00 00 00   q..h............
+0010: 00 00 00 00 00 00 00 14 00 00 02 C0 00 00 02 C1   ................
+0020: 00 00 02 C2 00 00 02 C4 00 00 02 C5 00 00 02 C7   ................
+0030: 00 00 02 C8 00 00 02 C9 00 00 02 CC 00 00 07 7C   ...............|
+0040: 00 00 02 CF 00 00 02 D2 00 00 02 D3 00 00 02 D4   ................
+0050: 00 00 02 B8 00 00 07 79 00 00 07 7A 00 00 07 7B   .......y...z...{
+0060: 00 00 02 BC 00 00 07 78                           .......x        
+
+2023-07-17 04:30:04,259 - [14] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 162
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 393
+2023-07-17 04:30:04,265 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,94ms!
+2023-07-17 04:30:04,266 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 95 ms,count:1
+2023-07-17 04:31:16,945 - [14] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 162
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 393
+2023-07-17 04:31:26,350 - [14] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentException: String cannot have zero length.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Game.Server.Managers.ScriptMgr.CreateInstance(String name) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.base\Game.Server.Managers\ScriptMgr.cs:line 162
+   at Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Game.Logic\Game.Logic\PVEGame.cs:line 238
+   at Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Games\GameMgr.cs:line 393
+2023-07-17 04:31:26,358 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,67ms!
+2023-07-17 04:31:26,359 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 67 ms,count:1
+2023-07-17 04:31:47,461 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,52ms!
+2023-07-17 04:31:47,462 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 52 ms,count:1
+2023-07-17 04:34:12,125 - [54] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 04:34:12,391 - [54] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 05:03:35,241 - [25] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 05:03:35,335 - [25] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-17 05:04:20,640 - [26] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.QuestAddHandler  client: 127.0.0.1:65105)
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Server.Quests.QuestInventory.FindQuest(Int32 id) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 498
+   at Game.Server.Quests.QuestInventory.AddQuest(QuestInfo info, String& msg) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 186
+   at Game.Server.Packets.Client.QuestAddHandler.HandlePacket(GameClient client, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Packets.Client\QuestAddHandler.cs:line 20
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-07-17 05:04:20,652 - [26] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 68 0F 11 00 B0 00 00 00 07 00 00 00 00   q..h............
+0010: 00 00 00 00 00 00 00 14 00 00 02 C0 00 00 02 C1   ................
+0020: 00 00 02 C2 00 00 02 C4 00 00 02 C5 00 00 02 C7   ................
+0030: 00 00 02 C8 00 00 02 C9 00 00 02 CC 00 00 07 7C   ...............|
+0040: 00 00 02 CF 00 00 02 D2 00 00 02 D3 00 00 02 D4   ................
+0050: 00 00 02 B8 00 00 07 79 00 00 07 7A 00 00 07 7B   .......y...z...{
+0060: 00 00 02 BC 00 00 07 78                           .......x        
+
+2023-07-17 05:04:36,829 - [26] - ERROR - Game.Server.MemoryGame.MemoryGameLogicProcessor - MemoryGameLogicProcessor PackageType:INFO, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.Managers.ItemBoxMgr.FindItemBoxByRand(Int32 DateId, Int32 countSelect) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Bussiness\Bussiness.Managers\ItemBoxMgr.cs:line 759
+   at Game.Server.GameUtils.PlayerActives.CreateMemoryGameData() in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.GameUtils\PlayerActives.cs:line 3496
+   at Game.Server.MemoryGame.Handle.GameInfo.CommandHandler(GamePlayer player, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.MemoryGame.Handle\GameInfo.cs:line 19
+   at Game.Server.MemoryGame.MemoryGameLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.MemoryGame\MemoryGameLogicProcessor.cs:line 30
+2023-07-17 05:04:36,831 - [26] - ERROR - Game.Server.MemoryGame.MemoryGameLogicProcessor - IP: 127.0.0.1:65105
+2023-07-17 05:05:52,808 - [30] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-17 05:05:52,917 - [30] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539

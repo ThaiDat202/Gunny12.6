@@ -1,0 +1,121 @@
+2023-08-29 15:52:23,520 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-08-29 15:52:24,027 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
+2023-08-29 15:52:24,041 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+2023-08-29 15:52:24,042 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+2023-08-29 15:52:24,043 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+2023-08-29 15:52:24,044 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+2023-08-29 15:52:33,977 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+2023-08-29 15:52:33,986 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
+2023-08-29 15:52:37,183 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+2023-08-29 15:52:37,189 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+2023-08-29 15:52:37,242 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+2023-08-29 15:52:37,266 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+2023-08-29 15:52:39,549 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+2023-08-29 15:52:39,554 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+2023-08-29 15:52:39,563 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+2023-08-29 15:52:39,575 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
+2023-08-29 15:52:39,605 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+2023-08-29 15:52:39,646 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+2023-08-29 15:52:39,655 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+2023-08-29 15:52:39,666 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
+2023-08-29 15:52:39,689 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+2023-08-29 15:52:39,720 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
+2023-08-29 15:52:39,861 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
+2023-08-29 15:52:39,861 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
+2023-08-29 15:52:39,865 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2023-08-29 15:52:39,870 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+2023-08-29 15:52:39,891 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+2023-08-29 15:53:35,989 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:57050
+2023-08-29 15:53:36,670 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:57052
+2023-08-29 15:54:57,318 - [7] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)::
+System.ArgumentOutOfRangeException: Year, Month, and Day parameters describe an un-representable DateTime.
+   at System.DateTime.DateToTicks(Int32 year, Int32 month, Int32 day)
+   at System.DateTime..ctor(Int32 year, Int32 month, Int32 day, Int32 hour, Int32 minute, Int32 second)
+   at Game.Base.PacketIn.ReadDateTime() in C:\Gunny\Full Source\game.base\Game.Base\PacketIn.cs:line 152
+   at Fighting.Server.ServerClient.HandleGameRoomCreate(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 345
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 54
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes) in C:\Gunny\Full Source\game.base\Game.Base.Packets\StreamProcessor.cs:line 245
+2023-08-29 15:57:07,294 - [13] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:57052), received bytes=0
+2023-08-29 15:57:07,296 - [15] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:57050), received bytes=0
+2023-08-29 15:57:38,914 - [15] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:57165
+2023-08-29 15:57:39,591 - [15] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:57167
+2023-08-29 15:58:15,411 - [19] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)::
+System.ArgumentOutOfRangeException: Year, Month, and Day parameters describe an un-representable DateTime.
+   at System.DateTime.DateToTicks(Int32 year, Int32 month, Int32 day)
+   at System.DateTime..ctor(Int32 year, Int32 month, Int32 day, Int32 hour, Int32 minute, Int32 second)
+   at Game.Base.PacketIn.ReadDateTime() in C:\Gunny\Full Source\game.base\Game.Base\PacketIn.cs:line 152
+   at Fighting.Server.ServerClient.HandleGameRoomCreate(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 345
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 54
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes) in C:\Gunny\Full Source\game.base\Game.Base.Packets\StreamProcessor.cs:line 245
+2023-08-29 16:02:39,879 - [7] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 16:02:39,943 - [7] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-08-29 16:04:46,728 - [19] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:57167), received bytes=0
+2023-08-29 16:04:46,731 - [19] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:57165), received bytes=0
+2023-08-29 16:05:03,034 - [19] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:57221
+2023-08-29 16:05:03,662 - [19] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:57223
+2023-08-29 16:08:44,458 - [13] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)::
+System.ArgumentOutOfRangeException: Year, Month, and Day parameters describe an un-representable DateTime.
+   at System.DateTime.DateToTicks(Int32 year, Int32 month, Int32 day)
+   at System.DateTime..ctor(Int32 year, Int32 month, Int32 day, Int32 hour, Int32 minute, Int32 second)
+   at Game.Base.PacketIn.ReadDateTime() in C:\Gunny\Full Source\game.base\Game.Base\PacketIn.cs:line 152
+   at Fighting.Server.ServerClient.HandleGameRoomCreate(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 345
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 54
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes) in C:\Gunny\Full Source\game.base\Game.Base.Packets\StreamProcessor.cs:line 245
+2023-08-29 17:58:22,595 - [8] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 17:58:22,680 - [8] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-08-29 18:08:22,616 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 18:08:22,738 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 125ms
+2023-08-29 18:18:22,626 - [47] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 18:18:22,662 - [47] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-29 18:28:22,642 - [10] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 18:28:22,679 - [10] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-29 18:38:22,658 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 18:38:22,695 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-29 18:48:22,665 - [8] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 18:48:22,711 - [8] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-29 18:58:22,680 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 18:58:22,744 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-08-29 19:08:22,690 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 19:08:22,769 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-29 19:18:22,702 - [8] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 19:18:22,780 - [8] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 79ms
+2023-08-29 19:28:22,708 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 19:28:22,774 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-08-29 19:38:22,716 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 19:38:22,774 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-29 19:48:22,718 - [8] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 19:48:22,801 - [8] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-29 19:58:22,723 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 19:58:22,791 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-08-29 20:08:22,738 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 20:08:22,826 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 93ms
+2023-08-29 20:18:22,753 - [8] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 20:18:22,828 - [8] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-29 20:28:22,759 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 20:28:22,838 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-29 20:38:22,770 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 20:38:22,849 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-29 20:48:22,774 - [8] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 20:48:22,836 - [8] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 46ms
+2023-08-29 20:58:22,782 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 20:58:22,890 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 109ms
+2023-08-29 21:08:22,802 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 21:08:22,880 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-29 21:18:22,804 - [8] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 21:18:22,872 - [8] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-29 21:28:22,808 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 21:28:22,895 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-29 21:38:22,819 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 21:38:22,891 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-29 21:48:22,832 - [8] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 21:48:22,913 - [8] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 79ms
+2023-08-29 21:58:22,840 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 21:58:22,938 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 94ms
+2023-08-29 22:08:22,854 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 22:08:22,942 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-29 22:18:22,857 - [8] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 22:18:22,931 - [8] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-08-29 22:28:22,863 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 22:28:22,935 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-29 22:38:22,877 - [35] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-29 22:38:22,958 - [35] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms

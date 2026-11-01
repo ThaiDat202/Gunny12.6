@@ -1,0 +1,9 @@
+2023-08-12 22:00:51,261 - [13] - ERROR - Bussiness.Managers.ItemMgr - Init
+System.InvalidOperationException: No connection string named 'ServerData' could be found in the application config file.
+   at System.Data.Entity.Internal.LazyInternalConnection.get_ConnectionHasModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at Bussiness.Managers.ItemMgr.SyncTSUpgradeTemplate() in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\ItemMgr.cs:line 148
+   at Bussiness.Managers.ItemMgr.Init(Boolean isUpdate) in C:\Gunny\Full Source\Bussiness\Bussiness.Managers\ItemMgr.cs:line 112

@@ -1610,7 +1610,22 @@ public class ItemInfo : DataObject
 		return false;
 	}
 
-	public bool isGemStone()
+    public bool isTexpThirdProp()
+    {
+        if (_template == null)
+        {
+            return false;
+        }
+        int categoryID = _template.CategoryID;
+        int num = categoryID;
+        if (num == 88)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    public bool isGemStone()
 	{
 		if (_template == null)
 		{

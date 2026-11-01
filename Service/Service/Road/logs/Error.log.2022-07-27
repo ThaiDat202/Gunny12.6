@@ -1,0 +1,14 @@
+2022-07-27 22:22:40,134 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1459 is not exist!
+2022-07-27 22:22:46,635 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\119034.bomb
+2022-07-27 22:24:30,212 - [19] - ERROR - Game.Base.BaseClient - pkg 178 is too high with size: 10372 | offset: 10372
+2022-07-27 22:24:30,212 - [19] - ERROR - Game.Base.BaseClient - pkg 178 is too high with size: 10372 | offset: 10372
+2022-07-27 22:24:30,213 - [19] - ERROR - Game.Base.BaseClient - pkg 178 is too high with size: 10372 | offset: 10372
+2022-07-27 22:24:30,213 - [19] - ERROR - Game.Base.BaseClient - pkg 178 is too high with size: 10372 | offset: 10372
+2022-07-27 22:24:30,213 - [19] - ERROR - Game.Base.BaseClient - pkg 178 is too high with size: 10372 | offset: 10372
+2022-07-27 22:24:30,214 - [19] - ERROR - Game.Base.BaseClient - pkg 178 is too high with size: 10372 | offset: 10372
+2022-07-27 22:24:30,214 - [19] - ERROR - Game.Base.BaseClient - pkg 178 is too high with size: 10372 | offset: 10372
+2022-07-27 22:24:30,215 - [19] - ERROR - Game.Base.BaseClient - pkg 178 is too high with size: 10372 | offset: 10372
+2022-07-27 22:24:30,215 - [19] - ERROR - Game.Base.BaseClient - pkg 178 is too high with size: 10372 | offset: 10372
+2022-07-27 22:24:30,215 - [19] - ERROR - Game.Base.BaseClient - pkg 178 is too high with size: 10372 | offset: 10372
+2022-07-27 22:24:30,216 - [19] - ERROR - Game.Base.BaseClient - pkg 178 is too high with size: 10096 | offset: 10096
+2022-07-27 22:26:24,253 - [31] - ERROR - Game.Base.BaseClient - pkg 145 is too high with size: 9237 | offset: 9237

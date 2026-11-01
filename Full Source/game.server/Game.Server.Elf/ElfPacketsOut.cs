@@ -34,8 +34,8 @@ public class ElfPacketsOut
 			gSPacketIn.WriteInt(item.FengBase);
 			if (GameProperties.VERSION >= 12100)
 			{
-                gSPacketIn.WriteInt(0); //_loc7_.guangBase = param1.pkg.readInt();
-                gSPacketIn.WriteInt(0); //_loc7_.anBase = param1.pkg.readInt();
+                gSPacketIn.WriteInt(item.GuangBase); //_loc7_.guangBase = param1.pkg.readInt();
+                gSPacketIn.WriteInt(item.AnBase); //_loc7_.anBase = param1.pkg.readInt();
             }
 			gSPacketIn.WriteInt(item.HpValue);
 			gSPacketIn.WriteInt(item.AttackValue);
@@ -45,8 +45,8 @@ public class ElfPacketsOut
 			gSPacketIn.WriteInt(item.FengValue);
             if (GameProperties.VERSION >= 12100)
             {
-                gSPacketIn.WriteInt(0); //_loc7_.guangValue = param1.pkg.readInt();
-                gSPacketIn.WriteInt(0); //_loc7_.anValue = param1.pkg.readInt();
+                gSPacketIn.WriteInt(item.GuangValue); //_loc7_.guangValue = param1.pkg.readInt();
+                gSPacketIn.WriteInt(item.AnValue); //_loc7_.anValue = param1.pkg.readInt();
             }
             gSPacketIn.WriteInt(item.HpGrowth);
 			gSPacketIn.WriteInt(item.AttackGrowth);
@@ -56,8 +56,8 @@ public class ElfPacketsOut
 			gSPacketIn.WriteInt(item.FengGrowth);
             if (GameProperties.VERSION >= 12100)
             {
-                gSPacketIn.WriteInt(0); //_loc7_.guangGrowth = param1.pkg.readInt();
-                gSPacketIn.WriteInt(0); //_loc7_.anGrowth = param1.pkg.readInt();
+                gSPacketIn.WriteInt(item.GuangGrowth); //_loc7_.guangGrowth = param1.pkg.readInt();
+                gSPacketIn.WriteInt(item.AnGrowth); //_loc7_.anGrowth = param1.pkg.readInt();
             }
             gSPacketIn.WriteInt(item.GoodFeling);
 			gSPacketIn.WriteBoolean(item.IsFight);
@@ -164,8 +164,8 @@ public class ElfPacketsOut
 		gSPacketIn.WriteInt(elf.FengValue);
         if (GameProperties.VERSION >= 12100)
         {
-            gSPacketIn.WriteInt(0); //_loc4_.guangValue = param1.pkg.readInt();
-            gSPacketIn.WriteInt(0); //_loc4_.anValue = param1.pkg.readInt();
+            gSPacketIn.WriteInt(elf.GuangValue); //_loc4_.guangValue = param1.pkg.readInt();
+            gSPacketIn.WriteInt(elf.AnValue); //_loc4_.anValue = param1.pkg.readInt();
         }
         gSPacketIn.WriteInt(elf.HpGrowth);
 		gSPacketIn.WriteInt(elf.AttackGrowth);
@@ -175,8 +175,8 @@ public class ElfPacketsOut
 		gSPacketIn.WriteInt(elf.FengGrowth);
         if (GameProperties.VERSION >= 12100)
         {
-            gSPacketIn.WriteInt(0); //_loc4_.guangGrowth = param1.pkg.readInt();
-            gSPacketIn.WriteInt(0); //_loc4_.anGrowth = param1.pkg.readInt();
+            gSPacketIn.WriteInt(elf.GuangGrowth); //_loc4_.guangGrowth = param1.pkg.readInt();
+            gSPacketIn.WriteInt(elf.AnGrowth); //_loc4_.anGrowth = param1.pkg.readInt();
         }
         gSPacketIn.WriteInt(elf.Quality);
 		player.SendTCP(gSPacketIn);
@@ -196,8 +196,8 @@ public class ElfPacketsOut
 		gSPacketIn.WriteInt(elf.FengValue);
         if (GameProperties.VERSION >= 12100)
         {
-            gSPacketIn.WriteInt(0); //_loc3_.guangValue = param1.pkg.readInt();
-            gSPacketIn.WriteInt(0); //_loc3_.anValue = param1.pkg.readInt();
+            gSPacketIn.WriteInt(elf.GuangValue); //_loc3_.guangValue = param1.pkg.readInt();
+            gSPacketIn.WriteInt(elf.AnValue); //_loc3_.anValue = param1.pkg.readInt();
         }
         gSPacketIn.WriteInt(elf.HpGrowth);
 		gSPacketIn.WriteInt(elf.AttackGrowth);
@@ -207,8 +207,8 @@ public class ElfPacketsOut
 		gSPacketIn.WriteInt(elf.FengGrowth);
         if (GameProperties.VERSION >= 12100)
         {
-            gSPacketIn.WriteInt(0); //_loc3_.guangGrowth = param1.pkg.readInt();
-            gSPacketIn.WriteInt(0); //_loc3_.anGrowth = param1.pkg.readInt();
+            gSPacketIn.WriteInt(elf.GuangGrowth); //_loc3_.guangGrowth = param1.pkg.readInt();
+            gSPacketIn.WriteInt(elf.AnGrowth); //_loc3_.anGrowth = param1.pkg.readInt();
         }
         gSPacketIn.WriteInt(elf.Quality);
 		player.SendTCP(gSPacketIn);
@@ -230,8 +230,8 @@ public class ElfPacketsOut
 		gSPacketIn.WriteInt(elf.FengValue);
 		if (GameProperties.VERSION >= 12100)
 		{
-            gSPacketIn.WriteInt(0); //_loc3_.guangValue = param1.pkg.readInt();
-            gSPacketIn.WriteInt(0); //_loc3_.anValue = param1.pkg.readInt();
+            gSPacketIn.WriteInt(elf.GuangValue); //_loc3_.guangValue = param1.pkg.readInt();
+            gSPacketIn.WriteInt(elf.AnValue); //_loc3_.anValue = param1.pkg.readInt();
         }
 		player.SendTCP(gSPacketIn);
 	}

@@ -1,4 +1,4 @@
-<style name="newversionguide" version="6.1.0" source="ui/cn_trad/swf/newversionguide.swf">
+<style name="newversionguide" version="6.1.0" source="ui/vietnam/swf/newversionguide.swf">
 	<sets>
 		<set stylename="newVersionGuide.npc.TF"  args="宋体,14,0xffffff"  type="flash.text.TextFormat" leading="5" letterSpacing="1"/>
 		<set stylename="newVersionGuide.npc.GF" args="0x000000,2,4,4,30"  type="flash.filters.GlowFilter"/>

@@ -1,4 +1,4 @@
-<style name="conRecharge" version="1.0.1" source="ui/cn_trad/swf/conRecharge.swf">
+<style name="conRecharge" version="1.0.1" source="ui/vietnam/swf/conRecharge.swf">
 	
 	<sets>
 		<set stylename="conRecharge.activityTime.TF" args="Arial,14,0x51f236,,,,,,left" type="flash.text.TextFormat" />
@@ -21,7 +21,7 @@
 			textFormatStyle="conRecharge.activityTime.TF" filterString="conRecharge.activityTime.GF" autoSize="none" x="635" y="105" width="200" height="24" />	
 		
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="conRecharge.finishDay.txt" 
-			textFormatStyle="conRecharge.finishDay.TF" filterString="conRecharge.finishDay.GF" x="16" y="63" />
+			textFormatStyle="conRecharge.finishDay.TF" filterString="conRecharge.finishDay.GF" x="6" y="59" autoSize="none" width="100" height="40" wordWrap="true"/>
 		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="conRecharge.rechargeBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2,6" 
 			backStyle="asset.conRecharge.rechargeBtn" x="683" y="48" filterString="null,lightFilter,lightFilter,grayFilter"/>
 		
@@ -40,7 +40,7 @@
 		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="conRecharge.havaReceived.btn" backStyle="conRecharge.gotBtn.MutipleImage" 
 			filterString="null,lightFilter,null,grayFilter" x="191" y="44"/>
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="conRecharge.getBtn.MutipleImage" resourceLink="core.bg6899,asset.conRecharge.getBtn" 
-			imageRectString="0|98|0|42|13,69|24|7|0|9"/>
+			imageRectString="0|98|0|42|13,83|28|7|0|9"/>
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="conRecharge.gotBtn.MutipleImage" resourceLink="core.bg6899,asset.conRecharge.gotBtn" 
 			imageRectString="0|98|0|42|13,83|28|7|0|9"/>
 		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="conRecharge.prize.btn" backStyle="asset.conRecharge.prize" 
@@ -55,11 +55,11 @@
 		<custom classname="flash.geom.Point" stylename="conRecharge.leftView.pos" x="19" y="176"/>
 		<custom classname="flash.geom.Point" stylename="conRecharge.rightView.pos" x="500" y="179"/>
 		
-		<custom classname="flash.geom.Point" stylename="asset.conRecharge.yellow1.pos" x="178" y="-29"/>
-		<custom classname="flash.geom.Point" stylename="asset.conRecharge.yellow2.pos" x="289" y="-29"/>
-		<custom classname="flash.geom.Point" stylename="asset.conRecharge.yellow3.pos" x="398" y="-29"/>
+		<custom classname="flash.geom.Point" stylename="asset.conRecharge.yellow1.pos" x="164" y="-29"/>
+		<custom classname="flash.geom.Point" stylename="asset.conRecharge.yellow2.pos" x="277" y="-29"/>
+		<custom classname="flash.geom.Point" stylename="asset.conRecharge.yellow3.pos" x="395" y="-29"/>
 		
-		<custom classname="flash.geom.Point" stylename="asset.conRecharge.red.pos" x="87" y="9"/>
+		<custom classname="flash.geom.Point" stylename="asset.conRecharge.red.pos" x="57" y="9"/>
 		
 		<custom classname="flash.geom.Point" stylename="asset.conRecharge.box.pos" x="29" y="72"/>
 	</customDisplay>

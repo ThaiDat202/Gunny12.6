@@ -28,8 +28,8 @@ public class ElementForceFreeze : BasePetEffect
 		if (!target.EffectBadges && living != target && living.Game is PVPGame && rand.Next(10000) <= 2000)
 		{
 			target.EffectBadges = true;
-			living.Game.AddAction(new LivingSayAction(living, "极寒之力", 9, 0, 1000));
-			living.Game.SendEquipEffect(living, "触发<极寒之力>目标无法攻击或移动2回合");
+			living.Game.AddAction(new LivingSayAction(living, "Đóng Băng Cực Tốc", 9, 0, 1000));
+			living.Game.SendEquipEffect(living, "");
 			new ElementForceFreezeEquip(m_skillid, m_value).Start(target);
 		}
 	}

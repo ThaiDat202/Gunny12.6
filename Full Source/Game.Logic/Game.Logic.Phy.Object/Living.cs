@@ -98,6 +98,14 @@ public class Living : Physics
 
 	public double WindDefence = 0.0;
 
+	public double LighAttack = 0.0;
+
+	public double LighDefence = 0.0;
+
+	public double DrakAttack = 0.0;
+
+	public double DrakDefence = 0.0;
+
 	public int Prop1;
 
 	public int Prop2;

@@ -64,3 +64,25 @@ D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\obj\Debug\net
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\obj\Debug\net472\center.server.csproj.CopyComplete
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\obj\Debug\net472\Center.Server.dll
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\center.server\obj\Debug\net472\Center.Server.pdb
+C:\Gunny\Full Source\center.server\bin\Debug\net472\Center.Server.dll
+C:\Gunny\Full Source\center.server\bin\Debug\net472\Center.Server.pdb
+C:\Gunny\Full Source\center.server\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Gunny\Full Source\center.server\bin\Debug\net472\EntityFramework.dll
+C:\Gunny\Full Source\center.server\bin\Debug\net472\log4net.dll
+C:\Gunny\Full Source\center.server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Gunny\Full Source\center.server\bin\Debug\net472\protobuf-net.dll
+C:\Gunny\Full Source\center.server\bin\Debug\net472\zlib.net.dll
+C:\Gunny\Full Source\center.server\bin\Debug\net472\Bussiness.dll
+C:\Gunny\Full Source\center.server\bin\Debug\net472\EntityDatabase.dll
+C:\Gunny\Full Source\center.server\bin\Debug\net472\Game.Base.dll
+C:\Gunny\Full Source\center.server\bin\Debug\net472\SqlDataProvider.dll
+C:\Gunny\Full Source\center.server\bin\Debug\net472\Bussiness.pdb
+C:\Gunny\Full Source\center.server\bin\Debug\net472\Game.Base.pdb
+C:\Gunny\Full Source\center.server\bin\Debug\net472\SqlDataProvider.pdb
+C:\Gunny\Full Source\center.server\bin\Debug\net472\EntityDatabase.pdb
+C:\Gunny\Full Source\center.server\obj\Debug\net472\center.server.csproj.AssemblyReference.cache
+C:\Gunny\Full Source\center.server\obj\Debug\net472\center.server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gunny\Full Source\center.server\obj\Debug\net472\center.server.csproj.CoreCompileInputs.cache
+C:\Gunny\Full Source\center.server\obj\Debug\net472\center.server.csproj.CopyComplete
+C:\Gunny\Full Source\center.server\obj\Debug\net472\Center.Server.dll
+C:\Gunny\Full Source\center.server\obj\Debug\net472\Center.Server.pdb

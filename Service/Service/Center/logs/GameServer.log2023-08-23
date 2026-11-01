@@ -1,0 +1,207 @@
+2023-08-23 23:52:32,910 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-08-23 23:52:33,543 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+2023-08-23 23:52:33,546 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+2023-08-23 23:52:33,546 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+2023-08-23 23:52:33,550 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:1593: True
+2023-08-23 23:52:33,679 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+2023-08-23 23:52:33,680 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+2023-08-23 23:52:33,686 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+2023-08-23 23:52:33,687 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+2023-08-23 23:52:33,690 - [MAIN] - INFO  - Center.Server.CenterServer - Load ServerData: True
+2023-08-23 23:52:33,699 - [MAIN] - INFO  - Center.Server.CenterServer - ConsortiaLevelMgr Init : True
+2023-08-23 23:52:33,701 - [MAIN] - INFO  - Center.Server.CenterServer - MacroDropMgr Init : True
+2023-08-23 23:52:33,706 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+2023-08-23 23:52:33,712 - [MAIN] - INFO  - Center.Server.CenterServer - NewTitleMgr Init: True
+2023-08-23 23:52:33,718 - [MAIN] - INFO  - Center.Server.CenterServer - BombKingMgr Init: True
+2023-08-23 23:52:33,731 - [MAIN] - INFO  - Center.Server.CenterServer - QiYuanAwardMgr Init: True
+2023-08-23 23:52:33,752 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+2023-08-23 23:52:33,773 - [MAIN] - INFO  - Center.Server.SystemNoticeMgr - Total 3 syterm notice loaded.
+2023-08-23 23:52:33,775 - [MAIN] - INFO  - Center.Server.CenterServer - SystemNoticeMgr Init: True
+2023-08-23 23:52:33,873 - [MAIN] - INFO  - Center.Server.CenterServer - WorldMgr Init: True
+2023-08-23 23:52:33,874 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+2023-08-23 23:52:33,878 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+2023-08-23 23:52:33,879 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+2023-08-23 23:52:33,881 - [MAIN] - INFO  - Center.Server.CenterServer - Cleaning Memory
+2023-08-23 23:52:33,895 - [MAIN] - INFO  - Center.Server.CenterServer - Memory Cleaned in 16ms
+2023-08-23 23:52:33,896 - [MAIN] - INFO  - Center.Server.CenterServer - GameServer is now open for connections!
+2023-08-23 23:52:33,898 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+2023-08-23 23:53:03,730 - [12] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:53:03,733 - [12] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=12
+2023-08-23 23:53:03,737 - [12] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:53:33,744 - [13] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:53:33,745 - [13] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=13
+2023-08-23 23:53:33,745 - [13] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:53:33,885 - [13] - INFO  - Center.Server.CenterServer - CityBattle ...
+2023-08-23 23:53:33,885 - [17] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:53:33,885 - [19] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+2023-08-23 23:53:33,885 - [15] - INFO  - Center.Server.CenterServer - Saving database...
+2023-08-23 23:53:33,885 - [16] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:53:33,888 - [16] - DEBUG - Center.Server.CenterServer - Save ThreadId=16
+2023-08-23 23:53:33,887 - [13] - DEBUG - Center.Server.CenterServer - Save ThreadId=13
+2023-08-23 23:53:33,887 - [17] - DEBUG - Center.Server.CenterServer - Save ThreadId=17
+2023-08-23 23:53:33,887 - [14] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+2023-08-23 23:53:33,890 - [14] - DEBUG - Center.Server.CenterServer - Scan ThreadId=14
+2023-08-23 23:53:33,890 - [17] - INFO  - Center.Server.CenterServer - Saving Record complete!
+2023-08-23 23:53:33,888 - [19] - DEBUG - Center.Server.CenterServer - Scan ThreadId=19
+2023-08-23 23:53:33,891 - [19] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+2023-08-23 23:53:33,888 - [15] - DEBUG - Center.Server.CenterServer - Save ThreadId=15
+2023-08-23 23:53:33,891 - [14] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+2023-08-23 23:53:33,890 - [13] - INFO  - Center.Server.CenterServer - CityBattle complete!
+2023-08-23 23:53:33,930 - [15] - INFO  - Center.Server.CenterServer - Saving database complete!
+2023-08-23 23:53:33,932 - [15] - INFO  - Center.Server.CenterServer - Saved all databases 47ms
+2023-08-23 23:53:33,991 - [16] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+2023-08-23 23:53:40,701 - [7] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:54479
+2023-08-23 23:54:03,773 - [27] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:54:03,774 - [27] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=27
+2023-08-23 23:54:03,776 - [27] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:54:33,778 - [26] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:54:33,778 - [26] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=26
+2023-08-23 23:54:33,780 - [26] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:54:33,888 - [26] - INFO  - Center.Server.CenterServer - CityBattle ...
+2023-08-23 23:54:33,889 - [26] - DEBUG - Center.Server.CenterServer - Save ThreadId=26
+2023-08-23 23:54:33,890 - [26] - INFO  - Center.Server.CenterServer - CityBattle complete!
+2023-08-23 23:54:33,888 - [23] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+2023-08-23 23:54:33,890 - [23] - DEBUG - Center.Server.CenterServer - Scan ThreadId=23
+2023-08-23 23:54:33,888 - [28] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:54:33,891 - [28] - DEBUG - Center.Server.CenterServer - Save ThreadId=28
+2023-08-23 23:54:33,889 - [30] - INFO  - Center.Server.CenterServer - Saving database...
+2023-08-23 23:54:33,892 - [30] - DEBUG - Center.Server.CenterServer - Save ThreadId=30
+2023-08-23 23:54:33,888 - [24] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+2023-08-23 23:54:33,892 - [24] - DEBUG - Center.Server.CenterServer - Scan ThreadId=24
+2023-08-23 23:54:33,888 - [29] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:54:33,893 - [29] - DEBUG - Center.Server.CenterServer - Save ThreadId=29
+2023-08-23 23:54:33,893 - [29] - INFO  - Center.Server.CenterServer - Saving Record complete!
+2023-08-23 23:54:33,891 - [23] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+2023-08-23 23:54:33,896 - [28] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+2023-08-23 23:54:33,905 - [30] - INFO  - Center.Server.CenterServer - Saving database complete!
+2023-08-23 23:54:33,906 - [24] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+2023-08-23 23:54:33,906 - [30] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+2023-08-23 23:55:03,788 - [32] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:55:03,789 - [32] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=32
+2023-08-23 23:55:03,794 - [32] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:55:33,800 - [33] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:55:33,800 - [33] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=33
+2023-08-23 23:55:33,800 - [33] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:55:33,893 - [33] - INFO  - Center.Server.CenterServer - CityBattle ...
+2023-08-23 23:55:33,893 - [40] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:55:33,894 - [41] - INFO  - Center.Server.CenterServer - Saving database...
+2023-08-23 23:55:33,893 - [39] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:55:33,894 - [33] - DEBUG - Center.Server.CenterServer - Save ThreadId=33
+2023-08-23 23:55:33,893 - [37] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+2023-08-23 23:55:33,897 - [37] - DEBUG - Center.Server.CenterServer - Scan ThreadId=37
+2023-08-23 23:55:33,895 - [40] - DEBUG - Center.Server.CenterServer - Save ThreadId=40
+2023-08-23 23:55:33,897 - [40] - INFO  - Center.Server.CenterServer - Saving Record complete!
+2023-08-23 23:55:33,895 - [41] - DEBUG - Center.Server.CenterServer - Save ThreadId=41
+2023-08-23 23:55:33,897 - [33] - INFO  - Center.Server.CenterServer - CityBattle complete!
+2023-08-23 23:55:33,896 - [39] - DEBUG - Center.Server.CenterServer - Save ThreadId=39
+2023-08-23 23:55:33,897 - [37] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+2023-08-23 23:55:33,893 - [42] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+2023-08-23 23:55:33,899 - [42] - DEBUG - Center.Server.CenterServer - Scan ThreadId=42
+2023-08-23 23:55:33,900 - [42] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+2023-08-23 23:55:33,901 - [41] - INFO  - Center.Server.CenterServer - Saving database complete!
+2023-08-23 23:55:33,901 - [41] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+2023-08-23 23:55:33,966 - [39] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+2023-08-23 23:56:03,805 - [43] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:56:03,807 - [43] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=43
+2023-08-23 23:56:03,808 - [43] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:56:33,808 - [44] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:56:33,808 - [44] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=44
+2023-08-23 23:56:33,809 - [44] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:56:33,903 - [44] - INFO  - Center.Server.CenterServer - CityBattle ...
+2023-08-23 23:56:33,904 - [44] - DEBUG - Center.Server.CenterServer - Save ThreadId=44
+2023-08-23 23:56:33,904 - [45] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+2023-08-23 23:56:33,906 - [45] - DEBUG - Center.Server.CenterServer - Scan ThreadId=45
+2023-08-23 23:56:33,907 - [45] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+2023-08-23 23:56:33,905 - [48] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:56:33,907 - [48] - DEBUG - Center.Server.CenterServer - Save ThreadId=48
+2023-08-23 23:56:33,907 - [48] - INFO  - Center.Server.CenterServer - Saving Record complete!
+2023-08-23 23:56:33,903 - [46] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+2023-08-23 23:56:33,908 - [46] - DEBUG - Center.Server.CenterServer - Scan ThreadId=46
+2023-08-23 23:56:33,905 - [49] - INFO  - Center.Server.CenterServer - Saving database...
+2023-08-23 23:56:33,909 - [49] - DEBUG - Center.Server.CenterServer - Save ThreadId=49
+2023-08-23 23:56:33,904 - [47] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:56:33,910 - [47] - DEBUG - Center.Server.CenterServer - Save ThreadId=47
+2023-08-23 23:56:33,906 - [44] - INFO  - Center.Server.CenterServer - CityBattle complete!
+2023-08-23 23:56:33,915 - [47] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+2023-08-23 23:56:33,920 - [46] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+2023-08-23 23:56:33,921 - [49] - INFO  - Center.Server.CenterServer - Saving database complete!
+2023-08-23 23:56:33,922 - [49] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+2023-08-23 23:57:03,822 - [50] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:57:03,823 - [50] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=50
+2023-08-23 23:57:03,825 - [50] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:57:33,838 - [51] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:57:33,838 - [51] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=51
+2023-08-23 23:57:33,839 - [51] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:57:33,884 - [50] - INFO  - Center.Server.CenterServer - System Notice ...
+2023-08-23 23:57:33,885 - [50] - DEBUG - Center.Server.CenterServer - Save ThreadId=50
+2023-08-23 23:57:33,888 - [50] - INFO  - Center.Server.CenterServer - System Notice complete!
+2023-08-23 23:57:33,915 - [51] - INFO  - Center.Server.CenterServer - CityBattle ...
+2023-08-23 23:57:33,915 - [58] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:57:33,915 - [58] - DEBUG - Center.Server.CenterServer - Save ThreadId=58
+2023-08-23 23:57:33,916 - [58] - INFO  - Center.Server.CenterServer - Saving Record complete!
+2023-08-23 23:57:33,915 - [57] - INFO  - Center.Server.CenterServer - Saving database...
+2023-08-23 23:57:33,916 - [57] - DEBUG - Center.Server.CenterServer - Save ThreadId=57
+2023-08-23 23:57:33,915 - [54] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:57:33,916 - [54] - DEBUG - Center.Server.CenterServer - Save ThreadId=54
+2023-08-23 23:57:33,915 - [50] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+2023-08-23 23:57:33,915 - [51] - DEBUG - Center.Server.CenterServer - Save ThreadId=51
+2023-08-23 23:57:33,917 - [50] - DEBUG - Center.Server.CenterServer - Scan ThreadId=50
+2023-08-23 23:57:33,918 - [50] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+2023-08-23 23:57:33,918 - [51] - INFO  - Center.Server.CenterServer - CityBattle complete!
+2023-08-23 23:57:33,915 - [52] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+2023-08-23 23:57:33,919 - [52] - DEBUG - Center.Server.CenterServer - Scan ThreadId=52
+2023-08-23 23:57:33,920 - [54] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+2023-08-23 23:57:33,921 - [52] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+2023-08-23 23:57:33,931 - [57] - INFO  - Center.Server.CenterServer - Saving database complete!
+2023-08-23 23:57:33,932 - [57] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+2023-08-23 23:58:03,847 - [59] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:58:03,849 - [59] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=59
+2023-08-23 23:58:03,857 - [59] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:58:33,858 - [60] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:58:33,859 - [60] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=60
+2023-08-23 23:58:33,860 - [60] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:58:33,922 - [60] - INFO  - Center.Server.CenterServer - CityBattle ...
+2023-08-23 23:58:33,922 - [63] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+2023-08-23 23:58:33,923 - [64] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:58:33,922 - [61] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+2023-08-23 23:58:33,923 - [61] - DEBUG - Center.Server.CenterServer - Scan ThreadId=61
+2023-08-23 23:58:33,922 - [60] - DEBUG - Center.Server.CenterServer - Save ThreadId=60
+2023-08-23 23:58:33,923 - [63] - DEBUG - Center.Server.CenterServer - Scan ThreadId=63
+2023-08-23 23:58:33,923 - [64] - DEBUG - Center.Server.CenterServer - Save ThreadId=64
+2023-08-23 23:58:33,924 - [64] - INFO  - Center.Server.CenterServer - Saving Record complete!
+2023-08-23 23:58:33,922 - [62] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:58:33,925 - [62] - DEBUG - Center.Server.CenterServer - Save ThreadId=62
+2023-08-23 23:58:33,923 - [60] - INFO  - Center.Server.CenterServer - CityBattle complete!
+2023-08-23 23:58:33,925 - [61] - INFO  - Center.Server.CenterServer - Scan Consortiaboss award complete!
+2023-08-23 23:58:33,926 - [61] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+2023-08-23 23:58:33,923 - [65] - INFO  - Center.Server.CenterServer - Saving database...
+2023-08-23 23:58:33,926 - [65] - DEBUG - Center.Server.CenterServer - Save ThreadId=65
+2023-08-23 23:58:33,928 - [62] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+2023-08-23 23:58:33,936 - [63] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+2023-08-23 23:58:33,937 - [65] - INFO  - Center.Server.CenterServer - Saving database complete!
+2023-08-23 23:58:33,938 - [65] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+2023-08-23 23:59:03,881 - [67] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:59:03,884 - [67] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=67
+2023-08-23 23:59:03,888 - [67] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:59:33,895 - [70] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing ...
+2023-08-23 23:59:33,896 - [70] - DEBUG - Center.Server.Managers.BombKingMgr - Scan ThreadId=70
+2023-08-23 23:59:33,897 - [70] - INFO  - Center.Server.Managers.BombKingMgr - Scan BombKing complete!
+2023-08-23 23:59:33,925 - [70] - INFO  - Center.Server.CenterServer - CityBattle ...
+2023-08-23 23:59:33,926 - [74] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:59:33,926 - [74] - DEBUG - Center.Server.CenterServer - Save ThreadId=74
+2023-08-23 23:59:33,925 - [71] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+2023-08-23 23:59:33,927 - [71] - DEBUG - Center.Server.CenterServer - Scan ThreadId=71
+2023-08-23 23:59:33,926 - [73] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+2023-08-23 23:59:33,927 - [73] - DEBUG - Center.Server.CenterServer - Scan ThreadId=73
+2023-08-23 23:59:33,926 - [75] - INFO  - Center.Server.CenterServer - Saving database...
+2023-08-23 23:59:33,928 - [75] - DEBUG - Center.Server.CenterServer - Save ThreadId=75
+2023-08-23 23:59:33,926 - [70] - DEBUG - Center.Server.CenterServer - Save ThreadId=70
+2023-08-23 23:59:33,927 - [71] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+2023-08-23 23:59:33,928 - [73] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+2023-08-23 23:59:33,926 - [72] - INFO  - Center.Server.CenterServer - Saving Record...
+2023-08-23 23:59:33,929 - [70] - INFO  - Center.Server.CenterServer - CityBattle complete!
+2023-08-23 23:59:33,930 - [74] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+2023-08-23 23:59:33,930 - [72] - DEBUG - Center.Server.CenterServer - Save ThreadId=72
+2023-08-23 23:59:33,933 - [72] - INFO  - Center.Server.CenterServer - Saving Record complete!
+2023-08-23 23:59:33,933 - [75] - INFO  - Center.Server.CenterServer - Saving database complete!
+2023-08-23 23:59:33,935 - [75] - INFO  - Center.Server.CenterServer - Saved all databases 16ms

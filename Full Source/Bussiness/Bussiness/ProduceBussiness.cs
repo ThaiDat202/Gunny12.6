@@ -175,7 +175,7 @@ public class ProduceBussiness : BaseCrossBussiness
 			db = new Sql_DbObject("AppConfig", "conString");
 			return;
 		}
-		string text = "Data Source=.\\DDT;Initial Catalog=Db_Tank_All;Persist Security Info=True;User ID=sa;Password=123456;";
+		string text = "Data Source=DESKTOP-SKTCRVL;Initial Catalog=Db_Tank_All;Persist Security Info=True;User ID=sa;Password=123456;";
 		AreaName = config.AreaName;
 		ZoneID = config.AreaID;
 		StringBuilder stringBuilder = new StringBuilder();
@@ -1430,7 +1430,10 @@ public class ProduceBussiness : BaseCrossBussiness
 		vipStoreInfo.Vip10Quantity = (int)reader["Vip10Quantity"];
 		vipStoreInfo.Vip11Quantity = (int)reader["Vip11Quantity"];
 		vipStoreInfo.Vip12Quantity = (int)reader["Vip12Quantity"];
-		return vipStoreInfo;
+        vipStoreInfo.Vip13Quantity = (int)reader["Vip13Quantity"];
+        vipStoreInfo.Vip14Quantity = (int)reader["Vip14Quantity"];
+        vipStoreInfo.Vip15Quantity = (int)reader["Vip15Quantity"];
+        return vipStoreInfo;
 	}
 
 	public bool UpdateCommunalActive(CommunalActiveInfo item)
@@ -1753,7 +1756,15 @@ public class ProduceBussiness : BaseCrossBussiness
 				exerciseInfo.TrainTricKill = (int)ResultDataReader["TrainTricKill"];
 				exerciseInfo.TrainDmg = (int)ResultDataReader["TrainDmg"];
 				exerciseInfo.TrainArmor = (int)ResultDataReader["TrainArmor"];
-				list.Add(exerciseInfo);
+                exerciseInfo.TrainAvoidInjury = (int)ResultDataReader["TrainAvoidInjury"];
+                exerciseInfo.TrainTricRevolt = (int)ResultDataReader["TrainTricRevolt"];
+				exerciseInfo.TrainToughness = (int)ResultDataReader["TrainToughness"];
+                exerciseInfo.TrainGuardian = (int)ResultDataReader["TrainGuardian"];
+                exerciseInfo.TrainFireDefy = (int)ResultDataReader["TrainFireDefy"];
+                exerciseInfo.TrainWateDefy = (int)ResultDataReader["TrainWateDefy"];
+                exerciseInfo.TrainWindDefy = (int)ResultDataReader["TrainWindDefy"];
+                exerciseInfo.TrainLandDefy = (int)ResultDataReader["TrainLandDefy"];
+                list.Add(exerciseInfo);
 			}
 		}
 		catch (Exception exception)
@@ -1811,7 +1822,9 @@ public class ProduceBussiness : BaseCrossBussiness
 		petFormDataInfo.Name = (string)dr["Name"];
 		petFormDataInfo.Resource = (string)dr["Resource"];
 		petFormDataInfo.TemplateID = (int)dr["TemplateID"];
-		return petFormDataInfo;
+        petFormDataInfo.NoBombReduceDamage = (int)dr["NoBombReduceDamage"];
+        petFormDataInfo.BurningResistance = (int)dr["BurningResistance"];
+        return petFormDataInfo;
 	}
 
 	public PetConfig[] GetAllPetConfig()

@@ -1,0 +1,29 @@
+2023-09-09 00:02:14,774 - [24] - ERROR - Game.Server.GameObjects.GamePlayer - Error saving all datas of playerID: 1 , Ð?t!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.SavePlayerInfoToDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4556
+   at Game.Server.GameObjects.GamePlayer.SaveIntoDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 5392
+2023-09-09 00:12:00,917 - [52] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-09-09 00:12:01,027 - [52] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-09-09 00:12:01,629 - [52] - ERROR - Game.Server.GameObjects.GamePlayer - Error saving all datas of playerID: 1 , Ð?t!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.SavePlayerInfoToDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4556
+   at Game.Server.GameObjects.GamePlayer.SaveIntoDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 5392
+2023-09-09 00:32:25,545 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:32:25,557 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:32:25,833 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:32:25,917 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:32:25,921 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:32:25,923 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:33:02,250 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,46ms!
+2023-09-09 00:33:02,254 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 50 ms,count:1
+2023-09-09 00:40:29,181 - [81] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-09-09 00:44:03,059 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:44:03,071 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:44:03,314 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:44:03,371 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:44:03,373 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:44:03,374 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-09 00:44:44,094 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,52ms!
+2023-09-09 00:44:44,097 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 56 ms,count:1
+2023-09-09 00:48:06,838 - [43] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-09-09 00:48:06,946 - [43] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539

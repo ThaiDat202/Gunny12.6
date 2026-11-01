@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 using Bussiness;
 using EntityDatabase.PlayerModels;
@@ -42,7 +42,10 @@ public class Exercise : IElfCommandHandler
 		int num4 = int.Parse(elf_Template_Info.WindGrowths.Split(',')[1]);
 		int num5 = int.Parse(elf_Template_Info.WateGrowths.Split(',')[1]);
 		int num6 = int.Parse(elf_Template_Info.LandGrowths.Split(',')[1]);
-		GSPacketIn gSPacketIn = new GSPacketIn(664);
+		//sáng tối
+        int num9 = int.Parse(elf_Template_Info.LighGrowths.Split(',')[1]);
+        int num10 = int.Parse(elf_Template_Info.DrakGrowths.Split(',')[1]);
+        GSPacketIn gSPacketIn = new GSPacketIn(664);
 		gSPacketIn.WriteByte(3);
 		int num7 = random.Next(1, 7);
 		int num8 = 0;
@@ -111,6 +114,26 @@ public class Exercise : IElfCommandHandler
 				else
 				{
 					elf.FengGrowth += num8;
+				}
+				break;
+			case 6:
+				if (num8 + elf.GuangGrowth > num9)
+				{
+					elf.GuangGrowth = num9;
+				}
+				else
+				{
+					elf.GuangGrowth += num8;
+				}
+				break;
+			case 7:
+				if (num8 + elf.AnGrowth > num10)
+				{
+					elf.AnGrowth = num10;
+				}
+				else
+				{
+					elf.AnGrowth += num8;
 				}
 				break;
 			}

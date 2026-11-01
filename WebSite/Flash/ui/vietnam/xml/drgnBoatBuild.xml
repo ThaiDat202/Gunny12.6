@@ -1,4 +1,4 @@
-<style name="drgnBoatBuild" version="5.1.0" source="ui/cn_trad/swf/drgnBoatBuild.swf">
+<style name="drgnBoatBuild" version="5.1.0" source="ui/vietnam/swf/drgnBoatBuild.swf">
 <sets>
 	<set stylename="drgnBoatBuild.progressTxtTF" args="宋体,12,0xffe8b0,,,,,,center" type="flash.text.TextFormat" />
 	<set stylename="drgnBoatBuild.progressTxtGF"  args="0x711802,1,4,4,30" type="flash.filters.GlowFilter" />

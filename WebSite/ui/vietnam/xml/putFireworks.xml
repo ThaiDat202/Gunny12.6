@@ -1,4 +1,4 @@
-<style name="putFireworks" version="7.7.0" source="ui/cn_trad/swf/putFireworks.swf">
+<style name="putFireworks" version="7.7.0" source="ui/vietnam/swf/putFireworks.swf">
 	<sets>
 		<set stylename="putFireworksView.countTxtFT" args="宋体,16,0x000000,true" type="flash.text.TextFormat"/>
 		<set stylename="putFireworksView.countTxtGF" args="0x441300,1,4,4,30" type="flash.filters.GlowFilter"/>

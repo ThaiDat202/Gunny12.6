@@ -38,3 +38,13 @@ D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\obj\Debug\ne
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\obj\Debug\net472\entitydatabase.csproj.CopyComplete
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\obj\Debug\net472\EntityDatabase.dll
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\entitydatabase\obj\Debug\net472\EntityDatabase.pdb
+C:\Gunny\Full Source\entitydatabase\bin\Debug\net472\EntityDatabase.dll
+C:\Gunny\Full Source\entitydatabase\bin\Debug\net472\EntityDatabase.pdb
+C:\Gunny\Full Source\entitydatabase\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Gunny\Full Source\entitydatabase\bin\Debug\net472\EntityFramework.dll
+C:\Gunny\Full Source\entitydatabase\obj\Debug\net472\entitydatabase.csproj.AssemblyReference.cache
+C:\Gunny\Full Source\entitydatabase\obj\Debug\net472\entitydatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gunny\Full Source\entitydatabase\obj\Debug\net472\entitydatabase.csproj.CoreCompileInputs.cache
+C:\Gunny\Full Source\entitydatabase\obj\Debug\net472\entitydatabase.csproj.CopyComplete
+C:\Gunny\Full Source\entitydatabase\obj\Debug\net472\EntityDatabase.dll
+C:\Gunny\Full Source\entitydatabase\obj\Debug\net472\EntityDatabase.pdb

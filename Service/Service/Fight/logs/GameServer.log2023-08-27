@@ -1,0 +1,274 @@
+2023-08-27 00:40:06,987 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-08-27 00:40:07,080 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ClientVersion,keep it default value!
+2023-08-27 00:40:07,091 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LimitGardeSendMailMomey,keep it default value!
+2023-08-27 00:40:07,104 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:40:07,131 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:40:07,134 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property EntertainmentModeMoneyAdd,keep it default value!
+2023-08-27 00:40:07,144 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsOpenOrCloseEyes,keep it default value!
+2023-08-27 00:40:07,146 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CustomLimit,keep it default value!
+2023-08-27 00:40:07,149 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsLimitPresentGoods,keep it default value!
+2023-08-27 00:40:07,152 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LimitPresentGoods,keep it default value!
+2023-08-27 00:40:07,154 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsLimitCount,keep it default value!
+2023-08-27 00:40:07,156 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LimitCount,keep it default value!
+2023-08-27 00:40:07,160 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsLimitMoney,keep it default value!
+2023-08-27 00:40:07,162 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LimitMoney,keep it default value!
+2023-08-27 00:40:07,165 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsLimitAuction,keep it default value!
+2023-08-27 00:40:07,167 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LimitAuction,keep it default value!
+2023-08-27 00:40:07,170 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsLimitMail,keep it default value!
+2023-08-27 00:40:07,173 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LimitMail,keep it default value!
+2023-08-27 00:40:07,175 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property TestActive,keep it default value!
+2023-08-27 00:40:07,179 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WishBeadLimitLv,keep it default value!
+2023-08-27 00:40:07,182 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsWishBeadLimit,keep it default value!
+2023-08-27 00:40:07,184 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BagMailEnable,keep it default value!
+2023-08-27 00:40:07,187 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property FreeMoney,keep it default value!
+2023-08-27 00:40:07,190 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property FreeExp,keep it default value!
+2023-08-27 00:40:07,194 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BigExp,keep it default value!
+2023-08-27 00:40:07,197 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property PetExp,keep it default value!
+2023-08-27 00:40:07,199 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsActiveMoney,keep it default value!
+2023-08-27 00:40:07,202 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsDDTMoneyActive,keep it default value!
+2023-08-27 00:40:07,204 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewChickenBeginTime,keep it default value!
+2023-08-27 00:40:07,209 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewChickenEndTime,keep it default value!
+2023-08-27 00:40:07,212 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewChickenEagleEyePrice,keep it default value!
+2023-08-27 00:40:07,215 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewChickenOpenCardPrice,keep it default value!
+2023-08-27 00:40:07,218 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewChickenFlushPrice,keep it default value!
+2023-08-27 00:40:07,220 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DiceBeginTime,keep it default value!
+2023-08-27 00:40:07,224 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DiceEndTime,keep it default value!
+2023-08-27 00:40:07,228 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DiceRefreshPrice,keep it default value!
+2023-08-27 00:40:07,230 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CommonDicePrice,keep it default value!
+2023-08-27 00:40:07,233 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleDicePrice,keep it default value!
+2023-08-27 00:40:07,236 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BigDicePrice,keep it default value!
+2023-08-27 00:40:07,240 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SmallDicePrice,keep it default value!
+2023-08-27 00:40:07,243 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property PyramidBeginTime,keep it default value!
+2023-08-27 00:40:07,246 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property PyramidEndTime,keep it default value!
+2023-08-27 00:40:07,249 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property PyramidRevivePrice,keep it default value!
+2023-08-27 00:40:07,251 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property PyramydTurnCardPrice,keep it default value!
+2023-08-27 00:40:07,256 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property FightFootballTime,keep it default value!
+2023-08-27 00:40:07,283 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WarriorFamRaidPriceSmall,keep it default value!
+2023-08-27 00:40:07,286 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WarriorFamRaidPriceBig,keep it default value!
+2023-08-27 00:40:07,289 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WarriorFamRaidDDTPrice,keep it default value!
+2023-08-27 00:40:07,292 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WarriorFamRaidTimeRemain,keep it default value!
+2023-08-27 00:40:07,303 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DragonBoatMinScore,keep it default value!
+2023-08-27 00:40:07,309 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:40:07,316 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MissionEnergyAdd,keep it default value!
+2023-08-27 00:40:07,400 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DDPlayBeginDate,keep it default value!
+2023-08-27 00:40:07,403 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DDPlayEndDate,keep it default value!
+2023-08-27 00:40:07,405 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DDPlayMoney,keep it default value!
+2023-08-27 00:40:07,409 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ExchangeFold,keep it default value!
+2023-08-27 00:40:07,411 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CloudBuyLotteryEndDate,keep it default value!
+2023-08-27 00:40:07,414 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CloudBuyLotteryExchangeScore,keep it default value!
+2023-08-27 00:40:07,418 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DDTMoneyActive,keep it default value!
+2023-08-27 00:40:07,420 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property GoldHour,keep it default value!
+2023-08-27 00:40:07,423 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DisibleBonusMoneyHour,keep it default value!
+2023-08-27 00:40:07,428 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleMoneyActive,keep it default value!
+2023-08-27 00:40:07,432 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleMoneyRate,keep it default value!
+2023-08-27 00:40:07,433 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleDDTMoneyActive,keep it default value!
+2023-08-27 00:40:07,437 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleDDTMoneyRate,keep it default value!
+2023-08-27 00:40:07,439 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleExpActive,keep it default value!
+2023-08-27 00:40:07,443 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleExpRate,keep it default value!
+2023-08-27 00:40:07,446 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property VirtualName,keep it default value!
+2023-08-27 00:40:07,448 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property RemoteEnable,keep it default value!
+2023-08-27 00:40:07,451 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewbieEnable,keep it default value!
+2023-08-27 00:40:07,454 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BeginLevel,keep it default value!
+2023-08-27 00:40:07,458 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NeedBox1GoguAward,keep it default value!
+2023-08-27 00:40:07,461 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NeedBox2GoguAward,keep it default value!
+2023-08-27 00:40:07,464 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NeedBox3GoguAward,keep it default value!
+2023-08-27 00:40:07,467 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property FindMinePrice,keep it default value!
+2023-08-27 00:40:07,469 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property RevivePrice,keep it default value!
+2023-08-27 00:40:07,472 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property resetCount,keep it default value!
+2023-08-27 00:40:07,475 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:40:07,478 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property AlwaysShowNoticeUpdate,keep it default value!
+2023-08-27 00:40:07,480 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property AlwaysOpen1vs5,keep it default value!
+2023-08-27 00:40:07,482 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:40:07,487 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MemoryGameEndTime,keep it default value!
+2023-08-27 00:40:07,491 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MemoryGameAwardBox,keep it default value!
+2023-08-27 00:40:07,494 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MemoryGameResetCount,keep it default value!
+2023-08-27 00:40:07,496 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SanXiaoStartTime,keep it default value!
+2023-08-27 00:40:07,499 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SanXiaoEndTime,keep it default value!
+2023-08-27 00:40:07,501 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SanXiaoResetCount,keep it default value!
+2023-08-27 00:40:07,511 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property RouletteOpenOrClose,keep it default value!
+2023-08-27 00:40:07,514 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property RouletteRate,keep it default value!
+2023-08-27 00:40:07,519 - [MAIN] - ERROR - Bussiness.GameProperties - Exception in GameProperties Load: 
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Bussiness.GameProperties.LoadProperty(ConfigPropertyAttribute attrib, ServiceBussiness sb) in C:\Gunny\Full Source\Bussiness\Bussiness\GameProperties.cs:line 1204
+2023-08-27 00:40:07,524 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property EventBombKingWeek,keep it default value!
+2023-08-27 00:40:07,528 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MaxWellSignBuff,keep it default value!
+2023-08-27 00:40:07,530 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property FightPowerSignData,keep it default value!
+2023-08-27 00:40:07,534 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BeautyVoteCost,keep it default value!
+2023-08-27 00:40:07,539 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property GuildBattleStartTime,keep it default value!
+2023-08-27 00:40:07,541 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property GuildBattleStartDay,keep it default value!
+2023-08-27 00:40:07,544 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LotteryPoolCountDefault,keep it default value!
+2023-08-27 00:40:07,547 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LotteryTicketEndTime,keep it default value!
+2023-08-27 00:40:07,550 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LotteryTicketCloseTicketTime,keep it default value!
+2023-08-27 00:40:07,554 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LotteryTicketShowPoolTime,keep it default value!
+2023-08-27 00:40:07,556 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LotteryTicketPrice,keep it default value!
+2023-08-27 00:40:07,563 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ConsortiaRichesPlus,keep it default value!
+2023-08-27 00:40:07,567 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CityBattleBeginTime,keep it default value!
+2023-08-27 00:40:07,570 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CityBattleEndTime,keep it default value!
+2023-08-27 00:40:07,573 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property TrailEliteAwardLevel,keep it default value!
+2023-08-27 00:40:07,577 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property QiYuanEndTime,keep it default value!
+2023-08-27 00:40:07,579 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property QiYuanJoinLeastOfferTimes,keep it default value!
+2023-08-27 00:40:07,582 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property QiYuanRankLeastOfferTimes,keep it default value!
+2023-08-27 00:40:07,585 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property QiYuanOfferTimesPerBaoZhu,keep it default value!
+2023-08-27 00:40:07,588 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property QiYuanOfferTimesPerTreasureBox,keep it default value!
+2023-08-27 00:40:07,594 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NormalDungeonCostEnergy,keep it default value!
+2023-08-27 00:40:07,596 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ElementDungeonCostEnergy,keep it default value!
+2023-08-27 00:40:07,600 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property OnlineArmPerTimeDig,keep it default value!
+2023-08-27 00:40:07,607 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ghostlevel,keep it default value!
+2023-08-27 00:40:07,610 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property TrailEliteWinScore,keep it default value!
+2023-08-27 00:40:07,614 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property TrailEliteLostScore,keep it default value!
+2023-08-27 00:40:07,621 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property contasPorIp,keep it default value!
+2023-08-27 00:40:07,624 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property batismoNoPvp,keep it default value!
+2023-08-27 00:40:07,628 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property batismoNoDesafio,keep it default value!
+2023-08-27 00:40:07,633 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property reduzirFC,keep it default value!
+2023-08-27 00:40:07,636 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property servidor,keep it default value!
+2023-08-27 00:40:07,639 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property expNoPvp,keep it default value!
+2023-08-27 00:40:07,642 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ExaltRatewith15,keep it default value!
+2023-08-27 00:40:07,645 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ExaltRatewith16,keep it default value!
+2023-08-27 00:40:07,647 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ExaltRatewith17,keep it default value!
+2023-08-27 00:40:07,650 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HappyRechargeOpenClose,keep it default value!
+2023-08-27 00:40:07,653 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HappyRechargeBeginDate,keep it default value!
+2023-08-27 00:40:07,656 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HappyRechargeEndDate,keep it default value!
+2023-08-27 00:40:07,679 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property AcademyMasterFreezeHours,keep it default value!
+2023-08-27 00:40:07,2023-08-27 00:52:54,225 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-08-27 00:52:54,616 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
+2023-08-27 00:52:54,629 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+2023-08-27 00:52:54,630 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+2023-08-27 00:52:54,631 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+2023-08-27 00:52:54,632 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+2023-08-27 00:52:54,799 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+2023-08-27 00:52:54,806 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
+2023-08-27 00:52:56,594 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+2023-08-27 00:52:56,600 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+2023-08-27 00:52:56,653 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+2023-08-27 00:52:56,683 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+2023-08-27 00:52:56,806 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+2023-08-27 00:52:56,810 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+2023-08-27 00:52:56,816 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+2023-08-27 00:52:56,821 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
+2023-08-27 00:52:56,849 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+2023-08-27 00:52:56,869 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+2023-08-27 00:52:56,874 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+2023-08-27 00:52:56,880 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
+2023-08-27 00:52:56,884 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+2023-08-27 00:52:56,898 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
+2023-08-27 00:52:56,932 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
+2023-08-27 00:52:56,933 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
+2023-08-27 00:52:56,936 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2023-08-27 00:52:56,939 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+2023-08-27 00:52:56,971 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+2023-08-27 00:53:09,653 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:50370
+2023-08-27 00:53:10,147 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:50372
+2023-08-27 01:02:56,945 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 01:02:56,985 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 01:12:56,947 - [41] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 01:12:57,024 - [41] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-27 01:22:56,953 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 01:22:57,014 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-08-27 01:32:56,957 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 01:32:56,989 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-27 01:42:56,964 - [41] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 01:42:56,996 - [41] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-27 01:52:56,976 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 01:52:57,008 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 02:02:56,981 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 02:02:57,029 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-27 02:12:56,987 - [41] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 02:12:57,022 - [41] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-27 02:22:56,996 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 02:22:57,024 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 02:32:57,000 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 02:32:57,030 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 02:42:57,005 - [41] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 02:42:57,034 - [41] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 16ms
+2023-08-27 02:52:57,019 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 02:52:57,052 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 03:02:57,026 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 03:02:57,056 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 03:12:57,028 - [41] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 03:12:57,059 - [41] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 03:22:57,042 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 03:22:57,079 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-27 03:32:57,054 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 03:32:57,088 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 03:42:57,065 - [49] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 03:42:57,095 - [49] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 03:52:57,073 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 03:52:57,103 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 04:02:57,079 - [47] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 04:02:57,115 - [47] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-27 04:12:57,086 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 04:12:57,132 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-27 04:22:57,096 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 04:22:57,128 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-27 04:32:57,112 - [47] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 04:32:57,143 - [47] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 04:42:57,116 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 04:42:57,185 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-08-27 04:52:57,131 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 04:52:57,161 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 05:02:57,136 - [47] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 05:02:57,165 - [47] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 05:12:57,140 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 05:12:57,172 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 05:22:57,148 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 05:22:57,178 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 05:32:57,150 - [47] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 05:32:57,180 - [47] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 05:42:57,174 - [21] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 05:42:57,206 - [21] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-27 05:52:57,187 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 05:52:57,215 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 21:59:07,872 - [47] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 21:59:07,945 - [47] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-27 22:09:07,881 - [14] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 22:09:07,909 - [14] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 16ms
+2023-08-27 22:19:07,893 - [45] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 22:19:07,923 - [45] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-08-27 22:29:07,907 - [28] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 22:29:07,970 - [28] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-08-27 22:39:07,911 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 22:39:07,975 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-08-27 22:49:07,927 - [45] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 22:49:07,987 - [45] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-27 22:59:07,939 - [28] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 22:59:08,017 - [28] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-08-27 23:09:07,949 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 23:09:08,013 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-08-27 23:19:07,965 - [45] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 23:19:07,999 - [45] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 32ms
+2023-08-27 23:29:07,975 - [28] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 23:29:08,028 - [28] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-08-27 23:39:07,976 - [48] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 23:39:08,042 - [48] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-08-27 23:49:07,983 - [45] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 23:49:08,045 - [45] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-08-27 23:59:08,004 - [24] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-08-27 23:59:08,037 - [24] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms

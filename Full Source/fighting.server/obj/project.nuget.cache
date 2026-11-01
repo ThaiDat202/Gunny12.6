@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ESMHdAdzA/sWBo/26yznBBC8OZPt7FC9uQX5vdojiw3PzzxuD6FtObxAkOQcY2pKvF9nPWETzgvKC+t7rNuhiA==",
+  "dgSpecHash": "TDxxdJSutKgodFG+eqjsyWT9G0XJgrL0KeGmEzEC5tj0ZTQaEWSmpZcQz+Dse/bAYlHXhn7HlPSsc5piJGuaRg==",
   "success": true,
-  "projectFilePath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\fighting.server\\fighting.server.csproj",
+  "projectFilePath": "C:\\Gunny\\Full Source\\fighting.server\\fighting.server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\log4net\\2.0.14\\log4net.2.0.14.nupkg.sha512",

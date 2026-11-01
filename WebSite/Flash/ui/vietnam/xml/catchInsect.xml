@@ -37,7 +37,7 @@
 		<set stylename="catchInsect.redGF" args="0x2a0e02,1,2,2,30" type="flash.filters.GlowFilter"/> 
 		<set stylename="catchInsect.redTF2" args="Arial,12,0xff0000,true,,,,,left" type="flash.text.TextFormat"/>
 		<set stylename="catchInsect.redGF2" args="0xffffff,1,2,2,500" type="flash.filters.GlowFilter"/> 
-		<set stylename="catchInsect.shopFrame.scoreTxtGF"args="0x5b3100,1,4,4,500"  type="flash.filters.GlowFilter"/>
+		<set stylename="catchInsect.shopFrame.scoreTxtGF" args="0x5b3100,1,4,4,500" type="flash.filters.GlowFilter"/>
 		<set stylename="catchInsect.shopFrame.scoreTxtTF" args="Arial,14,0xffcc00,true,,,,,center" type="flash.text.TextFormat"/>
 		
 	 	<set stylename="catchInsect.room.useCakeTxtTF" args="Arial,12,0xFFFFFF,,,,,,right" type="flash.text.TextFormat" />

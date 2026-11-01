@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wRA793NJWd+UZOD0+zkF8jF9aYhUv2N2nR4h7RQ49Y8fDiDLjsZPF8jTCzlrjderXvZfvVdlkBwc+7r/uF/QDQ==",
+  "dgSpecHash": "/9YSw0nhFqU1zhh17QhI41Kjmqs/umZiDq/jGiKyaEkwTQfq3reBcsPJc5HLzMeBh5Yya/myM8jXRSXHouxEiA==",
   "success": true,
-  "projectFilePath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\Road.Service\\Road.Service.csproj",
+  "projectFilePath": "C:\\Gunny\\Full Source\\Road.Service\\Road.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\log4net\\2.0.14\\log4net.2.0.14.nupkg.sha512",

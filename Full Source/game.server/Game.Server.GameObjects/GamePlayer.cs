@@ -4642,20 +4642,30 @@ public class GamePlayer : IGamePlayer
 		int waterDef = 0;
 		int windDef = 0;
 		int landDef = 0;
-		List<Sys_Users_Emblem> list = EmblemInfos.Where((Sys_Users_Emblem e) => e.equipIndex != 0 && e.equipPos != 0 && e.isExist).ToList();
-		if (list != null)
-		{
-			EmblemMgr.CalculateProps(list, ref fireAtt, ref waterAtt, ref windAtt, ref landAtt, ref fireDef, ref waterDef, ref windDef, ref landDef);
-			PlayerProp.UpadateBaseProp(isSelf: true, "FireAttack", "Emblem", fireAtt);
-			PlayerProp.UpadateBaseProp(isSelf: true, "WaterAttack", "Emblem", waterAtt);
-			PlayerProp.UpadateBaseProp(isSelf: true, "WindAttack", "Emblem", windAtt);
-			PlayerProp.UpadateBaseProp(isSelf: true, "LandAttack", "Emblem", landAtt);
-			PlayerProp.UpadateBaseProp(isSelf: true, "FireDefence", "Emblem", fireDef);
-			PlayerProp.UpadateBaseProp(isSelf: true, "WaterDefence", "Emblem", waterAtt);
-			PlayerProp.UpadateBaseProp(isSelf: true, "WindDefence", "Emblem", windDef);
-			PlayerProp.UpadateBaseProp(isSelf: true, "LandDefence", "Emblem", landDef);
-		}
-		Sys_Users_Elf elf = PlayerCharacter.ElfInfo.FirstOrDefault((Sys_Users_Elf e) => e.IsFight);
+        //sáng tối
+        int lighAtt = 0;
+        int drakAtt = 0;
+        int lighDef = 0;
+        int drakDef = 0;
+        List<Sys_Users_Emblem> list = EmblemInfos.Where((Sys_Users_Emblem e) => e.equipIndex != 0 && e.equipPos != 0 && e.isExist).ToList();
+        if (list != null)
+        {
+            EmblemMgr.CalculateProps(list, ref fireAtt, ref waterAtt, ref windAtt, ref landAtt, ref fireDef, ref waterDef, ref windDef, ref landDef, ref lighAtt, ref lighDef, ref drakAtt, ref drakDef);
+            PlayerProp.UpadateBaseProp(isSelf: true, "FireAttack", "Emblem", fireAtt);
+            PlayerProp.UpadateBaseProp(isSelf: true, "WaterAttack", "Emblem", waterAtt);
+            PlayerProp.UpadateBaseProp(isSelf: true, "WindAttack", "Emblem", windAtt);
+            PlayerProp.UpadateBaseProp(isSelf: true, "LandAttack", "Emblem", landAtt);
+            PlayerProp.UpadateBaseProp(isSelf: true, "FireDefence", "Emblem", fireDef);
+            PlayerProp.UpadateBaseProp(isSelf: true, "WaterDefence", "Emblem", waterAtt);
+            PlayerProp.UpadateBaseProp(isSelf: true, "WindDefence", "Emblem", windDef);
+            PlayerProp.UpadateBaseProp(isSelf: true, "LandDefence", "Emblem", landDef);
+            //sáng tối
+            PlayerProp.UpadateBaseProp(isSelf: true, "LighAttack", "Emblem", lighAtt);
+            PlayerProp.UpadateBaseProp(isSelf: true, "DrakAttack", "Emblem", drakAtt);
+            PlayerProp.UpadateBaseProp(isSelf: true, "LighDefence", "Emblem", lighDef);
+            PlayerProp.UpadateBaseProp(isSelf: true, "DrakDefence", "Emblem", drakDef);
+        }
+        Sys_Users_Elf elf = PlayerCharacter.ElfInfo.FirstOrDefault((Sys_Users_Elf e) => e.IsFight);
 		if (elf != null)
 		{
 			Elf_Template_Info elf_Template_Info = ElfMgr.Elfs.FirstOrDefault((Elf_Template_Info e) => e.TemplateID == elf.TempID);
@@ -4681,16 +4691,31 @@ public class GamePlayer : IGamePlayer
 				waterAtt += elf.AttackValue;
 				PlayerProp.UpadateBaseProp(isSelf: true, "WaterAttack", "Elf", elf.AttackValue);
 				break;
+			// sáng tối
+			case 5:
+				lighAtt += elf.AttackValue;
+				PlayerProp.UpadateBaseProp(isSelf: true, "LighAttack", "Elf", elf.AttackValue);
+				break;
+			case 6:
+				drakAtt += elf.AttackValue;
+				PlayerProp.UpadateBaseProp(isSelf: true, "DrakAttack", "Elf", elf.AttackValue);
+				break;
 			}
 			fireDef += elf.HuoValue;
 			waterDef += elf.ShuiValue;
 			windDef += elf.FengValue;
 			landDef += elf.TuValue;
-			PlayerProp.UpadateBaseProp(isSelf: true, "FireDefence", "Elf", elf.HuoValue);
+            //sáng tối
+            lighDef += elf.GuangValue;
+            drakDef += elf.AnValue;
+            PlayerProp.UpadateBaseProp(isSelf: true, "FireDefence", "Elf", elf.HuoValue);
 			PlayerProp.UpadateBaseProp(isSelf: true, "WaterDefence", "Elf", elf.ShuiValue);
 			PlayerProp.UpadateBaseProp(isSelf: true, "WindDefence", "Elf", elf.FengValue);
 			PlayerProp.UpadateBaseProp(isSelf: true, "LandDefence", "Elf", elf.TuValue);
-		}
+            //sáng tối
+            PlayerProp.UpadateBaseProp(isSelf: true, "GuangDefence", "Elf", elf.GuangValue);
+            PlayerProp.UpadateBaseProp(isSelf: true, "AnDefence", "Elf", elf.AnValue);
+        }
 		PlayerCharacter.ElementPro.FireAttack = fireAtt;
 		PlayerCharacter.ElementPro.WaterAttack = waterAtt;
 		PlayerCharacter.ElementPro.WindAttack = windAtt;
@@ -4699,7 +4724,12 @@ public class GamePlayer : IGamePlayer
 		PlayerCharacter.ElementPro.WaterDefence = waterDef;
 		PlayerCharacter.ElementPro.WindDefence = windDef;
 		PlayerCharacter.ElementPro.LandDefence = landDef;
-		return fireAtt + waterAtt + windAtt + landAtt + fireDef + waterDef + windDef + landDef;
+        //sáng tối
+        PlayerCharacter.ElementPro.LighAttack = lighAtt;
+        PlayerCharacter.ElementPro.DrakAttack = drakAtt;
+        PlayerCharacter.ElementPro.LighDefence = lighDef;
+        PlayerCharacter.ElementPro.DrakDefence = drakDef;
+        return fireAtt + waterAtt + windAtt + landAtt + fireDef + waterDef + windDef + landDef + lighAtt + drakAtt + lighDef + drakDef;
 	}
 
 	public void GetAmuletSecondProperties(ItemInfo item, ref double Crit, ref double Tenacity, ref double SunderArmor, ref double AvoidInjury, ref double Kill, ref double WillFight, ref double ViolenceInjury, ref double Guard, ref double Speed)
@@ -4811,8 +4841,14 @@ public class GamePlayer : IGamePlayer
 			num4 += ExerciseMgr.GetExercise(PlayerCharacter.Texp.TrainCritDmgTexpExp).TrainCritDmg;
 			num5 += ExerciseMgr.GetExercise(PlayerCharacter.Texp.spdTexpExp).TrainSpeed;
 			num3 += ExerciseMgr.GetExercise(PlayerCharacter.Texp.TrainTricKillTexpExp).TrainTricKill;
-		}
-		if (PlayerCharacter.CardInfo != null)
+            //nguyên tố
+            tenacity += ExerciseMgr.GetExercise(PlayerCharacter.Texp.TrainTenacTexpExp).TrainToughness;
+            avoidInjury += ExerciseMgr.GetExercise(PlayerCharacter.Texp.TrainAvoidDmgTextExp).TrainAvoidInjury;
+            trcRvt += ExerciseMgr.GetExercise(PlayerCharacter.Texp.TrainTricDefTexpExp).TrainTricRevolt;
+            guardian += ExerciseMgr.GetExercise(PlayerCharacter.Texp.TrainGuardTexpExp).TrainGuardian;
+            // kháng nước, lửa, đất, gió
+        }
+        if (PlayerCharacter.CardInfo != null)
 		{
 			num += PlayerCharacter.CardInfo.Crits;
 			num3 += PlayerCharacter.CardInfo.Trick;
@@ -4885,7 +4921,7 @@ public class GamePlayer : IGamePlayer
 			PlayerCharacter.receiebox = 0;
 			if (PlayerCharacter.damageScores > 0)
 			{
-				SendMessage("你的世界Boss积分已转化为经验或功勋.");
+				SendMessage("Điểm Boss thế giới của bạn đã được chuyển đổi thành kinh nghiệm hoặc công trạng.");
 				AddGP(PlayerCharacter.damageScores);
 				PlayerCharacter.damageScores = 0;
 			}

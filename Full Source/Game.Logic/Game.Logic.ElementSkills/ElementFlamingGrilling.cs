@@ -35,7 +35,7 @@ public class ElementFlamingGrilling : AbstractPetEffect
 			if (random.Next(10000) < m_rate)
 			{
 				target.EffectBadges = true;
-				living.Game.AddAction(new LivingSayAction(living, "烈焰炙烤", 9, 0, 1000));
+				living.Game.AddAction(new LivingSayAction(living, "Lửa Thiêu Đốt", 9, 0, 1000));
 				double num = living.FireAttack * 1.6;
 				target.AddPetEffect(new ElementFlamingGrillingEquip(m_skillid, (int)num, living), 0);
 			}

@@ -1,4 +1,4 @@
-<style name="cityBattle" version="1.0.1" source="ui/cn_trad/swf/cityBattle.swf">
+<style name="cityBattle" version="1.0.1" source="ui/vietnam/swf/cityBattle.swf">
 	<sets>
 		<set stylename="contention.info.TF" args="Arial,12,0xfbf4a6,,,,,,left" type="flash.text.TextFormat"/>
 		<set stylename="contention.info.GF" args="0x5a2d00,1,4,4,30" type="flash.filters.GlowFilter"/>
@@ -41,7 +41,7 @@
 		<custom classname="flash.geom.Point" stylename="castellan.building3Pos" x="203" y="271"/>
 		<custom classname="flash.geom.Point" stylename="castellan.building4Pos" x="392" y="242"/>
 		<custom classname="flash.geom.Point" stylename="castellan.building5Pos" x="85" y="396"/>
-		<custom classname="flash.geom.Point" stylename="castellan.building6Pos" x="282" y="397"/>
+		<custom classname="flash.geom.Point" stylename="castellan.building6Pos" x="282" y="411"/>
 		<custom classname="flash.geom.Point" stylename="castellan.building7Pos" x="507" y="361"/>
 		
 		<custom classname="flash.geom.Point" stylename="castellan.control1Pos" x="27" y="100"/>
@@ -65,8 +65,8 @@
 		<custom classname="flash.geom.Point" stylename="contention.inspire.txt.pos3" x="172" y="141"/>
 		
 			
-		<custom classname="flash.geom.Point" stylename="quickExchange.restTitlePos" x="116" y="107"/>
-		<custom classname="flash.geom.Point" stylename="quickExchange.restPos" x="243" y="107"/>
+		<custom classname="flash.geom.Point" stylename="quickExchange.restTitlePos" x="61" y="107"/>
+		<custom classname="flash.geom.Point" stylename="quickExchange.restPos" x="190" y="107"/>
 		
 		<custom classname="flash.geom.Point" stylename="welfare.boxPos" x="167" y="135"/>
 		
@@ -81,14 +81,14 @@
 			x="703" y="8"  filterString="null,lightFilter,null,grayFilter"/>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cityBattle.redSide.txt" textFormatStyle="cityBattle.redSide.TF" filterString="cityBattle.redSide.GF" x="555" y="59"/>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cityBattle.blueSide.txt" textFormatStyle="cityBattle.blueSide.TF" filterString="cityBattle.blueSide.GF" x="555" y="59"/>
-		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cityBattle.activityTime.txt" textFormatStyle="cityBattle.activityTime.TF" filterString="cityBattle.activityTime.GF" x="406" y="41"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cityBattle.activityTime.txt" textFormatStyle="cityBattle.activityTime.TF" filterString="cityBattle.activityTime.GF" x="376" y="41"/>
 		
 		<!--cityBattleMainFrame-->
 		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="cityBattle.castellanTerritorial.btn" unSelectedStyle="asset.cityBattle.unselect.tab1" selectedStyle="asset.cityBattle.select.tab1" filterString="null,lightFilter,null,grayFilter"/>
 		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="cityBattle.territorialContention.btn" unSelectedStyle="asset.cityBattle.unselect.tab2" selectedStyle="asset.cityBattle.select.tab2" filterString="null,lightFilter,null,grayFilter"/>
 		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="cityBattle.territorialWelfare.btn" unSelectedStyle="asset.cityBattle.unselect.tab3" selectedStyle="asset.cityBattle.select.tab3" filterString="null,lightFilter,null,grayFilter"/>
 		
-		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="cityBattle.view.hBox" spacing="20" x="28" y="43"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="cityBattle.view.hBox" spacing="2" x="28" y="43"/>
 		
 		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="cityBattle.joinBlueBtn" x="92" y="117" backStyle="asset.cityBattle.joinBlue" />
 		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="cityBattle.joinRedBtn" x="465" y="329" backStyle="asset.cityBattle.joinRed" />
@@ -98,8 +98,8 @@
 		
 		<!--contentionView-->
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="contention.info.txt" textFormatStyle="contention.inspire.TF" filterString="contention.inspire.GF" x="35" y="505"/>
-		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="contention.currentSocre.txt" textFormatStyle="contention.info.TF" filterString="contention.info.GF" x="643" y="499"/>
-		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="contention.currentRank.txt" textFormatStyle="contention.info.TF" filterString="contention.info.GF" x="641" y="523"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="contention.currentSocre.txt" textFormatStyle="contention.info.TF" filterString="contention.info.GF" x="615" y="500"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="contention.currentRank.txt" textFormatStyle="contention.info.TF" filterString="contention.info.GF" x="615" y="523"/>
 		
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="contention.rank.txt" textFormatStyle="contention.info.TF" filterString="contention.info.GF" autoSize="none" width="100" height="24" x="0" y="0"/>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="contention.name.txt" textFormatStyle="contention.info.TF" filterString="contention.info.GF" autoSize="none" width="100" height="24" x="50" y="0"/>
@@ -152,9 +152,5 @@
 		<bitmapData resourceLink="asset.cityBattle.buildingName5" x="13" y="-17"/>
 		<bitmapData resourceLink="asset.cityBattle.buildingName6" x="29" y="-17"/>
 		<bitmapData resourceLink="asset.cityBattle.buildingName7" x="33" y="-17"/>
-		
-		<bitmapData resourceLink="asset.cityBattle.unselect.tab1" x="10"/>
-<bitmapData resourceLink="asset.cityBattle.unselect.tab2" x="10"/>
-<bitmapData resourceLink="asset.cityBattle.unselect.tab3" x="10"/>
 	</bitmaps>
 </style>

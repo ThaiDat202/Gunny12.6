@@ -1,27 +1,27 @@
-<style name="horseAmulet" version="8.3.0" source="ui/cn_trad/swf/horseAmulet.swf">
+<style name="horseAmulet" version="8.3.0" source="ui/vietnam/swf/horseAmulet.swf">
 <sets>
-	<set stylename="horseAmulet.activate.dustTextTF" args="宋体,14,0xFCF3A4,true" type="flash.text.TextFormat" />
+	<set stylename="horseAmulet.activate.dustTextTF" args="Arial,14,0xFCF3A4,true" type="flash.text.TextFormat" />
 	<set stylename="horseAmulet.activate.dustTextGF" args="0x4B113A,1,2,2,15" type="flash.filters.GlowFilter" />
 	
-	<set stylename="horseAmulet.activate.needDustTextTF" args="宋体,14,0xFFEF3A,true" type="flash.text.TextFormat" />
+	<set stylename="horseAmulet.activate.needDustTextTF" args="Arial,14,0xFFEF3A,true" type="flash.text.TextFormat" />
 	<set stylename="horseAmulet.activate.needDustTextGF" args="0x3F0302,1,2,2,3" type="flash.filters.GlowFilter" />
 	
-	<set stylename="horseAmulet.activate.propertyTextTF" args="宋体,12,0xFFE7A7,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="horseAmulet.activate.propertyTextTF" args="Arial,12,0xFFE7A7,,,,,,center" type="flash.text.TextFormat" />
 	<set stylename="horseAmulet.activate.propertyTextGF" args="0x4D3012,1,2,2,15" type="flash.filters.GlowFilter" />
 	
-	<set stylename="horseAmulet.activate.propertyTitleTextTF" args="宋体,12,0xFFE7A7,,,,,,left" type="flash.text.TextFormat" />
+	<set stylename="horseAmulet.activate.propertyTitleTextTF" args="Arial,12,0xFFE7A7,,,,,,left" type="flash.text.TextFormat" />
 	<set stylename="horseAmulet.activate.propertyTitleTextGF" args="0x4D3012,1,2,2,15" type="flash.filters.GlowFilter" />
 	
-	<set stylename="horseAmulet.activate.helpTextTF" args="宋体,11,0xFFDA94" type="flash.text.TextFormat" />
+	<set stylename="horseAmulet.activate.helpTextTF" args="Arial,11,0xFFDA94" type="flash.text.TextFormat" />
 	<set stylename="horseAmulet.activate.helpTextGF" args="0x57110F,1,2,2,15" type="flash.filters.GlowFilter" />
 
-	<set stylename="horseAmulet.smashFrame.qualityTextTF" type="flash.text.TextFormat" args="宋体,12,0x391f00"/>
-	<set stylename="horseAmulet.smashFrame.yesTextTF" type="flash.text.TextFormat" args="宋体,14,0xcc1300,true"/>
+	<set stylename="horseAmulet.smashFrame.qualityTextTF" type="flash.text.TextFormat" args="Arial,12,0x391f00"/>
+	<set stylename="horseAmulet.smashFrame.yesTextTF" type="flash.text.TextFormat" args="Arial,14,0xcc1300,true"/>
 				
-	<set stylename="horseAmulet.smashFrame.textTF" args="宋体,15,0xfff8d6,,,,,,left" type="flash.text.TextFormat" />
+	<set stylename="horseAmulet.smashFrame.textTF" args="Arial,15,0xfff8d6,,,,,,left" type="flash.text.TextFormat" />
 	<set stylename="horseAmulet.smashFrame.textGF" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter" />
 		
-	<set stylename="horseAmulet.smashFrame.countTextTF" type="flash.text.TextFormat" args="宋体,15,0x654600,true,,,,,center" leading="10" />
+	<set stylename="horseAmulet.smashFrame.countTextTF" type="flash.text.TextFormat" args="Arial,15,0x654600,true,,,,,center" leading="10" />
 	<set stylename="horseAmulet.smashFrame.countTextGF" type="flash.filters.GlowFilter" args="0xFFFFFF,1,4,4,30" />
 </sets>
 
@@ -38,7 +38,7 @@
 	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horseAmulet.activateBtn" backStyle="asset.horseAmulet.activateBtn" x="13" y="370" />
 	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horseAmulet.smashAllBtn" backStyle="asset.horseAmulet.smashAllBtn" x="220" y="401" />
 	
-	<component classname="uiUtils.SelectPageUI" stylename="horseAmulet.bagViewSelectUI" parentStyle="uiUtils.SimpleSelectPageUI" x="78" y="373" />
+	<component classname="uiUtils.SelectPageUI" stylename="horseAmulet.bagViewSelectUI" parentStyle="uiUtils.SimpleSelectPageUI" x="64" y="373" />
 		
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseAmulet.activate.dustText"
 		textFormatStyle="horseAmulet.activate.dustTextTF" filterString="horseAmulet.activate.dustTextGF" x="140" y="217" />
@@ -53,8 +53,8 @@
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseAmulet.activate.propertyTitleText"
 		textFormatStyle="horseAmulet.activate.propertyTitleTextTF" filterString="horseAmulet.activate.propertyTitleTextGF" />
 	
-	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseAmulet.activate.helpText" x="15" y="369"
-		textFormatStyle="horseAmulet.activate.helpTextTF" filterString="horseAmulet.activate.helpTextGF" autoSize="none" width="371" height="75" wordWrap="true" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseAmulet.activate.helpText" x="16" y="373"
+		textFormatStyle="horseAmulet.activate.helpTextTF" filterString="horseAmulet.activate.helpTextGF" />
 	
 	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horseAmulet.activate.activateBtn" backStyle="asset.horseAmulet.activate.activateBtn" x="133" y="316" />
 	
@@ -71,7 +71,7 @@
 		resourceLink="asset.horseAmulet.num1,asset.horseAmulet.num2,asset.horseAmulet.num3,asset.horseAmulet.num4,asset.horseAmulet.num5,asset.horseAmulet.num6,asset.horseAmulet.num7,asset.horseAmulet.num8,asset.horseAmulet.num9,asset.horseAmulet.num0" />
 	<component classname="com.pickgliss.ui.image.NumberImage" stylename="horseAmulet.num" imageStyle="asset.horseAmulet.num" />
 	
-	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="horseAmulet.activate.hBox" spacing="0" x="74" y="-3" />
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="horseAmulet.activate.hBox" spacing="0" x="35" y="1" />
 	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="horseAmulet.activate.result" resourceLink="asset.horseAmulet.resultUp,asset.horseAmulet.resultDown" visible="false" x="282" y="280" />
 	
 	
@@ -86,13 +86,15 @@
 			width="310" height="170" moveEnable="false" escEnable="true" enterEnable="true"
 			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,10,5"
 			containerX="20" containerY="40" closestyle="core.closebt" closeInnerRectString="44,6,6,30,14" />
+	
+	
 </components>
 
 <customs>
 	<custom classname="flash.geom.Point" stylename="horseAmulet.bagViewPos" x="406" y="-27"/>
 	
 	<custom classname="flash.geom.Point" stylename="horseAmulet.equipViewPos" x="0" y="0"/>
-	<custom classname="flash.geom.Point" stylename="horseAmulet.activateViewPos" x="5" y="5"/>
+	<custom classname="flash.geom.Point" stylename="horseAmulet.activateViewPos" x="0" y="0"/>
 	
 	<custom classname="flash.geom.Point" stylename="horseAmulet.equipCellPos0" x="179" y="68"/>
 	<custom classname="flash.geom.Point" stylename="horseAmulet.equipCellPos1" x="264" y="94"/>
@@ -104,7 +106,7 @@
 	<custom classname="flash.geom.Point" stylename="horseAmulet.equipCellPos7" x="44" y="167"/>
 	<custom classname="flash.geom.Point" stylename="horseAmulet.equipCellPos8" x="92" y="91"/>
 	
-	<custom classname="flash.geom.Point" stylename="horseAmulet.bagView.keySortBtnPos" x="271" y="367" />
+	<custom classname="flash.geom.Point" stylename="horseAmulet.bagView.keySortBtnPos" x="262" y="367" />
 	
 	<custom classname="flash.geom.Point" stylename="horseAmulet.bagListViewPos" x="14" y="47" />
 	
@@ -115,10 +117,10 @@
 	<custom classname="flash.geom.Point" stylename="horseAmulet.activate.extendTypeTextPos" x="51" y="263"/>
 	<custom classname="flash.geom.Point" stylename="horseAmulet.activate.newExtendTypeTextPos" x="232" y="263"/>
 	
-	<custom classname="flash.geom.Point" stylename="horseAmulet.activate.haveDustTextPos" x="52" y="217"/>
-	<custom classname="flash.geom.Point" stylename="horseAmulet.activate.havaDustNumTextPos" x="159" y="218"/>
-	<custom classname="flash.geom.Point" stylename="horseAmulet.activate.dustTextPos" x="215" y="217" />
-	<custom classname="flash.geom.Point" stylename="horseAmulet.activate.needDustTextPos" x="347" y="218"/>
+	<custom classname="flash.geom.Point" stylename="horseAmulet.activate.haveDustTextPos" x="77" y="217"/>
+	<custom classname="flash.geom.Point" stylename="horseAmulet.activate.havaDustNumTextPos" x="131" y="217"/>
+	<custom classname="flash.geom.Point" stylename="horseAmulet.activate.dustTextPos" x="227" y="217" />
+	<custom classname="flash.geom.Point" stylename="horseAmulet.activate.needDustTextPos" x="289" y="217"/>
 	
 	<custom classname="flash.geom.Point" stylename="horseAmulet.equip.horseMcPos" x="175" y="160"/>
 	

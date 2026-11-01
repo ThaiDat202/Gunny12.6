@@ -1,0 +1,8 @@
+2023-09-08 14:06:55,095 - [10] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)::
+System.ArgumentOutOfRangeException: Year, Month, and Day parameters describe an un-representable DateTime.
+   at System.DateTime.DateToTicks(Int32 year, Int32 month, Int32 day)
+   at System.DateTime..ctor(Int32 year, Int32 month, Int32 day, Int32 hour, Int32 minute, Int32 second)
+   at Game.Base.PacketIn.ReadDateTime() in C:\Gunny\Full Source\game.base\Game.Base\PacketIn.cs:line 152
+   at Fighting.Server.ServerClient.HandleGameRoomCreate(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 339
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 54
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes) in C:\Gunny\Full Source\game.base\Game.Base.Packets\StreamProcessor.cs:line 245

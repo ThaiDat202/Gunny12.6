@@ -1,0 +1,40 @@
+2023-08-28 17:42:04,240 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80005 is not exist!
+2023-08-28 17:42:04,244 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80004 is not exist!
+2023-08-28 17:42:04,245 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80003 is not exist!
+2023-08-28 17:42:04,246 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80002 is not exist!
+2023-08-28 17:42:04,247 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file80001 is not exist!
+2023-08-28 17:42:05,619 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file50001 is not exist!
+2023-08-28 17:42:05,620 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file40044 is not exist!
+2023-08-28 17:42:05,621 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file40043 is not exist!
+2023-08-28 17:42:05,622 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file40042 is not exist!
+2023-08-28 17:42:05,623 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file40041 is not exist!
+2023-08-28 17:42:05,778 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file20004 is not exist!
+2023-08-28 17:42:05,882 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file12012 is not exist!
+2023-08-28 17:42:05,925 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file11047 is not exist!
+2023-08-28 17:42:05,925 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file11046 is not exist!
+2023-08-28 17:42:05,926 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file11045 is not exist!
+2023-08-28 17:42:05,982 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file11030 is not exist!
+2023-08-28 17:42:06,049 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file11017 is not exist!
+2023-08-28 17:42:06,049 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file11016 is not exist!
+2023-08-28 17:42:06,217 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+2023-08-28 17:42:06,218 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+2023-08-28 17:42:07,739 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1313 is not exist!
+2023-08-28 17:42:07,758 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1302 is not exist!
+2023-08-28 17:42:08,659 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1181 is not exist!
+2023-08-28 17:42:09,069 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1155 is not exist!
+2023-08-28 17:42:18,177 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13401.bomb
+2023-08-28 17:42:18,180 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13402.bomb
+2023-08-28 17:42:18,180 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13403.bomb
+2023-08-28 17:42:18,181 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13404.bomb
+2023-08-28 17:42:18,467 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134011.bomb
+2023-08-28 17:42:18,467 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134012.bomb
+2023-08-28 17:42:18,468 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134013.bomb
+2023-08-28 17:42:18,468 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134021.bomb
+2023-08-28 17:42:18,468 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134022.bomb
+2023-08-28 17:42:18,468 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134023.bomb
+2023-08-28 17:42:18,469 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134031.bomb
+2023-08-28 17:42:18,469 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134032.bomb
+2023-08-28 17:42:18,469 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134033.bomb
+2023-08-28 17:42:18,470 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134041.bomb
+2023-08-28 17:42:18,470 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134042.bomb
+2023-08-28 17:42:18,470 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\134043.bomb

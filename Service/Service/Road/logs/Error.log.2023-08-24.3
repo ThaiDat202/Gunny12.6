@@ -1,0 +1,17 @@
+2023-08-24 20:50:05,770 - [34] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 20:50:05,782 - [34] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 20:50:06,009 - [34] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 20:50:06,065 - [34] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 20:50:06,068 - [34] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 20:50:06,069 - [34] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 20:54:31,893 - [35] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MinesHandler  client: 127.0.0.1:62099)
+System.ArgumentNullException: Value cannot be null.
+   at System.Threading.Monitor.Enter(Object obj)
+   at Game.Server.Managers.MinesMgr.GetListDrop() in C:\Gunny\Full Source\game.server\Game.Server.Managers\MinesMgr.cs:line 395
+   at Game.Base.Packets.AbstractPacketLib.SendMinesShopInfo() in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 420
+   at Game.Server.Packets.Client.MinesHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\MinesHandler.cs:line 220
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-24 20:54:31,930 - [35] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 15 01 1F 01 9E 00 00 00 01 00 00 00 00   q...............
+0010: 00 00 00 00 08                                    .....           
+

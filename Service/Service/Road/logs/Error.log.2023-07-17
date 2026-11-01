@@ -1,0 +1,24 @@
+2023-07-17 05:04:20,640 - [26] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.QuestAddHandler  client: 127.0.0.1:65105)
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Server.Quests.QuestInventory.FindQuest(Int32 id) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 498
+   at Game.Server.Quests.QuestInventory.AddQuest(QuestInfo info, String& msg) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 186
+   at Game.Server.Packets.Client.QuestAddHandler.HandlePacket(GameClient client, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.Packets.Client\QuestAddHandler.cs:line 20
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-07-17 05:04:20,652 - [26] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 68 0F 11 00 B0 00 00 00 07 00 00 00 00   q..h............
+0010: 00 00 00 00 00 00 00 14 00 00 02 C0 00 00 02 C1   ................
+0020: 00 00 02 C2 00 00 02 C4 00 00 02 C5 00 00 02 C7   ................
+0030: 00 00 02 C8 00 00 02 C9 00 00 02 CC 00 00 07 7C   ...............|
+0040: 00 00 02 CF 00 00 02 D2 00 00 02 D3 00 00 02 D4   ................
+0050: 00 00 02 B8 00 00 07 79 00 00 07 7A 00 00 07 7B   .......y...z...{
+0060: 00 00 02 BC 00 00 07 78                           .......x        
+
+2023-07-17 05:04:36,829 - [26] - ERROR - Game.Server.MemoryGame.MemoryGameLogicProcessor - MemoryGameLogicProcessor PackageType:INFO, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.Managers.ItemBoxMgr.FindItemBoxByRand(Int32 DateId, Int32 countSelect) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\Bussiness\Bussiness.Managers\ItemBoxMgr.cs:line 759
+   at Game.Server.GameUtils.PlayerActives.CreateMemoryGameData() in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.GameUtils\PlayerActives.cs:line 3496
+   at Game.Server.MemoryGame.Handle.GameInfo.CommandHandler(GamePlayer player, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.MemoryGame.Handle\GameInfo.cs:line 19
+   at Game.Server.MemoryGame.MemoryGameLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in D:\T?ng h?p file gunny 12.6 VNG\12.6\Full Source\game.server\Game.Server.MemoryGame\MemoryGameLogicProcessor.cs:line 30
+2023-07-17 05:04:36,831 - [26] - ERROR - Game.Server.MemoryGame.MemoryGameLogicProcessor - IP: 127.0.0.1:65105
+2023-07-17 05:05:52,808 - [30] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler

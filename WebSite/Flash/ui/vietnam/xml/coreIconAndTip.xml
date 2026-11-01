@@ -11,7 +11,7 @@
 		<set type="flash.text.TextFormat" stylename="latentEnergy.tipItemTxt.tf" args="Arial,13,0x99ff33,true"/>
 		<set type="flash.filters.GlowFilter" stylename="latentEnergy.tipItemTxt.gf" args="0x000000,1,2,2,10"/>
 		
-		<set stylename="bagBuffer.growHelp.openTF" args="Arial,14,0xfff6a8,true,,,,,center" type="flash.text.TextFormat" letterSpacing="5" />
+		<set stylename="bagBuffer.growHelp.openTF" args="Arial,14,0xfff6a8,true,,,,,center" type="flash.text.TextFormat" />
 		<set stylename="bagBuffer.growHelp.openGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
 		
 		<!-- 坐骑 -->
@@ -26,7 +26,13 @@
 		
 		<set type="flash.text.TextFormat" stylename="horse.skillCellTip.coolDownTxt.tf" args="Arial,13,0x99ff33,true"/>
 		<set type="flash.filters.GlowFilter" stylename="horse.skillCellTip.coolDownTxt.gf" args="0x000000,1,2,2,10"/>
-
+		
+		<set stylename="ddt.levelTips.ddtKingGradeTextTF" args="Verdana,16,0xFF7200,true,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="ddt.levelTips.ddtKingGradeTextGF" type="flash.filters.GlowFilter" args="0xFFF3C2,1,2,2,10"/>
+		
+		<set stylename="bagBuffer.gourdHelp.titleTextTF" args="Arial,16,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="bagBuffer.gourdHelp.precautionsTextTF" args="Arial,12,0xFFFFFF,,,,,,left" type="flash.text.TextFormat"/>
+		
 	</sets>
 	<customDisplay>
 		<custom classname="asset.core.focusTipAsset" x="431" y="231" stylename="tip.StageFocus"/>
@@ -97,6 +103,21 @@
 			
 		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="horse.skillCellTip.line" 
 			parentStyle="HRuleAsset" width="173" x="5" y="47"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.levelTips.ddtKingGradeText" 
+			textFormatStyle="ddt.levelTips.ddtKingGradeTextTF" filterString="ddt.levelTips.ddtKingGradeTextGF" 
+			x="66" y="4"/>
+		<!-- 葫芦经验瓶功能开启 -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bagBuffer.gourdHelp.bg" 
+			resourceLink="asset.ui.scale.bg16" scaleGridString="16,12,100,40"
+			width="184" height="200" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bagBuffer.gourdHelp.titleText" 
+			textFormatStyle="bagBuffer.gourdHelp.titleTextTF" x="10" y="10" autoSize="none" width="136" height="24"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bagBuffer.gourdHelp.precautionsText" 
+			textFormatStyle="bagBuffer.gourdHelp.precautionsTextTF" width="166" x="10" y="30" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.controls.TextButton"
+			stylename="bagBuffer.gourdHelp.stopBtn" backStyle="bagBuffer.growHelp.YelloButton"
+			textStyle="bagBuffer.growHelp.TextStyle"
+			backgoundInnerRectString="14,14,9,9,-1" x="18" y="155"/>	
 	</components>
 	
 	<customs>
@@ -109,8 +130,13 @@
 <!-- 		右下角 -->
 		<custom classname="flash.geom.Point" stylename="qqtip.pos0" x="735" y="385"/>
 <!-- 		左边 -->
-<!-- 		<custom classname="flash.geom.Point" stylename="qqtip.pos1" x="0" y="247" /> -->
-		
+<!-- 	<custom classname="flash.geom.Point" stylename="qqtip.pos1" x="0" y="247" /> -->
+		<custom classname="flash.geom.Point" stylename="simllPlayerTips.ddtkingGradeTextPos" x="67" y="28" />
+		<!-- 战队 -->
+		<custom classname="flash.geom.Point" stylename="teamTips.nameTextPos" x="61" y="41" />
+		<custom classname="flash.geom.Point" stylename="teamTips.winRateTextPos" x="61" y="68" />
+		<custom classname="flash.geom.Point" stylename="teamTips.integralTextPos" x="61" y="95" />
+		<custom classname="flash.geom.Point" stylename="teamTips.noTeamTextPos" x="5" y="4" />
 	</customs>
 	
 	<bitmaps>
@@ -155,8 +181,13 @@
 		<!--GoodsTip Res-->
 		<bitmapData resourceLink="asset.core.tip.ColorPiece" x="38" y="-1"/>
 		<bitmapData resourceLink="asset.core.tip.GoodsTipItemRecover" x="2"/>
-		<bitmapData resourceLink="asset.core.tip.GoodsTipItemRecover1" x="2"/>
+		<bitmapData resourceLink="asset.core.tip.GoodsTipItemRecover1" x="1"/>
 		<bitmapData resourceLink="asset.core.tip.GoodsType" y="-1"/>
 		<bitmapData resourceLink="asset.core.tip.GoodsLevel"/>
+		
+		<!--TeamTip Res-->
+		<bitmapData resourceLink="asset.teamtip.teamNameBg" x="10" y="41"/>
+		<bitmapData resourceLink="asset.teamtip.winRateBg" x="10" y="68"/>
+		<bitmapData resourceLink="asset.teamtip.integraBg" x="6" y="96"/>
 	</bitmaps>
 </style>

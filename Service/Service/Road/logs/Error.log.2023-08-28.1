@@ -1,0 +1,36 @@
+2023-08-28 22:22:49,010 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:22:49,021 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:22:49,244 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:22:49,299 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:22:49,302 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:22:49,304 - [17] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:22:49,329 - [17] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Base.Packets.AbstractPacketLib.SendUpdatePlayerProperty(PlayerInfo info, PlayerProperty PlayerProp, Sys_Users_CardInfo cardInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 1482
+   at Game.Server.GameUtils.PlayerProperty.ViewCurrent() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerProperty.cs:line 163
+   at Game.Server.GameUtils.PlayerEquipInventory.UpdatePlayerProperties() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerEquipInventory.cs:line 837
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3746
+2023-08-28 22:22:49,934 - [17] - ERROR - Game.Server.GameObjects.GamePlayer - Error saving all datas of playerID: 1 , Ð?t!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.SavePlayerInfoToDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4556
+   at Game.Server.GameObjects.GamePlayer.SaveIntoDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 5392
+2023-08-28 22:23:39,903 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:23:39,904 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:23:40,003 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:23:40,013 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:23:40,014 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:23:40,015 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-28 22:23:40,018 - [18] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Base.Packets.AbstractPacketLib.SendUpdatePlayerProperty(PlayerInfo info, PlayerProperty PlayerProp, Sys_Users_CardInfo cardInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 1482
+   at Game.Server.GameUtils.PlayerProperty.ViewCurrent() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerProperty.cs:line 163
+   at Game.Server.GameUtils.PlayerEquipInventory.UpdatePlayerProperties() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerEquipInventory.cs:line 837
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3746
+2023-08-28 22:23:40,368 - [18] - ERROR - Game.Server.GameObjects.GamePlayer - Error saving all datas of playerID: 1 , Ð?t!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.SavePlayerInfoToDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4556
+   at Game.Server.GameObjects.GamePlayer.SaveIntoDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 5392

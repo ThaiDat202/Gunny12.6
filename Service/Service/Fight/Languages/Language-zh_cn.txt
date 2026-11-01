@@ -1368,8 +1368,8 @@ EnterFarmHandler.Msg11:Mở rộng thành công!
 CardDataHander.Msg1:Không tìm thấy thẻ này, thử lại sau.
 CardDataHander.Msg2:Thẻ này đã trang bị!
 CardDataHander.Msg3:Trang bị thành công!
-CardDataHander.Msg4:Hộp thẻ {0} bài lổi!
-CardDataHander.Msg5:Bạn nhận được {0} điểm thẻ hồn, {1} Thẻ bài.
+CardDataHander.Msg4:Hộp thẻ {0} bài lỗi!
+CardDataHander.Msg5:Bạn nhận được {0} điểm thẻ hồn, {1} thẻ bài.
 CardDataHander.Msg6:Bạn nhận được {0} điểm thẻ hồn.
 CardDataHander.Msg7:Số lần sử dụng thẻ hồn hôm nay đã hết.
 CardDataHander.Msg8:Bạc
@@ -1394,7 +1394,7 @@ OpenOneTotemHandler.Msg2:Danh vọng không đủ.
 PetHandler.Msg1:Xu không đủ!
 PetHandler.Msg2:Level chưa đủ, không thể mở.
 PetHandler.Msg3:Số lượng pet đã đạt giới hạn!
-PetHandler.Msg4:Dữ liệu server lổi.
+PetHandler.Msg4:Dữ liệu server lỗi.
 PetHandler.Msg5:Người chơi [{0}] thật ghê gớm mở trứng được {1} {2} sao.
 PetHandler.Msg6:Bạn nhận được {0} {1} sao
 PetHandler.Msg7:Phục hồi thất bại!
@@ -2125,8 +2125,22 @@ GameServer.Team.RoomBorderBox.Open.Success:Bạn nhận được khung {0}
 GameServer.Team.RoomBordenBox.VaildDate.Msg1:Bạn có {0} khung viền đã hết hạn.
 GameServer.Team.RoomBorderBox.Open.FullBag:Túi đầy không thể mở thêm.
 
-GameServer.Team.Name.IsExits:Tên nhóm đã được đăng ký
-GameServer.Team.Tag.IsExits:Ký hiệu đã được đăng ký
+ItemReclaimHandler.Success1: Bạn đã nhận được {0} xu
+ItemReclaimHandler.Success2: Bạn đã nhận được {0} vàng
+ItemReclaimHandler.NotSuccess: Bán không thành công
+PVPGame.SendGameOVer.Msg1: Bạn có {0} điểm
+PVPGame.SendGameOVer.Msg2: Bạn đã nhận được lệnh {0} từ trận chiến
+PVPGame.SendGameOVer.Msg3: Chiến thắng, nhận được {0} khen thưởng
+PVPGame.SendGameOVer.Msg4: Thất bại, nhận {0} công trạng
+PVPGame.SendGameOVer.Msg5: Lỗi dữ liệu.
+PVPGame.SendGameOVer.Msg6: Chiến thắng, nhận {0} mã thông báo
+PVPGame.SendGameOVer.Msg7: Thất bại, nhận {0} mã thông báo
+Player.UseSkill.Disable: Kỹ năng này đã bị vô hiệu hóa.
+WishBeadEquipHandler.success: Xin chúc mừng {1} của [{0}] đã đúc vàng thành công và lực chiến đã đạt đến một cấp độ mới.
+ConsortiaRichiUpdateHandler.Success: Mở thành công! Vui lòng nhận phần thưởng trong rương kho báu!
+
+GameServer.Team.Name.IsExits:Tên đội đã được đăng ký.
+GameServer.Team.Tag.IsExits:Ký hiệu đã được đăng ký.
 GameServer.ConsortiaDomain.EnterError:Lãnh địa Guild chưa mở hoặc bạn đã bên trong.
 GameServer.ConsortiaDomain.ActiveError:Bạn đã mở Lãnh địa Guild rồi.
 GameServer.ConsortiaDomain.ActiveSuccess:Mở lãnh địa Guild thành công!
@@ -2140,6 +2154,35 @@ GameServer.VIPPackageWeek.Mail.Content:Bạn nhận được túi quà tuần VI
 GameServer.VIPRePackageLevel.Mail.Title:Túi quà tăng cấp VIP
 GameServer.VIPRePackageLevel.Mail.Content:Chúc mừng bạn đã đạt cấp VIP {0}, đây là phần thưởng trả lại khi cập nhật bản mới.
 
+#Thẻ bài
+CardNew.CardActiveSuits.ServerError:Bộ thẻ này đã được kích hoạt, vui lòng không kích hoạt lại.
+CardNew.CardActiveSuits.Success:Mở thành công.
+CardNew.CardAllotPoint.Failed:Không đủ điểm thẻ.
+CardNew.CardAllotPoint.Success:Thành công.
+CardNew.CardBreakSuit.Success:Cập nhật Album thành công.
+CardNew.CardBreakSuit.Failed:Cập nhật Album thất bại.
+CardNew.CardEquipSuits.Success:Đổi thành công.
+CardNew.CardModProperty.NoCardSoul:Không đủ điểm hồn.
+CardNew.CardResetPoint.Success:Đặt lại thành công.
+CardNew.CardResetPoint.failed:Không đủ xu.
+CardNew.CardUpgrades.Success:Nâng cấp thẻ thành công.
+CardNew.CardUpgrades.Failed:Không đủ điểm hồn thẻ hoặc không đủ tiền vàng.
+
+NecklaceStrength.NoNormalItem: Không sở hữu thạch anh tím.
+NecklaceStrength.Không có Vật phẩm Affinazh: Không có Vật phẩm Affinazh.
+NecklaceStrength.MaxNormalLv: Đã đạt cấp độ cao nhất.
+NecklaceStrength.WTF: Không đủ thạch anh tím.
+NecklaceStrength.MaxLevel: Đã đạt đến mức tối đa.
+NecklaceStrength.WTF1: Số lượng thạch anh tím không đủ.
+NecklaceStrength.WTF2: Không đủ số lượng đá rèn chính xác.
+
+BuyVipIntegrationHandler.MaxCount: Đã đạt đến giới hạn trao đổi.
+BuyVipIntegrationHandler.Success: Trao đổi thành công.
+
+PetAttackEffect.Success: Kích hoạt hiệu ứng kỹ năng thú cưng.
+
+GoSlow: Vui lòng đợi một giây và thử lại.
+
 GameServer.Mark.NoEnouchFree.Msg:Bạn chưa đủ thời gian hoặc hết lượt mở miễn phí mỗi ngày
 GameServer.Mark.NoEnouchMoney.Msg:Xu của bạn không đủ
 GameServer.Mark.EquipNotFound.Msg:Khắc Ấn không tồn tại
@@ -2151,6 +2194,7 @@ GameServer.Mark.NotEnouchSoulCrystal.Msg:Tinh thể không đủ.
 GameServer.Mark.NotEnouchRefineResource.Msg:Tinh thể hoặc nguyên liệu không đủ.
 GameServer.Mark.NotFoundRefineCopy.Msg:Không tìm thấy dữ liệu.
 texpSystem.SecondTexpCountToplimit:Số lần tu luyện thuộc tính cấp 2 hôm nay đã hết.
+texpSystem.ThirdTexpCountToplimit:Số lần tu luyện nguyên tố hôm nay đã hết.
 TotemUpgradeSystem.MaxLevel:Cấp tối đa không thể nâng.
 TotemUpgradeSystem.MateryNotEnouch:Cấp tối đa không thể nâng.
 TotemUpgradeSystem.Success:Đã tăng cấp
@@ -2158,10 +2202,97 @@ ExplorerPoint.Msg:Bạn nhận được {0} điểm thám hiểm.
 ExplorerBookName.Msg:Sách thám hiểm
 ExplorerManual.CollectSuccess.Msg:Nhận {0}
 ExplorerManual.CollectFail.Msg:Không thể nhận {0}
-Game.Logic.ContinuousRunning:{0} nhận được cơ hội tấn công liên tiếp!
-Player.UseSkill.Disable:Kỹ năng này đã bị vô hiệu hóa.
-WishBeadEquipHandler.success:Chúc Mừng [{0}] Của {1}Dát Vàng Thành Công,Lực Chiến Tăng lên Tầm Cao Mới!
-PetAttackEffect.Success:Kích hoạt hiệu ứng kỹ năng thú cưng.
 
-PetHandler.SlotUpgrade.Success: Mở Khóa Thành Công.
-PetHandler.SlotUpgrade.Fail: Mở Khóa Thất Bại.
+PetAttackEffect.Success: Kích hoạt hiệu ứng kỹ năng thú cưng.
+HappyRecharge.Default: Chúc mừng bạn đã rút được phần thưởng vừa và nhỏ!
+HappyRecharge.Ticket: Chúc mừng bạn đã trúng giải Gà Chí Tôn.
+HappyRecharge.MediumPrize: Chúc mừng bạn đã trúng giải May Mắn!
+HappyRecharge.SmallPrize: Chúc mừng bạn đã giành được giải Bất Ngờ!
+HappyRecharge.FreePlay: Nhấp chuột quá nhanh, hãy chậm lại.
+PetAwaken.Notice: Chúc mừng người chơi [{0}] đã thức tỉnh thành công và nhận được trang bị thú cưng {1}.
+
+#kho báu hắc ám
+DevilTurnHandle.BeadConversion.Fail.Count:Vui lòng xác nhận xem số lượng châu báu hắc ám có đủ hay không.
+DevilTurnHandle.BeadConversion.Success:Đổi thành công.
+DevilTurnHandle.BoxAbandon.Success:Bỏ thành công.
+DevilTurnHandle.GetBox.Success:Nhận thưởng thành công.
+DevilTurnHandle.GetBox.Title:Phần thưởng sự kiện cho kho báu hắc ám.
+DevilTurnHandle.GetBox.Content:Phần thưởng sự kiện kho báu hắc ám.
+DevilTurnHandle.Sacrifice.Fail.freeTimes:Không đủ thời gian rảnh.
+DevilTurnHandle.Sacrifice.Fail.Money:Không đủ xu.
+DevilTurn.Mail.Title:Túi đầy.
+DevilTurn.Mail.Content:Túi đầy.
+DevilTurnHandle.ScoreConversion.Success:Đổi thành công.
+DevilTurnHandle.ScoreConversion.Title:Phần thưởng sự kiện kho báu hắc ám.
+DevilTurnHandle.ScoreConversion.Content:Phần thưởng sự kiện kho báu hắc ám.
+
+#thần hộ mệnh
+Elf.ActivateElf.Failed:Mở thất bại.
+Elf.ActivateElf.Success:Chúc mừng bạn đã nhận được Thần hộ mệnh.
+Elf.AddGrowth.SomethingGoneWrong:Dữ liệu bất thường.
+Elf.Fight.NotFound:Không tìm thấy thần hộ mệnh.
+Elf.AddGrowth.NoItem:Số lượng vật phẩm không đủ.
+Elf.Blend.ElfNotFound:Không tìm thấy thần hộ mệnh.
+Elf.Skill.ViceElfNotFound:Không tìm thấy thần hộ mệnh Hợp nhất.
+Elf.Skill.ServerSideError:Lỗi không xác định!
+Elf.Blend.Success:Dung hợp kỹ năng thành công.
+Elf.Buy.Failed:Mua không thành công.
+Elf.Buy.Success:Mua thành công.
+Elf.Cultivate.NotFound:Không tìm thấy thần hộ mệnh.
+Elf.Cultivate.MaxLevel:Mức tối đa đã được luyện.
+Elf.Cultivate.NoItem:Số lượng vật phẩm không đủ.
+Elf.Cultivate.Success:Luyện thành công.
+Elf.Discard.Success:Bỏ thành công.
+Elf.Discard.Failed:Bỏ không thành công.
+Elf.Exercise.NotFound:Không tìm thấy thần hộ mệnh.
+Elf.Exercise.NoItem:Số lượng vật phẩm không đủ.
+Elf.ExerciseSave.NotFound:Không tìm thấy thần hộ mệnh.
+Elf.Skill.ElfNotFound:Không tìm thấy thần hộ mệnh.
+Elf.Skill.BookNotFound:Không tìm thấy sách kỹ năng.
+Elf.Skill.AlreadyLearned:Kỹ năng này đã được học.
+Elf.Skill.TryAgain:Thất bại.
+Elf.Skill.Success:Thành công.
+Elf.Summon.Failed:Dữ liệu bất thường.
+Elf.Summon.ServerSideError:Không đủ số lượng đạo cụ.
+
+# phù hiệu
+Emblem.Compose.Success: Dung hợp thành công
+Emblem.Compose.Failed: Dung hợp thất bại.
+Emblem.Forgive.ScrollNotFound: Ngoại lệ dữ liệu.
+Emblem.Forgive.ItemNotFound: Ngoại lệ dữ liệu.
+Emblem.Forgive.EmblemNotFound: Ngoại lệ dữ liệu.
+Emblem.Forgive.CanNotRemoveItems: Không đủ vật phẩm.
+Emblem.Forgive.Success: Tạo thành công
+Emblem.Inlay.EmblemNotFound: Ngoại lệ dữ liệu.
+Emblem.Inlay.EmblemIsExists: Phù hiệu đã được khảm.
+Emblem.Inlay.Success: Trang bị thành công.
+Emblem.Sale.Failed: Bán thất bại.
+Emblem.Sale.Success: Bán thành công.
+
+SwornHandler.SendSworInvatenAlert.Offline:Đối phương không trực tuyến.
+SwornHandler.SendSwornAcceptAlert.Max:Đã đầy.
+SwornHandler.SendSwornAcceptAlert.Fail:Thất bại.
+MasterConfirm:Quá trình học việc thành công, bạn trở thành người học việc của [{0}].
+ApprenticeConfirm:Quá trình học nghề thành công, bạn trở thành chủ nhân của [{0}].
+MasterRefuse:Yêu cầu học nghề của bạn đã bị từ chối! ! ! !
+ApprenticeRefuse:Yêu cầu học nghề của bạn đã bị từ chối! ! ! !
+PetPurificar.Tips:Xin chúc mừng người chơi [{0}] đã trùng sinh thú cưng lên bậc SSS.
+WonderFulActivity.Mail.Title:{0} phần thưởng.
+WonderFulActivity.Mail.Content:Nhận {0} phần thưởng.
+WonderfulActivity.GetReward.Success:Nhận thành công.
+WonderfulActivity.Exchange.Success:Đổi thành công.
+Game.Logic.ContinuousRunning:{0} nhận được cơ hội tấn công liên tiếp.
+ItemStrengthenHandler.congratulation5:Xin chúc mừng {1} của [{0}] đã đúc vàng thành công và lực chiến đã đạt đến một cấp độ mới.
+
+#đấu đội
+TeamHandler.Donate.Translate:Quyên góp thành công.
+TeamHandler.Donate.Translate1:Lên cấp đội thành công.
+TeamHandler.AddScore.MaxLv:Tối đa.
+TeamHandler.Approval.Success:Tham gia đội thành công.
+TeamHandler.Approval.CheckFail:Tham gia đội thất bại.
+RoomBordenHandler.Translate3:Người chơi không tồn tại.
+RoomBordenHandler.Translate4:
+RoomBordenHandler.Translate5:Gửi lời mời thành công.
+RoomBordenHandler.Translate6:
+RoomBordenHandler.Translate7:
+RoomBordenHandler.Translate8:Xin phép thành công.

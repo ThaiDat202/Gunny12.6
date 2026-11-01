@@ -75,7 +75,7 @@
 		<custom classname="flash.geom.Point" stylename="trainer.powerStripArrowPos" x="773" y="492"/>
 		<custom classname="flash.geom.Point" stylename="trainer.powerStripTipPos" x="550" y="422"/>
 		
-		<custom classname="flash.geom.Point" stylename="trainer.strWeaponArrowPos" x="565" y="142"/>
+		<custom classname="flash.geom.Point" stylename="trainer.strWeaponArrowPos" x="610" y="142"/>
 		<custom classname="flash.geom.Point" stylename="trainer.strWeaponTipPos" x="349" y="10"/>
 		<custom classname="flash.geom.Point" stylename="trainer.strStoneArrowPos" x="570" y="313"/>
 		<custom classname="flash.geom.Point" stylename="trainer.strStoneTipPos" x="260" y="190"/>

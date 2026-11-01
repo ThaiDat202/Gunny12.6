@@ -12,7 +12,9 @@ public class PlayerData : DbContext
 
 	public virtual DbSet<Sys_Users_SkillBooks> Sys_Users_SkillBooks { get; set; }
 
-	public virtual DbSet<Sys_Users_Emblem> Sys_Users_Emblem { get; set; }
+    public virtual DbSet<Sys_Users_ElfEquip> Sys_Users_ElfEquip { get; set; }
+
+    public virtual DbSet<Sys_Users_Emblem> Sys_Users_Emblem { get; set; }
 
 	public virtual DbSet<Sys_Users_Scroll> Sys_Users_Scroll { get; set; }
 

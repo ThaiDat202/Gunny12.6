@@ -64,6 +64,7 @@
 		<set stylename="PFormat_26" args="Arial,12,0xFFFFFF,,,,,,left"
 			type="flash.text.TextFormat"/>	
 		<set stylename="PFormat_27" args="Arial,12,0xfff3d7,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="PFormat_27_small" args="Arial,11,0xfff3d7,,,,,,center" type="flash.text.TextFormat"/>
 		<set stylename="droplist.CellTextTF" args="Arial,14,0xffffff,bold" type="flash.text.TextFormat"/>
 		<set stylename="PFormat_28" args="Arial,14,0xffffff,true" type="flash.text.TextFormat"/>
 		<set stylename="PFormat_29" args="Arial,14,0x13aeff,true,,,,,left" type="flash.text.TextFormat"/>
@@ -83,6 +84,7 @@
 	<shaderFilters mainpath="filters/" perRate="10" pbjLoadError="加载滤镜文件失败" pbjLoadSuccess="加载滤镜文件成功" pbjLoading="正在加载滤镜文件 {progress}"></shaderFilters>
 		
 	<components>
+		<component classname="com.pickgliss.ui.controls.alert.SimpleAlert" stylename="OneLineTxtAlert" parentStyle="SimpleAlert" frameInnerRectString="45,45,65,70,-1" />
 		<!-- DropList -->
 		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="droplist.Bg" resourceLink="asset.vip.BG1,asset.vip.BG2,asset.vip.BG3,asset.vip.BG4,asset.vip.BG5,asset.vip.BG6,asset.vip.BG7,asset.vip.BG8,asset.vip.BG9" width="510" height="240"/>	
 		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="droplist.Container" spacing="2" x="4" y="4"/>
@@ -250,6 +252,7 @@
 		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
 			stylename="core.scrollTrackAssetH" resourceLink="asset.core.scroll.trackH"
 			scaleGridString="1,5,3,10"/>
+			<component classname="com.pickgliss.ui.controls.alert.SimpleAlert" stylename="waitTimeFrameAlert" enterEnable="false" escEnable="false" mouseChildren="false" mouseEnabled="false" textStyle="simpleAlertContentText" titleOuterRectPosString="12,12,5" backStyle="SimpleFrameBackgoundOneV" titleStyle="FrameTitleTextStyle" containerX="20" containerY="40" frameInnerRectString="45,45,50,30,-1" moveInnerRectString="0,30,0,30,1" frameMiniW="270" frameMiniH="130"/>
 			
 		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.scrollUpButton"
 			backStyle="asset.core.scroll.arrowUp"  filterString="null,lightFilter,null,grayFilter"  displacement="false"/>
@@ -313,6 +316,8 @@
 			
 		<component classname="com.pickgliss.ui.text.FilterFrameText"
 			stylename="core.comboxListCellTxt3" filterString="P_g6" textFormatStyle="PFormat_27" autoSize="none"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.comboxListCellTxt3_small" filterString="P_g6" textFormatStyle="PFormat_27_small" autoSize="none"/>
 		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
 			stylename="core.comboxListCellAsset"
 			resourceLink=",core.comboxItembgB,core.comboxItembgB" fillAlphaRect="true"/>

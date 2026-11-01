@@ -36,5 +36,11 @@ public class VipStoreInfo
 
 	public int Vip12Quantity { get; set; }
 
-	public int ValidDate { get; set; }
+    public int Vip13Quantity { get; set; }
+
+    public int Vip14Quantity { get; set; }
+
+    public int Vip15Quantity { get; set; }
+
+    public int ValidDate { get; set; }
 }

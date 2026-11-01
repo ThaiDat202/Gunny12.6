@@ -22,7 +22,7 @@
 	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.petbtn" backStyle="consortion.petStyle" useLogID="14" x="840" y="540" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>	
 	
 	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.horsebtn" backStyle="consortion.horseStyle" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>
-	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.elfbtn" backStyle="consortion.elfStyle"  x="392" y="-28" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>
 	
 	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.goshopStyle"  resourceLink="asset.toolbar.shopBtnAsset,consortion.goshopMovie,asset.toolbar.shopScale,asset.toolbar.shopBtnAsset"/>
 	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.gobagStyle"  resourceLink="asset.toolbar.bagBtnAsset,consortion.bagMovie,asset.toolbar.bagScale,asset.toolbar.bagBtnAsset"/>
@@ -36,7 +36,7 @@
 	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.competitionStyle"  resourceLink="asset.toolbar.competitionBtnAsset,consortion.setMovie,consortion.setScale,asset.toolbar.competitionBtnAsset"/>
 	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.petStyle"  resourceLink="asset.toolbar.petBtnAsset,consortion.petMovie,consortion.petScale,asset.toolbar.petBtnAsset"/>	
 	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.horseStyle"  resourceLink="asset.toolbar.horseBtnAsset,consortion.horseMovie,consortion.horseScale,asset.toolbar.horseBtnAsset"/>
-	
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.elfStyle"  resourceLink="asset.toolbar.elfBtnAsset,consortion.elfMovie,consortion.elfScale,asset.toolbar.elfBtnAsset"/>
 
 	<component  classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.goshopMovie"  resourceLink="asset.toolbar.shopMCAsset"/>
 	<component  classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.gomailMovie"  resourceLink="asset.toolbar.mailMCAsset"/>
@@ -61,12 +61,21 @@
 	<component classname="com.pickgliss.ui.image.MovieImage" stylename="toolbar.complainbtn" resourceLink="asset.toolbar.complainBtnAsset" useLogID="22" tipStyle="ddt.view.tips.OneLineTip" tipGapV="-27" tipGapH="4" tipDirctions="6" width="40" height="41"/>
 	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="toolbar.bubbleBg" parentStyle="tipPanel.bubble" x="0" y="0" width="205"  height="50" />
 	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toolbar.eyebtn" resourceLink="asset.toobar.eyeClose,asset.toobar.eyeOpen" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="1"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toolbar.gmbtn" resourceLink="asset.toolbar.showGmBtn"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toolbar.setbtn" resourceLink="asset.toolbar.showSetBtn"/>
 		
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toolbar.bubbleTypeTxt" textFormatStyle="toolbar.bubbleTypeFt" filterString="toolbar.bubbleTypeFl" autoSize="none" x="5"  y="10" width="45" height="20" type="input"/>
-	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toolbar.bubbleInfoTxt" textFormatStyle="toolbar.bubbleInfoFt" filterString="toolbar.bubbleTypeFl" autoSize="none" x="45"  y="10" width="80" height="20" type="input"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toolbar.bubbleInfoTxt" textFormatStyle="toolbar.bubbleInfoFt" filterString="toolbar.bubbleTypeFl" autoSize="none" x="5"  y="10" width="120"  height="20" type="input"/>
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toolbar.bubbleStateTxt" textFormatStyle="toolbar.bubbleStateFt" filterString="toolbar.bubbleTypeFl" autoSize="none" x="123"  y="10" width="80" height="20" type="input"/> 
 
-	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="toolbar.rightVBox" spacing="3" /> 
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="toolbar.rightVBox" spacing="3" />
+	
+	
+	<!-- 圣灵 -->
+	<component  classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.elfMovie"  resourceLink="asset.toolbar.elfMCAsset"/>
+	<component  classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.elfScale"  resourceLink="asset.toolbar.elfScale" x="-4" y="-9"/>
+		
+	 
 </components>
 	<customDisplay>
 		<custom classname="flash.geom.Rectangle" stylename="feedback.btnGlowRec"
@@ -104,6 +113,8 @@
      <bitmapData resourceLink="asset.toolbar.jobTxt" x="731" y="579"/>
      <bitmapData resourceLink="asset.toolbar.friendTxt" x="346" y="17"/>
      <bitmapData resourceLink="asset.toolbar.ActivityTxt" x="842" y="579"/>
+     
+     <bitmapData resourceLink="asset.toolbar.elfTxt" x="401" y="17"/>
 <!--      <bitmapData resourceLink="asset.toolbar.signTxt" x="4"  y="39"/> -->
      <bitmapData resourceLink="asset.toolbar.otherTxt" x="399" y="17"/>
      <bitmapData resourceLink="asset.toolbar.outTxt" x="943" y="579"/>

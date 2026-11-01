@@ -1,0 +1,6 @@
+2023-07-20 05:01:54,404 - [37] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-20 05:01:54,535 - [37] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-20 20:13:49,866 - [115] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-20 20:13:50,045 - [115] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-20 20:24:53,620 - [47] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-20 20:24:53,752 - [47] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539

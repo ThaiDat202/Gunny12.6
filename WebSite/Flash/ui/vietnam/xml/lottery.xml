@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<style name="lottery" version="1.0.1" source="ui/cn_trad/swf/lottery.swf">
+<style name="lottery" version="1.0.1" source="ui/vietnam/swf/lottery.swf">
   <sets>
     <!--Filter-->
     <!--TextFormat-->

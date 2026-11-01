@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<style name="cubeGame" version="1.0.1" source="ui/cn_trad/swf/cubeGame.swf">
+<style name="cubeGame" version="1.0.1" source="ui/vietnam/swf/cubeGame.swf">
 
 <sets>
 	<set stylename="cubeGameInfoView.commonTF" args="Arial,18,0xfff3bc,true" type="flash.text.TextFormat"/>

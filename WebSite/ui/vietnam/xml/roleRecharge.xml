@@ -9,13 +9,16 @@
 		
 		<set type="flash.text.TextFormat" stylename="RoleRechargeItem.moneyTxtTF" args="Arial,14,0xffff7b,true,,,,,center"/>
 		<set type="flash.filters.GlowFilter" stylename="RoleRechargeItem.moneyTxtGF" args="0x400606,1,4,4,10"/>	
+		
+		<set type="flash.text.TextFormat" stylename="RoleRechargeFrame.checkBtnTextTF" args="Arial,11,0xfcf3a7"/>
+		<set type="flash.filters.GlowFilter" stylename="RoleRechargeFrame.checkBtnTextGF" args="0x5a2c00,1,4,4,30"/>
 	</sets>
 	
 	<customs>
 		<custom classname="roleRecharge.view.RoleRechargeFrame" backStyle="SimpleFrameBackgoundOne" stylename="RoleRecharge.RoleRechargeFrame" 
 			closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,11,5" closeInnerRectString="44,6,6,30,14" 
-			containerX="10" containerY="30" width="611" height="385"   x="354" y="90"/>
-		<custom classname="roleRecharge.view.RoleRechargeItem" stylename="RoleRechargeFrame.RoleRechargeItem" y="32"/>
+			containerX="10" containerY="30" width="611" height="460" x="12" y="340" />
+		<custom classname="roleRecharge.view.RoleRechargeItem" stylename="RoleRechargeFrame.RoleRechargeItem" y="32" />
 	</customs>
 	
 	<components>
@@ -30,9 +33,20 @@
 		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="RoleRechargeFrame.GiftBagArrayContainer" spacing="7" x="10" y="32"/>
 		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="RoleRechargeFrame.scrollpanel" thumbStyle="core.scrollVThumb" 
 			parentStyle="core.ScrollPanel" width="545" height="260" hScrollProxy="2" vScrollProxy="1" x="24" y="155"/>	
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="RoleRechargeFrame.payBtn" 
+			backStyle="roleRecharge.payBtn" filterString="null,lightFilter,null,grayFilter" x="210" y="349"/>	
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="RoleRechargeFrame.btnBg" parentStyle="asset.core.btmBimap" width="568" height="70" x="12" y="340" />
+	
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="RoleRechargeFrame.checkBtn" 
+			parentStyle="core.simpleSelectBtn" textStyle="RoleRechargeFrame.checkBtnText" displacement="true" 
+			fieldX="16" fieldY="0" x="470" y="96" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="RoleRechargeFrame.checkBtnText" 
+			textFormatStyle="RoleRechargeFrame.checkBtnTextTF" filterString="RoleRechargeFrame.checkBtnTextGF"/>
 	</components>
 	
 	<bitmaps>
 		<bitmapData resourceLink="roleRecharge.bg" x="8" y="14"/>
+		<bitmapData resourceLink="roleRecharge.get" x="428" y="4"/>
 	</bitmaps>
 </style>

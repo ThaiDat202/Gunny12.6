@@ -1,4 +1,4 @@
-<style name="consortiadomain" version="1.0.1" source="ui/cn_trad/swf/consortiadomain.swf">
+<style name="consortiadomain" version="1.0.1" source="ui/vietnam/swf/consortiadomain.swf">
 	<sets>
 		<set stylename="consortiadomain.killRankView.rankTypeTF" args="Arial,14,0xffb11b,true" type="flash.text.TextFormat" leading="5" letterSpacing="0" />
 		<set stylename="consortiadomain.killRankView.blackGF" args="0x0,1,2,2,10" type="flash.filters.GlowFilter"/>

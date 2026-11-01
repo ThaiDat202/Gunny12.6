@@ -35,7 +35,7 @@ public class PetBreak : IPetCommandHadler
 		}
 		if (itemCount == 0)
 		{
-			player.Out.SendMessage(eMessageType.Normal, ItemMgr.FindItemTemplate(templateId).Name + "数量不足.");
+			player.Out.SendMessage(eMessageType.Normal, ItemMgr.FindItemTemplate(templateId).Name + "Không đủ số lượng.");
 			return false;
 		}
 		if (itemCount >= petBreakInfo.stoneNumber)

@@ -1,4 +1,4 @@
-﻿<style name="fightFootballTime" version="1.0.1" source="ui/cn_trad/swf/fightFootballTime.swf">
+﻿<style name="fightFootballTime" version="1.0.1" source="ui/vietnam/swf/fightFootballTime.swf">
 	<sets>
 		<set stylename="fightFootballTime.expView.TF" args="Arial,35,0xFFFFFF,true" letterSpacing='6' type="flash.text.TextFormat"/>
 		<set stylename="fightFootballTime.expView.GF" args="0xFF0000,1,12,12,6,1" type="flash.filters.GlowFilter"/>

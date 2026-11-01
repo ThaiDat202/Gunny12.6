@@ -1,4 +1,4 @@
-<style name="equipGhost" version="1.0.1" source="ui/cn_trad/swf/equipGhost.swf">
+<style name="equipGhost" version="1.0.1" source="ui/vietnam/swf/equipGhost.swf">
 	<sets>
 		<set stylename="equipGhost.goodCellTextTF" args="宋体,14,0xfcf3d3,,,,,,center" type="flash.text.TextFormat" />
 		<set stylename="equipGhost.goodCellTextGF" args="0x654512,1,4,4,30" type="flash.filters.GlowFilter" />

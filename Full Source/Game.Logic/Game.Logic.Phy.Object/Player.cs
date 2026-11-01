@@ -397,7 +397,13 @@ public class Player : TurnedLiving
 			WindDefence += PlayerDetail.PlayerCharacter.ElementPro.WindDefence;
 			LandAttack += PlayerDetail.PlayerCharacter.ElementPro.LandAttack;
 			LandDefence += PlayerDetail.PlayerCharacter.ElementPro.LandDefence;
-		}
+
+            //sáng tối
+            LighAttack += PlayerDetail.PlayerCharacter.ElementPro.LighAttack;
+            LighDefence += PlayerDetail.PlayerCharacter.ElementPro.LighDefence;
+            DrakAttack += PlayerDetail.PlayerCharacter.ElementPro.DrakAttack;
+            DrakDefence += PlayerDetail.PlayerCharacter.ElementPro.DrakDefence;
+        }
 		if (m_DeputyWeapon != null)
 		{
 			deputyWeaponResCount = m_DeputyWeapon.StrengthenLevel + 1;
@@ -859,7 +865,7 @@ public class Player : TurnedLiving
 			m_maxBlood += (int)Math.Floor((double)m_player.PvePowerBuff.getBuffHp / 1000.0 * (double)GameProperties.BlessBuffAddRate);
 			MagicAttack += Math.Floor((double)m_player.PvePowerBuff.getBuffMAtk * 0.5 / 1000.0 * (double)GameProperties.BlessBuffAddRate);
 			MagicDefence += Math.Floor((double)m_player.PvePowerBuff.getBuffMDef / 1000.0 * (double)GameProperties.BlessBuffAddRate);
-			m_player.SendMessage("您的洗礼效果已经在战斗中生效.");
+			//m_player.SendMessage("Rơm cứu giúp đã được kích hoạt.");
 		}
 		m_energy = (int)Agility / 30 + 240;
 		if (base.FightBuffers.ConsortionAddEnergy > 0)
@@ -1342,6 +1348,39 @@ public class Player : TurnedLiving
 				case "2861":
 					new ElfAddElementSkillDamage_Passive(text, 820, isRate: false).Start(this);
 					break;
+				//sáng tối
+				//case "3850":
+				//case "3851":
+				//case "3852":
+				//case "3862":
+				//case "3863":
+				//case "3864":
+				//	new ElfAddLighAttack_Passive(text).Start(this);
+				//	break;
+				//case "3853":
+				//case "3854":
+				//case "3855":
+				//case "3865":
+				//case "3866":
+				//case "3867":
+				//	new ElfAddDrakAttack_Passive(text).Start(this);
+				//	break;
+				//case "3856":
+				//case "3857":
+				//case "3858":
+				//case "3868":
+				//case "3869":
+				//case "3870":
+				//	new ElfAddLighDefence_Passive(text).Start(this);
+				//	break;
+				//case "3859":
+				//case "3860":
+				//case "3861":
+				//case "3871":
+				//case "3872":
+				//case "3873":
+				//	new ElfAddDrakDefence_Passive(text).Start(this);
+				//	break;
 				default:
 					Console.WriteLine($"Not Found ElfSkill ElementID: {text}");
 					break;

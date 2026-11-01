@@ -1,0 +1,64 @@
+2023-08-26 15:12:23,283 - [25] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 15:12:23,294 - [25] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 15:12:23,475 - [25] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 15:12:23,530 - [25] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 15:12:23,532 - [25] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 15:12:23,533 - [25] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 15:13:00,683 - [29] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 15:13:00,685 - [29] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 15:13:00,686 - [29] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 15:18:46,437 - [51] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MinesHandler  client: 127.0.0.1:61874)
+System.ArgumentNullException: Value cannot be null.
+   at System.Threading.Monitor.Enter(Object obj)
+   at Game.Server.Managers.MinesMgr.GetListDrop() in C:\Gunny\Full Source\game.server\Game.Server.Managers\MinesMgr.cs:line 395
+   at Game.Base.Packets.AbstractPacketLib.SendMinesShopInfo() in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 420
+   at Game.Server.Packets.Client.MinesHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\MinesHandler.cs:line 220
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-26 15:18:46,451 - [51] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 15 01 22 01 9E 00 00 00 04 00 00 00 00   q...."..........
+0010: 00 00 00 00 08                                    .....           
+
+2023-08-26 22:04:25,903 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:04:25,904 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:04:26,042 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:04:26,061 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:04:26,063 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:04:26,064 - [56] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:16:11,087 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,56ms!
+2023-08-26 22:16:11,088 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 59 ms,count:1
+2023-08-26 22:26:59,358 - [100] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:26:59,359 - [100] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:26:59,360 - [100] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:27:03,561 - [103] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:27:03,562 - [103] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:27:03,563 - [103] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-26 22:27:15,384 - [103] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:57207)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-26 22:27:15,387 - [103] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-26 22:39:29,984 - [34] - ERROR - Game.Server.Elf.ElfLogicProcessor - ElfLogicProcessor PackageType:ELF_EQUIP_OPERATE, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.Elf.Handle.ElfHandleMgr.LoadCommandHandler(Int32 code) in C:\Gunny\Full Source\game.server\Game.Server.Elf.Handle\ElfHandleMgr.cs:line 13
+   at Game.Server.Elf.ElfLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Elf\ElfLogicProcessor.cs:line 27
+2023-08-26 22:39:29,986 - [34] - ERROR - Game.Server.Elf.ElfLogicProcessor - IP: 127.0.0.1:57207
+2023-08-26 22:41:35,784 - [94] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-26 23:01:08,255 - [30] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:57207) Handle packet Thread 30 Game.Server.Packets.Client.CardDataHander took 1547ms!
+2023-08-26 23:15:37,798 - [20] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MinesHandler  client: 127.0.0.1:61009)
+System.ArgumentNullException: Value cannot be null.
+   at System.Threading.Monitor.Enter(Object obj)
+   at Game.Server.Managers.MinesMgr.GetListDrop() in C:\Gunny\Full Source\game.server\Game.Server.Managers\MinesMgr.cs:line 395
+   at Game.Base.Packets.AbstractPacketLib.SendMinesShopInfo() in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 420
+   at Game.Server.Packets.Client.MinesHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\MinesHandler.cs:line 220
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-26 23:15:37,803 - [20] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 15 01 22 01 9E 00 00 00 04 00 00 00 00   q...."..........
+0010: 00 00 00 00 08                                    .....           
+
+2023-08-26 23:28:09,187 - [95] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-26 23:28:09,286 - [95] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539

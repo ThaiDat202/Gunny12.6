@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+hbR9h/EXln9SeLqctTcFT53+XUqXVzRXfmRKWFtFx5T1eWCgyFe6AyBbkhnHN16wm2a4pqAQXqatHrTKNgnZA==",
+  "dgSpecHash": "nef+EpET1irqmKJlYk5CvBBdFQL6UuMkdSaZu5KOV+w85Hvul7XkB3tAvckwdBcEjUd5BoyVcyx2k0ykeqtjSw==",
   "success": true,
-  "projectFilePath": "D:\\Tổng hợp file gunny 12.6 VNG\\12.6\\Full Source\\game.base\\game.base.csproj",
+  "projectFilePath": "C:\\Gunny\\Full Source\\game.base\\game.base.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\log4net\\2.0.14\\log4net.2.0.14.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\protobuf-net\\2.4.0\\protobuf-net.2.4.0.nupkg.sha512",

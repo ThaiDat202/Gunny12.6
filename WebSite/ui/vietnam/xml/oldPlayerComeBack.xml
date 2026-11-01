@@ -1,4 +1,4 @@
-<style name="oldPlayerComeBack" version="2.0.1" source="ui/portugal/swf/oldPlayerComeBack.swf">
+<style name="oldPlayerComeBack" version="2.0.1" source="ui/vietnam/swf/oldPlayerComeBack.swf">
 	<sets>
 		<set stylename="oldPlayerComeBack.diceCountTxt.tf" args="Arial,14,0xFFFFFF" type="flash.text.TextFormat"/>
 		<set stylename="oldPlayerComeBack.diceCountTxt.gf" args="0xA64904,1,2,2,10" type="flash.filters.GlowFilter"/>

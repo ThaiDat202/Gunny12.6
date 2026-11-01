@@ -715,7 +715,7 @@ public class PetMgr
 
 	public static int GetGP(int level, int playerLevel)
 	{
-		int num = 72;
+		int num = 70;
 		for (int i = 1; i <= num; i++)
 		{
 			if (level == FindPetLevel(i).Level)

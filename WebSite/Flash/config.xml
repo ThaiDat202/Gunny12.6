@@ -2,163 +2,622 @@
 <root>
   <config>
     <FLASHSITE value="http://127.0.0.1/flash/" />
-    <BACKUP_FLASHSITE value="http://127.0.0.1/flash/" />
-    <USE_MD5 value="false" />
     <SITE value="http://gunny.vcdn.vn/" />
     <FIRSTPAGE value="http://127.0.0.1/" />
     <REGISTER value="http://127.0.0.1/" />
     <REQUEST_PATH value="http://127.0.0.1:88/" />
-    <LOGIN_PATH value="http://127.0.0.1/" />
-    <FILL_PATH value="http://127.0.0.1/" />
+    <LOGIN_PATH value="http://127.0.0.1/Default.aspx" siteName="Gunny Online" />
+    <FILL_PATH value="http://127.0.0.1/ddtLogin/Charge.aspx" />
     <POLICY_FILES>
-      <file value="http://127.0.0.1/crossdomain.xml" />
+      <file value="http://127.0.0.1/crossdomain.xml"/>
     </POLICY_FILES>
-    <ALLOW_MULTI value="true" />
-    <TRAINER_PATH value="tutorial.swf" />
-    <MUSIC_LIST value="1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,1034,1035,1036,1037,1038,1039,1040,1059,1060,1061,1062,1063,1065,1067,1068,1069,1077" />
-    <LANGUAGE value="vietnam" />
-    <PARTER_ID value="1524" />
-    <STATISTIC value="true" />
-    <SUCIDE_TIME value="120" />
-    <ISTOPDERIICT value="true" />
-    <COUNT_PATH value="http://assayerhandler.7road.com/" />
-    <PHP isShow="false" link="false" site="http://baidu.com/" infoPath="a.xml" />
-    <OFFICIAL_SITE value="http://127.0.0.1/" />
-    <GAME_FORUM value="http://br.337.com/forum/viewforum.php?f=15" />
-    <COMMUNITY_FRIEND_PATH isUser="false" value="http://ddt.the9.com/addfriend.php" />
-    <COMMUNITY_INVITE_PATH value="http://ddt.the9.com/invite.php" />
-    <COMMUNITY_FRIEND_LIST_PATH value="" isexist="false" />
-    <COMMUNITY_FRIEND_INVITED_SWITCH value="false" invitedOnline="false" />
-    <COMMUNITY_MICROBLOG value="false" />
-    <EXTERNAL_INTERFACE enable="true" path="http://api.mmog.asia/partner/facebook/apps/lib/fb_boomz.php" key="cr64rAmUPratutUp" server="t1" />
-    <USERS_IMPORT_ACTIVITIES path="http://assist49.myddt.com.br/SendMessage.ashx" enable="false" />
-    <ALLOW_POPUP_FAVORITE value="true" />
-    <FILL_JS_COMMAND value="showPayments" enable="true" />
-    <SHIELD_NOTICE value="false" />
-    <!-- 铁匠铺强化最高等级开关 -->
-    <STHRENTH_MAX value="12" />
-    <!-- 客服系统开关 -->
-    <FEEDBACK enable="false" />
-	 <!--  单机版新手引导的开关  -->
-	<TRAINER_STANDALONE value="false"/>
-    <!--3.3之前的新版新手引导开关-->
-    <USER_GUILD_ENABLE value="false" />
-	 <!--  跨区大喇叭开关节点   -->
-	<CROSSBUGGlLEBTN enable="true"/>
-	
-    <!--远征码头等级限制-->
-    <MINLEVELDUPLICATE value="8" />
-    <!-- 师徒副本开关 -->
-    <TEACHER_PUPIL_FB enable="true" />
-    <!-- 公会技能开关 -->
-    <GUILD_SKILL enable="true" />
-    <LEAGUE enable="true" />
-    <!-- 开启温泉房间续费功能-->
-    <HOTSPRING value="true" />
-    <!-- 公会名称大于等于13字符颜色修改-->
-    <CONSORTIA_NAME_CHANGECOLOR enable="true" color="0xFF0000" value="12" />
-    <!-- 桌面收藏开关 -->
-    <DAILY enable="false" />
-    <CLIENT_DOWNLOAD value="" />
-    <!-- 修炼系统开关 -->
-    <TEXPBTN value="true" />
-    <!-- 工会使命系统开关 -->
-    <PLACARD_TASKBTN value="true" />
-    <!-- 工会图标开关 -->
-    <BADGEBTN value="true" />
-    <!--下载登录开关-->
-    <DOWNLOAD value="false" />
-    <!--- 梅恩兰德大陆祝福开关-->
-    <!--- 幸运数字的开关-->
-    <LUCKY_NUMBER enable="false" />
-    <!--- 占卜的开关-->
-    <LOTTERY enable="false" />
-    <!-- 交友中心和结婚的开关-->
+    <GAME_BOXPIC value="7"/>
+    <FIGHTLIB value="true"/>
+    <ALLOW_MULTI value="false"/>
+    <TRAINER_PATH value="tutorial.swf"/>
+    <MUSIC_LIST value="1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,1034,1035,1036,1037,1038,1039,1040,1059,1060,1061,1062,1063,1065,1067,1068,1069,1077"/>
+    <LANGUAGE value="vietnam"/>
+    <PARTER_ID value="1003344"/>
+    <STATISTIC value="true"/>
+    <SUCIDE_TIME value="120"/>
+    <GAME_BOXPIC value="1"/>
+    <ISTOPDERIICT value="true"/>
+    <COUNT_PATH value="http://gamebihandler.7road.com/ddt_game/List_BI_Click.ashx"/>
+    <PHP isShow="false" link="true" site="http://me.zing.vn/{id}/home" infoPath="http://assist313.gn.zing.vn/GetUserImg.aspx?uid={uid}"/>
+    <OFFICIAL_SITE value="http://gunny.zing.vn/"/>
+    <GAME_FORUM value="http://diendan.zing.vn/gunny/"/>
+    <COMMUNITY_FRIEND_PATH isUser="false" value="http://ddt.the9.com/addfriend.php"/>
+    <COMMUNITY_INVITE_PATH value="http://ddt.the9.com/invite.php"/>
+    <COMMUNITY_FRIEND_LIST_PATH value="http://assist313.gn.zing.vn/Other/GetSnsFriendList" snsPath="http://s19.ddt.kaixin001.com.cn/assist/SnsServer/NotifySnsUserUpgrade" isexist="true" isexistBtnVisble="true" cmBtnVisble="false"/>
+    <COMMUNITY_INTERFACE enable="false" path="http://assist313.gn.zing.vn/Other/" shareBtnVisble="false"/>
+    <COMMUNITY_FRIEND_INVITED_SWITCH value="true" invitedOnline="true"/>
+    <EXTERNAL_INTERFACE path="http://fb.egame.hk/GameAccess/facebook/ddt/postAction.jsp" enable="false"/>
+    <!-- 海外社区开关 -->
+    <COMMUNITY_MICROBLOG value="true"/>
+    <COMMUNITY_SINA_SECOND_MICROBLOG value="true"/>
+    <ALLOW_POPUP_FAVORITE value="false"/>
+    <FILL_JS_COMMAND value="user_ZingPay" enable="true"/>
+    <SHIELD_NOTICE value="false"/>
+    <!--  客服系统开关  -->
+    <!-- 单机版新手引导的开关 -->
+    <TRAINER_STANDALONE value="true"/>
+    <!-- 3.3之前的新版新手引导开关 -->
+    <USER_GUILD_ENABLE value="true"/>
+    <!-- 远征码头等级限制 -->
+    <MINLEVELDUPLICATE value="10"/>
+    <!--
+ DISABLE_TASK_ID 为禁用的任务的ID，如有多个，请用逗号隔开 for example : 1002,1003,1004,新浪需要屏蔽的任务有378,379,380,381,604 
+-->
+    <DISABLE_TASK_ID value="545,382,383,384,385"/>
+    <STATISTICS enable="true"/>
+    <!-- 小游戏等级限制开关 -->
+    <LITTLEGAMEMINLV value="20"/>
+    <!--  交友中心和结婚的开关 -->
+    <SHOW_BACKGROUND value="true"/>
+    <!-- 下载登录开关 -->
+    <DOWNLOAD value="false"/>
+    <!--  开启温泉房间续费功能 -->
+    <HOTSPRING value="true"/>
+    <!-- - 幸运数字的开关 -->
+    <LUCKY_NUMBER enable="true"/>
+    <!-- - 占卜的开关 -->
+    <LOTTERY enable="true"/>
+    <!--  随机选频  -->
+    <RANDOM_CHANNEL value="true"/>
+    <!--  同城好友开关  -->
+    <LIKEPERSON_SELECTED value="false"/>
+    <!--  游戏边框背景开关  -->
     <MODULE>
-      <CIVIL enable="true" />
-      <CHURCH enable="true" />
+      <CIVIL enable="true"/>
+      <CHURCH enable="true"/>
     </MODULE>
     <CHAT_FACE>
-      <DISABLED_LIST list="38" />
+      <DISABLED_LIST list="38"/>
     </CHAT_FACE>
     <GAME_FRAME_CONFIG>
-      <!-- 每帧执行的毫秒数,正常值应为40毫秒,并允许在35至45毫秒之间波动  (游戏内正常帧速为 25帧/秒)-->
-      <FRAME_TIME_OVER_TAG value="67" />
-      <!-- 连续低于上述毫秒的帧数 (游戏内正常帧速为 25帧/秒) -->
-      <FRAME_OVER_COUNT_TAG value="25" />
+      <!--
+ 每帧执行的毫秒数,正常值应为40毫秒,并允许在35至45毫秒之间波动  (游戏内正常帧速为 25帧/秒)
+-->
+      <FRAME_TIME_OVER_TAG value="67"/>
+      <!--  连续低于上述毫秒的帧数 (游戏内正常帧速为 25帧/秒)  -->
+      <FRAME_OVER_COUNT_TAG value="25"/>
     </GAME_FRAME_CONFIG>
-    <SHORTCUT enable="false" />
-	<!--   战斗中的箱子显示，1箱子，3粽子，4月饼，5南瓜，6铃铛，7灯笼,8新春灯笼  -->
-    <GAME_BOXPIC value="1" />
-    <FIGHTLIB value="true" />
-    <BUFF enable="true" />
-    <LITTLEGAMEMINLV value="10" />
-	<!--  游戏边框背景开关  -->
-    <SHOW_BACKGROUND value="true" />
-    <TRAINER_STANDALONE value="true" />
     <OVERSEAS>
-      <OVERSEAS_COMMUNITY_TYPE value="1" callPath="" callJS="" />
+      <OVERSEAS_COMMUNITY_TYPE value="0" callPath="" callJS="" shareBtnVisble="true"/>
     </OVERSEAS>
-    <!--副本开关-->
-    <DUNGEON_OPENLIST value="1,2,3,4,5,6,7,8,9,10,11,12,13" advancedEnable="true" epicLevelEnable="true" footballEnable="true" />
-    <SHOPITEM_SUIT_TOSHOW enable="true" />
-    <SUIT enable="true" />
-    <!--弹王盟约开关-->
-    <KINGBLESS enable="true" />
-    <!--任务托管 -->
-    <QUEST_TRUSTEESHIP enable="false" />
-    <!--勇士秘境开关 -->
-    <WARRIORS_FAM enable="false" />
-    <!--战魂开关-->
-    <GEMSTONE enable="true" />
-    <!--337VIP按钮为空不显示跳转按钮-->
-    <GOTO337 value="http://web.337.com/pt/activity/vipprize?id=19" />
-    <ONEKEYDONE enable="true" />
-    <!--邂逅开关-->
-    <ENCOUNTER enable="false" />
-    <!--农场探宝开关-->
-    <TREASURE enable="true" time="5" />
-    <!--活力值开关-->
-    <ENERGY_ENABLE enable="false" />
-    <!--进阶开关-->
-    <EXALTBTN enable="true" />
-    <!--赛亚之神 临时属性-->
-    <GODSYAH enable="true" />
-    <PK_BTN enable="true" />
-    <FIGHT_TIME count="2" />
-	
-	<PETS_EAT enable="true"/>
-	<KINGFIGNT enable="true"/>
-	<MAGICHOUSE enable="false"/>
-	<GIRDATTEST enable="false"/>
-	<GIRLHEAD enable="false"/>
-	<!-- 老玩家转区 true:开 false:关 -->
-	<OLDPLAYER_TRANSFER_SERVER enable="true"/>
+    <CLIENT_DOWNLOAD value=""/>
+    <FEEDBACK enable="true" telNumber=""/>
+    <SUIT enable="true"/>
+    <DUNGEON_OPENLIST value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,70001,12016,15001,16001,30" advancedEnable="true" epicLevelEnable="true" footballEnable="true"/>
+    <!-- 弹王盟约开关 -->
+    <KINGBLESS enable="true"/>
+    <!-- 任务托管  -->
+    <QUEST_TRUSTEESHIP enable="false"/>
+    <!-- 勇士秘境开关 -->
+    <WARRIORS_FAM enable="true"/>
+    <!-- 战魂开关 -->
+    <GEMSTONE enable="true"/>
+    <!-- 跨区私聊开关 -->
+    <CROSS_CHAT_SERVER enable="true"/>
+    <EXALTBTN enable="true"/>
+    <!-- 跨区大喇叭 -->
+    <CROSSBUGGLE enable="true"/>
+    <!-- 10分钟后检查到用登录器登录，对玩家进行踢出游戏操作 -->
+    <CHECKDESK_KILL enable="false"/>
+    <HIT_SHELL pointEnable="true" progressEnable="true" dotteLineEnable="false" smallMapsEnable="false"/>
+    <!-- 小地图控制 -->
+    <SMALLMAP enable="true" meterEnable="false" borderEnable="true" alphaEnable="false"/>
+    <!-- PK模式按钮 -->
+    <PK_BTN enable="true"/>
+    <VIP_DISCOUNT enable="false"/>
+    <MAGICSTONE_DISCOUNT enable="false"/>
+    <FIGHT_TIME count="1000"/>
+    <PETS_EAT enable="true"/>
+    <MAGICHOUSE enable="true"/>
+    <GIRDATTEST enable="true"/>
+    <GIRLHEAD enable="true"/>
+    <TRUSTEESHIPVIEW enable="false"/>
+    <GODSYAH enable="true"/>
+    <LOGIN_DEVICE link="http://download.zing.vcdn.vn/download/zg/Public/gunnysetup.exe"/>
+    <RECORD_PATH value="false"/>
+    <OLDPLAYER_TRANSFER_SERVER enable="true"/>
+    <RESOURCE_SITE value="http://127.0.0.1/flash/"/>
   </config>
-  <update ver="v5.5.0">
-    <version from="324" to="325">
-      <file value="flash/2.png" />
-      <file value="flash/ui/portugal/language.png" />
-      <file value="flash/ui/portugal/xml/xml.png" />
-      <file value="flash/ui/portugal/swf/horse.swf" />
-      <file value="2.png" />
-      <file value="ui/portugal/language.png" />
-      <file value="ui/portugal/xml/xml.png" />
-      <file value="ui/portugal/swf/horse.swf" />
-    </version>
-    <version from="325" to="326">
-      <file value="flash/2.png" />
-      <file value="2.png" />
-    </version>
-    <version from="326" to="327">
-      <file value="*" />
-      <file value="flash/*" />
-      <file value="image/map/10015/*" />
-      <file value="image/map/10016/*" />
-      <file value="image/map/70003/*" />
-      <file value="image/map/70004/*" />
-      <file value="image/map/70005/*" />
-      <file value="image/map/70006/*" />
-    </version>
-  </update>
+  <update>
+<version from="769" to="770">
+<file value="flash/ui/vietnam/swf/farm.swf"/>
+<file value="ui/vietnam/swf/farm.swf"/>
+</version>
+<version from="770" to="771">
+<file value="flash/ui/vietnam/swf/farm.swf"/>
+<file value="ui/vietnam/swf/farm.swf"/>
+</version>
+<version from="771" to="772">
+<file value="flash/ui/vietnam/swf/farm.swf"/>
+<file value="ui/vietnam/swf/farm.swf"/>
+</version>
+<version from="772" to="773">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/5.png"/>
+<file value="flash/ui/vietnam/bones.png"/>
+<file value="flash/ui/vietnam/language.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/Loading.swf"/>
+<file value="flash/ui/vietnam/swf/dayactivity.swf"/>
+<file value="flash/ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="flash/ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="flash/ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="flash/ui/vietnam/swf/ddtKingFloatgame.swf"/>
+<file value="flash/ui/vietnam/swf/farm.swf"/>
+<file value="flash/ui/vietnam/swf/floatParadegame.swf"/>
+<file value="flash/ui/vietnam/swf/game.swf"/>
+<file value="flash/ui/vietnam/swf/horse.swf"/>
+<file value="flash/ui/vietnam/swf/kingcar.swf"/>
+<file value="flash/ui/vietnam/swf/kingcaringame.swf"/>
+<file value="flash/ui/vietnam/swf/rescuenew.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="5.png"/>
+<file value="ui/vietnam/bones.png"/>
+<file value="ui/vietnam/language.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="Loading.swf"/>
+<file value="ui/vietnam/swf/dayactivity.swf"/>
+<file value="ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="ui/vietnam/swf/ddtKingFloatgame.swf"/>
+<file value="ui/vietnam/swf/farm.swf"/>
+<file value="ui/vietnam/swf/floatParadegame.swf"/>
+<file value="ui/vietnam/swf/game.swf"/>
+<file value="ui/vietnam/swf/horse.swf"/>
+<file value="ui/vietnam/swf/kingcar.swf"/>
+<file value="ui/vietnam/swf/kingcaringame.swf"/>
+<file value="ui/vietnam/swf/rescuenew.swf"/>
+<file value="image/map/70039/*"/>
+</version>
+<version from="773" to="774">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/5.png"/>
+<file value="flash/ui/vietnam/bones.png"/>
+<file value="flash/ui/vietnam/language.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/Loading.swf"/>
+<file value="flash/ui/vietnam/swf/dayactivity.swf"/>
+<file value="flash/ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="flash/ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="flash/ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="flash/ui/vietnam/swf/ddtKingFloatgame.swf"/>
+<file value="flash/ui/vietnam/swf/farm.swf"/>
+<file value="flash/ui/vietnam/swf/floatParadegame.swf"/>
+<file value="flash/ui/vietnam/swf/game.swf"/>
+<file value="flash/ui/vietnam/swf/horse.swf"/>
+<file value="flash/ui/vietnam/swf/kingcar.swf"/>
+<file value="flash/ui/vietnam/swf/kingcaringame.swf"/>
+<file value="flash/ui/vietnam/swf/rescuenew.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="5.png"/>
+<file value="ui/vietnam/bones.png"/>
+<file value="ui/vietnam/language.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="Loading.swf"/>
+<file value="ui/vietnam/swf/dayactivity.swf"/>
+<file value="ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="ui/vietnam/swf/ddtKingFloatgame.swf"/>
+<file value="ui/vietnam/swf/farm.swf"/>
+<file value="ui/vietnam/swf/floatParadegame.swf"/>
+<file value="ui/vietnam/swf/game.swf"/>
+<file value="ui/vietnam/swf/horse.swf"/>
+<file value="ui/vietnam/swf/kingcar.swf"/>
+<file value="ui/vietnam/swf/kingcaringame.swf"/>
+<file value="ui/vietnam/swf/rescuenew.swf"/>
+<file value="image/map/70039/*"/>
+</version>
+<version from="774" to="775">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/5.png"/>
+<file value="flash/ui/vietnam/bones.png"/>
+<file value="flash/ui/vietnam/language.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/Loading.swf"/>
+<file value="flash/ui/vietnam/swf/dayactivity.swf"/>
+<file value="flash/ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="flash/ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="flash/ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="flash/ui/vietnam/swf/ddtKingFloatgame.swf"/>
+<file value="flash/ui/vietnam/swf/farm.swf"/>
+<file value="flash/ui/vietnam/swf/floatParadegame.swf"/>
+<file value="flash/ui/vietnam/swf/game.swf"/>
+<file value="flash/ui/vietnam/swf/horse.swf"/>
+<file value="flash/ui/vietnam/swf/kingcar.swf"/>
+<file value="flash/ui/vietnam/swf/kingcaringame.swf"/>
+<file value="flash/ui/vietnam/swf/rescuenew.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="5.png"/>
+<file value="ui/vietnam/bones.png"/>
+<file value="ui/vietnam/language.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="Loading.swf"/>
+<file value="ui/vietnam/swf/dayactivity.swf"/>
+<file value="ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="ui/vietnam/swf/ddtKingFloatgame.swf"/>
+<file value="ui/vietnam/swf/farm.swf"/>
+<file value="ui/vietnam/swf/floatParadegame.swf"/>
+<file value="ui/vietnam/swf/game.swf"/>
+<file value="ui/vietnam/swf/horse.swf"/>
+<file value="ui/vietnam/swf/kingcar.swf"/>
+<file value="ui/vietnam/swf/kingcaringame.swf"/>
+<file value="ui/vietnam/swf/rescuenew.swf"/>
+<file value="image/map/70039/*"/>
+</version>
+<version from="775" to="776">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="776" to="777">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="777" to="778">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="778" to="779">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="779" to="780">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="780" to="781">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="781" to="782">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="782" to="783">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="783" to="784">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="784" to="785">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="785" to="786">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="786" to="787">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="787" to="788">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="788" to="789">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="2.png"/>
+<file value="4.png"/>
+</version>
+<version from="789" to="790">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/5.png"/>
+<file value="flash/ui/vietnam/language.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/Loading.swf"/>
+<file value="flash/ui/vietnam/swf/bounce.swf"/>
+<file value="flash/ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="flash/ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="flash/ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="flash/ui/vietnam/swf/ddtroom.swf"/>
+<file value="flash/ui/vietnam/swf/ddtstore.swf"/>
+<file value="flash/ui/vietnam/swf/game.swf"/>
+<file value="flash/ui/vietnam/swf/labyrinth.swf"/>
+<file value="flash/ui/vietnam/swf/robot.swf"/>
+<file value="flash/ui/vietnam/swf/teamdgnmagic.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="flash/ui/vietnam/swf/uigeneral.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="5.png"/>
+<file value="ui/vietnam/language.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="Loading.swf"/>
+<file value="ui/vietnam/swf/bounce.swf"/>
+<file value="ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="ui/vietnam/swf/ddtroom.swf"/>
+<file value="ui/vietnam/swf/ddtstore.swf"/>
+<file value="ui/vietnam/swf/game.swf"/>
+<file value="ui/vietnam/swf/labyrinth.swf"/>
+<file value="ui/vietnam/swf/robot.swf"/>
+<file value="ui/vietnam/swf/teamdgnmagic.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+<file value="ui/vietnam/swf/uigeneral.swf"/>
+<file value="image/map/70050/*"/>
+<file value="image/map/70051/*"/>
+<file value="image/map/70052/*"/>
+<file value="image/map/70053/*"/>
+<file value="image/map/70054/*"/>
+<file value="image/map/70055/*"/>
+<file value="image/map/70056/*"/>
+</version>
+<version from="790" to="791">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/5.png"/>
+<file value="flash/ui/vietnam/language.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/Loading.swf"/>
+<file value="flash/ui/vietnam/swf/bounce.swf"/>
+<file value="flash/ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="flash/ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="flash/ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="flash/ui/vietnam/swf/ddtroom.swf"/>
+<file value="flash/ui/vietnam/swf/ddtstore.swf"/>
+<file value="flash/ui/vietnam/swf/game.swf"/>
+<file value="flash/ui/vietnam/swf/labyrinth.swf"/>
+<file value="flash/ui/vietnam/swf/robot.swf"/>
+<file value="flash/ui/vietnam/swf/teamdgnmagic.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="flash/ui/vietnam/swf/uigeneral.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="5.png"/>
+<file value="ui/vietnam/language.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="Loading.swf"/>
+<file value="ui/vietnam/swf/bounce.swf"/>
+<file value="ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="ui/vietnam/swf/ddtroom.swf"/>
+<file value="ui/vietnam/swf/ddtstore.swf"/>
+<file value="ui/vietnam/swf/game.swf"/>
+<file value="ui/vietnam/swf/labyrinth.swf"/>
+<file value="ui/vietnam/swf/robot.swf"/>
+<file value="ui/vietnam/swf/teamdgnmagic.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+<file value="ui/vietnam/swf/uigeneral.swf"/>
+<file value="image/map/70050/*"/>
+<file value="image/map/70051/*"/>
+<file value="image/map/70052/*"/>
+<file value="image/map/70053/*"/>
+<file value="image/map/70054/*"/>
+<file value="image/map/70055/*"/>
+<file value="image/map/70056/*"/>
+</version>
+<version from="791" to="792">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/5.png"/>
+<file value="flash/ui/vietnam/language.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/Loading.swf"/>
+<file value="flash/ui/vietnam/swf/bounce.swf"/>
+<file value="flash/ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="flash/ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="flash/ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="flash/ui/vietnam/swf/ddtroom.swf"/>
+<file value="flash/ui/vietnam/swf/ddtstore.swf"/>
+<file value="flash/ui/vietnam/swf/game.swf"/>
+<file value="flash/ui/vietnam/swf/labyrinth.swf"/>
+<file value="flash/ui/vietnam/swf/robot.swf"/>
+<file value="flash/ui/vietnam/swf/teamdgnmagic.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="flash/ui/vietnam/swf/uigeneral.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="5.png"/>
+<file value="ui/vietnam/language.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="Loading.swf"/>
+<file value="ui/vietnam/swf/bounce.swf"/>
+<file value="ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="ui/vietnam/swf/ddtroom.swf"/>
+<file value="ui/vietnam/swf/ddtstore.swf"/>
+<file value="ui/vietnam/swf/game.swf"/>
+<file value="ui/vietnam/swf/labyrinth.swf"/>
+<file value="ui/vietnam/swf/robot.swf"/>
+<file value="ui/vietnam/swf/teamdgnmagic.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+<file value="ui/vietnam/swf/uigeneral.swf"/>
+<file value="image/map/70050/*"/>
+<file value="image/map/70051/*"/>
+<file value="image/map/70052/*"/>
+<file value="image/map/70053/*"/>
+<file value="image/map/70054/*"/>
+<file value="image/map/70055/*"/>
+<file value="image/map/70056/*"/>
+</version>
+<version from="792" to="793">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/5.png"/>
+<file value="flash/ui/vietnam/language.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/Loading.swf"/>
+<file value="flash/ui/vietnam/swf/bounce.swf"/>
+<file value="flash/ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="flash/ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="flash/ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="flash/ui/vietnam/swf/ddtroom.swf"/>
+<file value="flash/ui/vietnam/swf/ddtstore.swf"/>
+<file value="flash/ui/vietnam/swf/game.swf"/>
+<file value="flash/ui/vietnam/swf/labyrinth.swf"/>
+<file value="flash/ui/vietnam/swf/robot.swf"/>
+<file value="flash/ui/vietnam/swf/teamdgnmagic.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="flash/ui/vietnam/swf/uigeneral.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="5.png"/>
+<file value="ui/vietnam/language.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="Loading.swf"/>
+<file value="ui/vietnam/swf/bounce.swf"/>
+<file value="ui/vietnam/swf/ddtconsortion.swf"/>
+<file value="ui/vietnam/swf/ddtcoreii.swf"/>
+<file value="ui/vietnam/swf/ddthallIcon.swf"/>
+<file value="ui/vietnam/swf/ddtroom.swf"/>
+<file value="ui/vietnam/swf/ddtstore.swf"/>
+<file value="ui/vietnam/swf/game.swf"/>
+<file value="ui/vietnam/swf/labyrinth.swf"/>
+<file value="ui/vietnam/swf/robot.swf"/>
+<file value="ui/vietnam/swf/teamdgnmagic.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+<file value="ui/vietnam/swf/uigeneral.swf"/>
+<file value="image/map/70050/*"/>
+<file value="image/map/70051/*"/>
+<file value="image/map/70052/*"/>
+<file value="image/map/70053/*"/>
+<file value="image/map/70054/*"/>
+<file value="image/map/70055/*"/>
+<file value="image/map/70056/*"/>
+</version>
+<version from="793" to="794">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/ui/vietnam/swf/horse.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="ui/vietnam/swf/horse.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+</version>
+<version from="794" to="795">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/ui/vietnam/swf/horse.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="ui/vietnam/swf/horse.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+</version>
+<version from="795" to="796">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/ui/vietnam/swf/horse.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="ui/vietnam/swf/horse.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+</version>
+<version from="796" to="797">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/ui/vietnam/swf/horse.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="ui/vietnam/swf/horse.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+</version>
+<version from="797" to="798">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/ui/vietnam/swf/horse.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="ui/vietnam/swf/horse.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+</version>
+<version from="798" to="799">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/ui/vietnam/swf/horse.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="ui/vietnam/swf/horse.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+</version>
+<version from="799" to="800">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/ui/vietnam/swf/horse.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="ui/vietnam/swf/horse.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+</version>
+<version from="800" to="801">
+<file value="flash/2.png"/>
+<file value="flash/4.png"/>
+<file value="flash/ui/vietnam/xml.png"/>
+<file value="flash/ui/vietnam/swf/horse.swf"/>
+<file value="flash/ui/vietnam/swf/teamdungeon.swf"/>
+<file value="2.png"/>
+<file value="4.png"/>
+<file value="ui/vietnam/xml.png"/>
+<file value="ui/vietnam/swf/horse.swf"/>
+<file value="ui/vietnam/swf/teamdungeon.swf"/>
+</version>
+</update>
 </root>

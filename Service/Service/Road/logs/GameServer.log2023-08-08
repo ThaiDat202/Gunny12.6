@@ -1,0 +1,146 @@
+2023-08-08 00:06:12,249 - [46] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60412)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:06:12,277 - [46] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-08 00:06:15,869 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60412)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:06:15,870 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-08 00:06:17,017 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60412)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:06:17,018 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-08 00:06:18,562 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60412)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:06:18,563 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 44 00 4A 00 00 00 01 00 00 00 00   q....D.J........
+0010: 00 00 00 00 01 00 00 00 01                        .........       
+
+2023-08-08 00:08:00,830 - [49] - ERROR - Game.Server.Packets.Client.MarryRoomCreateHandler - MarryRoomCreateMoney node in configuration file is wrong
+2023-08-08 00:08:10,563 - [49] - ERROR - Game.Server.Packets.Client.MarryRoomCreateHandler - MarryRoomCreateMoney node in configuration file is wrong
+2023-08-08 00:10:41,317 - [67] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60412)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:10:41,319 - [67] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-08 00:10:42,942 - [64] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60412)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:10:42,945 - [64] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-08 00:10:59,488 - [59] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60611)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:10:59,491 - [59] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 02 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 01                        .........       
+
+2023-08-08 00:12:28,237 - [56] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60611)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:12:28,240 - [56] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 02 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 01                        .........       
+
+2023-08-08 00:12:43,186 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60611)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:12:43,188 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 02 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 01                        .........       
+
+2023-08-08 00:12:44,765 - [55] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60611)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:12:44,767 - [55] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 02 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 01                        .........       
+
+2023-08-08 00:12:45,387 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60611)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:12:45,391 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 02 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 01                        .........       
+
+2023-08-08 00:12:45,985 - [55] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60611)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:12:45,988 - [55] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 02 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 01                        .........       
+
+2023-08-08 00:12:46,527 - [55] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:60611)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:12:46,528 - [55] - ERROR - Game.Base.Packets.PacketProcessor - Package B2023-08-08 00:49:49,337 - [29] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:63810)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 00:49:49,374 - [29] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-08 00:57:11,356 - [39] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-08 00:57:11,787 - [39] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-08-08 02:10:11,063 - [48] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:51795)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 02:10:11,104 - [48] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-08 02:10:16,207 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:51795)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-08 02:10:16,209 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 45 00 4A 00 00 00 01 00 00 00 00   q....E.J........
+0010: 00 00 00 00 01 00 00 00 02                        .........       
+
+2023-08-08 07:01:14,511 - [110] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-08 07:01:14,777 - [110] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539

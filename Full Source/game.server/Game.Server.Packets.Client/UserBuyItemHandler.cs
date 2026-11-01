@@ -106,7 +106,7 @@ public class UserBuyItemHandler : IPacketHandler
 			int itemCount = client.Player.GetItemCount(specialValue.iTemplateID);
 			if (itemCount <= 0 || itemCount < specialValue.iCount)
 			{
-				client.Out.SendMessage(eMessageType.Normal, LanguageMgr.GetTranslation("操作失败"));
+				client.Out.SendMessage(eMessageType.Normal, LanguageMgr.GetTranslation("Lỗi hệ thống."));
 			}
 			else
 			{

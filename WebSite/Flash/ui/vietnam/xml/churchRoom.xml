@@ -36,8 +36,7 @@
 	<!--房间内工具菜单-->
 	<custom classname="church.view.weddingRoom.WeddingRoomToolView" stylename="church.weddingRoom.WeddingRoomToolView" x="668" y="474" />
 	
-	<!--礼花列表窗口-->
-	<custom classname="church.view.churchFire.ChurchFireView" stylename="church.churchFire.ChurchFireView" x="855" y="240" />
+	
 	<!--礼花列表礼花物品小图片放置点及高宽-->
 	<custom classname="flash.geom.Rectangle" stylename="asset.church.room.fireIconRectangle" x="3" y="3" width="48" height="48" />
 	

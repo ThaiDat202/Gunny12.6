@@ -65,15 +65,46 @@
 		
 		<set stylename="cardSystem.buyFrameSelectedCheckButtonTextTF" args="Arial,12,0xfff4d4,true,,,,,center" type="flash.text.TextFormat"/>
 		<set stylename="cardSystem.buyFrameSelectedCheckButtonTextGF" args="0x57c4519,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="ddt.cardAchievement.itemPropertyTextTF" args="Arial,14,0xFFF6C9" type="flash.text.TextFormat"/>
+<set stylename="ddt.cardAchievement.numTextTF" args="Arial,14,0x00BE38,true,,,,,right" type="flash.text.TextFormat"/>
+<set stylename="ddt.cardAchievement.itemPropertyTextGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+<set stylename="ddt.cardAchievement.numTextGF" args="0x000000,1,4,4,10" type="flash.filters.GlowFilter"/>
+<set stylename="ddt.cardAchievement.numAllTextTF" args="Arial,14,0xFFA300,true" type="flash.text.TextFormat"/>
+<set stylename="ddt.cardAchievement.numAllTextGF" args="0x000000,1,4,4,10" type="flash.filters.GlowFilter"/>
+<set stylename="ddt.cardAchievement.itemTaskTitleTF" args="Arial,16,0xFFE292,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="ddt.cardAchievement.itemTaskTitleGF" args="0x000000,1,4,4,10" type="flash.filters.GlowFilter"/>
+<set stylename="ddt.cardAchievement.itemTaskContentTF" args="Arial,14,0xECD1A1" type="flash.text.TextFormat" leading="10"/>
+<set stylename="ddt.cardAchievement.itemTaskContentGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+<set stylename="ddt.cardAchievement.itemProgressLabelTF" args="Arial,13,0xE0B15F" type="flash.text.TextFormat"/>
+<set stylename="ddt.cardAchievement.itemProgressLabelGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+<set stylename="ddt.cardAchievement.itemProgressTextTF" args="Arial,12,0xFF0000,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="ddt.cardAchievement.propertyTextTF" args="Arial,15,0xfff6c9,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="ddt.cardAchievement.propertyTextGF" args="0x531700,1,4,4,30" type="flash.filters.GlowFilter"/>
+<set stylename="ddt.cardAchievement.itemProgressTextGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+<set stylename="ddt.cardAchievement.itemPropertyLabelTF" args="Arial,12,0xFFA300" type="flash.text.TextFormat"/>
+<set stylename="ddt.cardAchievement.progressTextTF" args="Arial,14,0xFFDC37,true" type="flash.text.TextFormat"/>
+<set stylename="ddt.cardAchievement.itemPropertyLabelGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+<set stylename="ddt.cardAchievement.progressTextGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
 	</sets>
 	
 	
 	<customDisplay>
-	
+	<custom classname="flash.geom.Point" stylename="ddt.cardAchievement.propertyPos1" x="56" y="400"/>
+<custom classname="flash.geom.Point" stylename="ddt.cardAchievement.propertyPos3" x="273" y="400"/>
+<custom classname="flash.geom.Point" stylename="ddt.cardAchievement.propertyPos2" x="166" y="400"/>
+<custom classname="flash.geom.Point" stylename="ddt.cardAchievement.propertyPos4" x="56" y="425"/>
+<custom classname="flash.geom.Point" stylename="ddt.cardAchievement.propertyPos5" x="381" y="425"/>
+<custom classname="flash.geom.Point" stylename="ddt.cardAchievement.propertyPos7" x="166" y="425"/>
+<custom classname="flash.geom.Point" stylename="ddt.cardAchievement.propertyPos6" x="381" y="400"/>
+<custom classname="flash.geom.Point" stylename="ddt.cardAchievement.propertyPos8" x="273" y="425"/>
+<custom classname="flash.geom.Point" stylename="ddt.cardAchievement.titleImagePos" x="380" y="85"/>
+<custom classname="flash.geom.Point" stylename="ddt.cardAchievement.itemProgressPos" x="485" y="56"/>
+<custom classname="flash.geom.Point" stylename="ddtcardSystem.ballPlayPos" x="160" y="122"/>
 		<custom classname="flash.geom.Point" stylename="CardCell.mainBorder.Pos" x="122" y="6"/>
 		<custom classname="flash.geom.Point" stylename="PropResetFrame.countPos" x="66" y="262"/>
 		<custom classname="cardSystem.view.cardBag.CardBagListItem" stylename="cardSystem.cardBagListItem" />
-		<custom classname="flash.geom.Point" stylename="CardCell.Pos0" x="126" y="-56"/>
+		<custom classname="flash.geom.Point" stylename="CardCell.Pos0" x="126" y="-82"/>
 		<custom classname="flash.geom.Point" stylename="CardCell.Pos1" x="-3" y="-75"/>
 		<custom classname="flash.geom.Point" stylename="CardCell.Pos2" x="278" y="-75"/>
 		<custom classname="flash.geom.Point" stylename="CardCell.Pos3" x="-3" y="109"/>
@@ -116,7 +147,7 @@
 		<custom classname="flash.geom.Point" stylename="ddtcardSystem.DueTipSpritePos3" x="44" y="266"/>
 		<custom classname="flash.geom.Point" stylename="ddtcardSystem.DueTipSpritePos4" x="325" y="266"/>
 		
-		<custom classname="flash.geom.Point" stylename="cardSystem.ballPlaySpTipPos" x="113" y="148"/>
+		<custom classname="flash.geom.Point" stylename="cardSystem.ballPlaySpTipPos" x="113" y="123"/>
 	</customDisplay>
 	<components>
 		<component classname="com.pickgliss.ui.image.MovieImage" stylename="ddtcardSystem.line" resourceLink="asset.ddtcardSystem.line" x="218" y="309" height="55"></component>
@@ -148,7 +179,7 @@
 		<component classname="com.pickgliss.ui.controls.TextButton" stylename="CardBagView.CardBtn" backStyle="ddtcardSystem.CardsButton" textStyle="ddtcardSystem.cardBtnTxt" backgoundInnerRectString="16,80,5,26,13" useLogID="105" filterString="null,lightFilter,null,grayFilter" x="329" y="312"/>
 		<component classname="com.pickgliss.ui.controls.TextButton" stylename="CardBagView.BuyCardBoxBtn" backStyle="ddtcardSystem.BuyCardBoxButton" textStyle="ddtcardSystem.buyCardBoxBtnTxt" backgoundInnerRectString="12,80,5,26,13" filterString="null,lightFilter,null,grayFilter" x="329" y="338" />
 
-		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardSystem.resetCardSoul.alertText" textFormatStyle="CardSytems.resetCardSoulTF" filterString="CardSytems.resetCardSoulGF" x="40" y="93" wordWrap="true" width="320"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardSystem.resetCardSoul.alertText" textFormatStyle="CardSytems.resetCardSoulTF" filterString="CardSytems.resetCardSoulGF" x="40" y="67" wordWrap="true" width="320"/>
 
 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.ddtcardSytem.collectBtnAsset" resourceLink="ddtcardSytem.btn,asset.cardFavorites.font" imageRectString="100|41|0|0|9,84|20|10|-51|9"/>
 		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtcardSytem.btn"
@@ -290,7 +321,7 @@
 		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="PropResetFrame.LevelSelectedBg" width="465" x="27" y="264" resourceLink="asset.core.ScaleLeftRightImage10.1,asset.core.ScaleLeftRightImage10.2,asset.core.ScaleLeftRightImage10.3"/>
 		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="PropResetFrame.LevelSelectedNomalChkBtn" parentStyle="ddtshop.CartItemSelectBtn" x="33" y="276" textStyle="asset.cardSystem.reset.SelectedNomal" fieldX='20' fieldY="-7"/>
 		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="PropResetFrame.LevelSelectedAdvancedChkBtn" parentStyle="ddtshop.CartItemSelectBtn" x="265" y="276" textStyle="asset.cardSystem.reset.SelectedAdvanced" fieldX='20' fieldY="0"/>
-		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="PropResetFrame.lockImg" resourceLink="asset.cardSystem.reset.unLock,asset.cardSystem.reset.lock" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="PropResetFrame.lockImg" resourceLink="asset.core.unLock,asset.core.lock" />
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.tipTxt" textFormatStyle="PropResetFrame.tipTxtTF" filterString="PropResetFrame.tipTxtGF" x="30" y="312"></component>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.levelSelectedNomalTxt" textFormatStyle="PropResetFrame.tipTxtTF" filterString="PropResetFrame.tipTxtGF" x="117" y="276"></component>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.levelSelectedAdvancedTxt" textFormatStyle="PropResetFrame.tipTxtTF" filterString="PropResetFrame.tipTxtGF" x="350" y="276"></component>
@@ -304,16 +335,40 @@
 	
 		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="cardSystem.buyFrameSelectedCheckButton" parentStyle="core.simpleSelectBtn" textStyle="cardSystem.buyFrameSelectedCheckButtonText" displacement="false" fieldX="18" fieldY="-2" x="80" y="37" />
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cardSystem.buyFrameSelectedCheckButtonText" textFormatStyle="cardSystem.buyFrameSelectedCheckButtonTextTF" filterString="cardSystem.buyFrameSelectedCheckButtonTextGF" autoSize="none" width="230" height="30"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.cardAchievement.itemGetBtnBg" backStyle="asset.cardAchievement.get" x="475" y="36"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.cardAchievement.itemTaskTitle" autoSize="none" width="330" height="25" textFormatStyle="ddt.cardAchievement.itemTaskTitleTF" filterString="ddt.cardAchievement.itemTaskTitleGF" x="124" y="7"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtcard.achievementBtn" backStyle="asset.ddtcard.achievementBtn" x="119" y="259"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.cardAchievement.itemTaskContent" autoSize="none" width="445" height="50" wordWrap="true" textFormatStyle="ddt.cardAchievement.itemTaskContentTF" filterString="ddt.cardAchievement.itemTaskContentGF" x="15" y="33"/>
+<component classname="cardSystem.view.achievement.CardAchievementFrame" backStyle="SimpleFrameBackgound" closestyle="core.closebt" stylename="CardAchievementFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="20" containerY="40" autoExit="true" escEnable="true" closeInnerRectString="44,19,6,30,14" width="677" height="546"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.cardAchievement.itemProgressLabel" textFormatStyle="ddt.cardAchievement.itemProgressLabelTF" filterString="ddt.cardAchievement.itemProgressLabelGF" x="434" y="50"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddt.cardAchievement.bg" parentStyle="core.bg6920" width="633" height="480" x="1" y="5" scaleGridString="5,10,80,20"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.cardAchievement.itemProgressText" autoSize="none" width="71" height="16" textFormatStyle="ddt.cardAchievement.itemProgressTextTF" filterString="ddt.cardAchievement.itemProgressTextGF" x="487" y="41"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.cardAchievement.propertyText" autoSize="none" width="58" height="24" textFormatStyle="ddt.cardAchievement.propertyTextTF" filterString="ddt.cardAchievement.propertyTextGF"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.cardAchievement.itemPropertyLabel" x="60" y="85" textFormatStyle="ddt.cardAchievement.itemPropertyLabelTF" filterString="ddt.cardAchievement.itemPropertyLabelGF"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.cardAchievement.progressText" textFormatStyle="ddt.cardAchievement.progressTextTF" filterString="ddt.cardAchievement.progressTextGF" x="349" y="460"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.cardAchievement.itemPropertyText" x="135" y="85" textFormatStyle="ddt.cardAchievement.itemPropertyTextTF" filterString="ddt.cardAchievement.itemPropertyTextGF"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.cardAchievement.numAllText" textFormatStyle="ddt.cardAchievement.numAllTextTF" filterString="ddt.cardAchievement.numAllTextGF" x="582" y="414"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.cardAchievement.numText" autoSize="none" width="58" height="24" textFormatStyle="ddt.cardAchievement.numTextTF" filterString="ddt.cardAchievement.numTextGF" x="527" y="414"/>
+<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ddt.cardAchievement.progress" resourceLink="asset.cardAchievement.progress" width="520" cutRect="22,84" x="102" y="459"/>
+<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ddt.cardAchievement.progressBg" resourceLink="asset.cardAchievement.progressBG" width="520" cutRect="22,84" x="102" y="459"/>
+<component classname="com.pickgliss.ui.controls.ListPanel" stylename="ddt.cardAchievement.list" parentStyle="core.ScrollPanel" vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="1" hScrollProxy="2" vUnitIncrement="3" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|cardSystem.view.achievement.CardAchievementItem,122,575" listStyle="com.pickgliss.ui.controls.list.List" width="600" height="360" x="20" y="21"/>
 		
 	</components>
 	
 	<bitmaps>
+	<bitmapData resourceLink="asset.cardAchievement.title" x="330" y="85"/>
+<bitmapData resourceLink="asset.cardAchievement.propertyBG" x="8" y="391"/>
+<bitmapData resourceLink="asset.cardAchievement.allProgress" x="8" y="459"/>
+<bitmapData resourceLink="asset.cardAchievement.listBg" x="8" y="12"/>
+<bitmapData resourceLink="asset.cardAchievement.complete" x="488" y="26"/>
+<bitmapData resourceLink="asset.cardAchievement.light" x="-2" y="-2"/>
+<bitmapData resourceLink="asset.cardAchievement.award" x="6" y="83"/>
 		<bitmapData resourceLink="asset.ddtcardSystem.mainFont" x="1" y="-1"/>
 		<bitmapData resourceLink="asset.ddtcardbag.bg" x="1" y="0"/>
 		<bitmapData resourceLink="asset.cardEquipView.BG" x="-13" y="-73" height="374" width="428"/>
 		<bitmapData resourceLink="asset.cardEquipView.mainCardBorder" width="149" height="212"/>
 		<bitmapData resourceLink="asset.upgradeFrame.level" x="176" y="113" />
-		<bitmapData resourceLink="asset.cardSystem.resetArrow" x="282" y="142" />
+		<bitmapData resourceLink="asset.cardSystem.resetArrow" x="333" y="142" />
 		<bitmapData resourceLink="asset.ddtcardSystem.newProperty" x="324" y="100"/>
 		<bitmapData resourceLink="asset.ddtcardSystem.oldProperty" x="154" y="100"/>
 		<bitmapData resourceLink="asset.ddtcardSystem.inputBig"/>

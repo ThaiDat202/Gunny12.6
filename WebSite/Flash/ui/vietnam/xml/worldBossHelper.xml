@@ -92,11 +92,12 @@
 	 	<component classname="store.HelpFrame" stylename="worldBossHelper.HelpFrame" 
 	 		parentStyle="BaseFrame" width="404" height="484" />
 	 	
-		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossHelper.view.allHonorAndMoneyText" textFormatStyle="worldBossHelper.view.allHonorAndMoneyTf" filterString="worldBossHelper.view.allHonorAndMoneyFilter" autoSize="none" width="70" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossHelper.view.allHonorAndMoneyText" textFormatStyle="worldBossHelper.view.allHonorAndMoneyTf" filterString="worldBossHelper.view.allHonorAndMoneyFilter" autoSize="none" width="54" height="20"/>
 </components>
 <customDisplay>
-	<custom classname="flash.geom.Point" stylename="worldBossHelper.view.allHonorPos" x="108" y="16"/>
-	<custom classname="flash.geom.Point" stylename="worldBossHelper.view.allMoneyPos" x="268" y="16"/>
+	<custom classname="flash.geom.Point" stylename="worldBossHelper.view.allHonorPos" x="67" y="16"/>
+	<custom classname="flash.geom.Point" stylename="worldBossHelper.view.allMoneyPos" x="176" y="16"/>
+	<custom classname="flash.geom.Point" stylename="worldBossHelper.view.allMedalPos" x="287" y="16"/>
 </customDisplay>
 <bitmaps>
 		<bitmapData resourceLink="worldBossHelper.info" x="0" y="0"/>

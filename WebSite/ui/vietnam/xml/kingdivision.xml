@@ -1,4 +1,4 @@
-<style name="kingdivision" version="1.0.1" source="ui/cn_trad/swf/kingdivision.swf">
+<style name="kingdivision" version="1.0.1" source="ui/vietnam/swf/kingdivision.swf">
 	<sets>
 		<set type="flash.text.TextFormat" stylename="assets.qualificationFrame.ruleTxtTF" args="Arial,12,0xc9bc81,,,,,,left" leading="5" letterSpacing="1"/>
 		<set type="flash.filters.GlowFilter" stylename="assets.qualificationFrame.ruleTxtGF" args="0x410101,1,2,2,10"/>

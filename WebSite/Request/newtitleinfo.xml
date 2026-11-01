@@ -79,10 +79,10 @@
   <Item ID="602" Order="1" Show="1" Name="Vua Lực Chiến" Pic="1001" Att="30" Def="0" Agi="0" Luck="0" Desc="Lực chiến của bạn được nhiều người ngưỡng mộ." />
   <Item ID="603" Order="2" Show="1" Name="Vạn Người Mê" Pic="1002" Att="0" Def="0" Agi="0" Luck="20" Desc="Hấp dẫn của bạn không ai sánh bằng." />
   <Item ID="604" Order="3" Show="1" Name="Vua War" Pic="1003" Att="10" Def="0" Agi="20" Luck="0" Desc="Bạn là người chiến thắng trong đấu trường." />
-  <Item ID="611" Order="4" Show="1" Name="Chí Tôn Kim Cương" Pic="1004" Att="0" Def="0" Agi="30" Luck="0" Desc="Một trong ba Vua Gà Tranh Tài." />
-  <Item ID="612" Order="5" Show="1" Name="Chí Tôn Vàng" Pic="1005" Att="0" Def="0" Agi="20" Luck="0" Desc="Một trong ba Vua Gà Tranh Tài." />
-  <Item ID="613" Order="6" Show="1" Name="Chí Tôn Bạc" Pic="1006" Att="0" Def="0" Agi="10" Luck="0" Desc="Một trong ba Vua Gà Tranh Tài." />
-  <Item ID="614" Order="7" Show="1" Name="Tuyển thủ giỏi" Pic="1007" Att="0" Def="0" Agi="0" Luck="10" Desc="Vua Gà Tranh Tài tương lai." />
+  <Item ID="611" Order="4" Show="1" Name="Chí Tôn Kim Cương" Pic="1004" Att="0" Def="0" Agi="100" Luck="0" Desc="Một trong ba Vua Gà Tranh Tài." />
+  <Item ID="612" Order="5" Show="1" Name="Chí Tôn Vàng" Pic="1005" Att="0" Def="0" Agi="90" Luck="0" Desc="Một trong ba Vua Gà Tranh Tài." />
+  <Item ID="613" Order="6" Show="1" Name="Chí Tôn Bạc" Pic="1006" Att="0" Def="0" Agi="80" Luck="0" Desc="Một trong ba Vua Gà Tranh Tài." />
+  <Item ID="614" Order="7" Show="1" Name="Tuyển thủ giỏi" Pic="1007" Att="0" Def="0" Agi="0" Luck="80" Desc="Vua Gà Tranh Tài tương lai." />
   <Item ID="615" Order="8" Show="1" Name="Chúa Tể Thú Cưỡi" Pic="1008" Att="0" Def="0" Agi="10" Luck="0" Desc="Thú cưỡi của bạn nổi tiếng trong thế giới Gunny." />
   <Item ID="616" Order="9" Show="1" Name="Đại Thần 5 đời" Pic="1009" Att="5" Def="5" Agi="5" Luck="5" Desc="Chứng minh sự trưởng thành của bạn trong Gunny." />
   <Item ID="617" Order="10" Show="1" Name="VUA BÓNG ĐÁ" Pic="1010" Att="30" Def="30" Agi="30" Luck="30" Desc="Trong thời gian World Cup, người dự đoán cuối cùng thi đấu." />
@@ -473,13 +473,58 @@
   <Item ID="2005" Order="165" Show="1" Name="Hạng 3 Gunny Miền" Pic="3005" Att="15" Def="15" Agi="15" Luck="15" Desc="Không mô tả" />
   <Item ID="2006" Order="166" Show="1" Name="Điện Nước Đầy Đủ" Pic="3006" Att="20" Def="20" Agi="20" Luck="20" Desc="Không mô tả" />
   <Item ID="2007" Order="167" Show="1" Name="Gà Đột Biến" Pic="3007" Att="30" Def="30" Agi="30" Luck="30" Desc="Không mô tả" />
-  <Item ID="2022" Order="388" Show="1" Name="World Cup" Pic="7038" Att="2" Def="0" Agi="22" Luck="0" Desc="Nhận từ Hoạt Động&#xA;" />
-  <Item ID="2023" Order="389" Show="1" Name="Thần Tài Giáng Lâm" Pic="7039" Att="30" Def="30" Agi="30" Luck="30" Desc="Nhận từ Hoạt Động&#xA;" />
-  <Item ID="2024" Order="390" Show="1" Name="Đại Gia Bóng Đá" Pic="7040" Att="20" Def="20" Agi="20" Luck="20" Desc="Nhận từ Hoạt Động&#xA;" />
-  <Item ID="2025" Order="391" Show="1" Name="Bình Luận Viên" Pic="7041" Att="25" Def="25" Agi="25" Luck="25" Desc="Nhận từ Hoạt Động&#xA;" />
-  <Item ID="2026" Order="392" Show="1" Name="Tín Đồ Bóng Đá" Pic="7042" Att="15" Def="15" Agi="15" Luck="15" Desc="Nhận từ Hoạt Động&#xA;" />
-  <Item ID="2027" Order="393" Show="1" Name="Sức Mạnh Tiên Tri" Pic="7043" Att="15" Def="15" Agi="15" Luck="15" Desc="Nhận từ Hoạt Động&#xA;" />
-  <Item ID="2028" Order="394" Show="1" Name="Bóng Đá Vui Vẻ" Pic="7044" Att="1" Def="1" Agi="1" Luck="1" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2022" Order="496" Show="1" Name="World Cup" Pic="7038" Att="2" Def="0" Agi="22" Luck="0" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2023" Order="497" Show="1" Name="Thần Tài Giáng Lâm" Pic="7039" Att="30" Def="30" Agi="30" Luck="30" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2024" Order="498" Show="1" Name="Đại Gia Bóng Đá" Pic="7040" Att="20" Def="20" Agi="20" Luck="20" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2025" Order="499" Show="1" Name="Bình Luận Viên" Pic="7041" Att="25" Def="25" Agi="25" Luck="25" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2026" Order="500" Show="1" Name="Tín Đồ Bóng Đá" Pic="7042" Att="15" Def="15" Agi="15" Luck="15" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2027" Order="501" Show="1" Name="Sức Mạnh Tiên Tri" Pic="7043" Att="15" Def="15" Agi="15" Luck="15" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2028" Order="502" Show="1" Name="Bóng Đá Vui Vẻ" Pic="7044" Att="1" Def="1" Agi="1" Luck="1" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2029" Order="503" Show="1" Name="S35 Bất Khuất" Pic="2520" Att="10" Def="10" Agi="10" Luck="10" Desc="Danh hiệu chiến đội mùa 35" />
+  <Item ID="2030" Order="504" Show="1" Name="S35 Dũng Cảm" Pic="2521" Att="20" Def="20" Agi="20" Luck="20" Desc="Danh hiệu chiến đội mùa 35" />
+  <Item ID="2031" Order="505" Show="1" Name="S35 Vĩnh Hằng" Pic="2522" Att="30" Def="30" Agi="30" Luck="30" Desc="Danh hiệu chiến đội mùa 35" />
+  <Item ID="2032" Order="506" Show="1" Name="S35 Siêu Phàm" Pic="2523" Att="40" Def="40" Agi="40" Luck="40" Desc="Danh hiệu chiến đội mùa 35" />
+  <Item ID="2033" Order="507" Show="1" Name="Gà 2023" Pic="2524" Att="3" Def="9" Agi="7" Luck="9" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2034" Order="508" Show="1" Name="Nhà Thám Hiểm Lớn" Pic="2525" Att="50" Def="50" Agi="50" Luck="50" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2035" Order="509" Show="1" Name="Săn Báu Mê Cung" Pic="2526" Att="30" Def="30" Agi="30" Luck="30" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2036" Order="510" Show="1" Name="Du Lịch Mê Cung" Pic="2527" Att="20" Def="20" Agi="20" Luck="20" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2037" Order="511" Show="1" Name="Thần May Mắn-Vàng" Pic="2528" Att="50" Def="50" Agi="50" Luck="50" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2038" Order="512" Show="1" Name="Thần May Mắn-Bạc" Pic="2529" Att="40" Def="40" Agi="40" Luck="40" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2039" Order="513" Show="1" Name="Thần May Mắn-Đồng" Pic="2530" Att="20" Def="20" Agi="20" Luck="20" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2040" Order="514" Show="1" Name="Gà Vàng Chiến Tết" Pic="2531" Att="5" Def="5" Agi="5" Luck="5" Desc="Phiên bản mới: Gà Vàng Chiến Tết ra mắt chính thức 12/01/2023" />
+  <Item ID="2041" Order="515" Show="1" Name="Vua Mèo Tài Lộc" Pic="2532" Att="20" Def="0" Agi="23" Luck="0" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2042" Order="516" Show="1" Name="Gà Vàng Hái Lộc 2023" Pic="2533" Att="30" Def="30" Agi="30" Luck="30" Desc="Nhận từ Hoạt Động&#xA;" />
+  <Item ID="2043" Order="517" Show="1" Name="S36 Bất Khuất" Pic="2534" Att="10" Def="10" Agi="10" Luck="10" Desc="Danh hiệu chiến đội mùa 36" />
+  <Item ID="2044" Order="518" Show="1" Name="S36 Dũng Cảm" Pic="2535" Att="20" Def="20" Agi="20" Luck="20" Desc="Danh hiệu chiến đội mùa 36" />
+  <Item ID="2045" Order="519" Show="1" Name="S36 Vĩnh Hằng" Pic="2536" Att="30" Def="30" Agi="30" Luck="30" Desc="Danh hiệu chiến đội mùa 36" />
+  <Item ID="2046" Order="520" Show="1" Name="S36 Siêu Phàm" Pic="2537" Att="40" Def="40" Agi="40" Luck="40" Desc="Danh hiệu chiến đội mùa 36" />
+  <Item ID="2047" Order="521" Show="1" Name="Hương Hoa Mùa Xuân" Pic="2538" Att="5" Def="30" Agi="5" Luck="5" Desc="Nhận từ sự kiện" />
+  <Item ID="2048" Order="522" Show="1" Name="Đấu Trường Gà Siêu Cấp" Pic="2539" Att="5" Def="5" Agi="5" Luck="5" Desc="Phiên bản Đấu Trường Gà Siêu Cấp ra mắt chính thức 23/03/2023" />
+  <Item ID="2049" Order="523" Show="1" Name="S37 Bất Khuất" Pic="2540" Att="10" Def="10" Agi="10" Luck="10" Desc="Danh hiệu chiến đội mùa 37" />
+  <Item ID="2050" Order="524" Show="1" Name="S37 Dũng Cảm" Pic="2541" Att="20" Def="20" Agi="20" Luck="20" Desc="Danh hiệu chiến đội mùa 37" />
+  <Item ID="2051" Order="525" Show="1" Name="S37 Vĩnh Hằng" Pic="2542" Att="30" Def="30" Agi="30" Luck="30" Desc="Danh hiệu chiến đội mùa 37" />
+  <Item ID="2052" Order="526" Show="1" Name="S37 Siêu Phàm" Pic="2543" Att="40" Def="40" Agi="40" Luck="40" Desc="Danh hiệu chiến đội mùa 37" />
+  <Item ID="2053" Order="527" Show="1" Name="Gunny GO" Pic="2544" Att="5" Def="30" Agi="5" Luck="5" Desc="Nhận từ sự kiện" />
+  <Item ID="2054" Order="528" Show="1" Name="Gà 4000 Năm" Pic="2545" Att="10" Def="3" Agi="10" Luck="3" Desc="Nhận từ sự kiện" />
+  <Item ID="2055" Order="529" Show="1" Name="S38 Bất Khuất" Pic="2546" Att="10" Def="10" Agi="10" Luck="10" Desc="Danh hiệu chiến đội mùa 38" />
+  <Item ID="2056" Order="530" Show="1" Name="S38 Dũng Cảm" Pic="2547" Att="20" Def="20" Agi="20" Luck="20" Desc="Danh hiệu chiến đội mùa 38" />
+  <Item ID="2057" Order="531" Show="1" Name="S38 Vĩnh Hằng" Pic="2548" Att="30" Def="30" Agi="30" Luck="30" Desc="Danh hiệu chiến đội mùa 38" />
+  <Item ID="2058" Order="532" Show="1" Name="S38 Siêu Phàm" Pic="2549" Att="40" Def="40" Agi="40" Luck="40" Desc="Danh hiệu chiến đội mùa 38" />
+  <Item ID="2059" Order="533" Show="1" Name="Kỳ Tài Luyện Thú" Pic="2550" Att="30" Def="30" Agi="30" Luck="30" Desc="Nhận từ hoạt động Pet Đại Chiến" />
+  <Item ID="2060" Order="534" Show="1" Name="Chuyên Gia Huấn Luyện" Pic="2551" Att="20" Def="20" Agi="20" Luck="20" Desc="Nhận từ hoạt động Pet Đại Chiến" />
+  <Item ID="2061" Order="535" Show="1" Name="Bạn Của Thú Cưng" Pic="2552" Att="15" Def="15" Agi="15" Luck="15" Desc="Nhận từ hoạt động Pet Đại Chiến" />
+  <Item ID="2062" Order="536" Show="1" Name="Đấu Trường Pet Chiến" Pic="2553" Att="5" Def="5" Agi="5" Luck="5" Desc="Phiên bản Đấu Trường Pet Chiến ra mắt chính thức 08/06/2023" />
+  <Item ID="2063" Order="537" Show="1" Name="Đại Tiệc Sinh Nhật 14 Tuổi" Pic="2554" Att="5" Def="5" Agi="5" Luck="5" Desc="Phiên bản Đại Tiệc Sinh Nhật 14 Tuổi ra mắt chính thức 13/07/2023" />
+  <Item ID="2064" Order="538" Show="1" Name="Gunner 14 Tuổi" Pic="2555" Att="30" Def="30" Agi="30" Luck="30" Desc="Kiện Tướng Gunny: Dành cho Gunner chơi Gunny hơn 14 Năm" />
+  <Item ID="2065" Order="539" Show="1" Name="Tái Ngộ Gunny" Pic="2556" Att="5" Def="5" Agi="5" Luck="5" Desc="Nhận từ hoạt động" />
+  <Item ID="2066" Order="540" Show="1" Name="Chiến Binh Bền Bỉ" Pic="2557" Att="10" Def="10" Agi="10" Luck="10" Desc="Nhận từ hoạt động" />
+  <Item ID="2067" Order="541" Show="1" Name="Gà 14 Tuổi" Pic="2558" Att="10" Def="4" Agi="10" Luck="4" Desc="Nhận từ hoạt động" />
+  <Item ID="2068" Order="542" Show="1" Name="Đệ Nhất Guild 2023" Pic="2559" Att="50" Def="50" Agi="50" Luck="50" Desc="Dành cho Thành viên của Guild Vô Địch Giải Đại Chiến Guild 2023" />
+  <Item ID="2069" Order="543" Show="1" Name="Đệ Nhị Guild 2023" Pic="2560" Att="30" Def="30" Agi="30" Luck="30" Desc="Dành cho Thành viên của Guild Hạng Nhì Giải Đại Chiến Guild 2023" />
+  <Item ID="2070" Order="544" Show="1" Name="Đệ Tam Guild 2023" Pic="2561" Att="20" Def="20" Agi="20" Luck="20" Desc="Dành cho Thành viên của Guild Hạng 3 Giải Đại Chiến Guild 2023" />
+  <Item ID="2071" Order="545" Show="1" Name="Đệ Tứ Guild 2023" Pic="2562" Att="10" Def="10" Agi="10" Luck="10" Desc="Dành cho Thành viên của Guild Hạng Tư Giải Đại Chiến Guild 2023" />
+  <Item ID="2072" Order="546" Show="1" Name="Âm Thanh Phượng Hoàng" Pic="2563" Att="20" Def="20" Agi="20" Luck="20" Desc="Nhận từ Hoạt động" />
+  <Item ID="2073" Order="547" Show="1" Name="Uyên Ương Sát Cánh" Pic="2564" Att="5" Def="5" Agi="30" Luck="5" Desc="Nhận từ Hoạt động" />
   <Item ID="7001" Order="281" Show="1" Name="Ủy Viên Cà Khịa" Pic="2185" Att="30" Def="30" Agi="30" Luck="30" Desc="Nhận từ Hoạt Động&#xA;" />
   <Item ID="7002" Order="303" Show="1" Name="Đỉnh Cao Tuyệt Đối" Pic="2079" Att="80" Def="80" Agi="80" Luck="80" Desc="Đổi đạo cụ Shop Chiến Thần" />
   <Item ID="7003" Order="304" Show="1" Name="Một Bước Lên Mây" Pic="2080" Att="50" Def="50" Agi="50" Luck="50" Desc="Đổi đạo cụ Shop Chiến Thần" />

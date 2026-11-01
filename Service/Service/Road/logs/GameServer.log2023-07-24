@@ -1,0 +1,3 @@
+2023-07-24 22:04:38,720 - [44] - ERROR - Bussiness.BaseBussiness - AddActiveSystem
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo item) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 10616

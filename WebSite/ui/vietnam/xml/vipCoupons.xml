@@ -1,4 +1,4 @@
-<style name="vipCoupons" version="1.0.1" source="ui/cn_trad/swf/vipCoupons.swf">
+<style name="vipCoupons" version="1.0.1" source="ui/vietnam/swf/vipCoupons.swf">
 
 <sets>
 	<!-- 赠言 内容文本样式  -->
@@ -21,6 +21,12 @@
 	<component classname="vipCoupons.view.VIPCouponsFrame" stylename="vipCoupons.mainFrame" 
 	parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt"
 	escEnable="true" containerX="0" containerY="0" width="435" height="515" titleOuterRectPosString="24,10,5" closeInnerRectString="44,22,6,30,14"/>
+	
+	<!-- 首充 -->
+	<component classname="firstRecharge.view.FirstRechargeCouponsFrame" stylename="fisstrechargeCoupons.mainFrame" 
+	parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt"
+	escEnable="true" containerX="0" containerY="0" width="435" height="515" titleOuterRectPosString="24,10,5" closeInnerRectString="44,22,6,30,14"/>
+	
 	
 	<!-- 背景 -->
 	<component classname="com.pickgliss.ui.image.MutipleImage"

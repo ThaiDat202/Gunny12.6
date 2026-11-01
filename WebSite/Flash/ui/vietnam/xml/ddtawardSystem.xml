@@ -176,6 +176,7 @@
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="award.AutoOpenLabel" textFormatStyle="award.AutoOpenTF" filterString="timebox.GF_23" x="-58" y="-3"/>
 		
 		<component classname="ddt.view.bossbox.AwardsView" backStyle="SimpleFrameBackgoundOneIII" stylename="bossbox.AwardsViewAsset" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,12,5" closestyle="core.closebt" closeInnerRectString="44,6,6,30,14" escEnable='true' width="395" height="350"/>
+		<component classname="ddt.view.bossbox.LoginDeviceAwardsFrame" backStyle="SimpleFrameBackgoundOneIII" stylename="bossbox.loginDeviceAwardsView" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,12,5" closestyle="core.closebt" closeInnerRectString="44,6,6,30,14" escEnable='true' width="395" height="350"/>
 		<component classname="com.pickgliss.ui.image.Image" stylename="bossbox.BoxTimeTip" resourceLink="asset.awardSystem.timeBox.TimeTip" x="37" y="42"/>
 <!-- 		<component classname="com.pickgliss.ui.image.Image" stylename="bossbox.BoxFightLibTip" resourceLink="asset.awardSystem.timeBox.FightLibTip" x="30" y="47"/> -->
 		<component classname="com.pickgliss.ui.image.Image" stylename="bossbox.BoxGradeTip" resourceLink="asset.awardSystem.timeBox.GradeTip" x="41" y="47"/>
@@ -198,7 +199,7 @@
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="BoxVipTips.ItemName" textFormatStyle="timebox.TFormat_12" width="96" height="24" wordWrap="true" multiline="true" type="2" x="53" y="13"/>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bossbox.awardsTitleTxt" textFormatStyle="Vip.GetAwardsByLVTF" filterString="Vip.GetAwardsByLVFilter" height="20" x="58" y="54"/>
 		<!--Scroll-->
-		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="TimeBoxScrollpanel" parentStyle="core.ScrollPanel" width="330" height="180"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="TimeBoxScrollpanel" parentStyle="core.ScrollPanel" width="330" height="200"/>
 		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="caddy.ReaderScrollpanel" parentStyle="core.ScrollPanel" viewportInnerRectString="14,27,9,310,1" width="234" height="328" hScrollProxy="2" vScrollProxy="0" x="3" y="17"/>
 		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="caddy.CaddyReaderScrollpanel" parentStyle="core.ScrollPanel" viewportInnerRectString="14,27,9,205,1" width="234" height="223" hScrollProxy="2" vScrollProxy="0" x="8" y="32"/>
 		<!--Roulette-->
@@ -217,7 +218,7 @@
 	    		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteTipIII" x="292" y="30" textFormatStyle="timebox.TFormat_22" filterString="roulette.RouletteBoxTIP" text="99" autoSize="none" width="85" height="22"/>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteTipI" x="46" parentStyle="roulette.RouletteTipIII"/>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteTipII" x="147" parentStyle="roulette.RouletteTipIII"/>
-		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteTipV" x="155" y="430" textFormatStyle="timebox.TFormat_23" filterString="roulette.RouletteBoxTIP2" autoSize="none" width="300" height="22"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteTipV" x="98" y="428" textFormatStyle="timebox.TFormat_23" filterString="roulette.RouletteBoxTIP2" autoSize="none" width="300" height="22"/>
 	    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteStyleII" x="89" parentStyle="roulette.RouletteStyleI" />
 	    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteStyleIII" x="222" parentStyle="roulette.RouletteStyleI" />
 	    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteCellCount" filterString="roulette.RouletteBoxCellCountFilter" textFormatStyle="timebox.TFormat_11" text="99" autoSize="none" width="40" height="22" x="13" y="35" />
@@ -226,7 +227,7 @@
 	    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="roulette.start" resourceLink="asset.awardSystem.roulette.startAsset,asset.awardSystem.roulette.startAsset,asset.awardSystem.roulette.startAssetII,asset.awardSystem.roulette.startAsset" />
 	    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="roulette.StartTurnButton" backStyle="roulette.start" x="156" y="218" filterString="null,lightFilter,lightFilter,grayFilter" displacement="false" />
 	    <!--HBox-->
-		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="roulette.SeletedHBox" x="40" y="436" spacing="-2"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="roulette.SeletedHBox" x="40" y="459" spacing="-2"/>
 		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="caddy.readVBox" spacing="1" height="350"/>
 		<!--TimeTip-->
 		<component classname="ddt.view.bossbox.TimeTip" stylename="TimeBox.TimeTip" tipStyle="ddt.view.tips.MultipleLineTip" x="19" tipDirctions="0,3,4" width="69" height="70" tipWidth="148" tipGapH="-60" tipGapV="17"/>
@@ -252,7 +253,7 @@
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.haveexchangeTxt"  textFormatStyle="timebox.TFormat_34" text="0" width="60" autoSize="none" height="22"  x="106" y="321"/>
 		
 		<!-- 魔罐快捷购买按钮 -->
-		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="caddy.KeyBtn" backStyle="caddy.KeyBtn.Background" x="104" y="291" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,3,7,1,2" tipGapV="4"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="caddy.KeyBtn" backStyle="caddy.KeyBtn.Background" x="104" y="291" />
 		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="caddy.BoxBtn" backStyle="caddy.BoxBtn.Background" x="215" y="291" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,3,7,1,2" tipGapV="4"/>
 		<!-- 魔罐快捷购买按钮背景 -->
 		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="caddy.BoxBtn.Background" resourceLink="asset.caddy.BoxAsset,asset.caddy.BoxOverAsset,asset.caddy.BoxOverAsset,asset.caddy.BoxAsset"/>
@@ -677,7 +678,7 @@
 		<bitmapData resourceLink="asset.timeBox.smallOpenBox" x="0" y="10"/>
 		<bitmapData resourceLink="asset.timeBox.smallCloseBox" x="0" y="-15"/>
 		<bitmapData resourceLink="asset.timeBox.timeBGAsset" x="34" y="53" width="50"/>
-    	<bitmapData resourceLink="asset.awardSystem.roulette.RouletteBG" x="-3" y="-4" />
+    	<bitmapData resourceLink="asset.awardSystem.roulette.RouletteBG" x="4" y="5" />
 		<!--砸罐子-->
 		<bitmapData resourceLink="asset.caddy.CaddyViewBG" x="9" y="45"/>
     	<bitmapData resourceLink="asset.caddy.NodeBagAsset" x="17" y="307" />

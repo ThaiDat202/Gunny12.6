@@ -1,0 +1,22 @@
+2023-09-15 11:44:35,358 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:44:35,370 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:44:38,457 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:44:39,078 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:44:39,080 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:44:39,081 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:45:18,320 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,55ms!
+2023-09-15 11:45:18,323 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 59 ms,count:1
+2023-09-15 11:50:44,977 - [48] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-09-15 11:50:45,144 - [48] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-09-15 11:54:34,284 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:54:34,295 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:54:34,559 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:54:34,610 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:54:34,612 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:54:34,613 - [19] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:54:40,231 - [24] - WARN  - Game.Base.Packets.PacketProcessor - (127.0.0.1:56029) Handle packet Thread 24 Game.Server.Packets.Client.MateTimeHandler took 1891ms!
+2023-09-15 11:55:08,023 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,57ms!
+2023-09-15 11:55:08,025 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 59 ms,count:1
+2023-09-15 11:59:07,485 - [50] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:59:07,486 - [50] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-09-15 11:59:07,487 - [50] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969

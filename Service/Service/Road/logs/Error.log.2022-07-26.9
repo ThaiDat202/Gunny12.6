@@ -1,0 +1,16 @@
+2022-07-26 15:03:21,989 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1459 is not exist!
+2022-07-26 15:03:24,774 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\119034.bomb
+2022-07-26 15:03:26,506 - [MAIN] - ERROR - Game.Server.GameServer - Unhandled exception!
+System.Resources.MissingManifestResourceException: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "Road.Service.Properties.Resources.resources" was correctly embedded or linked into assembly "Road.Service" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+   at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at Road.Service.Properties.Resources.get__404() in C:\Users\zhongli\Desktop\Full Source\Road.Service\Road.Service.Properties\Resources.cs:line 50
+   at Road.Service.Helper.Forms.Form1.InitializeComponent() in C:\Users\zhongli\Desktop\Full Source\Road.Service\Road.Service.Helper.Forms\Form1.cs:line 3005
+   at Road.Service.Helper.Forms.Form1..ctor() in C:\Users\zhongli\Desktop\Full Source\Road.Service\Road.Service.Helper.Forms\Form1.cs:line 505
+   at Game.Service.actions.ConsoleStart.GMTool() in C:\Users\zhongli\Desktop\Full Source\Road.Service\Game.Service.actions\ConsoleStart.cs:line 54
+   at Game.Service.actions.ConsoleStart.OnAction(Hashtable parameters) in C:\Users\zhongli\Desktop\Full Source\Road.Service\Game.Service.actions\ConsoleStart.cs:line 65
+   at Game.Service.Program.Main(String[] args) in C:\Users\zhongli\Desktop\Full Source\Road.Service\Game.Service\Program.cs:line 37
+2022-07-26 15:03:26,509 - [MAIN] - ERROR - Game.Server.GameServer - Stop by CurrentDomain_UnhandledException

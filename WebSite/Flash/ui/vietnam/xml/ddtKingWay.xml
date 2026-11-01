@@ -1,24 +1,24 @@
-<style name="ddtKingWay" version="1.0.0" source="ui/cn_trad/swf/ddtKingWay.swf">
+<style name="ddtKingWay" version="1.0.0" source="ui/vietnam/swf/ddtKingWay.swf">
 <sets>
-   	<set stylename="ddtKingWay.tipsTF" args="宋体,16,0xe8ce97,true,,,,,left" type="flash.text.TextFormat" /> 
+   	<set stylename="ddtKingWay.tipsTF" args="Arial,16,0xe8ce97,true,,,,,left" type="flash.text.TextFormat" /> 
 	<set stylename="ddtKingWay.tipsGF" args="0x471822,1,4,4,30" type="flash.filters.GlowFilter" />
 	
-	<set stylename="ddtKingWay.remainingTimeBgTF" args="宋体,14,0x8a00ff,true" type="flash.text.TextFormat" /> 
+	<set stylename="ddtKingWay.remainingTimeBgTF" args="Arial,14,0x8a00ff,true" type="flash.text.TextFormat" /> 
 	<set stylename="ddtKingWay.remainingTimeBgGF" args="0xFFF4FF,1,4,4,30" type="flash.filters.GlowFilter" />
-	<set stylename="ddtKingWay.remainingTimeTF1" args="宋体,14,0xff0000,true,,,,,center" type="flash.text.TextFormat"   /> 
+	<set stylename="ddtKingWay.remainingTimeTF1" args="Arial,14,0xff0000,true,,,,,center" type="flash.text.TextFormat" /> 
 	
-	<set stylename="ddtKingWay.remainingTimeTF2" args="宋体,14,0xfff6a8,true,,,,,center" type="flash.text.TextFormat" letterSpacing="5"/> 
+	<set stylename="ddtKingWay.remainingTimeTF2" args="Arial,14,0xfff6a8,true,,,,,center" type="flash.text.TextFormat" /> 
 	<set stylename="ddtKingWay.remainingTimeGF2" args="0xdc0000,1,4,4,30" type="flash.filters.GlowFilter" />
 	
-	<set stylename="ddtKingWay.taskTarget1TF" args="宋体,14,0xFFEA9C,true,,,,,center"  type="flash.text.TextFormat" /> 
+	<set stylename="ddtKingWay.taskTarget1TF" args="Arial,12,0xFFEA9C,true,,,,,center"  type="flash.text.TextFormat" /> 
 	<set stylename="ddtKingWay.taskTarget1GF" args="0x311b00,1,4,4,30" type="flash.filters.GlowFilter" />
 	
-	<set stylename="ddtKingWay.taskTarget2TF" args="宋体,14,0x9f9f9f,true"  type="flash.text.TextFormat" /> 
+	<set stylename="ddtKingWay.taskTarget2TF" args="Arial,12,0x9f9f9f,true"  type="flash.text.TextFormat" /> 
 	<set stylename="ddtKingWay.taskTarget2GF" args="0x272727,1,4,4,30" type="flash.filters.GlowFilter" />
 
 
 	
-	<set type="flash.text.TextFormat" stylename="asset.ddtKingWay.cellConditionTxt.tf" args="宋体,12,0xfefb57" leading="5"/>
+	<set type="flash.text.TextFormat" stylename="asset.ddtKingWay.cellConditionTxt.tf" args="Arial,12,0xfefb57" leading="5"/>
 	<set type="flash.filters.GlowFilter" stylename="asset.ddtKingWay.cellConditionTxt.gf" args="0x000000,1,2,2,10"/>
 	
 </sets>
@@ -65,22 +65,22 @@
 
 <!-- 右上角文字 -->
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtKingWay.remainingTimeTextBg"
-		textFormatStyle="ddtKingWay.remainingTimeBgTF" filterString="ddtKingWay.remainingTimeBgGF" x="648" y="52"/>	
+		textFormatStyle="ddtKingWay.remainingTimeBgTF" filterString="ddtKingWay.remainingTimeBgGF" x="602" y="52"/>	
 	
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtKingWay.remainingTimeUnitText"
 		parentStyle="asset.ddtKingWay.remainingTimeTextBg" x="747" />	
 		
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtKingWay.remainingTimeText1"
-		textFormatStyle="ddtKingWay.remainingTimeTF1,ddtKingWay.remainingTimeTF2" filterString="ddtKingWay.remainingTimeBgGF,ddtKingWay.remainingTimeGF2" x="719" y="52"/>
+		textFormatStyle="ddtKingWay.remainingTimeTF1,ddtKingWay.remainingTimeTF2" filterString="ddtKingWay.remainingTimeBgGF,ddtKingWay.remainingTimeGF2" x="729" y="54"/>
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtKingWay.remainingTimeText2"
-		textFormatStyle="ddtKingWay.remainingTimeTF1,ddtKingWay.remainingTimeTF2" filterString="ddtKingWay.remainingTimeBgGF,ddtKingWay.remainingTimeGF2" x="719" y="52"/>
-				
+		textFormatStyle="ddtKingWay.remainingTimeTF1,ddtKingWay.remainingTimeTF2" filterString="ddtKingWay.remainingTimeBgGF,ddtKingWay.remainingTimeGF2" x="729" y="54"/>
+			
 <!-- end -->			
 	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.ddtKingWay.Vbox" spacing="5" x="62" y="177" />
 		
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtKingWay.taskTargetText" 
 	    textFormatStyle="ddtKingWay.taskTarget1TF,ddtKingWay.taskTarget2TF" filterString="ddtKingWay.taskTarget1GF,ddtKingWay.taskTarget2GF"
-        x="9" y="12"/>
+        x="4" y="12"/>
 			
 	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.ddtKingWay.completestatusIcom" 
 	resourceLink="asset.ddtKingWay.completestatus1,asset.ddtKingWay.completestatus2" x="199" y="1"/>
@@ -98,7 +98,7 @@
 	<component stylename="asset.ddtKingWay.upgradeBtn" classname="com.pickgliss.ui.controls.BaseButton" 
 	backStyle="asset.ddtKingWay.upgrade" x="295" y="6" filterString="null,lightFilter,null,grayFilter"/>	
 	
-	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="asset.ddtKingWay.Hbox" spacing="42" x="91" y="386" />		
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="asset.ddtKingWay.Hbox" spacing="40" x="91" y="386" />		
 	
 	<component stylename="asset.ddtKingWay.getAwardBtn" classname="com.pickgliss.ui.controls.BaseButton" 
 	backStyle="asset.ddtKingWay.getAwardBtnBg" x="185" y="448" filterString="null,lightFilter,null,grayFilter"/>

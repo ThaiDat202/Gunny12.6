@@ -38,7 +38,7 @@ public class ElementLightningRadiation : AbstractPetEffect
 		{
 			return;
 		}
-		living.Game.AddAction(new LivingSayAction(living, "闪电放射", 9, 0, 1000));
+		living.Game.AddAction(new LivingSayAction(living, "Bắn Tia Chớp", 9, 0, 1000));
 		foreach (Player item in living.Game.FindAllEnemyByPixel(living, 300))
 		{
 			item.EffectBadges = true;

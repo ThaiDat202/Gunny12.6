@@ -1,4 +1,4 @@
-<style name="defendisland" version="1.0.1" source="ui/cn_trad/swf/defendisland.swf">
+<style name="defendisland" version="1.0.1" source="ui/vietnam/swf/defendisland.swf">
 	<sets>
 		<set stylename="defendisland.frame.activityTimeTextTF" args="Arial,12,0xfdec30,true" type="flash.text.TextFormat" />
 		<set stylename="defendisland.frame.activityTimeTextGF" args="0x823305,1,2,2,10" type="flash.filters.GlowFilter" />

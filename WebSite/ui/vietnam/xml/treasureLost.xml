@@ -1,4 +1,4 @@
-<style name="treasureLost" version="1.0.1" source="ui/cn_trad/swf/treasureLost.swf">
+<style name="treasureLost" version="1.0.1" source="ui/vietnam/swf/treasureLost.swf">
 <sets>
 	<set stylename="treasureLost.goldDiceBuyNumTextTF" args="Arial,14,0xffffff,,,,,left" type="flash.text.TextFormat" />
 	<set stylename="treasureLost.goldDiceBuyNumTextGF" args="0x000000,1,2,2,8,1" type="flash.filters.GlowFilter" />

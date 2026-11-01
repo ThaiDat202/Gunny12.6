@@ -1,4 +1,4 @@
-<style name="goldmine" version="7.7.0" source="ui/cn_trad/swf/goldmine.swf">
+<style name="goldmine" version="7.7.0" source="ui/vietnam/swf/goldmine.swf">
 	<sets>
 
 		<set stylename="goldmineMainFrame.mineTimesTF" args="Arial,22,0xfff32c,true" type="flash.text.TextFormat" />
@@ -40,7 +40,7 @@
 		<component classname="com.pickgliss.ui.image.NumberImage" stylename="goldmineMainFrame.dateEndDayNum2" imageStyle="asset.goldmine.number" space="-1" x="468" y="117" />
 		<component classname="com.pickgliss.ui.image.NumberImage" stylename="goldmineMainFrame.smallMineNum" imageStyle="asset.goldmine.number1" space="0" x="108" y="240"/>	
 		<component classname="com.pickgliss.ui.image.NumberImage" stylename="goldmineMainFrame.middleMineNum" imageStyle="asset.goldmine.number1" space="0" x="523" y="240"/>	
-		<component classname="com.pickgliss.ui.image.NumberImage" stylename="goldmineMainFrame.bigMineNum" imageStyle="asset.goldmine.number1" space="0" x="315" y="240"/>		
+		<component classname="com.pickgliss.ui.image.NumberImage" stylename="goldmineMainFrame.bigMineNum" imageStyle="asset.goldmine.number1" space="0" x="315" y="258"/>		
 
 		<!-- 我要聚财按钮 -->
 		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="goldmineMainFrame.mineBtn" backStyle="asset.goldmine.btnBg" filterString="null,lightFilter,null,grayFilter" x="527" y="433" autoFrame="false"/>
@@ -61,7 +61,7 @@
 		<custom classname="flash.geom.Point" stylename="goldmineMainFrame.pointPos2" x="447" y="132"/>
 		<custom classname="flash.geom.Point" stylename="goldmineMainFrame.smallPos" x="43" y="168"/>
 		<custom classname="flash.geom.Point" stylename="goldmineMainFrame.middlePos" x="457" y="168"/>
-		<custom classname="flash.geom.Point" stylename="goldmineMainFrame.bigPos" x="250" y="168"/>
+		<custom classname="flash.geom.Point" stylename="goldmineMainFrame.bigPos" x="250" y="185"/>
 		
 		<custom classname="flash.geom.Point" stylename="goldmineMainFrame.lightPos1" x="40" y="121"/>
 		<custom classname="flash.geom.Point" stylename="goldmineMainFrame.shinePos1" x="-100" y="108"/>

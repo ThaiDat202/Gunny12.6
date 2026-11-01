@@ -250,7 +250,7 @@ public class PlayerBussiness : BaseBussiness
 
 	public PlayerBussiness(AreaConfigInfo config)
 	{
-		string text = "Data Source=.\\DDT;Initial Catalog=Db_Tank_All;Persist Security Info=True;User ID=sa;Password=123456;";
+		string text = "Data Source=DESKTOP-SKTCRVL;Initial Catalog=Db_Tank_All;Persist Security Info=True;User ID=sa;Password=123456;";
 		AreaName = config.AreaName;
 		ZoneID = config.AreaID;
 		VersionFlash = config.Version;
@@ -3132,7 +3132,7 @@ public class PlayerBussiness : BaseBussiness
 			{
 				return false;
 			}
-			SqlParameter[] array = new SqlParameter[126];
+			SqlParameter[] array = new SqlParameter[127];
 			array[0] = new SqlParameter("@UserID", player.ID);
 			array[1] = new SqlParameter("@Attack", player.Attack);
 			array[2] = new SqlParameter("@Colors", (player.Colors == null) ? "" : player.Colors);
@@ -3263,7 +3263,8 @@ public class PlayerBussiness : BaseBussiness
 			array[123] = new SqlParameter("@necklaceArtificeNeedCount", player.necklaceArtificeNeedCount);
 			array[124] = new SqlParameter("@IsHideElf", player.IsHideElf);
 			array[125] = new SqlParameter("@LoadingScore", player.LoadingScore);
-			db.RunProcedure("SP_Users_Update", array);
+            array[126] = new SqlParameter("@SlotPet", player.SlotPet);
+            db.RunProcedure("SP_Users_Update", array);
 			flag = (int)array[21].Value == 0;
 			if (flag)
 			{
@@ -3507,7 +3508,8 @@ public class PlayerBussiness : BaseBussiness
 		playerInfo.necklaceArtificeNeedCount = (int)reader["necklaceArtificeNeedCount"];
 		playerInfo.IsHideElf = (bool)reader["IsHideElf"];
 		playerInfo.LoadingScore = (int)reader["LoadingScore"];
-		return playerInfo;
+		playerInfo.SlotPet = (int)reader["SlotPet"];
+        return playerInfo;
 	}
 
 	public ItemInfo InitItem(SqlDataReader reader)
@@ -3669,7 +3671,16 @@ public class PlayerBussiness : BaseBussiness
 		texpInfo.TrainDmgTexpExp = (int)reader["TrainDmgTexpExp"];
 		texpInfo.TrainArmorTexpExp = (int)reader["TrainArmorTexpExp"];
 		texpInfo.SecondTexpCount = (int)reader["SecondTexpCount"];
-		texpInfo.lastReset = (DateTime)reader["LastReset"];
+        texpInfo.TrainAvoidDmgTextExp = (int)reader["TrainAvoidDmgTextExp"];
+        texpInfo.TrainTricDefTexpExp = (int)reader["TrainTricDefTexpExp"];
+        texpInfo.TrainTenacTexpExp = (int)reader["TrainTenacTexpExp"];
+        texpInfo.TrainGuardTexpExp = (int)reader["TrainGuardTexpExp"];
+        texpInfo.TrainFireDefTexpExp = (int)reader["TrainFireDefTexpExp"];
+        texpInfo.TrainWaterDefTexpExp = (int)reader["TrainWaterDefTexpExp"];
+        texpInfo.TrainWindDefTexpExp = (int)reader["TrainWindDefTexpExp"];
+        texpInfo.TrainLandDefTexpExp = (int)reader["TrainLandDefTexpExp"];
+        texpInfo.ThirdTexpCount = (int)reader["ThirdTexpCount"];
+        texpInfo.lastReset = (DateTime)reader["LastReset"];
 		texpInfo.resetCount = (int)reader["ResetCount"];
 		return texpInfo;
 	}
@@ -7426,7 +7437,7 @@ public class PlayerBussiness : BaseBussiness
 		bool result = false;
 		try
 		{
-			SqlParameter[] array = new SqlParameter[23]
+			SqlParameter[] array = new SqlParameter[32]
 			{
 				new SqlParameter("@UserID", info.UserID),
 				new SqlParameter("@attTexpExp", info.attTexpExp),
@@ -7438,6 +7449,15 @@ public class PlayerBussiness : BaseBussiness
 				new SqlParameter("@texpTaskCount", info.texpTaskCount),
 				new SqlParameter("@texpTaskDate", info.texpTaskDate.ToString()),
 				new SqlParameter("@Result", SqlDbType.Int),
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
 				null,
 				null,
 				null,
@@ -7464,8 +7484,17 @@ public class PlayerBussiness : BaseBussiness
 			array[18] = new SqlParameter("@TrainDmgTexpExp", info.TrainDmgTexpExp);
 			array[19] = new SqlParameter("@TrainArmorTexpExp", info.TrainArmorTexpExp);
 			array[20] = new SqlParameter("@SecondTexpCount", info.SecondTexpCount);
-			array[21] = new SqlParameter("@LastReset", info.lastReset);
-			array[22] = new SqlParameter("@ResetCount", info.resetCount);
+            array[21] = new SqlParameter("@TrainAvoidDmgTextExp", info.TrainAvoidDmgTextExp);
+            array[22] = new SqlParameter("@TrainTricDefTexpExp", info.TrainTricDefTexpExp);
+            array[23] = new SqlParameter("@TrainTenacTexpExp", info.TrainTenacTexpExp);
+            array[24] = new SqlParameter("@TrainGuardTexpExp", info.TrainGuardTexpExp);
+            array[25] = new SqlParameter("@TrainFireDefTexpExp", info.TrainFireDefTexpExp);
+            array[26] = new SqlParameter("@TrainWaterDefTexpExp", info.TrainWaterDefTexpExp);
+            array[27] = new SqlParameter("@TrainWindDefTexpExp", info.TrainWindDefTexpExp);
+            array[28] = new SqlParameter("@TrainLandDefTexpExp", info.TrainLandDefTexpExp);
+            array[29] = new SqlParameter("@ThirdTexpCount", info.ThirdTexpCount);
+            array[30] = new SqlParameter("@LastReset", info.lastReset);
+			array[31] = new SqlParameter("@ResetCount", info.resetCount);
 			db.RunProcedure("SP_UserTexp_Update", array);
 			int num = (int)array[9].Value;
 			result = num == 0;
@@ -7485,7 +7514,7 @@ public class PlayerBussiness : BaseBussiness
 		bool result = false;
 		try
 		{
-			SqlParameter[] array = new SqlParameter[23]
+			SqlParameter[] array = new SqlParameter[32]
 			{
 				new SqlParameter("@UserID", info.UserID),
 				new SqlParameter("@attTexpExp", info.attTexpExp),
@@ -7509,8 +7538,17 @@ public class PlayerBussiness : BaseBussiness
 				null,
 				null,
 				null,
+				null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
 				null
-			};
+            };
 			array[9].Direction = ParameterDirection.ReturnValue;
 			array[10] = new SqlParameter("@magicAtkTexpExp", info.magicAtkTexpExp);
 			array[11] = new SqlParameter("@magicDefTexpExp", info.magicDefTexpExp);
@@ -7523,8 +7561,18 @@ public class PlayerBussiness : BaseBussiness
 			array[18] = new SqlParameter("@TrainDmgTexpExp", info.TrainDmgTexpExp);
 			array[19] = new SqlParameter("@TrainArmorTexpExp", info.TrainArmorTexpExp);
 			array[20] = new SqlParameter("@SecondTexpCount", info.SecondTexpCount);
-			array[21] = new SqlParameter("@LastReset", info.lastReset);
-			array[22] = new SqlParameter("@ResetCount", info.resetCount);
+            array[21] = new SqlParameter("@TrainAvoidDmgTextExp", info.TrainAvoidDmgTextExp);
+            array[22] = new SqlParameter("@TrainTricDefTexpExp", info.TrainTricDefTexpExp);
+            array[23] = new SqlParameter("@TrainTenacTexpExp", info.TrainTenacTexpExp);
+            array[24] = new SqlParameter("@TrainGuardTexpExp", info.TrainGuardTexpExp);
+            array[25] = new SqlParameter("@TrainFireDefTexpExp", info.TrainFireDefTexpExp);
+            array[26] = new SqlParameter("@TrainWaterDefTexpExp", info.TrainWaterDefTexpExp);
+            array[27] = new SqlParameter("@TrainWindDefTexpExp", info.TrainWindDefTexpExp);
+            array[28] = new SqlParameter("@TrainLandDefTexpExp", info.TrainLandDefTexpExp);
+            array[29] = new SqlParameter("@ThirdTexpCount", info.ThirdTexpCount);
+            array[30] = new SqlParameter("@LastReset", info.lastReset);
+            array[31] = new SqlParameter("@ResetCount", info.resetCount);
+
 			db.RunProcedure("SP_UserTexp_Add", array);
 			result = (int)array[9].Value == 0;
 		}

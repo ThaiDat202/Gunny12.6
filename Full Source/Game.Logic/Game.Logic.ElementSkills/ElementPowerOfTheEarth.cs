@@ -26,7 +26,7 @@ public class ElementPowerOfTheEarth : BasePetEffect
 	{
 		if (source.Y < target.Y)
 		{
-			source.Game.AddAction(new LivingSayAction(source, "大地之力", 9, 0, 1000));
+			source.Game.AddAction(new LivingSayAction(source, "Tinh Hoa Của Đất", 9, 0, 1000));
 			int num = Math.Abs(target.Y - source.Y);
 			damageamount += (int)(source.LandAttack * 0.8) * num / 100;
 		}

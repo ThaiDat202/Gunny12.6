@@ -1,0 +1,33 @@
+2023-09-17 16:51:42,853 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-09-17 16:51:43,403 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
+2023-09-17 16:51:43,418 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+2023-09-17 16:51:43,419 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+2023-09-17 16:51:43,421 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+2023-09-17 16:51:43,422 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+2023-09-17 16:51:51,784 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+2023-09-17 16:51:51,792 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
+2023-09-17 16:51:53,747 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+2023-09-17 16:51:53,752 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+2023-09-17 16:51:53,814 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+2023-09-17 16:51:53,841 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+2023-09-17 16:51:56,266 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+2023-09-17 16:51:56,280 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+2023-09-17 16:51:56,290 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+2023-09-17 16:51:56,295 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
+2023-09-17 16:51:56,328 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+2023-09-17 16:51:56,345 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+2023-09-17 16:51:56,350 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+2023-09-17 16:51:56,356 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
+2023-09-17 16:51:56,368 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+2023-09-17 16:51:56,384 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
+2023-09-17 16:51:56,508 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
+2023-09-17 16:51:56,509 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
+2023-09-17 16:51:56,512 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2023-09-17 16:51:56,515 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+2023-09-17 16:51:56,549 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+2023-09-17 16:52:30,224 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:55770
+2023-09-17 16:52:31,192 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:55772
+2023-09-17 17:01:56,528 - [29] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-17 17:01:56,597 - [29] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 79ms
+2023-09-17 19:22:06,625 - [12] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-17 19:22:06,651 - [12] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 15ms

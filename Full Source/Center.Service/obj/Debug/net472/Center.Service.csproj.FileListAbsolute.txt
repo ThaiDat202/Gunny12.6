@@ -77,3 +77,29 @@ D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Center.Service\obj\Debug\ne
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Center.Service\obj\Debug\net472\Center.Service.csproj.CopyComplete
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Center.Service\obj\Debug\net472\Center.Service.exe
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Center.Service\obj\Debug\net472\Center.Service.pdb
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\Center.Service.exe.config
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\Center.Service.exe
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\Center.Service.pdb
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\EntityFramework.dll
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\log4net.dll
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\protobuf-net.dll
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\zlib.net.dll
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\Bussiness.dll
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\Center.Server.dll
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\EntityDatabase.dll
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\Game.Base.dll
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\SqlDataProvider.dll
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\Center.Server.pdb
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\Game.Base.pdb
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\Bussiness.pdb
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\EntityDatabase.pdb
+C:\Gunny\Full Source\Center.Service\bin\Debug\net472\SqlDataProvider.pdb
+C:\Gunny\Full Source\Center.Service\obj\Debug\net472\Center.Service.csproj.AssemblyReference.cache
+C:\Gunny\Full Source\Center.Service\obj\Debug\net472\Center.Service.csproj.SuggestedBindingRedirects.cache
+C:\Gunny\Full Source\Center.Service\obj\Debug\net472\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gunny\Full Source\Center.Service\obj\Debug\net472\Center.Service.csproj.CoreCompileInputs.cache
+C:\Gunny\Full Source\Center.Service\obj\Debug\net472\Center.Service.csproj.CopyComplete
+C:\Gunny\Full Source\Center.Service\obj\Debug\net472\Center.Service.exe
+C:\Gunny\Full Source\Center.Service\obj\Debug\net472\Center.Service.pdb

@@ -4,7 +4,7 @@
 			parentStyle="BaseFrame" width="525" height="328" moveEnable="false"  autoExit="true"
 	/>
 	<component classname="redPackage.view.RedPackageConsortiaSendFrame" stylename="redpkg.consortia.sendFrame"
-			parentStyle="BaseFrame" width="389" height="346" moveEnable="false"  autoExit="true"
+			parentStyle="BaseFrame" width="389" height="370" moveEnable="false"  autoExit="true"
 	/>
 	<component classname="redPackage.view.RedPackageConsortiaGainFrame" stylename="redpkg.consortia.gainFrame"
 			parentStyle="BaseFrame" width="693" height="388" moveEnable="false"
@@ -20,9 +20,13 @@
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortionGain.GainRecord.nickTxt" 
 		textFormatStyle="redpkg.GainRecord.nick.tf" filterString="redpkg.GainRecord.nick.gf" x="192" y="60" width="270" height="22"/>
 		
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="redpkg.consortionSend.CheckButton"
+		parentStyle="core.selectedCheck2" textStyle="core.ddtshop.CommodityPricesText" 
+		fieldX="30" fieldY="7" width="103" height="30" x="222" y="259"/>
+	            
 		
 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortionGain.GainRecord.wishWordsTxt" 
-		textFormatStyle="redpkg.GainRecord.wishwords.tf" filterString="redpkg.GainRecord.wishwords.gf" x="30" y="134" width="464" height="22" wordWrap="true"/>
+		textFormatStyle="redpkg.GainRecord.wishwords.tf" filterString="redpkg.GainRecord.wishwords.gf" x="30" y="140" width="464" height="22" wordWrap="true"/>
 <!-- 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortionGain.SendPkg.wishWordsTxt"  -->
 <!-- 		textFormatStyle="redpkg.GainRecord.wishwords.tf" filterString="redpkg.GainRecord.wishwords.gf" x="38" y="182" width="313" height="62"/> -->
 		
@@ -78,7 +82,7 @@
 	
 	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="redpkg.consortion.SendBtn" backStyle="asset.redpkg.consortionSend.btn" x="70" y="148"/>
 	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="redpkg.consortion.GainBtn" backStyle="asset.redpkg.consortionGain.btn" x="310" y="148"/>
-	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="redpkg.consortionSend.sendBtn" backStyle="asset.redpkg.consortionSend.Sendbtn" x="122" y="273"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="redpkg.consortionSend.sendBtn" backStyle="asset.redpkg.consortionSend.Sendbtn" x="108" y="296"/>
 	</components>
 	<sets>
 		<set stylename="redpkg.gainRecord.cell.tf" args="Arial,12,0xe1b76c,false,,,,,left" type="flash.text.TextFormat" />

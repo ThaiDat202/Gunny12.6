@@ -25,7 +25,7 @@ public class ConsortiaInfo : DataObject
 
 	private string _creatorName;
 
-	private long _fightPower;
+	private int _fightPower;
 
 	private int _chairmanVIPLevel;
 
@@ -194,7 +194,7 @@ public class ConsortiaInfo : DataObject
 		}
 	}
 
-	public long FightPower
+	public int FightPower
 	{
 		get
 		{

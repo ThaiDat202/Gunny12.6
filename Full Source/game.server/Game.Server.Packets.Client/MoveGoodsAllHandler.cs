@@ -20,7 +20,7 @@ public class MoveGoodsAllHandler : IPacketHandler
 		int bageType = packet.ReadInt();
 		if (DateTime.Compare(client.Player.LastMoveGoodsAllTime.AddSeconds(3.0), DateTime.Now) > 0)
 		{
-			client.Player.SendMessage("请勿频繁整理背包,谢谢~");
+			client.Player.SendMessage("");
 			return 0;
 		}
 		client.Player.LastMoveGoodsAllTime = DateTime.Now;
@@ -55,16 +55,16 @@ public class MoveGoodsAllHandler : IPacketHandler
 						}
 						else if (!inventory.AddItemTo(itemInfo, num3))
 						{
-							throw new Exception($"整理背包时出错(更改道具位置): 整理前位置:{num2} 整理后位置:{num3} 整理物品类型:{itemInfo.Template.CategoryID}");
+							throw new Exception($"Đã xảy ra lỗi khi sắp xếp ba lô (thay đổi vị trí của vật phẩm): Vị trí trước khi sắp xếp:{num2} hoàn thành vị trí:{num3} theo mục:{itemInfo.Template.CategoryID}");
 						}
 						continue;
 					}
-					throw new Exception($"整理背包时出错(更改道具位置): 整理前位置:{num2} 整理后位置:{num3} 整理物品类型:{itemInfo.Template.CategoryID}");
+					throw new Exception($"Đã xảy ra lỗi khi sắp xếp ba lô (thay đổi vị trí của vật phẩm): Vị trí trước khi sắp xếp:{num2} hoàn thành vị trí:{num3} theo mục:{itemInfo.Template.CategoryID}");
 				}
 			}
 			catch (Exception ex)
 			{
-				log.ErrorFormat("整理背包错误玩家ID:{0} 错误信息:{1}", client.Player.PlayerId, ex.Message);
+				log.ErrorFormat("Sắp xếp ID người chơi lỗi túi:{0} thông báo lỗi:{1}", client.Player.PlayerId, ex.Message);
 			}
 			finally
 			{

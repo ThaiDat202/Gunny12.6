@@ -1,4 +1,4 @@
-<style name="devilturn" version="1.0.1" source="ui/cn_trad/swf/devilturn.swf">
+<style name="devilturn" version="1.0.1" source="ui/vietnam/swf/devilturn.swf">
 <customDisplay>
 	<custom classname="flash.geom.Point" stylename="devilTurn.mallitem.cellPos" x="227" y="4"/>
 	<custom classname="flash.geom.Point" stylename="devilTurn.boxConvert.cellPos" x="2" y="2"/>

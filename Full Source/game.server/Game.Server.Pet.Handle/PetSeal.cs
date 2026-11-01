@@ -38,22 +38,22 @@ public class PetSeal : IPetCommandHadler
 		}
 		if (petById == null)
 		{
-			player.SendMessage(eMessageType.Normal, "宠物信息异常");
+			player.SendMessage(eMessageType.Normal, "Lỗi thông tin Pet");
 			return false;
 		}
 		if (itemAt == null)
 		{
-			player.SendMessage(eMessageType.Normal, "请先选择封印装备");
+			player.SendMessage(eMessageType.Normal, "Vui lòng chọn pet phong ấn trước");
 			return false;
 		}
 		if (lacreByPlace == null)
 		{
-			player.SendMessage(eMessageType.Normal, "请先选择封印或解封的装备");
+			player.SendMessage(eMessageType.Normal, "Vui lòng chọn pet phong ấn hoặc không phong ấn trước");
 			return false;
 		}
 		if (petById.IsEquip)
 		{
-			player.SendMessage(eMessageType.Normal, "该宠物已装备,无法封印");
+			player.SendMessage(eMessageType.Normal, "Thú cưng được trang bị và không thể phong ấn");
 			return false;
 		}
 		if (!lacreByPlace.isSeal && flag)
@@ -62,7 +62,7 @@ public class PetSeal : IPetCommandHadler
 		}
 		if (lacreByPlace.isSeal && lacreByPlace.petId != petById.ID)
 		{
-			player.SendMessage(eMessageType.Normal, "请先解封宠物");
+			player.SendMessage(eMessageType.Normal, "Vui lòng bỏ chặn thú cưng trước");
 			return false;
 		}
 		int num3 = ((!flag) ? int.Parse(GameProperties.SealItems.Split(',')[0]) : int.Parse(GameProperties.SealItems.Split(',')[2]));
@@ -73,7 +73,7 @@ public class PetSeal : IPetCommandHadler
 		int itemCount = player.PropBag.GetItemCount(12212);
 		if (num3 > itemCount)
 		{
-			player.SendMessage(eMessageType.Normal, "封印石数量不足");
+			player.SendMessage(eMessageType.Normal, "Không đủ đá phong ấn");
 			return false;
 		}
 		int skillLacrar = PetSpecialSkillMgr.GetSkillLacrar(PetMgr.FindPetTemplate(petById.TemplateID).KindID);

@@ -1,4 +1,4 @@
-<style name="questionAward" version="1.0.0" source="ui/portugal/swf/questionAward.swf">
+<style name="questionAward" version="1.0.0" source="ui/vietnam/swf/questionAward.swf">
 <sets>
 	<set stylename="questionAward.selectBtn.textTF" args="Arial,16,0xFFFFFE,true" type="flash.text.TextFormat"/>
 	<set stylename="questionAward.selectBtn.textGF" args="0x441300,0.7,4,4,10" type="flash.filters.GlowFilter"/>

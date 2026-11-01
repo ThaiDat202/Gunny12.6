@@ -24,7 +24,7 @@ public class ElementEarthSpirit : AbstractPetEffect
 
 	private void player_BeforeTakeDamage(Living living, Living source, ref int damageAmount, ref int criticalAmount)
 	{
-		living.Game.AddAction(new LivingSayAction(living, "大地之灵", 9, 0, 1000));
+		living.Game.AddAction(new LivingSayAction(living, "Tinh Hoa Của Đất", 9, 0, 1000));
 		int num = Math.Abs(living.X - source.X);
 		damageAmount -= (int)(living.LandDefence * 0.6) * num / 100;
 	}

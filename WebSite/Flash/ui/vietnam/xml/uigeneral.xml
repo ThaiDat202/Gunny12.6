@@ -1,4 +1,4 @@
-<style name="uigeneral" version="1.0.1" source="ui/cn_trad/swf/uigeneral.swf">
+<style name="uigeneral" version="1.0.1" source="ui/vietnam/swf/uigeneral.swf">
 <sets>
 	<set stylename="petsBag.form.petsTip.commonGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
 	<set stylename="petsBag.form.petsTip.commonTF" args="arial,12,0xffffff" type="flash.text.TextFormat"  />

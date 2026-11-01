@@ -27,11 +27,11 @@ public class ReleasePet : IPetCommandHadler
 		{
 			if (flag)
 			{
-				player.SendMessage("该宠物已被封印,无法转化.");
+				player.SendMessage("Thú cưng này đã bị phong ấn và không thể sử dụng.");
 			}
 			else
 			{
-				player.SendMessage("该宠物已被封印,无法放生.");
+				player.SendMessage("Thú cưng này đã bị phong ấn và không thể sử dụng.");
 			}
 		}
 		if (player.PetBag.RemovePet(usersPetInfo))
@@ -82,17 +82,17 @@ public class ReleasePet : IPetCommandHadler
 						player.SendItemToMail(itemInfo3, LanguageMgr.GetTranslation("UserChangeItemPlaceHandler.full"), LanguageMgr.GetTranslation("UserChangeItemPlaceHandler.full"), eMailType.ItemOverdue);
 						player.Out.SendMailResponse(player.PlayerCharacter.ID, eMailRespose.Receiver);
 					}
-					player.SendMessage("你获得了: " + itemInfo2.Template.Name + "x 1," + itemInfo.Template.Name + "x 1," + itemInfo3.Template.Name + "x " + itemInfo3.Count);
+					player.SendMessage("Bạn có: " + itemInfo2.Template.Name + "x 1," + itemInfo.Template.Name + "x 1," + itemInfo3.Template.Name + "x " + itemInfo3.Count);
 				}
 				else
 				{
-					player.SendMessage("你获得了: " + itemInfo2.Template.Name + "x 1," + itemInfo.Template.Name + "x 1,");
+					player.SendMessage("Bạn có: " + itemInfo2.Template.Name + "x 1," + itemInfo.Template.Name + "x 1,");
 				}
-				player.SendMessage("转化成功.");
+				player.SendMessage("Chuyển đổi thành công.");
 				player.PetBag.SaveToDatabase(saveAdopt: false);
 				return false;
 			}
-			player.SendMessage("放生成功.");
+			player.SendMessage("Xóa thành công.");
 			player.PetBag.SaveToDatabase(saveAdopt: false);
 			return false;
 		}

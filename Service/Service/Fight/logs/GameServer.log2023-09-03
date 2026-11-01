@@ -1,0 +1,40 @@
+2023-09-03 13:17:41,163 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+2023-09-03 13:17:41,638 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
+2023-09-03 13:17:41,651 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+2023-09-03 13:17:41,652 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+2023-09-03 13:17:41,653 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+2023-09-03 13:17:41,654 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+2023-09-03 13:17:41,889 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+2023-09-03 13:17:41,897 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
+2023-09-03 13:17:43,907 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+2023-09-03 13:17:43,914 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+2023-09-03 13:17:43,982 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+2023-09-03 13:17:44,014 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+2023-09-03 13:17:44,202 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+2023-09-03 13:17:44,217 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+2023-09-03 13:17:44,225 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+2023-09-03 13:17:44,230 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
+2023-09-03 13:17:44,262 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+2023-09-03 13:17:44,298 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+2023-09-03 13:17:44,304 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+2023-09-03 13:17:44,310 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
+2023-09-03 13:17:44,314 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+2023-09-03 13:17:44,330 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
+2023-09-03 13:17:44,371 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
+2023-09-03 13:17:44,372 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
+2023-09-03 13:17:44,375 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+2023-09-03 13:17:44,379 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+2023-09-03 13:17:44,415 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+2023-09-03 13:19:24,353 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:55683
+2023-09-03 13:19:24,809 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:55685
+2023-09-03 13:21:52,064 - [11] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)::
+System.ArgumentOutOfRangeException: Year, Month, and Day parameters describe an un-representable DateTime.
+   at System.DateTime.DateToTicks(Int32 year, Int32 month, Int32 day)
+   at System.DateTime..ctor(Int32 year, Int32 month, Int32 day, Int32 hour, Int32 minute, Int32 second)
+   at Game.Base.PacketIn.ReadDateTime() in C:\Gunny\Full Source\game.base\Game.Base\PacketIn.cs:line 152
+   at Fighting.Server.ServerClient.HandleGameRoomCreate(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 339
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg) in C:\Gunny\Full Source\fighting.server\Fighting.Server\ServerClient.cs:line 54
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes) in C:\Gunny\Full Source\game.base\Game.Base.Packets\StreamProcessor.cs:line 245
+2023-09-03 13:25:10,954 - [11] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:55685), received bytes=0
+2023-09-03 13:25:10,957 - [13] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:55683), received bytes=0
+2023-09-03 13:25:37,997 - [13] - I

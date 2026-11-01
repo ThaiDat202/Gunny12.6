@@ -1,41 +1,45 @@
-2023-01-26 11:41:56,736 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
-2023-01-26 11:41:57,304 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:7539: True
-2023-01-26 11:41:57,320 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
-2023-01-26 11:41:57,320 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
-2023-01-26 11:41:57,322 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
-2023-01-26 11:41:57,322 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
-2023-01-26 11:41:57,518 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
-2023-01-26 11:41:57,522 - [MAIN] - INFO  - Fighting.Server.FightServer - RuneMgr Init: True
-2023-01-26 11:41:59,977 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
-2023-01-26 11:41:59,982 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
-2023-01-26 11:42:00,012 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
-2023-01-26 11:42:00,026 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
-2023-01-26 11:42:00,145 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
-2023-01-26 11:42:00,148 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
-2023-01-26 11:42:00,155 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
-2023-01-26 11:42:00,159 - [MAIN] - INFO  - Fighting.Server.FightServer - BattleBonusMgr Init: True
-2023-01-26 11:42:00,184 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
-2023-01-26 11:42:00,206 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
-2023-01-26 11:42:00,209 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
-2023-01-26 11:42:00,214 - [MAIN] - INFO  - Fighting.Server.FightServer - GuardCoreMgr Init: True
-2023-01-26 11:42:00,220 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
-2023-01-26 11:42:00,234 - [MAIN] - INFO  - Fighting.Server.FightServer - PetSpecialSkillMgr Init: True
-2023-01-26 11:42:00,271 - [MAIN] - INFO  - Fighting.Server.FightServer - EngraveMgr Init: True
-2023-01-26 11:42:00,271 - [MAIN] - INFO  - Fighting.Server.FightServer - InitGlobalTimers Init: True
-2023-01-26 11:42:00,275 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
-2023-01-26 11:42:00,279 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
-2023-01-26 11:42:00,310 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
-2023-01-26 11:42:03,922 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:54646
-2023-01-26 11:42:04,393 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:54651
-2023-01-26 11:45:42,433 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
-2023-01-26 11:45:42,434 - [5] - ERROR - Game.Logic.MapMgr - MapId 1302 is not exist!
-2023-01-26 11:45:59,835 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -17387 ms!
-2023-01-26 11:45:59,840 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -16367 ms!
-2023-01-26 11:45:59,840 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -15347 ms!
-2023-01-26 11:45:59,840 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -14327 ms!
-2023-01-26 11:45:59,840 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -13307 ms!
-2023-01-26 11:45:59,842 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -12287 ms!
-2023-01-26 11:45:59,842 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -11267 ms!
-2023-01-26 11:45:59,842 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -10247 ms!
-2023-01-26 11:45:59,843 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -9227 ms!
-2023-01-26 11:45:59,843 - [5] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room
+2023-09-19 02:33:13,472 - [16] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 02:33:13,519 - [16] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-09-19 02:43:13,476 - [38] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 02:43:13,550 - [38] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 78ms
+2023-09-19 02:53:13,481 - [47] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 02:53:13,520 - [47] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 46ms
+2023-09-19 03:03:13,494 - [16] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 03:03:13,542 - [16] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 03:13:13,501 - [38] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 03:13:13,549 - [38] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 03:23:13,508 - [18] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 03:23:13,560 - [18] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 03:33:13,510 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 03:33:13,577 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 62ms
+2023-09-19 03:43:13,528 - [38] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 03:43:13,571 - [38] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 03:53:13,542 - [18] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 03:53:13,587 - [18] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 04:03:13,552 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 04:03:13,604 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 04:13:13,566 - [38] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 04:13:13,614 - [38] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 04:23:13,577 - [18] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 04:23:13,638 - [18] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 04:33:13,584 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 04:33:13,636 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 04:43:13,593 - [38] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 04:43:13,636 - [38] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 31ms
+2023-09-19 04:53:13,600 - [18] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 04:53:13,654 - [18] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 46ms
+2023-09-19 05:03:13,611 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 05:03:13,657 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 05:13:13,624 - [38] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 05:13:13,686 - [38] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 05:23:13,628 - [18] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 05:23:13,674 - [18] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 05:33:13,639 - [46] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 05:33:13,689 - [46] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 05:43:13,652 - [38] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 05:43:13,701 - [38] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 05:53:13,658 - [18] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 05:53:13,705 - [18] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 47ms
+2023-09-19 06:03:13,660 - [47] - INFO  - Fighting.Server.FightServer - Cleaning Memory
+2023-09-19 06:03:13,723 - [47] - INFO  - Fighting.Server.FightServer - Memory Cleaned in 63ms
+2023-09-19 06:13:13,661 - [48] - INFO  - Fighting.Server.FightServer -

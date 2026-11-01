@@ -1,4 +1,4 @@
-<style name="dreamlandChallenge" version="9.4.0" source="ui/cn_trad/swf/dreamlandChallenge.swf">
+<style name="dreamlandChallenge" version="9.4.0" source="ui/zh_cn/swf/dreamlandChallenge.swf">
 	
 	<sets>
 		<set stylename="asset.dreamland.buffTip.titleTxtTF" args="Arial,14,0xffffff,true" leading="1" type="flash.text.TextFormat"/>

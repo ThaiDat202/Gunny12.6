@@ -59,14 +59,14 @@ public class ButterflyHandler : IPacketHandler
 			AddExp(player, tS_ButterflyTask.RewardGp);
 			ItemInfo itemInfo = ItemInfo.CreateFromTemplate(ItemMgr.FindItemTemplate(tS_ButterflyTask.RewardItemId), 1, 101);
 			itemInfo.IsBinds = true;
-			player.SendItemToMail(itemInfo, "蝶妖森林:探索巡逻奖励", "蝶妖森林:探索巡逻奖励", eMailType.Active);
+			player.SendItemToMail(itemInfo, "Trại bướm ma: Phần thưởng tuần tra", "Trại bướm ma: Phần thưởng tuần tra", eMailType.Active);
 			player.PlayerCharacter.ButterflyInfo.curTaskID = 0;
 			player.PlayerCharacter.ButterflyInfo.taskState = 0;
 			player.PlayerCharacter.ButterflyInfo.taskDate = DateTime.Now;
 		}
 		else
 		{
-			player.SendMessage("巡逻还没结束哦,请再耐心等待一会儿...");
+			player.SendMessage("Tuần tra chưa xong, vui lòng chờ...");
 		}
 		ButterflyInfo(player);
 	}
@@ -92,7 +92,7 @@ public class ButterflyHandler : IPacketHandler
 		}
 		else
 		{
-			player.SendMessage("心情值不足,无法进行巡逻...");
+			player.SendMessage("Điểm tâm trạng không đủ!");
 		}
 		ButterflyInfo(player);
 	}
@@ -154,15 +154,15 @@ public class ButterflyHandler : IPacketHandler
 			player.PlayerCharacter.ButterflyInfo.isGetLevelReward = false;
 			ItemInfo itemInfo = ItemInfo.CreateFromTemplate(ItemMgr.FindItemTemplate(gradeRewardItemId), 1, 101);
 			itemInfo.IsBinds = true;
-			player.SendItemToMail(itemInfo, "蝶妖森林:等级奖励", "蝶妖森林:等级奖励", eMailType.Active);
-			player.SendMessage("领取成功,已发送到邮件..");
+			player.SendItemToMail(itemInfo, "Trại bướm ma: Phần thưởng theo cấp độ", "Trại bướm ma: Phần thưởng theo cấp độ", eMailType.Active);
+			player.SendMessage("Nhận thành công, vật phẩm được gửi đến thư.");
 		}
 		ButterflyInfo(player);
 	}
 
 	private void FeedButterfly(GamePlayer player)
 	{
-		player.SendMessage("喂养功能已被禁用...");
+		player.SendMessage("Tính năng cho ăn đã bị khóa.");
 		ButterflyInfo(player);
 	}
 
@@ -178,7 +178,7 @@ public class ButterflyHandler : IPacketHandler
 		}
 		else
 		{
-			player.SendMessage("今日已达上限,明天再来摸摸头吧~~");
+			player.SendMessage("Số lần xoa đầu hôm nay đã đạt tối đa!");
 		}
 		ButterflyInfo(player);
 	}

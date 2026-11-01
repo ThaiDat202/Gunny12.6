@@ -1,0 +1,26 @@
+2023-08-06 00:33:21,699 - [22] - ERROR - Game.Server.Elf.ElfLogicProcessor - ElfLogicProcessor PackageType:ELF_EQUIP_OPERATE, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.Elf.Handle.ElfHandleMgr.LoadCommandHandler(Int32 code) in C:\Gunny\Full Source\game.server\Game.Server.Elf.Handle\ElfHandleMgr.cs:line 13
+   at Game.Server.Elf.ElfLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Elf\ElfLogicProcessor.cs:line 27
+2023-08-06 00:33:21,721 - [22] - ERROR - Game.Server.Elf.ElfLogicProcessor - IP: 127.0.0.1:56902
+2023-08-06 00:33:22,249 - [22] - ERROR - Game.Server.Elf.ElfLogicProcessor - ElfLogicProcessor PackageType:ELF_EQUIP_OPERATE, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.Elf.Handle.ElfHandleMgr.LoadCommandHandler(Int32 code) in C:\Gunny\Full Source\game.server\Game.Server.Elf.Handle\ElfHandleMgr.cs:line 13
+   at Game.Server.Elf.ElfLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Elf\ElfLogicProcessor.cs:line 27
+2023-08-06 00:33:22,250 - [22] - ERROR - Game.Server.Elf.ElfLogicProcessor - IP: 127.0.0.1:56902
+2023-08-06 00:33:22,861 - [22] - ERROR - Game.Server.Elf.ElfLogicProcessor - ElfLogicProcessor PackageType:ELF_EQUIP_OPERATE, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.Elf.Handle.ElfHandleMgr.LoadCommandHandler(Int32 code) in C:\Gunny\Full Source\game.server\Game.Server.Elf.Handle\ElfHandleMgr.cs:line 13
+   at Game.Server.Elf.ElfLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Elf\ElfLogicProcessor.cs:line 27
+2023-08-06 00:33:22,862 - [22] - ERROR - Game.Server.Elf.ElfLogicProcessor - IP: 127.0.0.1:56902
+2023-08-06 00:33:23,389 - [22] - ERROR - Game.Server.Elf.ElfLogicProcessor - ElfLogicProcessor PackageType:ELF_EQUIP_OPERATE, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.Elf.Handle.ElfHandleMgr.LoadCommandHandler(Int32 code) in C:\Gunny\Full Source\game.server\Game.Server.Elf.Handle\ElfHandleMgr.cs:line 13
+   at Game.Server.Elf.ElfLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Elf\ElfLogicProcessor.cs:line 27
+2023-08-06 00:33:23,389 - [22] - ERROR - Game.Server.Elf.ElfLogicProcessor - IP: 127.0.0.1:56902
+2023-08-06 21:03:44,287 - [28] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-08-06 21:03:44,495 - [28] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539

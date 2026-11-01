@@ -1,0 +1,7 @@
+2023-07-25 00:50:47,295 - [37] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-25 00:50:47,399 - [37] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-25 01:17:25,954 - [49] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-25 01:17:26,082 - [49] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-25 03:40:29,812 - [47] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-07-25 04:17:46,367 - [45] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-25 04:17:46,491 - [45] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539

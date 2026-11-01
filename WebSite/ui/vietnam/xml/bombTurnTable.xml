@@ -1,4 +1,4 @@
-<style name="bombTurnTable" version="1.0.1" source="ui/cn_trad/swf/bombTurnTable.swf">
+<style name="bombTurnTable" version="1.0.1" source="ui/vietnam/swf/bombTurnTable.swf">
 <sets>
 		<set stylename="bombTurnTable.explanation.textTF" args="Arial,12,0xfff1f1,false,,,,,center" type="flash.text.TextFormat" />
 		<set stylename="bombTurnTable.explanation.textGF" args="0x590d00,1,4,4,30" type="flash.filters.GlowFilter" />

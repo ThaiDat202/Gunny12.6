@@ -14,3 +14,10 @@ C:\11.2 test\Full Source\ddtankhelp\obj\Debug\net46\DDtankHelp.dll
 C:\11.2 test\Full Source\ddtankhelp\obj\Debug\net46\DDtankHelp.pdb
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\ddtankhelp\obj\Debug\net46\DDtankHelp.dll
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\ddtankhelp\obj\Debug\net46\DDtankHelp.pdb
+C:\Gunny\Full Source\ddtankhelp\bin\Debug\net46\DDtankHelp.dll
+C:\Gunny\Full Source\ddtankhelp\bin\Debug\net46\DDtankHelp.pdb
+C:\Gunny\Full Source\ddtankhelp\obj\Debug\net46\ddtankhelp.csproj.AssemblyReference.cache
+C:\Gunny\Full Source\ddtankhelp\obj\Debug\net46\ddtankhelp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gunny\Full Source\ddtankhelp\obj\Debug\net46\ddtankhelp.csproj.CoreCompileInputs.cache
+C:\Gunny\Full Source\ddtankhelp\obj\Debug\net46\DDtankHelp.dll
+C:\Gunny\Full Source\ddtankhelp\obj\Debug\net46\DDtankHelp.pdb

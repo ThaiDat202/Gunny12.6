@@ -82,3 +82,31 @@ D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Fighting.Service\obj\Debug\
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Fighting.Service\obj\Debug\net472\Fighting.Service.csproj.CopyComplete
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Fighting.Service\obj\Debug\net472\Fighting.Service.exe
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\Fighting.Service\obj\Debug\net472\Fighting.Service.pdb
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Fighting.Service.exe.config
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Fighting.Service.exe
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Fighting.Service.pdb
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\EntityFramework.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\log4net.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\protobuf-net.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\zlib.net.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Bussiness.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\EntityDatabase.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Fighting.Server.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Game.Base.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Game.Logic.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\SqlDataProvider.dll
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Fighting.Server.pdb
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Bussiness.pdb
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\EntityDatabase.pdb
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Game.Base.pdb
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\Game.Logic.pdb
+C:\Gunny\Full Source\Fighting.Service\bin\Debug\net472\SqlDataProvider.pdb
+C:\Gunny\Full Source\Fighting.Service\obj\Debug\net472\Fighting.Service.csproj.AssemblyReference.cache
+C:\Gunny\Full Source\Fighting.Service\obj\Debug\net472\Fighting.Service.csproj.SuggestedBindingRedirects.cache
+C:\Gunny\Full Source\Fighting.Service\obj\Debug\net472\Fighting.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gunny\Full Source\Fighting.Service\obj\Debug\net472\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\Gunny\Full Source\Fighting.Service\obj\Debug\net472\Fighting.Service.csproj.CopyComplete
+C:\Gunny\Full Source\Fighting.Service\obj\Debug\net472\Fighting.Service.exe
+C:\Gunny\Full Source\Fighting.Service\obj\Debug\net472\Fighting.Service.pdb

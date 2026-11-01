@@ -1,4 +1,4 @@
-<style name="newopenguide" version="6.1.0" source="ui/cn_trad/swf/newopenguide.swf">
+<style name="newopenguide" version="6.1.0" source="ui/vietnam/swf/newopenguide.swf">
 	<sets>
 		<set type="flash.text.TextFormat" stylename="newOpenGuideRightView.titleTxt.tf" args="宋体,16,0xffd800,true"/>
 		<set type="flash.filters.GlowFilter" stylename="newOpenGuideRightView.titleTxt.gf" args="0x1b0d00,1,4,4,30"/>

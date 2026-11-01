@@ -1,4 +1,4 @@
-<style name="tenyearanniversary" version="11.1.0" source="ui/cn_trad/swf/tenyearanniversary.swf">
+<style name="tenyearanniversary" version="11.1.0" source="ui/vietnam/swf/tenyearanniversary.swf">
 	<components>
 		<component classname="com.pickgliss.ui.image.Image"
 			stylename="tenyearanniversary.imagePreview" resourceLink="asset.tenyearanniversary.welfare.storyImg" />
@@ -50,6 +50,8 @@
 	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyPos18" x="6472" y="63"/>
 	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyPos19" x="6863" y="56"/>
 	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyPos20" x="7303" y="37"/>
+	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyPos21" x="7789" y="37"/>
+	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyPos22" x="8187" y="37"/>
 	
 	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyHeadPos0" x="192" y="100"/>
 	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyHeadPos1" x="627" y="100"/>
@@ -71,6 +73,8 @@
 	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyHeadPos17" x="6539" y="90"/>
 	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyHeadPos18" x="6998" y="85"/>
 	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyHeadPos19" x="7450" y="83"/>
+	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyHeadPos20" x="7897" y="83"/>
+	<custom classname="flash.geom.Point" stylename="tenYearAnniversary.welfare.storyHeadPos21" x="8290" y="83"/>
 
 	
 	</customs>

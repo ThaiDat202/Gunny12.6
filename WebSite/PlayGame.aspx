@@ -2,7 +2,7 @@
 
 <html>
 <head id="Head1" runat="server">
-<title>Gun9x.Com</title>
+<title>Gunny</title>
     <script type="text/javascript" src="static/js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="static/js/dandantang.js"></script>
     <script type="text/javascript" src="static/js/rightClick.js"></script>
@@ -131,7 +131,7 @@
         {
         margin: 0px auto;
         padding: 0px;
-        background-image: url(http://127.0.0.1/bg_a11ll.jpg);
+        background-image: url(http://127.0.0.1/bg_all.jpg);
 	    background-repeat: no-repeat;
         background-position: center center;
         overflow:auto; text-align:center;
@@ -144,11 +144,11 @@
   <ul class="l_menu">
     <!-- 显示下拉菜单添加"current_drop_menu"样式 -->
     <li class="menu_list drop_menu server">
-      <a class="menu"><span class="name" title="Gun9x.Com"> Gun9x</span></a>
+      <a href="http://127.0.0.1/" class="menu"><span class="name" title="Gun9x.Com"> Gunny</span></a>
     </li>
   </ul>
   <ul class="r_menu">
-    <li class="menu_list highligh" ><a href="http://127.0.0.1/" target="_blank" class="menu btnPay"><em class="icon16 gold_16_orange"></em><span class="name">Nạp Thẻ</span></a></li>
+    <li class="menu_list highligh" ><a href="http://127.0.0.1:90/" target="_blank" class="menu btnPay"><em class="icon16 gold_16_orange"></em><span class="name">Webshop</span></a></li>
     <!-- 显示下拉菜单添加"current_drop_menu"样式 -->
          <li class="menu_list drop_menu official highligh">
       <div class="drop_box">

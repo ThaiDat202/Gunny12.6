@@ -70,3 +70,27 @@ D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\obj\Debug\n
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\obj\Debug\net472\fighting.server.csproj.CopyComplete
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\obj\Debug\net472\Fighting.Server.dll
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\fighting.server\obj\Debug\net472\Fighting.Server.pdb
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\Fighting.Server.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\Fighting.Server.pdb
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\EntityFramework.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\log4net.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\protobuf-net.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\zlib.net.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\Bussiness.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\EntityDatabase.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\Game.Base.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\Game.Logic.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\SqlDataProvider.dll
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\Bussiness.pdb
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\EntityDatabase.pdb
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\Game.Logic.pdb
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\SqlDataProvider.pdb
+C:\Gunny\Full Source\fighting.server\bin\Debug\net472\Game.Base.pdb
+C:\Gunny\Full Source\fighting.server\obj\Debug\net472\fighting.server.csproj.AssemblyReference.cache
+C:\Gunny\Full Source\fighting.server\obj\Debug\net472\fighting.server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gunny\Full Source\fighting.server\obj\Debug\net472\fighting.server.csproj.CoreCompileInputs.cache
+C:\Gunny\Full Source\fighting.server\obj\Debug\net472\fighting.server.csproj.CopyComplete
+C:\Gunny\Full Source\fighting.server\obj\Debug\net472\Fighting.Server.dll
+C:\Gunny\Full Source\fighting.server\obj\Debug\net472\Fighting.Server.pdb

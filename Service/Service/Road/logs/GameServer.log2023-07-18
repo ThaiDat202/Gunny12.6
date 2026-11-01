@@ -1,0 +1,44 @@
+2023-07-19 08:02:23,087 - [45] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-19 08:02:23,184 - [45] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-18 18:34:19,229 - [54] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-07-18 18:37:13,473 - [74] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-18 18:37:13,566 - [74] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-18 18:46:29,961 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserEquipListHandler  client: 127.0.0.1:54031)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Base.Packets.AbstractPacketLib.SendUserEquip(PlayerInfo player, List`1 items, List`1 userGemStone, List`1 beadItems, List`1 magicStones, ExplorerManualInfo explorerInfo, List`1 playerMark, List`1 lacres, List`1 emblemInfos, ICollection`1 elfinfo, Sys_Users_Academy academyInfo) in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 2303
+   at Game.Server.Packets.Client.UserEquipListHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\UserEquipListHandler.cs:line 202
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-07-18 18:46:29,990 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 00 44 00 4A 00 00 00 01 00 00 00 00   q....D.J........
+0010: 00 00 00 00 01 00 00 00 01                        .........       
+
+2023-07-18 18:49:35,742 - [46] - ERROR - Game.Server.Elf.ElfLogicProcessor - ElfLogicProcessor PackageType:ELF_EQUIP_OPERATE, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.Elf.Handle.ElfHandleMgr.LoadCommandHandler(Int32 code) in C:\Gunny\Full Source\game.server\Game.Server.Elf.Handle\ElfHandleMgr.cs:line 13
+   at Game.Server.Elf.ElfLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Elf\ElfLogicProcessor.cs:line 27
+2023-07-18 18:49:35,743 - [46] - ERROR - Game.Server.Elf.ElfLogicProcessor - IP: 127.0.0.1:54031
+2023-07-18 18:50:30,403 - [41] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MinesHandler  client: 127.0.0.1:54031)
+System.ArgumentNullException: Value cannot be null.
+   at System.Threading.Monitor.Enter(Object obj)
+   at Game.Server.Managers.MinesMgr.GetListDrop() in C:\Gunny\Full Source\game.server\Game.Server.Managers\MinesMgr.cs:line 395
+   at Game.Base.Packets.AbstractPacketLib.SendMinesShopInfo() in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 420
+   at Game.Server.Packets.Client.MinesHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\MinesHandler.cs:line 220
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-07-18 18:50:30,416 - [41] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 15 01 1F 01 9E 00 00 00 01 00 00 00 00   q...............
+0010: 00 00 00 00 08                                    .....           
+
+2023-07-18 18:51:27,699 - [35] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MinesHandler  client: 127.0.0.1:54031)
+System.ArgumentNullException: Value cannot be null.
+   at System.Threading.Monitor.Enter(Object obj)
+   at Game.Server.Managers.MinesMgr.GetListDrop() in C:\Gunny\Full Source\game.server\Game.Server.Managers\MinesMgr.cs:line 395
+   at Game.Base.Packets.AbstractPacketLib.SendMinesShopInfo() in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 420
+   at Game.Server.Packets.Client.MinesHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\MinesHandler.cs:line 220
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-07-18 18:51:27,702 - [35] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 15 01 1F 01 9E 00 00 00 01 00 00 00 00   q...............
+0010: 00 00 00 00 08                                    .....           
+
+2023-07-18 19:50:04,853 - [47] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-18 19:50:04,945 - [47] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539

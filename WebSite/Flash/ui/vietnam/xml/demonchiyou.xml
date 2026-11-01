@@ -1,4 +1,4 @@
-<style name="demonchiyou" version="1.0.1" source="ui/cn_trad/swf/demonchiyou.swf">
+<style name="demonchiyou" version="1.0.1" source="ui/vietnam/swf/demonchiyou.swf">
 	<sets>
 		<set stylename="demonChiYou.consortiaNameTf.format" args="Arial,12,0x74faff,,,,,,center" type="flash.text.TextFormat" leading="5" letterSpacing="0" />
 		<set stylename="demonChiYou.leftTimeTf.format" args="Arial,12,0xffcc52" type="flash.text.TextFormat" leading="5" letterSpacing="0" />

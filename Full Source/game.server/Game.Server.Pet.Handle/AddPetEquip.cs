@@ -43,7 +43,7 @@ public class AddPetEquip : IPetCommandHadler
 						player.Pet.SkillEquip = PetMgr.ActiveEquipSkill(player.Pet.Level, player.PlayerCharacter.VIPLevel);
 						player.PetBag.UpdatePet(player.Pet);
 						player.PetBag.SaveToDatabase(saveAdopt: false);
-						player.SendMessage("觉醒技能已生效.");
+						player.SendMessage("Kỹ năng thức tỉnh đã được kích hoạt.");
 					}
 				}
 			}

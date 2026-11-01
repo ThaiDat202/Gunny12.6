@@ -1,4 +1,5 @@
-﻿#中文包
+﻿
+#中文包
 Game.Server.Hello: 你好.
 
 #协议包中的就不加命名空间前缀
@@ -93,16 +94,16 @@ OpenUpArkHandler.NoPlace:背包位置不够.
 OpenUpArkHandler.Start:你获得了
 OpenUpArkHandler.FightLabStart:通过培训合格
 OpenUpArkHandler.Money: 点券,
-OpenUpArkHandler.Gold: 金币,
-OpenUpArkHandler.GiftToken: 绑定点卷,
+OpenUpArkHandler.Gold: 金币.
+OpenUpArkHandler.GiftToken: 绑定点卷.
 OpenUpArkHandler.Medal: 勋章.
-OpenUpArkHandler.Gp: 经验,
+OpenUpArkHandler.Gp: 经验.
 PropBuyHandler.NoMoney:金币不足.
 OpenUpArkHandler.Exp: 经验.
 OpenUpArkHandler.honor: 荣誉.
 OpenUpArkHandler.hardCurrency: 黄金迷宫.
 OpenUpArkHandler.leagueMoney: 令牌.
-OpenUpArkHandler.useableScore: 积累船.
+OpenUpArkHandler.useableScore: 龙舟积分.
 OpenUpArkHandler.prestge: 成名.
 UserPresentGoodsHandler.Success:用户目前商品处理成功.
 UserBuyItemHandler.Success:购买成功.
@@ -447,8 +448,28 @@ Game.Server.SceneGames.Protect:玩家{0}使用了防踢卡,不可踢出房间.
 ItemStrengthenHandler.Fail:强化失败;
 ItemStrengthenHandler.congratulation:恭喜[{0}] 的{1}成功强化到{2} 级,能力再上一个新台阶.
 ItemStrengthenHandler.congratulation2:恭喜[{0}] 的{1}成功进阶到{2} 阶,能力再上一个新台阶.
+ItemStrengthenHandler.zhujingsuccess：恭喜[{0}] 的{1}成功铸金,有效期为7天。
 OpenHoleHandler.congratulation:恭喜! [{0}] 孔槽数{1} [{2}] 成功{3}, 能力再上一个新台阶.
 OpenBeadHandler.congratulation:恭喜! [{0}] 。 。 {1} 到 {2}, 能力再上一个新台阶.
+ItemStrengthenHandler.congratulation4:恭喜[{0}] 的{1}成功启灵到{2} 级,能力再上一个新台阶.
+ItemStrengthenHandler.congratulation5:恭喜[{0}] 的{1}成功铸金,有效期为{2} 天,能力再上一个新台阶.
+ItemStrengthenHandler.congratulation6:恭喜欧皇[{0}] 在弹弹乐活动中获得终极大奖100w的的奖励！
+ItemStrengthenHandler.congratulation7:恭喜欧皇[{0}] 在弹弹乐活动中获得20w的的奖励！
+ItemStrengthenHandler.congratulation8:恭喜[{0}]的{1}成功突破至{2} 级,能力再上一个新台阶.
+ItemStrengthenHandler.congratulation9:恭喜[{0}]的{1}成功突破至{2} 级,能力再上一个新台阶，获得限定称号.
+ItemStrengthenHandler.congratulation10:[{0}]在强化3阶及以下时,使用180个仍没有成功获得限时非洲酋长称号！
+ItemStrengthenHandler.congratulation11:恭喜[{0}]在强化4阶时,仅使用了{1}个进阶石,获得永久幸运称号（100四维）。
+ItemStrengthenHandler.congratulation12:恭喜[{0}]在强化5阶时,仅使用了{1}个进阶石,获得永久幸运称号（150四维）。
+ItemStrengthenHandler.congratulation13:恭喜[{0}]在强化6阶时,仅使用了{1}个进阶石,获得永久幸运称号（200四维）。
+ItemStrengthenHandler.congratulation14:恭喜[{0}] 获得{1}{2}星宠物 ,能力再上一个新台阶.
+ItemStrengthenHandler.congratulation15:恭喜[{0}]完成石装打造，战斗力再上一个阶梯。
+ItemStrengthenHandler.congratulation16:恭喜[{0}]完成铜装打造，战斗力再上一个阶梯。
+ItemStrengthenHandler.congratulation17:恭喜[{0}]完成银装打造，战斗力再上一个阶梯。
+ItemStrengthenHandler.congratulation18:恭喜[{0}]完成金装打造，战斗力再上一个阶梯。
+ItemStrengthenHandler.congratulation19:恭喜[{0}]完成玉装打造，战斗力再上一个阶梯。
+TotemUpgradeSystem.MateryNotEnouch:图腾符石不足！
+TotemUpgradeSystem.Success:进阶成功！
+
 
 OpenHoleHandler.Complete:
 OpenHoleHandler.GetExp:你获得 {0} 经验.
@@ -535,7 +556,7 @@ UpdatePasswordTwo.Fail:原始密码错误.
 
 AwardMgr.AddDailyAward.Start:您获得了
 AwardMgr.AddDailyAward.Mail:物品暂存到邮箱,
-AwardMgr.AddDailyAward.Gold:金币,
+AwardMgr.AddDailyAward.Gold:金币.
 AwardMgr.AddDailyAward.Money:点券,
 AwardMgr.AddDailyAward.GP:经验,
 AwardMgr.AddDailyAward.Offer:功勋,
@@ -2580,7 +2601,7 @@ ActiveBussiness.Msg13:本活动不存在，请联系GM
 ItemTransferHandler.NoCondition:没有属性可以被转换。
 ItemTransferHandler.Success:文章中转换成功。
 ItemTransferHandler.NoCondition1:装备强化等级低无法为加强高层次设备交换。
-AbstractPacketLib.SendGamePlayerLeave.Msg6:强退扣除{0}点经验值，{1}功勋。
+AbstractPacketLib.SendGamePlayerLeave.Msg6:离开战斗非正式地增加了在第一失败的数量以及折扣{0}点经验值，{1}功绩点。
 AbstractPacketLib.SendGamePlayerLeave.Msg7:玩家[{0}]强制退出游戏，扣除{0}点经验值，{1}功勋。
 Game.Server.Quests.FinishQuest.GiftMailTitle:{0}任务奖励
 Game.Server.Quests.FinishQuest.GiftMailContent:在完成任务表示祝贺{0}（S），这里是给你的礼物，作为奖励{1}×{2}（魅力大奖任务项目名称）。希望你越来越好！
@@ -3095,7 +3116,7 @@ CardDataHander.Msg7:你今天可获得卡魂的次数已完
 GypsyShopBuy.Success:购买成功
 DragonBoatHandler.MaxDayScore:已达到今天建造的上限
 Player.Msg1:能量不足
-PetHandler.Msg5:玩家[{0}]通过打开宠物蛋来获得{1}{2}星
+PetHandler.Msg5:玩家[{0}]通过打开宠物蛋获得{1}{2}星
 MagicHouseOpenDepot.OpenSuccess:操作成功
 DDPLayStart.Notice:恭喜[{0}]在弹弹乐里获得了{1}倍点卷奖励。
 FeedFarmPoultry.Msg1:操作成功
@@ -3258,7 +3279,7 @@ AvatarColection.GoldNotEnough:金币不足.
 AvatarColection.Msg2:物品不合适.
 AvatarColection.Msg4:荣誉不足.
 AvatarColection.Msg5:图鉴未收集,操作失败.
-GameRoomCreate.Msg2:您的操作太快了,请等待{0}秒.
+GameRoomCreate.Msg2:不同战斗力等待时间不同,您请等待{0}秒.
 ExploreMagicStone.Msg1:获取服务配置ID402!
 ExploreMagicStone.Msg2:背包已满！
 ActivityPackageHandler.Msg1:等级不够,操作失败。
@@ -3320,7 +3341,7 @@ PetHandler.Msg4:服务器数据错误.
 PetHandler.Msg6:你获得{0} {1}星
 PetHandler.Msg7:恢复失败！
 PetHandler.Msg9:出了点问题,切换频道,然后再次尝试。
-PetHandler.Msg11:已经到达最高等级
+PetHandler.Msg11:幸福已经到了黑暗的皮肤
 PetHandler.Msg13:点券不足,操作失败。
 PetHandler.Msg14:点券不足,操作失败。
 PetHandler.Msg15:宠物数量已达到极限！
@@ -3478,8 +3499,7 @@ Lightriddle.Msg4:5战斗策略，10,000 EXP和58积分
 PicCherishInfo.Msg1:操作失败
 PicCherishInfo.Msg2:成功激活坐骑{0}！
 #2014/11/14
-ChangeHorse.Msg1:成功回收！
-ChangeHorse.Msg2:成功使用！
+
 BaseRoom.Msg1:快点加入吧~
 BaseRoom.Msg2:<邀请复制>
 BaseRoom.Msg3:<副本邀请>
@@ -3489,13 +3509,13 @@ BaseRoom.Msg6: （困难）
 BaseRoom.Msg7: （英雄）
 BaseRoom.Msg8: （传说）
 BaseRoom.Msg9: （噩梦）
-GamePlayer.Msg20:这次攻击获得了{0}荣誉和{1}荣誉点数。
-GamePlayer.Msg21:此次攻击获得了{0}个荣誉和{1}个荣誉点。
+GamePlayer.Msg20:这次攻击获得了{0}兑换积分和{1}荣誉。
+GamePlayer.Msg21:此次攻击获得了{0}兑换荣誉和{1}荣誉。
 GamePlayer.Msg22:奖励参加海盗岛{0}
 GamePlayer.Msg23:奖励{0}难度{1}星
 CryptBossHandler.NotAvable: 服务器数据操作失败。
 CryptBossHandler.Done:战争结束的次数。
-CryptBossHandler.NotEnoughLevel:没有足够的明星。
+CryptBossHandler.NotEnoughLevel:没有足够的星级。
 SystermSender.Msg:系统
 PlayerFarm.Msg1:成功！你获得{0} {1}
 PlayerFarm.Msg2:成功获得宠物粮食！
@@ -3597,8 +3617,8 @@ LuckyStarTopTenAward.GetAward:{0}星级的奖励
 LightriddleTopEightAward.GetAward:{0}集体诉讼的奖励
 DDPLayEnter.LoadDataFail:下载失败的数据
 DDPLayStart.NotEnoughtCoin:物品不足
-DDPLayStart.XCoin:恭喜您从查找图片活动中获得x {0} 点券。
-DDPLayStart.Title:奖金事件：查找图片
+DDPLayStart.XCoin:恭喜您从弹弹乐活动中获得x {0} 点券。
+DDPLayStart.Title:弹弹乐
 DDPLayStart.Notice:“Image Finder”活动期间的玩家[{0}]很幸运地获得了X {1} 点券！
 DDPLayExchange.NotEnoughtPoint:Điểm 积分不足.
 DDPLayExchange.Success:成功交换！
@@ -3609,8 +3629,8 @@ SendCloudBuyLotteryRandomReward.Notice:恭喜玩家[{0}]获得了开心买买买
 CloudBuyLotteryGetAwards.Fail:投股次数已用完！
 CloudBuyLotteryBuyGoods.Fail:活动已经结束
 CloudBuyLotteryBuyGoods.Success:购买成功！获得聚宝{0}次.
-GameRoomRoomSetupChange.UseKingBless:快乐鸡王救你{0}勇气的证明
-GameRoomRoomSetupChange.ConditionFail:勇气的证明不足！
+GameRoomRoomSetupChange.UseKingBless:使用清扬弹弹堂BOSS券{0}
+GameRoomRoomSetupChange.ConditionFail:清扬弹弹堂BOSS券不足！
 
 PetHandler.EatPetNotEnoughtCount:数量不够。
 UserBuyItemHandler.SummerScore:累积夏季积分不足
@@ -3621,7 +3641,7 @@ CatchInsectGetPrize.Success:获得捕获成功奖励
 MagpieBridgeBuyCount.Success:操作成功.
 MagpieBridgeRollDice.Fail:Lực hành động không đủ.
 CatchInsect.AddScore:捕获甲壳虫成功，获得{0}夏季积分。
-CatchInsect.AddSmallScore: 没关系，继续再来！
+CatchInsect.AddSmallScore: 捕获
 
 GypsyShopPlayerInfo.LoadDataFail:下载失败的数据。
 GypsyShopRefresh.Success:成功创建。
@@ -3650,7 +3670,7 @@ GameServer.HorseGame.MailAwardTitle:赛马。 排名{0}
 EntertainmentBuyIcon.FightBagFull:背包道具已满
 EntertainmentBuyIcon.DDTMoneyNotEnought:绑定点券不足！
 GameServer.TakeEntertamainPoint.Msg:你获得{0}点娱乐竞技积分。
-GameServer.TakeMoneyOfEntertamainRoom.Msg:你获得180点券的挑战。
+GameServer.TakeMoneyOfEntertamainRoom.Msg:扣除100绑定点卷，获得1800点券。
 PropUseHandler.ChickActivation.Success:成功激活！
 PropUseHandler.ChickActivation.Fail:您已激活，重复激活失败！
 ActivityPackageHandler.ChickActivation.Success:成功激活！
@@ -3749,14 +3769,14 @@ PetHandler.ProtectItem.ErrorData:背包里没有防具。
 #2015.12.25
 UseLoveChocolateHandler.ItemNotFound:物品不存在。
 UseLoveChocolateHandler.ItemNotEnough:物品还不够。
-UseLoveChocolateHandler.UseSuccess:成功使用{0}！ 收到{1}的帮助。
+UseLoveChocolateHandler.UseSuccess:成功使用{0}！获得{1}经验。
 OpenUpArkHandler.RingScore:你收到{0}的帮助
 FigSpiritUpGradeHandler.WrongPlace:位置不匹配。
 UseLoveChocolateHandler.UseFail:今天使用的道具数量已经达到上限。
 NewTitleCardHandler.ItemNotFound:物品不存在。
 NewTitleCardHandler.TitleNotFound:成就不公开。
 NewTitleCardHandler.RemoveItemError:处理数据错误，请稍后再试。
-NewTitleCardHandler.Success:恭喜，您已获得成就{0}。
+NewTitleCardHandler.Success:恭喜，您已获得称号{0}。
 UseLoveChocolateHandler.UnMerry:你必须结婚才能使用这个功能。
 AddPetEquip.WrongItem:装备类型不匹配！
 AddPetEquip.Success:成功装备！
@@ -3981,7 +4001,7 @@ GameServer.OpenAmuletBox.Success.Msg:打开成功，物品转移到符文包！
 
 GameServer.TrailElite.PassLevel.Msg:恭喜您完成回合！检查邮件以获得奖励。
 GameServer.TrailElite.PassLevel.Fail:匹配失败，您的分数将被重置。
-GameServer.TrailElite.PassLevel.Success:有资格赢得{0} / {1}场比赛。 胜利3场比赛将被提升！
+GameServer.TrailElite.PassLevel.Success:已赢得{0} / {1}场比赛。 胜利3场段位将被提升！
 GameServer.TrailElite.JoinPassLevel.Msg:成功进入精英联赛
 GameServer.TrailElite.Score.Lost:战斗失败，你未获得城市争夺积分
 GameServer.TrailElite.Score.Win:战斗胜利，你获得城市争夺积分1分
@@ -4025,18 +4045,16 @@ GameServer.Mines.Msg7:出售成功
 GameServer.Team.RoomBorderBox.Open.Success:你获得{0}金币
 GameServer.Team.RoomBordenBox.VaildDate.Msg1:您的{0}边框已过期.
 GameServer.Team.RoomBorderBox.Open.FullBag:背包已满，打开失败.
-GameServer.Mark.NoEnouchFree.Msg:免费次数不足.
-GameServer.Mark.NoEnouchMoney.Msg:点券不足.
-GameServer.Mark.EquipNotFound.Msg:刻印不存在.
-
-GameServer.Mark.EquipUnknown.Msg:没有找到装备.
-GameServer.Mark.EquipFail.Msg:装备失败.
-
-GameServer.Mark.UnEquipFail.Msg:删除装备失败.
-GameServer.Mark.TemperMaxLevel.Msg:已经达到最高级.
-GameServer.Mark.NotEnouchSoulCrystal.Msg:没有足够的魂晶.
-GameServer.Mark.NotEnouchRefineResource.Msg:魂晶或者材料不足.
-GameServer.Mark.NotFoundRefineCopy.Msg:没有找到相关物品.
+GameServer.Mark.NoEnouchFree.Msg:你没有空闲的位置来装备这个刻印.
+GameServer.Mark.NoEnouchMoney.Msg:你的点券不足!
+GameServer.Mark.EquipNotFound.Msg:当前刻印不存在!
+GameServer.Mark.EquipUnknown.Msg:未知错误
+GameServer.Mark.EquipFail.Msg:装备失败!
+GameServer.Mark.UnEquipFail.Msg:拆下失败!
+GameServer.Mark.TemperMaxLevel.Msg:当前刻印已到达最高等级!
+GameServer.Mark.NotEnouchSoulCrystal.Msg:你的魂晶不足!
+GameServer.Mark.NotEnouchRefineResource.Msg:魂晶或者材料不足!
+GameServer.Mark.NotFoundRefineCopy.Msg:数据异常!
 GameServer.Team.Name.IsExits:队伍名称已经被注册
 GameServer.Team.Tag.IsExits:已经注册的符号
 GameServer.ConsortiaDomain.EnterError:您被拒绝加入公会.
@@ -4048,7 +4066,7 @@ GameServer.ActivityPackage.PvePowerBuff.Msg3:续费属性成功！
 GameServer.VIPPackageLevel.Mail.Title:VIP礼包{0}
 GameServer.VIPPackageLevel.Mail.Content:恭喜您的VIP级别提高{0}.这是你的奖励。
 GameServer.VIPPackageWeek.Mail.Title:VIP礼包{0}
-GameServer.VIPPackageWeek.Mail.Content:您收到一个VIP礼品袋{0}
+GameServer.VIPPackageWeek.Mail.Content:VIP每周礼包（周一发送）{0}
 GameServer.VIPRePackageLevel.Mail.Title:VIP礼品袋
 GameServer.VIPRePackageLevel.Mail.Content:恭喜您达到VIP级别{0}，这是更新新版本时返回的奖励。
 ItemReclaimHandler.Success1:你获得{0}绑定点券
@@ -4063,4 +4081,112 @@ PVPGame.SendGameOVer.Msg6:游戏结束：胜利，获得{0}令牌
 PVPGame.SendGameOVer.Msg7:游戏结束：失败，获得{0}令牌
 Player.UseSkill.Disable:该技能已被禁用.
 WishBeadEquipHandler.success:恭喜[{0}] 的{1}成功铸金,能力再上一个新台阶.
+ConsortiaRichiUpdateHandler.Success:打开成功！请手动领取宝箱里的奖励！
+
+CardNew.CardActiveSuits.ServerError:套卡已激活,请勿重复激活.
+CardNew.CardActiveSuits.Success:激活成功.
+CardNew.CardAllotPoint.Failed:卡牌加点数不足.
+CardNew.CardAllotPoint.Success:卡牌加点成功.
+CardNew.CardBreakSuit.Success:图册升级成功.
+CardNew.CardBreakSuit.Failed:图册升级失败.
+CardNew.CardEquipSuits.Success:套卡切换成功.
+CardNew.CardModProperty.NoCardSoul:卡魂数量不足.
+CardNew.CardResetPoint.Success:卡牌加点已初始化.
+CardNew.CardResetPoint.failed:点券不足.
+CardNew.CardUpgrades.Success:卡牌升级成功.
+CardNew.CardUpgrades.Failed:卡魂或金币不足.
+
+NecklaceStrength.NoNormalItem:未拥有紫晶石.
+NecklaceStrength.NoAffinazhItem:未拥有精铸石.
+NecklaceStrength.MaxNormalLv:已经到达最高等级.
+NecklaceStrength.WTF:紫晶石数量不足.
+NecklaceStrength.MaxLevel:已经到达最高等级.
+NecklaceStrength.WTF1:紫晶石数量不足.
+NecklaceStrength.WTF2:精铸石数量不足.
+
+BuyVipIntegrationHandler.MaxCount:当前已达兑换上限.
+BuyVipIntegrationHandler.Success:兑换成功.
+
 PetAttackEffect.Success:宠物技能效果触发.
+
+GoSlow:请等一秒再试.
+
+PetAttackEffect.Success:宠物技能效果触发.
+HappyRecharge.Default:恭喜您抽中小奖励！
+HappyRecharge.Ticket:恭喜您抽中小鸡通用卷！
+HappyRecharge.MediumPrize:恭喜您抽中幸运大奖！
+HappyRecharge.SmallPrize:恭喜您抽中惊喜大奖！
+HappyRecharge.FreePlay:点击过快，请降低转盘速度！
+PetAwaken.Notice:恭喜玩家[{0}]觉醒成功,获得宠物装备{1},真的是人品爆炸~~
+
+TotemUpgradeSystem.MaxLevel:你的图腾已升阶到最高等级！
+TotemUpgradeSystem.MateryNotEnouch:升阶材料不足!
+TotemUpgradeSystem.Success:升阶成功.
+
+DevilTurnHandle.BeadConversion.Fail.Count:请确认宝珠数量是否充足.
+DevilTurnHandle.BeadConversion.Success:兑换成功.
+DevilTurnHandle.BoxAbandon.Success:放弃成功.
+DevilTurnHandle.GetBox.Success:获取道具成功.
+DevilTurnHandle.GetBox.Title:恶魔转盘活动奖励
+DevilTurnHandle.GetBox.Content:恶魔转盘活动奖励.
+DevilTurnHandle.Sacrifice.Fail.freeTimes:免费次数不足.
+DevilTurnHandle.Sacrifice.Fail.Money:点券不足.
+DevilTurn.Mail.Title:背包已满
+DevilTurn.Mail.Content:背包已满.
+DevilTurnHandle.ScoreConversion.Success:兑换成功.
+DevilTurnHandle.ScoreConversion.Title:恶魔转盘活动奖励
+DevilTurnHandle.ScoreConversion.Content:恶魔转盘活动奖励.
+
+Elf.ActivateElf.Failed:打开圣灵数据异常.
+Elf.ActivateElf.Success:恭喜你获得圣灵+1
+Elf.AddGrowth.SomethingGoneWrong:数据异常！！！
+Elf.Fight.NotFound:未找到该圣灵.
+Elf.AddGrowth.NoItem:道具数量不足.
+Elf.Blend.ElfNotFound:未找到该圣灵.
+Elf.Skill.ViceElfNotFound:未找到该融合圣灵.
+Elf.Skill.ServerSideError:未知错误!
+Elf.Blend.Success:技能融合成功~~
+Elf.Buy.Failed:购买失败.
+Elf.Buy.Success:购买成功.
+Elf.Cultivate.NotFound:未找到该圣灵.
+Elf.Cultivate.MaxLevel:已培育满级.
+Elf.Cultivate.NoItem:道具数量不足.
+Elf.Cultivate.Success:培育成功~~
+Elf.Discard.Success:丢弃成功.
+Elf.Discard.Failed:丢弃失败.
+Elf.Exercise.NotFound:未找到该圣灵.
+Elf.Exercise.NoItem:道具数量不足.
+Elf.ExerciseSave.NotFound:未找到该圣灵.
+Elf.Skill.ElfNotFound:未找到该圣灵.
+Elf.Skill.BookNotFound:技能书异常.
+Elf.Skill.AlreadyLearned:该技能已学习.
+Elf.Skill.TryAgain:失败了,不要气馁哦~~再试一次吧.
+Elf.Skill.Success:学习技能成功啦~~牛b
+Elf.Summon.Failed:数据异常.
+Elf.Summon.ServerSideError:道具数量不足.
+
+Emblem.Compose.Success:聚合成功~~
+Emblem.Compose.Failed:聚合失败啦~~
+Emblem.Forgive.ScrollNotFound:数据异常.
+Emblem.Forgive.ItemNotFound:数据异常.
+Emblem.Forgive.EmblemNotFound:数据异常.
+Emblem.Forgive.CanNotRemoveItems:道具数量不足.
+Emblem.Forgive.Success:制作成功~~
+Emblem.Inlay.EmblemNotFound:数据异常.
+Emblem.Inlay.EmblemIsExists:该纹章已镶嵌.
+Emblem.Inlay.Success:镶嵌成功~~
+Emblem.Sale.Failed:出售失败.
+Emblem.Sale.Success:出售成功.
+
+SwornHandler.SendSworInvatenAlert.Offline:对方不在线.
+SwornHandler.SendSwornAcceptAlert.Max:结义人数已满.
+SwornHandler.SendSwornAcceptAlert.Fail:你俩已结义过了..
+MasterConfirm:拜师成功,你成为[{0}]的徒弟.
+ApprenticeConfirm:收徒成功,你成为[{0}]的师傅.
+MasterRefuse:你的拜师请求被拒绝！！！！
+ApprenticeRefuse:你的收徒请求被拒绝！！！！
+PetPurificar.Tips:恭喜玩家[{0}]的宠物洗髓为SSS。
+WonderFulActivity.Mail.Title:{0}的奖励
+WonderFulActivity.Mail.Content:获得{0}的奖励.
+WonderfulActivity.GetReward.Success:领取成功
+WonderfulActivity.Exchange.Success:兑换成功

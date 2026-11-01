@@ -1,0 +1,27 @@
+2023-08-15 17:08:47,068 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-15 17:08:47,081 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-15 17:08:47,281 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-15 17:12:50,642 - [29] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-15 17:15:08,288 - [38] - ERROR - Game.Server.Pet.Handle.PetHandleMgr - LoadCommandHandler code024: 10
+2023-08-15 17:17:16,435 - [43] - ERROR - Game.Server.Farm.FarmLogicProcessor - IP:127.0.0.1:63934, OnGameData is Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Farm.Handle.FeedFarmPoultry.CommandHandler(GamePlayer Player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Farm.Handle\FeedFarmPoultry.cs:line 28
+   at Game.Server.Farm.FarmLogicProcessor.OnGameData(GamePlayer player, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Farm\FarmLogicProcessor.cs:line 31
+2023-08-15 17:25:08,141 - [16] - ERROR - Bussiness.BaseBussiness - updateExplorerManualInfo
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.updateExplorerManualInfo(PlayerInfo m_character) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 11748
+2023-08-15 17:25:08,170 - [16] - ERROR - Bussiness.BaseBussiness - updateExplorerManualPages
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.updateExplorerManualInfoPages(PlayerInfo m_character) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 11777
+2023-08-15 17:25:08,172 - [16] - ERROR - Bussiness.BaseBussiness - updateExplorerManualPages
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.updateExplorerManualInfoDebris(PlayerInfo m_character) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 11811
+2023-08-15 17:25:08,174 - [16] - ERROR - Bussiness.BaseBussiness - SP_Insert_Update_HappyRechargeData
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.UpdateHappyRechargeData(HappyRechargeInfo hristos) in C:\Gunny\Full Source\Bussiness\Bussiness\PlayerBussiness.cs:line 12150
+2023-08-15 17:25:08,189 - [16] - ERROR - Game.Server.GameObjects.GamePlayer - Error saving all datas of playerID: 1 , !
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.SavePlayerInfoToDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4511
+   at Game.Server.GameObjects.GamePlayer.SaveIntoDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 5332
+2023-08-15 17:25:36,777 - [29] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-15 17:25:36,778 - [29] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-15 17:25:36,878 - [29] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969

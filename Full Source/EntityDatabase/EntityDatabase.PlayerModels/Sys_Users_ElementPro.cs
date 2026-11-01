@@ -26,4 +26,12 @@ public class Sys_Users_ElementPro
 	public int WindDefence { get; set; }
 
 	public int LandDefence { get; set; }
+
+    public int LighAttack { get; set; }
+
+    public int DrakAttack { get; set; }
+
+    public int LighDefence { get; set; }
+
+    public int DrakDefence { get; set; }
 }

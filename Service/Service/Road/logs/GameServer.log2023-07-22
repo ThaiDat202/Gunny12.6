@@ -1,0 +1,16 @@
+2023-07-22 00:09:55,178 - [97] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Academy.AcademyMgr.SendAwards(GamePlayer player, Int32 fightPower) in C:\Gunny\Full Source\game.server\Game.Server.Academy\AcademyMgr.cs:line 263
+   at Game.Server.GameObjects.GamePlayer.UpdateFightPower() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3478
+   at Game.Server.GameUtils.PlayerEquipInventory.UpdatePlayerProperties() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerEquipInventory.cs:line 835
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3746
+2023-07-22 00:13:39,224 - [28] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-22 00:13:39,322 - [28] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-22 00:52:22,121 - [88] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-22 00:52:22,205 - [88] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-22 01:09:33,923 - [14] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,57ms!
+2023-07-22 01:09:33,937 - [14] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 73 ms,count:1
+2023-07-22 13:30:44,461 - [29] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-22 13:30:44,610 - [29] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539
+2023-07-22 16:04:23,478 - [98] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler
+2023-07-22 16:04:23,582 - [98] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 127.0.0.1:7539

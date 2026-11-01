@@ -407,6 +407,8 @@ public class PlayerInfo : DataObject
 
 	private int _LoadingScore;
 
+    private int _SlotPet;
+
 	public Sys_Users_ElementPro ElementPro;
 
 	public Sys_Users_SecondPro SecondPro;
@@ -2927,7 +2929,9 @@ public class PlayerInfo : DataObject
 
 	public ICollection<Sys_Users_SkillBooks> SkillBooks { get; set; }
 
-	public bool IsHideElf { get; set; }
+    public ICollection<Sys_Users_ElfEquip> ElfEquip { get; set; }
+
+    public bool IsHideElf { get; set; }
 
 	public int LoadingScore
 	{
@@ -2942,7 +2946,20 @@ public class PlayerInfo : DataObject
 		}
 	}
 
-	public Sys_Users_Honor HonorInfo { get; set; }
+    public int SlotPet
+    {
+        get
+        {
+            return _SlotPet;
+        }
+        set
+        {
+            _SlotPet = value;
+            _isDirty = true;
+        }
+    }
+
+    public Sys_Users_Honor HonorInfo { get; set; }
 
 	public Sys_Users_GourdExp GourdExpInfo { get; set; }
 

@@ -33,4 +33,20 @@ public class ExerciseInfo
 	public int TrainDmg;
 
 	public int TrainArmor;
+
+	public int TrainAvoidInjury;
+
+    public int TrainTricRevolt;
+
+	public int TrainToughness;
+
+	public int TrainGuardian;
+
+	public int TrainFireDefy;
+
+	public int TrainWateDefy;
+
+	public int TrainWindDefy;
+
+	public int TrainLandDefy;
 }

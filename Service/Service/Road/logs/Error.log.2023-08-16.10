@@ -1,0 +1,4 @@
+2023-08-16 15:38:18,153 - [27] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 15:38:18,163 - [27] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 15:38:18,371 - [27] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-16 15:41:07,593 - [42] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler

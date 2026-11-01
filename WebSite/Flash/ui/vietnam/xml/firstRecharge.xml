@@ -155,5 +155,9 @@
 <bitmapData resourceLink="fristRecharge.libao.gold" x="335" y="294"/>
 <bitmapData resourceLink="fristRecharge.word" x="33" y="62"/>
 <bitmapData resourceLink="fristRecharge.libao.fengeLine" x="147" y="59"/>
+<bitmapData resourceLink="firstRecharge.wholeBG1" x="26" y="49"/>
+<bitmapData resourceLink="firstRecharge.wholeBG2" x="268" y="47"/>
+<bitmapData resourceLink="firstRecharge.wholeTitleBG" x="179" y="-14"/>
+
 </bitmaps>
 </style>

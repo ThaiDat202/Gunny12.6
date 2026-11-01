@@ -24,7 +24,7 @@ public class UserDeleteMailHandler : IPacketHandler
 			{
 				if (mailSingle.Annex1 != string.Empty || mailSingle.Annex2 != string.Empty || mailSingle.Annex3 != string.Empty || mailSingle.Annex4 != string.Empty || mailSingle.Annex5 != string.Empty)
 				{
-					client.Player.SendMessage("当前邮件中物品还未领取,删除失败.");
+					client.Player.SendMessage("Không thể xóa thư có vật phẩm đính kèm.");
 					gSPacketIn.WriteBoolean(val: false);
 					client.Out.SendTCP(gSPacketIn);
 					return 0;

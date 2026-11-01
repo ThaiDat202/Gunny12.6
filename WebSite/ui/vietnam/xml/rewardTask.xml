@@ -1,4 +1,4 @@
-﻿<style name="rewardTask" version="1.0.0" source="ui/cn_trad/swf/rewardTask.swf">
+﻿<style name="rewardTask" version="1.0.0" source="ui/vietnam/swf/rewardTask.swf">
 <sets>
 					
 	<set stylename="rewardTask.taskDescriptionTextTF" args="Arial,14,0xFFECC2,true" type="flash.text.TextFormat" leading="6" />

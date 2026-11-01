@@ -39,7 +39,7 @@
 	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="playerDress.okBtn" backStyle="playerDress.OK" 
 		 x="324" y="298"  tipStyle = "ddt.view.tips.OneLineTip" tipDirctions = "3" />
 	<component classname="com.pickgliss.ui.controls.ComboBox" stylename="playerDress.modelCombo"
-			parentStyle="core.Combox2"   x="101"  y="297" width="140" listInnerRectString="5,28,10,50,18"/>
+			parentStyle="core.Combox2" snapItemHeight="true"  x="101"  y="297" width="140" listInnerRectString="5,28,10,50,18"/>
 	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="playerDress.hideHatCheckBox" 
 		x="0" y="0" width="25" height="25"  parentStyle="core.simpleSelectBtn" />
 	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="playerDress.hideGlassCheckBox" 
@@ -78,7 +78,7 @@
 	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="playerDress.pageBG" 
 		x="132" y="390" width="45" height="24" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"  />
 	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="playerDress.helpBtn" backStyle="asset.ddtcore.helpbuttonShort"  
-		 x="770" y="-45" filterString="null,lightFilter,null,grayFilter"/>
+		 x="656" y="-86" filterString="null,lightFilter,null,grayFilter"/>
 	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="playerDress.bg" 
 		resourceLink="playerDress.BG1,playerDress.BG2" x="0" y="0"/>
 </components>

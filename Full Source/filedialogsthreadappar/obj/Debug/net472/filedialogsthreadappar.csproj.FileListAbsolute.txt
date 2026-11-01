@@ -19,3 +19,10 @@ D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\filedialogsthreadappar\obj\
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.csproj.CoreCompileInputs.cache
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\filedialogsthreadappar\obj\Debug\net472\FileDialogsThreadAppartmentSafe.dll
 D:\Tổng hợp file gunny 12.6 VNG\12.6\Full Source\filedialogsthreadappar\obj\Debug\net472\FileDialogsThreadAppartmentSafe.pdb
+C:\Gunny\Full Source\filedialogsthreadappar\bin\Debug\net472\FileDialogsThreadAppartmentSafe.dll
+C:\Gunny\Full Source\filedialogsthreadappar\bin\Debug\net472\FileDialogsThreadAppartmentSafe.pdb
+C:\Gunny\Full Source\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.csproj.AssemblyReference.cache
+C:\Gunny\Full Source\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gunny\Full Source\filedialogsthreadappar\obj\Debug\net472\filedialogsthreadappar.csproj.CoreCompileInputs.cache
+C:\Gunny\Full Source\filedialogsthreadappar\obj\Debug\net472\FileDialogsThreadAppartmentSafe.dll
+C:\Gunny\Full Source\filedialogsthreadappar\obj\Debug\net472\FileDialogsThreadAppartmentSafe.pdb

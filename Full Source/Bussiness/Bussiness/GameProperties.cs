@@ -14,7 +14,7 @@ public abstract class GameProperties
 	[ConfigProperty("Edition", "µ±Ç°ÓÎÏ·°æ±¾", "5498628")]
 	public static readonly string EDITION;
 
-	[ConfigProperty("ClientVersion", "ºÏ³ÉÏûºÄ½ð±Ò¼Û\u00b8ñ", 10200)]
+	[ConfigProperty("ClientVersion", "ºÏ³ÉÏûºÄ½ð±Ò¼Û\u00b8ñ", 12100)]
 	public static readonly int VERSION;
 
 	[ConfigProperty("MustComposeGold", "ºÏ³ÉÏûºÄ½ð±Ò¼Û\u00b8ñ", 1000)]
@@ -182,7 +182,7 @@ public abstract class GameProperties
 	[ConfigProperty("NewChickenBeginTime", "NewChickenBeginTime", "2013/12/17 0:00:00")]
 	public static readonly string NewChickenBeginTime;
 
-	[ConfigProperty("NewChickenEndTime", "NewChickenEndTime", "2022/12/25 0:00:00")]
+	[ConfigProperty("NewChickenEndTime", "NewChickenEndTime", "2123/12/25 0:00:00")]
 	public static readonly string NewChickenEndTime;
 
 	[ConfigProperty("NewChickenEagleEyePrice", "NewChickenEagleEyePrice", "3000, 2000, 1000")]
@@ -197,7 +197,7 @@ public abstract class GameProperties
 	[ConfigProperty("DiceBeginTime", "DiceBeginTime", "2013/12/17 0:00:00")]
 	public static readonly string DiceBeginTime;
 
-	[ConfigProperty("DiceEndTime", "DiceEndTime", "2022/12/25 0:00:00")]
+	[ConfigProperty("DiceEndTime", "DiceEndTime", "2122/12/25 0:00:00")]
 	public static readonly string DiceEndTime;
 
 	[ConfigProperty("DiceRefreshPrice", "DiceRefreshPrice", 40000)]
@@ -218,7 +218,7 @@ public abstract class GameProperties
 	[ConfigProperty("PyramidBeginTime", "PyramidBeginTime", "2013/12/17 0:00:00")]
 	public static readonly string PyramidBeginTime;
 
-	[ConfigProperty("PyramidEndTime", "NewChickenEndTime", "2022/12/25 0:00:00")]
+	[ConfigProperty("PyramidEndTime", "PyramidEndTime", "2122/12/25 0:00:00")]
 	public static readonly string PyramidEndTime;
 
 	[ConfigProperty("PyramidRevivePrice", "PyramidRevivePrice", "10000, 30000, 50000")]
@@ -230,7 +230,7 @@ public abstract class GameProperties
 	[ConfigProperty("DragonBoatBeginDate", "DragonBoatBeginDate", "2013/12/19 0:00:00")]
 	public static readonly string DragonBoatBeginDate;
 
-	[ConfigProperty("DragonBoatEndDate", "DragonBoatEndDate", "2013/12/26 0:00:00")]
+	[ConfigProperty("DragonBoatEndDate", "DragonBoatEndDate", "2113/12/26 0:00:00")]
 	public static readonly string DragonBoatEndDate;
 
 	[ConfigProperty("FightFootballTime", "FightFootballTime", "19|60")]
@@ -257,7 +257,7 @@ public abstract class GameProperties
 	[ConfigProperty("LuckStarActivityBeginDate", "LuckStarActivityBeginDate", "2013/12/1 0:00:00")]
 	public static readonly string LuckStarActivityBeginDate;
 
-	[ConfigProperty("LuckStarActivityEndDate", "LuckStarActivityEndDate", "2014/12/24 0:00:00")]
+	[ConfigProperty("LuckStarActivityEndDate", "LuckStarActivityEndDate", "2114/12/24 0:00:00")]
 	public static readonly string LuckStarActivityEndDate;
 
 	[ConfigProperty("MinUseNum", "MinUseNum", 1000)]
@@ -266,7 +266,7 @@ public abstract class GameProperties
 	[ConfigProperty("YearMonsterBeginDate", "YearMonsterBeginDate", "2014/1/17 0:00:00")]
 	public static readonly string YearMonsterBeginDate;
 
-	[ConfigProperty("YearMonsterEndDate", "YearMonsterEndDate", "2022/2/25 0:00:00")]
+	[ConfigProperty("YearMonsterEndDate", "YearMonsterEndDate", "2122/2/25 0:00:00")]
 	public static readonly string YearMonsterEndDate;
 
 	[ConfigProperty("YearMonsterBoxInfo", "YearMonsterBoxInfo", "112370,5|112371,30|112372,90|112373,150|112374,300")]
@@ -293,13 +293,13 @@ public abstract class GameProperties
 	[ConfigProperty("LightRiddleBeginDate", "LightRiddleBeginDate", "2014/2/13 0:00:00")]
 	public static readonly string LightRiddleBeginDate;
 
-	[ConfigProperty("LightRiddleEndDate", "LightRiddleEndDate", "2014/2/28 0:00:00")]
+	[ConfigProperty("LightRiddleEndDate", "LightRiddleEndDate", "2114/2/28 0:00:00")]
 	public static readonly string LightRiddleEndDate;
 
 	[ConfigProperty("LightRiddleBeginTime", "LightRiddleBeginTime", "2014/2/13 12:30:00")]
 	public static readonly string LightRiddleBeginTime;
 
-	[ConfigProperty("LightRiddleEndTime", "LightRiddleEndTime", "2014/2/13 13:00:00")]
+	[ConfigProperty("LightRiddleEndTime", "LightRiddleEndTime", "2114/2/13 13:00:00")]
 	public static readonly string LightRiddleEndTime;
 
 	[ConfigProperty("LightRiddleFreeHitNum", "LightRiddleFreeHitNum", 2)]
@@ -338,7 +338,7 @@ public abstract class GameProperties
 	[ConfigProperty("ChristmasBeginDate", "ChristmasBeginDate", "2013/12/17 0:00:00")]
 	public static readonly string ChristmasBeginDate;
 
-	[ConfigProperty("ChristmasEndDate", "ChristmasEndDate", "2023/12/25 0:00:00")]
+	[ConfigProperty("ChristmasEndDate", "ChristmasEndDate", "2123/12/25 0:00:00")]
 	public static readonly string ChristmasEndDate;
 
 	[ConfigProperty("ChristmasGifts", "ChristmasGifts", "201148,10|201149,35|201150,70|201151,120|201152,220|201153,370|201154,650|201155,1000|201156,100")]
@@ -419,7 +419,7 @@ public abstract class GameProperties
 	[ConfigProperty("HalloweenBeginDate", "HalloweenBeginDate", "2013/12/17 0:00:00")]
 	public static readonly string HalloweenBeginDate;
 
-	[ConfigProperty("HalloweenEndDate", "HalloweenEndDate", "2013/12/17 0:00:00")]
+	[ConfigProperty("HalloweenEndDate", "HalloweenEndDate", "2113/12/17 0:00:00")]
 	public static readonly string HalloweenEndDate;
 
 	[ConfigProperty("DanDanBuffPrice", "DanDanBuffPrice", 3000)]
@@ -482,7 +482,7 @@ public abstract class GameProperties
 	[ConfigProperty("WorshipMoonBeginDate", "WorshipMoonBeginDate", "2014/11/7 9:00:00")]
 	public static readonly string WorshipMoonBeginDate;
 
-	[ConfigProperty("WorshipMoonEndDate", "WorshipMoonEndDate", "2022/11/13 22:30:00")]
+	[ConfigProperty("WorshipMoonEndDate", "WorshipMoonEndDate", "2122/11/13 22:30:00")]
 	public static readonly string WorshipMoonEndDate;
 
 	[ConfigProperty("WorshipMoonProb", "WorshipMoonProb", "35|35|20|5|3|2")]
@@ -533,7 +533,7 @@ public abstract class GameProperties
 	[ConfigProperty("TanabataActiveBeginTime", "TanabataActiveBeginTime", "2015/3/19 9:00:00")]
 	public static readonly string TanabataActiveBeginTime;
 
-	[ConfigProperty("TanabataActiveEndTime", "TanabataActiveEndTime", "2022/3/22 23:59:59")]
+	[ConfigProperty("TanabataActiveEndTime", "TanabataActiveEndTime", "2122/3/22 23:59:59")]
 	public static readonly string TanabataActiveEndTime;
 
 	[ConfigProperty("IsTanabataTreasure", "IsTanabataTreasure", 48)]
@@ -563,7 +563,7 @@ public abstract class GameProperties
 	[ConfigProperty("HorseGameBeginTime", "HorseGameBeginTime", "2015/01/03 0:00:00")]
 	public static readonly string HorseGameBeginTime;
 
-	[ConfigProperty("HorseGameEndTime", "HorseGameEndTime", "2015/06/03 0:00:00")]
+	[ConfigProperty("HorseGameEndTime", "HorseGameEndTime", "2115/06/03 0:00:00")]
 	public static readonly string HorseGameEndTime;
 
 	[ConfigProperty("HorseGameCostMoneyCount", "HorseGameCostMoneyCount", 200)]
@@ -599,7 +599,7 @@ public abstract class GameProperties
 	[ConfigProperty("TreasureHuntEventAward", "TreasureHuntEventAward", 201487)]
 	public static readonly int TreasureHuntEventAward;
 
-	[ConfigProperty("TreasureHuntEndDate", "TreasureHuntEndDate", "2022/3/1 0:00:00")]
+	[ConfigProperty("TreasureHuntEndDate", "TreasureHuntEndDate", "2122/3/1 0:00:00")]
 	public static readonly string TreasureHuntEndDate;
 
 	[ConfigProperty("TreasureHuntNpc", "TreasureHuntNpc", "10015,4,8|10016,4,10")]
@@ -665,7 +665,7 @@ public abstract class GameProperties
 	[ConfigProperty("DDPlayBeginDate", "DDPlayBeginDate", "2015/01/03 0:00:00")]
 	public static readonly string DDPlayBeginDate;
 
-	[ConfigProperty("DDPlayEndDate", "DDPlayEndDate", "2022/03/03 0:00:00")]
+	[ConfigProperty("DDPlayEndDate", "DDPlayEndDate", "2122/03/03 0:00:00")]
 	public static readonly string DDPlayEndDate;
 
 	[ConfigProperty("DDPlayMoney", "DDPlayMoney", 20000)]
@@ -773,7 +773,7 @@ public abstract class GameProperties
 	[ConfigProperty("HomeTempPracticeBigLuck", "HomeTempPracticeBigLuck", "50,2000")]
 	public static readonly string HomeTempPracticeBigLuck;
 
-	[ConfigProperty("MemoryGameEndTime", "MemoryGameEndTime", "2017/2/16 0:00:00")]
+	[ConfigProperty("MemoryGameEndTime", "MemoryGameEndTime", "2117/2/16 0:00:00")]
 	public static readonly string MemoryGameEndTime;
 
 	[ConfigProperty("MemoryGameAwardBox", "MemoryGameAwardBox", 11204280)]
@@ -785,7 +785,7 @@ public abstract class GameProperties
 	[ConfigProperty("SanXiaoStartTime", "SanXiaoStartTime", "2016/2/13 0:00:00")]
 	public static readonly string SanXiaoStartTime;
 
-	[ConfigProperty("SanXiaoEndTime", "SanXiaoEndTime", "2022/2/16 0:00:00")]
+	[ConfigProperty("SanXiaoEndTime", "SanXiaoEndTime", "2122/2/16 0:00:00")]
 	public static readonly string SanXiaoEndTime;
 
 	[ConfigProperty("SanXiaoResetCount", "SanXiaoResetCount", 5)]
@@ -869,7 +869,7 @@ public abstract class GameProperties
 	[ConfigProperty("LotteryPoolCountDefault", "LotteryPoolCountDefault", 1000000)]
 	public static readonly int LotteryPoolCountDefault;
 
-	[ConfigProperty("LotteryTicketEndTime", "LotteryTicketEndTime", "2022/1/1 20:00:00")]
+	[ConfigProperty("LotteryTicketEndTime", "LotteryTicketEndTime", "2122/1/1 20:00:00")]
 	public static readonly string LotteryTicketEndTime;
 
 	[ConfigProperty("LotteryTicketCloseTicketTime", "LotteryTicketCloseTicketTime", "20:50:00")]
@@ -914,7 +914,7 @@ public abstract class GameProperties
 	[ConfigProperty("TrailEliteAwardLevel", "TrailEliteAwardLevel", "50501|1120819,50502|1120820,50503|1120821,50504|1120822,50505|1120823")]
 	public static readonly string TrailEliteAwardLevel;
 
-	[ConfigProperty("QiYuanEndTime", "QiYuanEndTime", "2019/2/16 0:00:00")]
+	[ConfigProperty("QiYuanEndTime", "QiYuanEndTime", "2119/2/16 0:00:00")]
 	public static readonly string QiYuanEndTime;
 
 	[ConfigProperty("QiYuanJoinLeastOfferTimes", "Luot dang toi thieu de nhan qua tham gia dang", 10)]
@@ -1034,7 +1034,7 @@ public abstract class GameProperties
 	[ConfigProperty("HappyRechargeBeginDate", "HappyRechargeBeginDate", "2013/01/01 0:00:00")]
 	public static string HappyRechargeBeginDate;
 
-	[ConfigProperty("HappyRechargeEndDate", "HappyRechargeEndDate", "2029/01/01 0:00:00")]
+	[ConfigProperty("HappyRechargeEndDate", "HappyRechargeEndDate", "2129/01/01 0:00:00")]
 	public static string HappyRechargeEndDate;
 
 	[ConfigProperty("ShopVipScore", "ShopVipScore", "500|600|700|800|1000|1200|1400|1600|1800|2800|3800|4800|5800|6800|7800")]
@@ -1046,10 +1046,10 @@ public abstract class GameProperties
 	[ConfigProperty("EmblemComposeRandom", "EmblemComposeRandom", "500,600")]
 	public static string EmblemComposeRandom;
 
-	[ConfigProperty("ElfFourItems", "ElfFourItems", "1122190,1|1122193,1|1122196,1|1122199,1|1122189,1|1122192,1|1122195,1|1122198,1|1122188,1|1122191,1|1122194,1|1122197,1|12246,1|12245,1|12244,1|12243,1|12247,1|1122253,1")]
+	[ConfigProperty("ElfFourItems", "ElfFourItems", "1123667,1|1123670,1|1122190,1|1122193,1|1122196,1|1122199,1|1122189,1|1122192,1|1122195,1|1122198,1|1122188,1|1122191,1|1122194,1|1122197,1|12246,1|12245,1|12244,1|12243,1|12247,1|1122253,1")]
 	public static readonly string ElfFourItems;
 
-	[ConfigProperty("ElfThreeItems", "ElfThreeItems", "1122189,1|1122192,1|1122195,1|1122198,1|1122188,1|1122191,1|1122194,1|1122197,1|12246,1|12245,1|12244,1|12243,1|12247,1|1122253,1")]
+	[ConfigProperty("ElfThreeItems", "ElfThreeItems", "1123666,1|1123669,1|1122189,1|1122192,1|1122195,1|1122198,1|1122188,1|1122191,1|1122194,1|1122197,1|12246,1|12245,1|12244,1|12243,1|12247,1|1122253,1")]
 	public static readonly string ElfThreeItems;
 
 	[ConfigProperty("ElfBuyItemMoneys", "ElfBuyItemMoneys", "180,1600|800,7200")]

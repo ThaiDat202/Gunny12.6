@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -80,19 +80,25 @@ public static class ElfMgr
 			ShuiBase = dictionary["ShuiValue"],
 			TuBase = dictionary["TuValue"],
 			FengBase = dictionary["FengValue"],
-			HpValue = dictionary["HpValue"],
+            GuangBase = dictionary["GuangValue"],
+            AnBase = dictionary["AnValue"],
+            HpValue = dictionary["HpValue"],
 			AttackValue = dictionary["AttackValue"],
 			HuoValue = dictionary["HuoValue"],
 			ShuiValue = dictionary["ShuiValue"],
 			TuValue = dictionary["TuValue"],
 			FengValue = dictionary["FengValue"],
-			HpGrowth = dictionary2["HpGrowth"],
+            GuangValue = dictionary["GuangValue"],
+            AnValue = dictionary["AnValue"],
+            HpGrowth = dictionary2["HpGrowth"],
 			AttackGrowth = dictionary2["AttackGrowth"],
 			HuoGrowth = dictionary2["HuoGrowth"],
 			ShuiGrowth = dictionary2["ShuiGrowth"],
 			TuGrowth = dictionary2["TuGrowth"],
 			FengGrowth = dictionary2["FengGrowth"],
-			GoodFeling = 0,
+            GuangGrowth = dictionary["GuangGrowth"],
+            AnGrowth = dictionary["AnGrowth"],
+            GoodFeling = 0,
 			IsFight = false,
 			Quality = dictionary2["Quality"],
 			SkillList = "",
@@ -114,14 +120,18 @@ public static class ElfMgr
 		string[] array4 = elfTemplate.WindRandoms.Split(',');
 		string[] array5 = elfTemplate.WateRandoms.Split(',');
 		string[] array6 = elfTemplate.LandRandoms.Split(',');
-		Dictionary<string, int> dictionary = new Dictionary<string, int>();
+		string[] array7 = elfTemplate.LighRandoms.Split(',');
+        string[] array8 = elfTemplate.DrakRandoms.Split(',');
+        Dictionary<string, int> dictionary = new Dictionary<string, int>();
 		dictionary.Add("HpValue", Random.Next(int.Parse(array[0]), int.Parse(array[1])));
 		dictionary.Add("AttackValue", Random.Next(int.Parse(array2[0]), int.Parse(array2[1])));
 		dictionary.Add("HuoValue", Random.Next(int.Parse(array3[0]), int.Parse(array3[1])));
 		dictionary.Add("ShuiValue", Random.Next(int.Parse(array5[0]), int.Parse(array5[1])));
 		dictionary.Add("TuValue", Random.Next(int.Parse(array6[0]), int.Parse(array6[1])));
 		dictionary.Add("FengValue", Random.Next(int.Parse(array4[0]), int.Parse(array4[1])));
-		return dictionary;
+        dictionary.Add("GuangValue", Random.Next(int.Parse(array7[0]), int.Parse(array7[1])));
+        dictionary.Add("AnValue", Random.Next(int.Parse(array8[0]), int.Parse(array8[1])));
+        return dictionary;
 	}
 
 	private static Dictionary<string, int> CreateRandomGrowthProps(Elf_Template_Info elfTemplate)
@@ -133,15 +143,19 @@ public static class ElfMgr
 		string[] array5 = elfTemplate.WindGrowths.Split(',');
 		string[] array6 = elfTemplate.WateGrowths.Split(',');
 		string[] array7 = elfTemplate.LandGrowths.Split(',');
-		Dictionary<string, int> dictionary = new Dictionary<string, int>();
+        string[] array8 = elfTemplate.LighGrowths.Split(',');
+        string[] array9 = elfTemplate.DrakGrowths.Split(',');
+        Dictionary<string, int> dictionary = new Dictionary<string, int>();
 		dictionary.Add("HpGrowth", Random.Next(int.Parse(array2[0]), int.Parse(array2[1])));
 		dictionary.Add("AttackGrowth", Random.Next(int.Parse(array3[0]), int.Parse(array3[1])));
 		dictionary.Add("HuoGrowth", Random.Next(int.Parse(array4[0]), int.Parse(array4[1])));
 		dictionary.Add("ShuiGrowth", Random.Next(int.Parse(array6[0]), int.Parse(array6[1])));
 		dictionary.Add("TuGrowth", Random.Next(int.Parse(array7[0]), int.Parse(array7[1])));
 		dictionary.Add("FengGrowth", Random.Next(int.Parse(array5[0]), int.Parse(array5[1])));
-		int num = dictionary["HpGrowth"] + dictionary["AttackGrowth"] + dictionary["HuoGrowth"] + dictionary["ShuiGrowth"] + dictionary["TuGrowth"] + dictionary["FengGrowth"];
-		int num2 = int.Parse(array2[1]) + int.Parse(array3[1]) + int.Parse(array4[1]) + int.Parse(array5[1]) + int.Parse(array6[1]) + int.Parse(array7[1]);
+        dictionary.Add("GuangGrowth", Random.Next(int.Parse(array8[0]), int.Parse(array8[1])));
+        dictionary.Add("AnGrowth", Random.Next(int.Parse(array9[0]), int.Parse(array9[1])));
+        int num = dictionary["HpGrowth"] + dictionary["AttackGrowth"] + dictionary["HuoGrowth"] + dictionary["ShuiGrowth"] + dictionary["TuGrowth"] + dictionary["FengGrowth"] + dictionary["GuangGrowth"] + dictionary["AnGrowth"];
+		int num2 = int.Parse(array2[1]) + int.Parse(array3[1]) + int.Parse(array4[1]) + int.Parse(array5[1]) + int.Parse(array6[1]) + int.Parse(array7[1]) + int.Parse(array8[1]) + int.Parse(array9[1]);
 		float num3 = (float)num / (float)num2;
 		int value = 0;
 		if ((double)num3 < 0.6)
@@ -177,8 +191,10 @@ public static class ElfMgr
 		string[] array4 = elf_Template_Info.WindGrowths.Split(',');
 		string[] array5 = elf_Template_Info.WateGrowths.Split(',');
 		string[] array6 = elf_Template_Info.LandGrowths.Split(',');
-		int num = int.Parse(array[1]) + int.Parse(array2[1]) + int.Parse(array3[1]) + int.Parse(array4[1]) + int.Parse(array5[1]) + int.Parse(array6[1]);
-		int num2 = elf.HpGrowth + elf.AttackGrowth + elf.FengGrowth + elf.HuoGrowth + elf.ShuiGrowth + elf.TuGrowth;
+        string[] array7 = elf_Template_Info.LighGrowths.Split(',');
+        string[] array8 = elf_Template_Info.DrakGrowths.Split(',');
+        int num = int.Parse(array[1]) + int.Parse(array2[1]) + int.Parse(array3[1]) + int.Parse(array4[1]) + int.Parse(array5[1]) + int.Parse(array6[1]) + int.Parse(array7[1]) + int.Parse(array8[1]);
+		int num2 = elf.HpGrowth + elf.AttackGrowth + elf.FengGrowth + elf.HuoGrowth + elf.ShuiGrowth + elf.TuGrowth + elf.GuangGrowth + elf.AnGrowth;
 		float num3 = (float)num2 / (float)num;
 		int result = 0;
 		if ((double)num3 < 0.6)
@@ -224,7 +240,12 @@ public static class ElfMgr
 		int num10 = CalculateElfGrowth(props[3], itemTemplateInfo.Property2, elf.ShuiGrowth, num5);
 		int num11 = CalculateElfGrowth(props[4], itemTemplateInfo.Property2, elf.FengGrowth, num4);
 		int num12 = CalculateElfGrowth(props[5], itemTemplateInfo.Property2, elf.TuGrowth, num6);
-		if (num7 + elf.HpGrowth > num)
+		//sáng tối
+        int num13 = int.Parse(elf_Template_Info.LighGrowths.Split(',')[1]);
+        int num14 = int.Parse(elf_Template_Info.DrakGrowths.Split(',')[1]);
+        int num15 = CalculateElfGrowth(props[6], itemTemplateInfo.Property2, elf.GuangGrowth, num13);
+        int num16 = CalculateElfGrowth(props[7], itemTemplateInfo.Property2, elf.AnGrowth, num14);
+        if (num7 + elf.HpGrowth > num)
 		{
 			elf.HpGrowth = num;
 		}
@@ -272,7 +293,24 @@ public static class ElfMgr
 		{
 			elf.FengGrowth += num11;
 		}
-	}
+        //sáng tối
+        if (num15 + elf.GuangGrowth > num13)
+        {
+            elf.GuangGrowth = num13;
+        }
+        else
+        {
+            elf.GuangGrowth += num15;
+        }
+        if (num16 + elf.AnGrowth > num14)
+        {
+            elf.AnGrowth = num14;
+        }
+        else
+        {
+            elf.AnGrowth += num16;
+        }
+    }
 
 	private static int CalculateElfGrowth(int count, int property, int growthValue, int maxGrowthValue)
 	{
@@ -302,7 +340,9 @@ public static class ElfMgr
 				elf.ShuiValue += elf.ShuiGrowth / 10;
 				elf.FengValue += elf.FengGrowth / 10;
 				elf.TuValue += elf.TuGrowth / 10;
-			}
+                elf.GuangValue += elf.GuangGrowth / 10;
+                elf.AnValue += elf.AnGrowth / 10;
+            }
 			while (count > 0);
 		}
 	}
@@ -315,7 +355,9 @@ public static class ElfMgr
 		elf.ShuiValue = elf.ShuiBase;
 		elf.FengValue = elf.FengBase;
 		elf.TuValue = elf.TuBase;
-	}
+        elf.GuangValue = elf.GuangBase;
+        elf.AnValue = elf.AnBase;
+    }
 
 	public static Dictionary<int, TS_UpgradeTemplate> UpgradeList(Sys_Users_Elf elf)
 	{

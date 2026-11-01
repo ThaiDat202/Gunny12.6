@@ -1,4 +1,4 @@
-﻿<style name="auditorium" version="1.0.1" source="ui/cn_trad/swf/auditorium.swf">
+﻿<style name="auditorium" version="1.0.1" source="ui/vietnam/swf/auditorium.swf">
 <sets>
 	<set stylename="auditorium.characterPlayerNameAssetTF" args="Arial,16,0x5BFF09,true" type="flash.text.TextFormat" />
 	<set stylename="auditorium.fireGlodLabelAssetTF" args="黑体,12,0xFFFF00" type="flash.text.TextFormat"/>

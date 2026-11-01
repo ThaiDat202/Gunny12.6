@@ -1,5 +1,5 @@
 <style name="explorerManual" version="1.0.1"
-	source="ui/cn_trad/swf/explorerManual.swf">
+	source="ui/vietnam/swf/explorerManual.swf">
 	<sets>
 		<set stylename="manualProperty.titleTxtTF" args="Arial,12,0x775115,true"
 			type="flash.text.TextFormat" />

@@ -1,4 +1,4 @@
-<style name="stock" version="1.0.1" source="ui/cn_trad/swf/stock.swf">
+<style name="stock" version="1.0.1" source="ui/vietnam/swf/stock.swf">
 	<sets>
 		<set stylename="fashion.rankView.rankTxtTF" args="Arial,14,0xffffff,true,,,,,center" type="flash.text.TextFormat" />
 		<!-- <set stylename="fashion.rankView.inputTxtGF" args="0x654512,1,4,4,30" type="flash.filters.GlowFilter" /> -->

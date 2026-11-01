@@ -1,0 +1,11 @@
+2023-07-24 00:01:24,405 - [10] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SqlDataProvider.BaseClass.Sql_DbObject.OpenConnection(SqlConnection _SqlConnection)
+   at SqlDataProvider.BaseClass.Sql_DbObject.RunProcedure(String ProcedureName, SqlParameter[] SqlParameters)
+   at Bussiness.ConsortiaBussiness.UpdateConsortiaRankDayAndWeek(DateTime curTime, Boolean updateDay, Boolean updateWeek)

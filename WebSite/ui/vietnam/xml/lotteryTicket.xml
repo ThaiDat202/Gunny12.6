@@ -1,4 +1,4 @@
-<style name="lotteryTicket" version="7.7.0" source="ui/cn_trad/swf/lotteryTicket.swf">
+<style name="lotteryTicket" version="7.7.0" source="ui/vietnam/swf/lotteryTicket.swf">
 	<sets>
 		<set stylename="lotteryTicket.activityTimeTF" args="Arial,12,0xedf98b" type="flash.text.TextFormat" />
 		<set stylename="lotteryTicket.activityTimeGF" args="0x770618,1,4,4,20" type="flash.filters.GlowFilter" />		
@@ -19,9 +19,9 @@
 			closeInnerRectString="690,42,30,42,13" width="887" height="557" />
 			
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.lotteryTicket.activityTime.txt" textFormatStyle="lotteryTicket.activityTimeTF" 
-			filterString="lotteryTicket.activityTimeGF" x="301" y="132"/>
+			filterString="lotteryTicket.activityTimeGF" x="328" y="132"/>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.lotteryTicket.openTime.txt" textFormatStyle="lotteryTicket.openTimeTF" 
-			filterString="lotteryTicket.openTimeGF" x="700" y="134"/>
+			filterString="lotteryTicket.openTimeGF" x="698" y="134"/>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.lotteryTicket.prizeList.txt" textFormatStyle="lotteryTicket.prizeListTF" 
 			filterString="lotteryTicket.prizeListGF" x="30" y="97"/>
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.lotteryTicket.prizeListInfo.txt" textFormatStyle="lotteryTicket.prizeListInfo.TF" 
@@ -88,8 +88,6 @@
 		<custom classname="flash.geom.Point" stylename="asset.lotteryTicket.prizeZone.pos" x="3" y="5"/>
 		<custom classname="flash.geom.Point" stylename="asset.lotteryTicket.prizeName.pos" x="118" y="4"/>
 		<custom classname="flash.geom.Point" stylename="asset.lotteryTicket.levelIcon.pos" x="331" y="1"/>
-		
-		<custom classname="flash.geom.Point" stylename="asset.lotteryTicket.helpBtn.pos" x="783" y="92"/>
 	</costomDisplay>
 	
 	<bitmaps>

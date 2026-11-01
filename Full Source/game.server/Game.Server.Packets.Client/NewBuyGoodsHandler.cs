@@ -60,7 +60,7 @@ public class NewBuyGoodsHandler : IPacketHandler
 			else
 			{
 				GSPacketIn gSPacketIn4 = new GSPacketIn(44, client.Player.PlayerId);
-				client.Out.SendMessage(eMessageType.ERROR, LanguageMgr.GetTranslation("您的探险点数不足."));
+				client.Out.SendMessage(eMessageType.ERROR, LanguageMgr.GetTranslation("Bạn không đủ điểm phiêu lưu."));
 				gSPacketIn4.WriteInt(1);
 				gSPacketIn4.WriteInt(3);
 				client.Player.SendTCP(gSPacketIn4);

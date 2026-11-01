@@ -1,0 +1,36 @@
+2023-07-19 22:05:34,705 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.QuestAddHandler  client: 127.0.0.1:51398)
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at Game.Server.Quests.QuestInventory.FindQuest(Int32 id) in C:\Gunny\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 498
+   at Game.Server.Quests.QuestInventory.AddQuest(QuestInfo info, String& msg) in C:\Gunny\Full Source\game.server\Game.Server.Quests\QuestInventory.cs:line 199
+   at Game.Server.Packets.Client.QuestAddHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\QuestAddHandler.cs:line 20
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-07-19 22:05:34,746 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 68 0F 0B 00 B0 00 00 00 01 00 00 00 00   q..h............
+0010: 00 00 00 00 00 00 00 14 00 00 02 C0 00 00 02 C1   ................
+0020: 00 00 02 C2 00 00 02 C4 00 00 02 C5 00 00 02 C7   ................
+0030: 00 00 02 C8 00 00 02 C9 00 00 02 CC 00 00 07 7C   ...............|
+0040: 00 00 02 CF 00 00 02 D2 00 00 02 D3 00 00 02 D4   ................
+0050: 00 00 02 B8 00 00 07 79 00 00 07 7A 00 00 07 7B   .......y...z...{
+0060: 00 00 02 BC 00 00 07 78                           .......x        
+
+2023-07-19 22:25:38,810 - [57] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.NullReferenceException: Can not found upgradeTemplate with Grades = 0
+   at Game.Server.CardNewSystem.CardNewSystemMgr.GetSuitValue(GamePlayer player, Int32& hp, Int32& attack, Int32& def, Int32& agi, Int32& luck, Int32& mgattack, Int32& mgdef, Int32& basedame, Int32& basedef, Boolean addPercent) in C:\Gunny\Full Source\game.server\Game.Server.CardNewSystem\CardNewSystemMgr.cs:line 101
+   at Game.Server.GameUtils.PlayerEquipInventory.UpdatePlayerProperties() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerEquipInventory.cs:line 552
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3746
+2023-07-19 23:00:21,874 - [38] - ERROR - Game.Server.GameObjects.GamePlayer - Error saving all datas of playerID: 1 , Ð?t Nháy!
+System.Data.Entity.Infrastructure.DbUpdateConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions. ---> System.Data.Entity.Core.OptimisticConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ValidateRowsAffected(Int64 rowsAffected, UpdateCommand source)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at Game.Server.GameObjects.GamePlayer.SavePlayerInfoToDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 4610
+   at Game.Server.GameObjects.GamePlayer.SaveIntoDatabase() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 5332
+2023-07-19 23:26:56,540 - [16] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler

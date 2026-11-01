@@ -1,4 +1,4 @@
-<style name="condiscount" version="1.0.1" source="ui/cn_trad/swf/condiscount.swf">
+<style name="condiscount" version="1.0.1" source="ui/vietnam/swf/condiscount.swf">
 	<sets>
 		<set stylename="condiscount.item.normalPriceTextTF" args="Arial,12,0xbc74a7,true" type="flash.text.TextFormat" />
 		<set stylename="condiscount.item.normalPriceTextGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
@@ -11,10 +11,6 @@
 	</sets>
 
 	<components>
-		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="condiscount.number.imageStyle" 
-				resourceLink="condiscount.view.discount.1,condiscount.view.discount.2,condiscount.view.discount.3,condiscount.view.discount.4,condiscount.view.discount.5,condiscount.view.discount.6,condiscount.view.discount.7,condiscount.view.discount.8,condiscount.view.discount.9,condiscount.view.discount.0" />
-		<component classname="com.pickgliss.ui.image.NumberImage" stylename="condiscount.number" imageStyle="condiscount.number.imageStyle" x="10" y="10"/>
-		
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="condiscount.item.normalPriceText" 
 			textFormatStyle="condiscount.item.normalPriceTextTF"  x="65" y="4" />
 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="condiscount.item.discountPriceText" 
@@ -37,21 +33,6 @@
 	</components>
 
 	<customs>
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.bg.pos4" x="20" y="448"/>
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.bg.pos3" x="20" y="340"/>
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.bg.pos2" x="20" y="230"/>
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.bg.pos1" x="20" y="122"/>
-		
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.pc.pos1" x="30" y="122"/>
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.pc.pos2" x="30" y="230"/>
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.pc.pos3" x="30" y="340"/>
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.pc.pos4" x="30" y="448"/>
-		
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.number.pos1" x="32" y="124"/>
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.number.pos2" x="32" y="232"/>
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.number.pos3" x="32" y="342"/>
-		<custom classname="flash.geom.Point" stylename="condiscount.view.discount.number.pos4" x="32" y="450"/>
-		
 		<custom classname="flash.geom.Point" stylename="condiscount.view.arrow.pos" x="62" y="74"/>
 	
 		<custom classname="flash.geom.Point" stylename="condiscount.view.goods.icon.pos" x="-45" y="-22"/>
@@ -60,13 +41,14 @@
 	</customs>
 
 	<bitmaps>
-		<bitmapData resourceLink="condiscount.view.3discount" x="20" y="340"/>
-		<bitmapData resourceLink="condiscount.view.2discount" x="20" y="448"/>
-		<bitmapData resourceLink="condiscount.view.5discount" x="20" y="122"/>
-		<bitmapData resourceLink="condiscount.view.4discount" x="20" y="230"/>
-
 		<bitmapData resourceLink="condiscount.view.bg"/>
 		<bitmapData resourceLink="condiscount.view.time.bg"/>
 		<bitmapData resourceLink="condiscount.view.buyIcon" x="95" y="-6" />
+	
+		<bitmapData resourceLink="condiscount.view.2discount" x="20" y="448" />
+		<bitmapData resourceLink="condiscount.view.3discount" x="20" y="340" />
+		<bitmapData resourceLink="condiscount.view.4discount" x="20" y="230" />
+		<bitmapData resourceLink="condiscount.view.5discount" x="20" y="122" />
+		
 	</bitmaps>
 </style>

@@ -1,0 +1,8 @@
+2023-08-26 15:01:36,442 - [MAIN] - ERROR - Bussiness.BaseCrossBussiness - GetAllVipStore
+System.IndexOutOfRangeException: Vip13Quantity
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at Bussiness.ProduceBussiness.InitVipStore(SqlDataReader reader) in C:\Gunny\Full Source\Bussiness\Bussiness\ProduceBussiness.cs:line 1433
+   at Bussiness.ProduceBussiness.GetAllVipStore() in C:\Gunny\Full Source\Bussiness\Bussiness\ProduceBussiness.cs:line 1392
+2023-08-26 15:01:36,472 - [MAIN] - ERROR - Game.Server.GameServer - Stop by VipStoreMgr.Init (InitComponent)

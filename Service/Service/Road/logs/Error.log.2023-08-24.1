@@ -1,0 +1,50 @@
+2023-08-24 21:49:06,184 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 21:49:06,202 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 21:49:06,455 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 21:49:06,516 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 21:49:06,518 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 21:49:06,519 - [18] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:02:20,030 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:02:20,032 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:02:20,138 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:02:20,156 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:02:20,158 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:02:20,159 - [20] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:05:52,067 - [26] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:05:52,069 - [26] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:05:52,070 - [26] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:05:53,590 - [52] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:05:53,591 - [52] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:05:53,593 - [52] - ERROR - Game.Base.BaseClient - pkg 34 is too high with size: 17969 | offset: 17969
+2023-08-24 22:06:19,101 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MinesHandler  client: 127.0.0.1:50052)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Managers.MinesMgr.GetLevelArmWithExp(Int32 exp, String type) in C:\Gunny\Full Source\game.server\Game.Server.Managers\MinesMgr.cs:line 301
+   at Game.Server.GameUtils.PlayerMines.GetItems(Int32 floor) in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerMines.cs:line 101
+   at Game.Server.Packets.Client.MinesHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\MinesHandler.cs:line 37
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-24 22:06:19,124 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 01 1D 01 9E 00 00 00 01 00 00 00 00   q...............
+0010: 00 00 00 00 01 00 00 00 05                        .........       
+
+2023-08-24 22:06:26,101 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MinesHandler  client: 127.0.0.1:50052)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Managers.MinesMgr.GetLevelArmWithExp(Int32 exp, String type) in C:\Gunny\Full Source\game.server\Game.Server.Managers\MinesMgr.cs:line 301
+   at Game.Server.GameUtils.PlayerMines.GetItems(Int32 floor) in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerMines.cs:line 101
+   at Game.Server.Packets.Client.MinesHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\MinesHandler.cs:line 37
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-24 22:06:26,108 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 19 01 1D 01 9E 00 00 00 01 00 00 00 00   q...............
+0010: 00 00 00 00 01 00 00 00 05                        .........       
+
+2023-08-24 22:06:31,623 - [55] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MinesHandler  client: 127.0.0.1:50052)
+System.ArgumentNullException: Value cannot be null.
+   at System.Threading.Monitor.Enter(Object obj)
+   at Game.Server.Managers.MinesMgr.GetListDrop() in C:\Gunny\Full Source\game.server\Game.Server.Managers\MinesMgr.cs:line 395
+   at Game.Base.Packets.AbstractPacketLib.SendMinesShopInfo() in C:\Gunny\Full Source\game.server\Game.Base.Packets\AbstractPacketLib.cs:line 420
+   at Game.Server.Packets.Client.MinesHandler.HandlePacket(GameClient client, GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Server.Packets.Client\MinesHandler.cs:line 220
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in C:\Gunny\Full Source\game.server\Game.Base.Packets\PacketProcessor.cs:line 69
+2023-08-24 22:06:31,641 - [55] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 15 01 1F 01 9E 00 00 00 01 00 00 00 00   q...............
+0010: 00 00 00 00 08                                    .....           
+
+2023-08-24 22:15:33,119 - [20] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler

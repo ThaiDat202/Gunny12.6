@@ -49,6 +49,8 @@
 <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gypsy.textfield.itemname1" textFormatStyle="gypsy.text.itemname1" filterString="gypsy.ft.itemname1" type="dynamic" autoSize="none" isAutoFitLength="true" x="79" y="6" width="120" height="20"/>
 <component classname="com.pickgliss.ui.controls.BaseButton" stylename="gypsy.rmb.refreshBtn" backStyle="gypsy.frame.btn.rmb.refresh" x="59" y="522"/>
 	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gypsy.textfield.collectTitle"
+		textFormatStyle="gypsy.activatedTF,gypsy.unActivatedTF" filterString="gypsy.activatedGF,gypsy.unActivatedGF"  width="50" height="20" x="72" y="56"/>
 	</components>
 	<sets>
 		<set stylename="gypsy.text.itemname" args="Arial,14,0xffdd94,false" type="flash.text.TextFormat"/>
@@ -88,11 +90,12 @@
 		<bitmapData resourceLink="gypsy.frame.cell.bg"/>
 		<bitmapData resourceLink="gypsy.frame.rare.title" x="184" y="62"/> 
 		<bitmapData stylename="gypsy.refresh.bmp" resourceLink="gypsy.frame.btn.refresh"/>
-		<!--  <bitmapData resourceLink="gypsy.help" x="13" y="41"/>-->
 		<bitmapData resourceLink="gypsy.money.bg"/>
 		<bitmapData resourceLink="gypsy.icon.dianjuanWithBG"  x="30" y="494"/>
 		<bitmapData resourceLink="gypsy.icon.dianjuanWithNoBG"/>
 		<bitmapData resourceLink="gypsy.icon.honor"/>
+		<bitmapData resourceLink="gypsy.help" x="13" y="41"/>
+		
 	</bitmaps>
 	<customDisplay>
 		<custom classname="flash.geom.Point" stylename="gypsy.pt.honour.icon" x="139" y="493"/>

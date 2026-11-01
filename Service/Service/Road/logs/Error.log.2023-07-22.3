@@ -1,0 +1,7 @@
+2023-07-22 00:09:55,178 - [97] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Academy.AcademyMgr.SendAwards(GamePlayer player, Int32 fightPower) in C:\Gunny\Full Source\game.server\Game.Server.Academy\AcademyMgr.cs:line 263
+   at Game.Server.GameObjects.GamePlayer.UpdateFightPower() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3478
+   at Game.Server.GameUtils.PlayerEquipInventory.UpdatePlayerProperties() in C:\Gunny\Full Source\game.server\Game.Server.GameUtils\PlayerEquipInventory.cs:line 835
+   at Game.Server.GameObjects.GamePlayer.Login() in C:\Gunny\Full Source\game.server\Game.Server.GameObjects\GamePlayer.cs:line 3746
+2023-07-22 00:13:39,224 - [28] - ERROR - Game.Service.actions.ConsoleStart - Stop by ConsoleCtrHandler

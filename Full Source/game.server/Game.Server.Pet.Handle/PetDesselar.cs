@@ -16,12 +16,12 @@ public class PetDesselar : IPetCommandHadler
 		UsersPetLacrarInfo lacreByPlace = player.PetBag.GetLacreByPlace(num);
 		if (itemAt == null)
 		{
-			player.SendMessage(eMessageType.Normal, "封印宠物的道具不足！");
+			player.SendMessage(eMessageType.Normal, "Không có đủ đạo cụ để phong ấn thú cưng!");
 			return false;
 		}
 		if (lacreByPlace == null)
 		{
-			player.SendMessage(eMessageType.Normal, "垃圾宠物无法封印，拿去喂猪吧~");
+			player.SendMessage(eMessageType.Normal, "Pet này không thể phong ấn!");
 			return false;
 		}
 		UsersPetInfo petById = player.PetBag.GetPetById(lacreByPlace.petId);
@@ -34,7 +34,7 @@ public class PetDesselar : IPetCommandHadler
 		int itemCount = player.PropBag.GetItemCount(12213);
 		if (num2 > itemCount)
 		{
-			player.SendMessage(eMessageType.Normal, "你没有足够的石头！");
+			player.SendMessage(eMessageType.Normal, "Bạn không có đủ đá giải ấn!");
 			return false;
 		}
 		GSPacketIn gSPacketIn = new GSPacketIn(68);
@@ -49,7 +49,7 @@ public class PetDesselar : IPetCommandHadler
 		player.PropBag.BeginChanges();
 		player.PropBag.RemoveTemplate(12213, num2);
 		player.PropBag.CommitChanges();
-		player.SendMessage(eMessageType.Normal, "宠物解封成功!");
+		player.SendMessage(eMessageType.Normal, "Giải ấn thành công.");
 		return false;
 	}
 }
